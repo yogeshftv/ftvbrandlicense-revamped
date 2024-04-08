@@ -72,3 +72,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <script>
 
     </script>
+
+
+
+<!-- REFERENCE FOR Home Page Cover Section : https://codepen.io/ecemgo/pen/eYboyMe -->
