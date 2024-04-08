@@ -69,7 +69,7 @@
 <script src="<?= base_url(); ?>assets/cdns/js/bootstrap.bundle.min.js"></script>
 
 <!-- swiper.js cdn -->
-<script src="<?= base_url(); ?>assets/cdns/js/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <!-- Lenis js cdn -->
 <script src="<?= base_url(); ?>assets/cdns/js/lenis.js"></script>

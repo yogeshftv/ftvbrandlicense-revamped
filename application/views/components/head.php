@@ -19,6 +19,7 @@
     <!-- bootstrap css cdn -->
     <link rel="stylesheet" href="<?= base_url(); ?>assets/cdns/css/bootstrap.min.css">
 
+    <!-- swiper.js cdn -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
     <!-- fontawesome icon cdn -->
