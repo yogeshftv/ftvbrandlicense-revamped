@@ -1,65 +1,65 @@
-    <footer class="flyt">
-        <div class="container-fluid">
-            <!-- Modal -->
-            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="z-index: 99999999 !important; backdrop-filter: blur(5px); background: rgba(0, 0, 0, 0.6);">
-                <div class="modal-dialog modal-dialog-centered subscribing-modal modal-lg">
-                    <div class="modal-content" style="background-color: #151414;">
-                        <div class="modal-header" style="border: 0;">
-                            <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close" style="filter: invert(100%);"></button>
-                        </div>
-                        <div class="modal-body">
-                            <img class="logo-dark mb-4" src="<?php echo base_url(); ?>assets/media/icons/footer-logo.png" alt="" style="width: 12%; margin: 20px 0px;">
-                            <h2 class="bl-font sub-heading text-white mb-3">Thanks for Subscribing!!!</h2>
-                            <p class="poppins-font paragraph text-white">You will receive our latest updates and notification of FTV Brand License on your registered email id.</p>
-                        </div>
-                        <div class="modal-footer" style="border-top: 1px solid #414141;">
-                            <a href="<?php echo base_url(); ?>" type="button " class="btn wt-cp--btn blog_read-btn px-3 py-2" style="font-size: 18px; color: #E5B4A8;">Continue to Website</a>
-                        </div>
+<footer class="flyt">
+    <div class="container-fluid">
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="z-index: 99999999 !important; backdrop-filter: blur(5px); background: rgba(0, 0, 0, 0.6);">
+            <div class="modal-dialog modal-dialog-centered subscribing-modal modal-lg">
+                <div class="modal-content" style="background-color: #151414;">
+                    <div class="modal-header" style="border: 0;">
+                        <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close" style="filter: invert(100%);"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="logo-dark mb-4" src="<?php echo base_url(); ?>assets/media/icons/footer-logo.png" alt="" style="width: 12%; margin: 20px 0px;">
+                        <h2 class="bl-font sub-heading text-white mb-3">Thanks for Subscribing!!!</h2>
+                        <p class="poppins-font paragraph text-white">You will receive our latest updates and notification of FTV Brand License on your registered email id.</p>
+                    </div>
+                    <div class="modal-footer" style="border-top: 1px solid #414141;">
+                        <a href="<?php echo base_url(); ?>" type="button " class="btn wt-cp--btn blog_read-btn px-3 py-2" style="font-size: 18px; color: #E5B4A8;">Continue to Website</a>
                     </div>
                 </div>
             </div>
-            
-            <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered subscribing-modal modal-lg">
-                    <div class="modal-content" style="background-color: #151414;">
-                        <div class="modal-header" style="border: 0;">
-                            <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close" style="filter: invert(100%);"></button>
-                        </div>
-                        <div class="modal-body">
-                            <img class="logo-dark mb-4" src="<?php echo base_url(); ?>assets/media/icons/footer-logo.png" alt="" style="width: 12%; margin: 20px 0px;">
-                            <h2 class="bl-font sub-heading text-white mb-3">IMPORTANT REMINDER FOR EXISTING USERS!</h2>
-                            <p class="poppins-font paragraph text-white">Already existing subscribers should follow our website &amp; social media channels for more
-                                information &amp; latest updates.</p>
-                        </div>
-                        <div class="modal-footer" style="border-top: 1px solid #414141;">
-                            <a href="<?php echo base_url(); ?>" type="button" class="btn wt-cp--btn blog_read-btn px-3 py-2" style="font-size: 18px; color: #E5B4A8;">Continue to Website</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered resubscribing-modal modal-lg">
-                    <div class="modal-content" style="background-color: #151414;">
-                        <div class="modal-header" style="border: 0;">
-                            <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close" style="filter: invert(100%);"></button>
-                        </div>
-                        <div class="modal-body text-center">
-                            <img class="logo-dark mb-4" src="<?php echo base_url(); ?>assets/media/icons/footer-logo.png" alt="" />
-                            <h2 class="bl-font sub-heading text-white my-4">WELCOME BACK TO FTV Brand License</h2>
-                            <p class="poppins-font paragraph text-white my-4">A lot has changed since you last visited. Let us explore once again.</p>
-                            <p class="poppins-font paragraph text-white my-4">Checkout the latest updates &amp; blogs related to FTV Brand License.</p>
-                        </div>
-                        <div class="modal-footer" style="border-top: 1px solid #414141;">
-                            <a href="<?php echo base_url(); ?>" type="button" class="btn blog_read-btn wt-cp--btn px-3 py-2" style="font-size: 18px;">Start Exploring</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Code Footer Below -->
         </div>
-    </footer>
+        
+        <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered subscribing-modal modal-lg">
+                <div class="modal-content" style="background-color: #151414;">
+                    <div class="modal-header" style="border: 0;">
+                        <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close" style="filter: invert(100%);"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="logo-dark mb-4" src="<?php echo base_url(); ?>assets/media/icons/footer-logo.png" alt="" style="width: 12%; margin: 20px 0px;">
+                        <h2 class="bl-font sub-heading text-white mb-3">IMPORTANT REMINDER FOR EXISTING USERS!</h2>
+                        <p class="poppins-font paragraph text-white">Already existing subscribers should follow our website &amp; social media channels for more
+                            information &amp; latest updates.</p>
+                    </div>
+                    <div class="modal-footer" style="border-top: 1px solid #414141;">
+                        <a href="<?php echo base_url(); ?>" type="button" class="btn wt-cp--btn blog_read-btn px-3 py-2" style="font-size: 18px; color: #E5B4A8;">Continue to Website</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered resubscribing-modal modal-lg">
+                <div class="modal-content" style="background-color: #151414;">
+                    <div class="modal-header" style="border: 0;">
+                        <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close" style="filter: invert(100%);"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img class="logo-dark mb-4" src="<?php echo base_url(); ?>assets/media/icons/footer-logo.png" alt="" />
+                        <h2 class="bl-font sub-heading text-white my-4">WELCOME BACK TO FTV Brand License</h2>
+                        <p class="poppins-font paragraph text-white my-4">A lot has changed since you last visited. Let us explore once again.</p>
+                        <p class="poppins-font paragraph text-white my-4">Checkout the latest updates &amp; blogs related to FTV Brand License.</p>
+                    </div>
+                    <div class="modal-footer" style="border-top: 1px solid #414141;">
+                        <a href="<?php echo base_url(); ?>" type="button" class="btn blog_read-btn wt-cp--btn px-3 py-2" style="font-size: 18px;">Start Exploring</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Code Footer Below -->
+    </div>
+</footer>
 
 
 <!-- BootStrap script cdn -->
@@ -133,9 +133,9 @@
     });
     AOS.refresh({});
 
-    // lenis config
+    //* lenis config: default config for duration property is 1.2, for experimental purpose it has been changed to 2.125 if any scroll issue is encountered on production environment please change it back to 1.2 
     const lenis = new Lenis({
-        duration: 1.2,
+        duration: 2.125,
         easing: (t) => (t === 1 ? 1 : 1 - Math.pow(2, -10 * t)),
         direction: "vertical",
         gestureDirection: "vertical",

@@ -4,6 +4,12 @@
     height: 100%;
 }
 
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .bl--product-showcase .swiper-slide img {
     display: block;
     width: 100%;
