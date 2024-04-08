@@ -5,6 +5,21 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <body class="for-home">
 
     <main class="home">
+        <!-- Introduction -->
+        <section class="home-introduction">
+            <div class="row mx-0">
+                <div class="col-md-4 d-none d-md-block column-1">
+                    <img src="<?php echo base_url(); ?>assets/media/images/home/example-8.png" alt="example-image-8" class="img-1">
+                </div>
+                <div class="col-12 col-md-8 column-2">
+                    <div class="introduction-content">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Introduction -->
+
         <!-- Product Showcase -->
         <section class="bl--product-showcase">
             <div class="swiper productShowcaseSwiper">

@@ -180,5 +180,16 @@
       },
       loop: true,
       speed: 5000,
+      breakpoints: {
+        768: {
+            slidesPerView: 3,
+        },
+        300: {
+            slidesPerView: 2,
+        },
+        200: {
+            slidesPerView: 1,
+        }
+      },
     });
 </script>
