@@ -1,0 +1,33 @@
+/*? Desktop */
+/*? Desktop */
+
+/* Responsiveness */
+@media (max-width: 767px) { 
+}
+
+@media (min-width: 768px) and (max-width: 1023px) { 
+}
+
+@media (min-width: 1024px) {
+}
+/* Responsiveness */
+
+/* Granular Responsiveness */
+@media (min-width: 200px) and (max-width: 300px) {
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+}
+
+@media (min-width: 1100px) and (max-width: 1300px) {
+}
+
+@media (min-width: 1300px) and (max-width: 1500px) {
+}
+/* Granular Responsiveness */

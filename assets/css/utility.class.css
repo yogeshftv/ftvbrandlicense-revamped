@@ -1,0 +1,165 @@
+/*? Desktop */
+/* font imports & font families */
+@font-face {
+	font-family: 'bl--font-typ-1';
+	src: url('../fonts/example-1.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'bl--font-typ-2';
+	src: url('../fonts/example-2.ttf') format('truetype');
+}
+
+.bl--font-typ-1 {
+	font-family: 'bl--font-typ-1';
+}
+
+.bl--font-typ-2 {
+	font-family: 'bl--font-typ-2';
+}
+/* font imports & font families */
+
+/* variables */
+:root {
+    --df-white: #ffffff;
+    --df-black: #000000;
+}
+/* variables */
+
+/* colors */
+    /* element color */
+    /* element color */
+
+    /* element bg color */
+    /* element bg color */
+/* colors */
+
+/* Utility Class */
+    .align-items-center {
+        display: flex;
+        align-items: center;
+    }
+
+    .justify-items-center {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* whatsapp common icon */
+    .btn-whatsapp-pulse {
+        background: #25d366;
+        color: var(--df-white);
+        position: fixed;
+        bottom: 25px;
+        right: 10px;
+        font-size: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 0;
+        height: 0;
+        padding: 24px;
+        z-index: 99;
+        text-decoration: none;
+        border-radius: 50%;
+        animation-name: pulse;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-out;
+        animation-iteration-count: infinite;
+        transition: transform 0.3s ease;
+    }
+
+    .btn-whatsapp-pulse:hover {
+        transform: scale(1.2);
+        color: var(--df-white);
+    }
+    /* whatsapp common icon */
+
+    /* social links */
+    .social-links-group {
+        gap: 1rem;
+        display: flex;
+    }
+
+    .social-link {
+        width: 2.5rem;
+        height: 2.5rem;
+        display: flex;
+        cursor: pointer;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        border: 0.0625rem solid var(--df-white);
+    }
+
+    .facebook {
+        font-size: 1.25rem;
+        color: var(--df-white);
+    }
+    
+    .instagram {
+        font-size: 1.25rem;
+        color: var(--df-white);
+    }
+    
+    .linkedin {
+        font-size: 1.25rem;
+        color: var(--df-white);
+    }
+   
+    .youtube {
+        font-size: 1.25rem;
+        color: var(--df-white);
+    }
+    
+    .whatsapp {
+        font-size: 1.25rem;
+        color: var(--df-white);
+    }
+    
+    .twitter {
+        font-size: 1.25rem;
+        color: var(--df-white);
+    }
+
+    .social-link:hover {
+        border: 1px solid var(--df-white);
+    }
+
+    .social-link:hover .social-icon {
+        color: var(--df-white);
+    }
+    /* social links */
+/* Utility Class */
+/*? Desktop */
+
+/* Responsiveness */
+@media (max-width: 767px) { 
+}
+
+@media (min-width: 768px) and (max-width: 1023px) { 
+}
+
+@media (min-width: 1024px) {
+}
+/* Responsiveness */
+
+/* Granular Responsiveness */
+@media (min-width: 200px) and (max-width: 300px) {
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+}
+
+@media (min-width: 1100px) and (max-width: 1300px) {
+}
+
+@media (min-width: 1300px) and (max-width: 1500px) {
+}
+/* Granular Responsiveness */
