@@ -58,6 +58,7 @@ $route['brand-license'] = 'pages/brand_license';
 
 $route['faqs'] = 'pages/faq';
 $route['contact-us'] = 'pages/contact_us';
+$route['blogs'] = 'pages/blogs';
 
 $route['terms-conditions'] = 'pages/termsandconditions';
 $route['privacy-policy'] = 'pages/privacypolicy';

@@ -203,6 +203,11 @@ body {
 /* colors */
 
 /* Utility Class */
+    .container-fluid {
+        width: 90%;
+        margin: 0 auto;
+    }
+
     .align-items-center {
         display: flex;
         align-items: center;
@@ -565,7 +570,38 @@ button .bi.bi-list {
     /* our-services */
 
     /* faqs */
+    .for-faqs {
+        padding: 7em 0;
+    }
 
+    .for-faqs .cover {
+        padding-bottom: 6em;
+    }
+
+    .for-faqs .accordion-body {
+        width: 154ch;
+    }
+
+    .ftv-box {
+        border-radius: 20px;
+        border: 0.75px solid #6E3035;
+    }
+
+    .for-faqs .cs-acc-btn.accordion-button:not(.collapsed) {
+        color: #6E3035;
+        font-weight: 400;
+        background-color: transparent;
+    }
+
+    .for-faqs .cs-acc-btn.accordion-button::after {
+        background-image: url('../media/icons/open-icon.png');
+        background-size: cover;
+    }
+    
+    .for-faqs .cs-acc-btn.accordion-button:not(.collapsed)::after {
+        background-image: url('../media/icons/close-icon.png');
+        background-size: cover;
+    }
     /* faqs */
 
     /* contact us */
