@@ -35,20 +35,5 @@
     <link rel="stylesheet" href="<?= base_url(); ?>assets/cdns/css/aos.css">
 
     <!-- custom stylesheets -->
-    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/resets-and-default.css">
-    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/utility.class.css">
-    
-    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/common/navbar.css">
-    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/common/footer.css">
-    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/common/cta.css">
-
-    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/index.css">
-    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/brand-license.css">
-    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/our-story.css">
-    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/our-services.css">
-    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/faqs.css">
-    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/contacts.css">
-
-    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/blogs.css">
-    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/blog-details.css">
+    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/stylesheet.css">
 </head>

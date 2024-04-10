@@ -192,4 +192,86 @@
         }
       },
     });
+
+    function incrementalStatistics() {
+        let viewersRef = document.getElementById("viewers");
+        let totalViewsRef = document.getElementById("totalViews");
+        let channelsRef = document.getElementById("channels");
+        let householdsRef = document.getElementById("households");
+        let countriesRef = document.getElementById("countries");
+        let viewsPerWeekRef = document.getElementById("viewsPerWeek");
+
+        let viewersCounter = 1;
+        let totalViewsCounter = 0;
+        let channelsCounter = 0;
+        let householdsCounter = 0;
+        let countriesCounter = 0;
+        let viewsPerWeekCounter = 0;
+
+        function updateViewers() {
+            if (viewersCounter <= 2) {
+                viewersRef.textContent = `${viewersCounter}B+`;
+                viewersCounter++;
+                setTimeout(updateViewers, 2000);
+            }
+        }
+
+        function updateTotalViews() {
+            if (totalViewsCounter <= 65) {
+                totalViewsRef.textContent = `${totalViewsCounter}M`;
+                totalViewsCounter++;
+                setTimeout(updateTotalViews, 80);
+            }
+        }
+
+        function updateChannels() {
+            if (channelsCounter <= 12) {
+                channelsRef.textContent = channelsCounter;
+                channelsCounter++;
+                setTimeout(updateChannels, 200);
+            }
+        }
+
+        function updateHouseholds() {
+            if (householdsCounter <= 500) {
+                householdsRef.textContent = `${householdsCounter}M`;
+                householdsCounter++;
+                setTimeout(updateHouseholds, 1);
+            }
+        }
+
+        function updateCountries() {
+            if (countriesCounter <= 196) {
+                countriesRef.textContent = countriesCounter;
+                countriesCounter++;
+                setTimeout(updateCountries, 30);
+            }
+        }
+
+        function updateViewsPerWeek() {
+            if (viewsPerWeekCounter <= 12) {
+                viewsPerWeekRef.textContent = `${viewsPerWeekCounter}M`;
+                viewsPerWeekCounter++;
+                setTimeout(updateViewsPerWeek, 200);
+            }
+        }
+
+        let observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    updateChannels();
+                    updateTotalViews();
+                    updateViewers();
+                    updateHouseholds();
+                    updateCountries();
+                    updateViewsPerWeek();
+                    observer.disconnect();
+                }
+            });
+        });
+
+        let targetSection = document.getElementById("statistics-section");
+        observer.observe(targetSection);
+    }
+    incrementalStatistics();
 </script>
