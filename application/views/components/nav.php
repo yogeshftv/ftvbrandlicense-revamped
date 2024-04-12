@@ -12,14 +12,14 @@ $path = end($path);
     <header>
         <!-- Code Navbar below -->
 
-        <nav class="navbar">
+        <nav class="navbar absolute-black--element-bg-clr">
             <div class="container-fluid">
-                <a class="navbar-brand" href="<?php echo base_url(); ?>">
+                <button class="btn hm-menu shadow-none p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <i class="bi bi-list"></i>Menu
+                </button>
+                <a class="navbar-brand t-loader" href="<?php echo base_url(); ?>">
                     <img src="<?php echo base_url(); ?>assets/media/icons/nav-logo.png" alt="ftv-brand-license-logo">
                 </a>
-                <button class="btn hm-menu shadow-none p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                    <i class="bi bi-list"></i>
-                </button>
 
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                     <div class="offcanvas-header">
@@ -36,25 +36,25 @@ $path = end($path);
                             <div class="col-12 col-md-4 column-1">
                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="<?php echo base_url(); ?>">Home</a>
+                                        <a class="nav-link active t-loader" aria-current="page" href="<?php echo base_url(); ?>" id="home">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="<?php echo base_url(); ?>brand-license">Brand License</a>
+                                        <a class="nav-link t-loader" href="<?php echo base_url(); ?>brand-license" id="brand-license">Brand License</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="<?php echo base_url(); ?>our-story">Our Story</a>
+                                        <a class="nav-link t-loader" href="<?php echo base_url(); ?>our-story" id="our-story">Our Story</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="<?php echo base_url(); ?>our-services">Our Services</a>
+                                        <a class="nav-link t-loader" href="<?php echo base_url(); ?>our-services" id="our-services">Our Services</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="<?php echo base_url(); ?>faqs">Faqs</a>
+                                        <a class="nav-link t-loader" href="<?php echo base_url(); ?>faqs" id="faqs">Faqs</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="<?php echo base_url(); ?>contact-us">Contact Us</a>
+                                        <a class="nav-link t-loader" href="<?php echo base_url(); ?>contact-us" id="contact-us">Contact Us</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="<?php echo base_url(); ?>blogs">Blogs</a>
+                                        <a class="nav-link t-loader" href="<?php echo base_url(); ?>blogs" id="blogs">Blogs</a>
                                     </li>
                                 </ul>
                             </div>
@@ -98,5 +98,10 @@ $path = end($path);
                 </div>
             </div>
         </nav>
-
+        
     </header>
+
+    <div id="loader-wrapper">
+        <div id="loader" class="loader"></div>
+        <div id="backdrop"></div>
+    </div>

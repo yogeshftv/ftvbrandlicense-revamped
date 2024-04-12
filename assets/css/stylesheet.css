@@ -133,6 +133,7 @@ a {
 html, body {
     font-size: 16px;
     overflow-x: hidden;
+    position: relative;
     background-color: #ffffff;
 }
 
@@ -165,25 +166,20 @@ html.lenis {
 body {
     position: relative;
 }
+
+p {
+    font-family: "Poppins", sans-serif;
+}
 /* Defaults */
 
 /* font imports & font families */
 @font-face {
 	font-family: 'bl--font-typ-1';
-	src: url('../fonts/example-1.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'bl--font-typ-2';
-	src: url('../fonts/example-2.ttf') format('truetype');
+	src: url('../fonts/Ogg-Regular.ttf') format('truetype');
 }
 
 .bl--font-typ-1 {
-	font-family: 'bl--font-typ-1';
-}
-
-.bl--font-typ-2 {
-	font-family: 'bl--font-typ-2';
+	font-family: 'bl--font-typ-1', sans-serif;
 }
 /* font imports & font families */
 
@@ -191,14 +187,22 @@ body {
 :root {
     --df-white: #ffffff;
     --df-black: #000000;
+
+    --absolute-black: #131313;
 }
 /* variables */
 
 /* colors */
     /* element color */
+    .absolute-black--element-clr {
+        color: var(--absolute-black);
+    }
     /* element color */
 
     /* element bg color */
+    .absolute-black--element-bg-clr {
+        background-color: var(--absolute-black);
+    }
     /* element bg color */
 /* colors */
 
@@ -250,13 +254,13 @@ body {
 
     /* social links */
     .social-links-group {
-        gap: 1rem;
         display: flex;
+        gap: 1rem;
     }
 
     .social-link {
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 2rem;
+        height: 2rem;
         display: flex;
         cursor: pointer;
         border-radius: 50%;
@@ -266,32 +270,32 @@ body {
     }
 
     .facebook {
-        font-size: 1.25rem;
+        font-size: 1rem;
         color: var(--df-white);
     }
     
     .instagram {
-        font-size: 1.25rem;
+        font-size: 1rem;
         color: var(--df-white);
     }
     
     .linkedin {
-        font-size: 1.25rem;
+        font-size: 1rem;
         color: var(--df-white);
     }
    
     .youtube {
-        font-size: 1.25rem;
+        font-size: 1rem;
         color: var(--df-white);
     }
     
     .whatsapp {
-        font-size: 1.25rem;
+        font-size: 1rem;
         color: var(--df-white);
     }
     
     .twitter {
-        font-size: 1.25rem;
+        font-size: 1rem;
         color: var(--df-white);
     }
 
@@ -303,9 +307,65 @@ body {
         color: var(--df-white);
     }
     /* social links */
+
+    /* loader */
+    #loader-wrapper {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+    }
+    
+    #backdrop {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(8px); 
+        z-index: 9999;
+    }
+
+    .loader {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 8px solid #d4d4d400;
+        border-radius: 50%;
+        border-top: 8px solid #ffffff;
+        width: 75px;
+        height: 75px;
+        -webkit-animation: spin 2s linear infinite;
+        animation: spin 2s linear infinite;
+        display: none; /* Initially hidden */
+    }
+    
+    @-webkit-keyframes spin {
+        0% { -webkit-transform: rotate(0deg); }
+        100% { -webkit-transform: rotate(360deg); }
+    }
+    
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+    /* loader */
+
+    /* default margin for section */
+    section {
+        margin: 8rem 0;
+    }
+    /* default margin for section */
+    
 /* Utility Class */
 
-/* navbar */
+/* common navbar */
 .offcanvas {
     background-color: var(--df-black);
 }
@@ -321,7 +381,6 @@ body {
 .navbar-brand img {
     width: 80px;
     aspect-ratio: 1;
-    filter: invert(100%);
     transition: transform 0.3s ease;
 }
 
@@ -329,17 +388,32 @@ body {
     transform: scale(1.1);
 }
 
-.navbar .hm-menu {
+.navbar .hm-menu i {
     transition: transform 0.3s ease;
 }
 
-.navbar .hm-menu:hover {
+.navbar .hm-menu i:hover {
     transform: scale(1.4);
+}
+
+.navbar .hm-menu i {
+    margin-inline-end: 0.75rem;
+} 
+
+.navbar .hm-menu {
+    display: flex;
+    font-weight: 300;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    line-height: 2.25rem;
+    color: var(--df-white);
+    font-family: "Poppins", sans-serif;
 }
 
 button .bi.bi-list {
     font-size: 1.75rem;
-    color: var(--df-black);
+    color: var(--df-white);
 }
 
 .offcanvas-title img {
@@ -394,103 +468,403 @@ button .bi.bi-list {
 .navbar-nav .nav-link {
     color: var(--df-white);
 }
-/* navbar */
+/* common navbar */
 
-/* footer */
+/* common footer */
+footer {
+    background-color: var(--absolute-black);
+}
 
-/* footer */
+footer .wrapper {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
 
-/* cta */
-.common-cta .column-1, 
-.common-cta .column-2 {
-    padding-left: 0rem;
-    padding-right: 0rem;
+footer .row-1 {
+    width: 10%;
+}
+
+footer .row-1 img {
+    width: 65%;
+}
+
+footer .row-2 {
+    width: 85%;
+}
+
+footer h5 {
+    display: inline-block;
+    color: var(--df-white);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    border-bottom: 1px solid var(--df-white);
+
+}
+
+footer .footer-links {
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    color: #FFFFFFB2;
+    transition: color 1s ease;
+}
+
+footer .footer-links:hover {
+    color: #dadada80;
+    border-bottom: 1px solid #FFFFFF80;
+}
+
+footer .copyright {
+    color: #FFFFFF80;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+footer #newsletter1 {
+    border-radius: 0.625rem;
+    padding: 0.75rem 1.75rem;
+    border: 1px solid #FFFFFF80;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    color: #999;
+    font-family: "Poppins", sans-serif;
+    caret-color: #FFFFFF80;
 } 
 
-.common-cta .column-1 img {
+footer #newsletter1::placeholder {
+    color: #999; 
+    font-family: "Poppins", sans-serif;
+    font-size: 1.125;
+    font-weight: 300;
+    line-height: 1.6875px;
+}
+
+footer .inp-sbmt-btn svg {
     width: 100%;
 }
 
-.common-cta .column-2 {
+footer .f-additionals {
+    color: #FFFFFF80;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 2rem;
+    font-family: "Poppins", sans-serif;
+}
+
+footer .f-additionals a:hover {
+    color: #999;
+    border-bottom: 1px solid #FFFFFF80;
+}
+/* common footer */
+
+/* common cta */
+
+/* common cta */
+
+/* Common Banner Video */
+.common-banner-video {
+    margin: 0;
+}
+
+.common-banner-video-for-mobile {
+    display: none;
+}
+/* Common Banner Video */
+
+/* Common Introduction 0 */
+.common-introduction-0 .column-1,
+.common-introduction-0 .column-2 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.common-introduction-0 .column-1 {
     display: flex;
+    align-items: center;
+    flex-direction: column;
     justify-content: center;
+}
+
+.common-introduction-0 .column-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.common-introduction-0 .introduction-content-0 {
+    padding: 0 10%;
+}
+
+.common-introduction-0 .introduction-content-0 h2 {
+    font-weight: 400;
+    font-size: 5.375rem;
+    line-height: 6.25rem;
+    margin-bottom: 2rem;
+}
+
+.common-introduction-0 .introduction-content-0 p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+.common-introduction-0 .introduction-content-0 p:nth-of-type(1) {
+    margin-bottom: 1.125rem;
+}
+/* Common Introduction 0 */
+
+/* Common Introduction 1 */
+.common-introduction-1 .column-1,
+.common-introduction-1 .column-2 {
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+.common-introduction-1 .column-2 {
+    display: flex;
     align-items: center;
 }
 
-.common-cta .cta-content {
-    padding: 4rem;
+.common-introduction-1 .column-1 img,
+.common-introduction-1 .column-6 img {
+    width: 100%;
 }
 
-.common-cta .cta-content h2,
-.common-cta .cta-content h3,
-.common-cta .cta-content a {
-    display: block;
-    text-align: start;
+.common-introduction-1 .column-2 .column-1,
+.common-introduction-1 .column-2 .column-2, 
+.common-introduction-1 .column-2 .column-3, 
+.common-introduction-1 .column-2 .column-4, 
+.common-introduction-1 .column-2 .column-5, 
+.common-introduction-1 .column-2 .column-6 {
+    padding-left: 0rem;
+    padding-right: 0rem;
 }
-/* cta */
+
+.common-introduction-1 .column-2 .column-4 p {
+    width: 100ch;
+    text-align: justify;
+}
+/* Common Introduction 1 */
+
+/* Common Deliverables */
+.common-deliverables h2 {
+    font-weight: 400;
+    margin-bottom: 6.75rem;
+    font-size: 5.375rem;
+    line-height: 6.25rem;
+}
+
+.common-deliverables .common-deliverables-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.common-deliverables .columns img {
+    width: 100%;
+}
+
+.common-deliverables h3 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.29375rem;
+}
+/* Common Deliverables */
+
+/* Common Philosophy */
+.common-philosophy .c-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+}
+
+.common-philosophy .c-row:nth-of-type(2) {
+    border-top: 1px solid #b4b4b4b0;
+    border-bottom: 1px solid #b4b4b4b0;
+}
+
+.common-philosophy h2 {
+    font-weight: 400;
+    font-size: 5.375rem;
+    line-height: 6.25rem;
+    margin-bottom: 4rem;
+}
+
+.common-philosophy h3 {
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 120px;    
+}
+
+.common-philosophy p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 2.25rem;
+    letter-spacing: -0.02em;
+    text-align: justify;
+}
+/* Common Philosophy */
+
+/* Common CTA 1 */
+/* Common CTA 1 */
+
+/* Common Product Showcase */
+.common-product-showcase .swiper-wrapper {
+    display: flex;
+    transition-timing-function: linear;
+}
+
+.common-product-showcase .swiper-slide.c-width {
+    width: 100%;
+}
+/* Common Product Showcase */
 
 /*? pages */
     /* home */
-    .common-introduction .column-1,
-    .common-introduction .column-2 {
-        padding-left: 0rem;
-        padding-right: 0rem;
+    .home-blogs .blog-card {
+        border: 1px solid var(--df-black);
     }
 
-    .common-introduction .column-2 {
-        display: flex;
-        align-items: center;
+    .home-blogs .blog-card .wrapper {
+        padding: 2rem;
     }
 
-    .common-introduction .column-1 img,
-    .common-introduction .column-6 img {
+    .common-cta-1 {
+        position: relative;
+        margin-bottom: 0rem;
+    }
+
+    .common-cta-1 svg {
+        bottom: 0%;
+        position: absolute;
+    }
+
+    .common-cta-1 img {
+        z-index: 1;
         width: 100%;
+        position: relative;
     }
 
-    .common-introduction .column-2 .column-1,
-    .common-introduction .column-2 .column-2, 
-    .common-introduction .column-2 .column-3, 
-    .common-introduction .column-2 .column-4, 
-    .common-introduction .column-2 .column-5, 
-    .common-introduction .column-2 .column-6 {
-        padding-left: 0rem;
-        padding-right: 0rem;
+    .common-cta-1 h3 {
+        font-family: "Poppins", sans-serif;
+        font-size: 2.5rem;
+        font-weight: 275;
+        line-height: 3.95625rem;
+        letter-spacing: 0.1em;
     }
 
-    .common-introduction .column-2 .column-4 p {
-        width: 100ch;
-        text-align: justify;
+    .common-cta-1 h2 {
+        font-size: 6.25rem;
+        line-height: 7.75rem;
+        font-weight: 400;
+        margin-bottom: 3.75rem;
     }
 
-    .bl--product-showcase .swiper {
-        width: 100%;
-        height: 100%;
-    }
-
-    .bl--product-showcase .swiper-slide {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .bl--product-showcase .swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    .bl--product-showcase .productShowcaseSwiper .swiper-wrapper {
-        display: flex;
-        transition-timing-function: linear;
+    .common-cta-1 a {
+        font-weight: 300;
+        font-size: 1.5rem;  
+        border-radius: 1.25rem;
+        line-height: 3.95625rem;
+        padding: 1rem 4.6875rem;
+        border: 1px solid #000000c0;
+        font-family: "Poppins", sans-serif;
     }
     /* home */
 
     /* brand license */
+    .brand-support .brand-support-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
+    .brand-support h2 {
+        font-weight: 400;
+        text-align: center;
+        font-size: 4.375rem;
+        line-height: 7.5rem;
+        margin-bottom: 4.75rem;
+    }
+
+    .brand-support p {
+        width: 75ch;
+        font-weight: 300;
+        text-align: center;
+        font-size: 1.8125rem;
+        line-height: 2.71875rem;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .brand-support p:nth-of-type(1) {
+        margin-bottom: 2rem;
+    }
+
+    .downloadables .columns {
+        position: relative;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .downloadables .columns .wrapper {
+        position: absolute;
+        z-index: 9999;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .downloadables h3 {
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-weight: 400;
+        font-size: 3.125rem;
+        color: var(--df-white);
+        line-height: 3.171875rem;
+        text-align: center;
+    }
+
+    .downloadables .download-icon {
+        margin-bottom: 5rem;
+    }
     /* brand license */
 
     /* our-story */
+    .our-story .banner-video {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .our-story .banner-video video {
+        width: 100%;
+        height: 100%;
+    }
+
+    .our-story .banner-video-for-mobile {
+        display: none;
+    }
+
+    .philosophy .row {
+        border-bottom: 1px solid #dee2e6;
+    }
+    
     .statistics .stats-container {
         display: grid;
         padding: 4rem 0;
@@ -619,22 +993,30 @@ button .bi.bi-list {
 
 /* Responsiveness */
 @media (max-width: 767px) { 
-    /* navbar */
+    /* common navbar */
 
-    /* navbar */
-    
-    /* footer */
+    /* common navbar */
 
-    /* footer */
+    /* common footer */
 
-    /* COMMON: cta */
-    .common-cta .cta-content {
-        padding: 4rem 0rem;
+    /* common footer */
+
+    /* common cta */
+
+    /* common cta */
+
+    /* common banner video */
+    .common-banner-video {
+        display: none;
     }
-    /* COMMON: cta */
+
+    .common-banner-video-for-mobile {
+        display: block;
+    }
+    /* common banner video */
 
     /* COMMON: Introduction */
-    .common-introduction .column-2 .column-4 p {
+    .common-introduction-1 .column-2 .column-4 p {
         width: auto;
     }
     /* COMMON: Introduction */
@@ -717,17 +1099,21 @@ button .bi.bi-list {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) { 
-    /* navbar */
+    /* common navbar */
 
-    /* navbar */
+    /* common navbar */
+
+    /* common footer */
+
+    /* common footer */
+
+    /* common cta */
+
+    /* common cta */
+
+    /* common banner video */
     
-    /* footer */
-
-    /* footer */
-
-    /* COMMON: */
-    
-    /* COMMON: */
+    /* common banner video */
 
     /* Home */
 
@@ -761,17 +1147,21 @@ button .bi.bi-list {
 }
 
 @media (min-width: 1024px) {
-    /* navbar */
+    /* common navbar */
 
-    /* navbar */
+    /* common navbar */
+
+    /* common footer */
+
+    /* common footer */
+
+    /* common cta */
+
+    /* common cta */
+
+    /* common banner video */
     
-    /* footer */
-
-    /* footer */
-
-    /* COMMON: */
-    
-    /* COMMON: */
+    /* common banner video */
 
     /* Home */
     
@@ -807,19 +1197,23 @@ button .bi.bi-list {
 
 /* Granular Responsiveness */
 @media (min-width: 200px) and (max-width: 300px) {
-    /* navbar */
+    /* common navbar */
     .navbar-brand img {
         width: 60px;
     }
-    /* navbar */
+    /* common navbar */
 
-    /* footer */
+    /* common footer */
 
-    /* footer */
+    /* common footer */
 
-    /* COMMON: */
+    /* common cta */
+
+    /* common cta */
+
+    /* common banner video */
     
-    /* COMMON: */
+    /* common banner video */
 
     /* Home */
     
@@ -853,19 +1247,23 @@ button .bi.bi-list {
 }
 
 @media (min-width: 300px) and (max-width: 500px) {
-    /* navbar */
+    /* common navbar */
     .navbar-brand img {
         width: 65px;
     }
-    /* navbar */
+    /* common navbar */
 
-    /* footer */
+    /* common footer */
 
-    /* footer */
+    /* common footer */
 
-    /* COMMON: */
+    /* common cta */
 
-    /* COMMON: */
+    /* common cta */
+
+    /* common banner video */
+    
+    /* common banner video */
 
     /* Home */
     
@@ -899,19 +1297,23 @@ button .bi.bi-list {
 }
 
 @media (min-width: 500px) and (max-width: 768px) {
-    /* navbar */
+    /* common navbar */
     .navbar-brand img {
         width: 70px;
     }
-    /* navbar */
+    /* common navbar */
 
-    /* footer */
+    /* common footer */
 
-    /* footer */
+    /* common footer */
 
-    /* COMMON: */
+    /* common cta */
 
-    /* COMMON: */
+    /* common cta */
+
+    /* common banner video */
+    
+    /* common banner video */
 
     /* Home */
     
@@ -945,42 +1347,50 @@ button .bi.bi-list {
 }
 
 @media (min-width: 768px) and (max-width: 900px) {
-    /* navbar */
+    /* common navbar */
     .navbar-brand img {
         width: 75px;
     }
-    /* navbar */
+    /* common navbar */
 
-    /* footer */
+    /* common footer */
 
-    /* footer */
+    /* common footer */
+
+    /* common cta */
+
+    /* common cta */
+
+    /* common banner video */
+    
+    /* common banner video */
 
     /* COMMON: Introduction */
-    .common-introduction .column-2 .column-1 {
+    .common-introduction-1 .column-2 .column-1 {
         width: 60%;
     }
 
-    .common-introduction .column-2 .column-2 {
+    .common-introduction-1 .column-2 .column-2 {
         width: 40%;
     }
 
-    .common-introduction .column-2 .column-3 {
+    .common-introduction-1 .column-2 .column-3 {
         width: 25%;
     }
     
-    .common-introduction .column-2 .column-4 {
+    .common-introduction-1 .column-2 .column-4 {
         width: 75%;
     }
 
-    .common-introduction .column-2 .column-5 {
+    .common-introduction-1 .column-2 .column-5 {
         width: 15%;
     }
 
-    .common-introduction .column-2 .column-6 {
+    .common-introduction-1 .column-2 .column-6 {
         width: 85%;
     }
 
-    .common-introduction .column-2 .column-4 p {
+    .common-introduction-1 .column-2 .column-4 p {
         width: 48ch;
     }
     /* COMMON: Introduction */
@@ -1017,42 +1427,50 @@ button .bi.bi-list {
 }
 
 @media (min-width: 900px) and (max-width: 1100px) {
-    /* navbar */
+    /* common navbar */
     .navbar-brand img {
         width: 75px;
     }
-    /* navbar */
+    /* common navbar */
 
-    /* footer */
+    /* common footer */
 
-    /* footer */
+    /* common footer */
+
+    /* common cta */
+
+    /* common cta */
+
+    /* common banner video */
+    
+    /* common banner video */
 
     /* COMMON: Introduction */
-    .common-introduction .column-2 .column-1 {
+    .common-introduction-1 .column-2 .column-1 {
         width: 50%;
     }
 
-    .common-introduction .column-2 .column-2 {
+    .common-introduction-1 .column-2 .column-2 {
         width: 50%;
     }
 
-    .common-introduction .column-2 .column-3 {
+    .common-introduction-1 .column-2 .column-3 {
         width: 25%;
     }
     
-    .common-introduction .column-2 .column-4 {
+    .common-introduction-1 .column-2 .column-4 {
         width: 75%;
     }
 
-    .common-introduction .column-2 .column-5 {
+    .common-introduction-1 .column-2 .column-5 {
         width: 20%;
     }
 
-    .common-introduction .column-2 .column-6 {
+    .common-introduction-1 .column-2 .column-6 {
         width: 80%;
     }
 
-    .common-introduction .column-2 .column-4 p {
+    .common-introduction-1 .column-2 .column-4 p {
         width: 56ch;
     }
     /* COMMON: Introduction */
@@ -1091,16 +1509,24 @@ button .bi.bi-list {
 }
 
 @media (min-width: 1100px) and (max-width: 1300px) {
-    /* navbar */
+    /* common navbar */
     
-    /* navbar */
+    /* common navbar */
 
-    /* footer */
+    /* common footer */
 
-    /* footer */
+    /* common footer */
+
+    /* common cta */
+
+    /* common cta */
+
+    /* common banner video */
+    
+    /* common banner video */
 
     /* COMMON: Introduction */
-    .common-introduction .column-2 .column-4 p {
+    .common-introduction-1 .column-2 .column-4 p {
         width: 62ch;
     }
     /* COMMON: Introduction */
@@ -1141,14 +1567,24 @@ button .bi.bi-list {
 }
 
 @media (min-width: 1300px) and (max-width: 1500px) {
-    /* navbar */
-    /* navbar */
+    /* common navbar */
+    
+    /* common navbar */
 
-    /* footer */
-    /* footer */
+    /* common footer */
+
+    /* common footer */
+
+    /* common cta */
+
+    /* common cta */
+
+    /* common banner video */
+    
+    /* common banner video */
 
     /* COMMON: Introduction */
-    .common-introduction .column-2 .column-4 p {
+    .common-introduction-1 .column-2 .column-4 p {
         width: 72ch;
     }
     /* COMMON: Introduction */
@@ -1189,16 +1625,24 @@ button .bi.bi-list {
 }
 
 @media (min-width: 1500px) and (max-width: 1700px) {
-    /* navbar */
+    /* common navbar */
 
-    /* navbar */
+    /* common navbar */
 
-    /* footer */
+    /* common footer */
 
-    /* footer */
+    /* common footer */
+
+    /* common cta */
+
+    /* common cta */
+
+    /* common banner video */
+    
+    /* common banner video */
 
     /* COMMON: Introduction */
-    .common-introduction .column-2 .column-4 p {
+    .common-introduction-1 .column-2 .column-4 p {
         width: 82ch;
     }
     /* COMMON: Introduction */
@@ -1238,3 +1682,9 @@ button .bi.bi-list {
     /* blogs details */
 }
 /* Granular Responsiveness */
+
+/* 
+
+Design Reference : https://www.figma.com/file/MUIBDJ2NNXiGSj9p7yS2Y4/Karan---FTV-BL?type=design&node-id=129-19&mode=design&t=2LEyR4m8JKh26Rli-0
+
+*/

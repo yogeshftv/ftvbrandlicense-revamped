@@ -1,55 +1,81 @@
 <body class="for-our-services">
     <main class="our-services">
-        <!-- Introduction -->
-        <section class="common-introduction">
-            <div class="row mx-0">
-                <div class="col-md-3 d-none d-md-block column-1">
-                    <img src="<?php echo base_url(); ?>assets/media/images/home/example-8.png" alt="example-image-8" class="img-1">
-                </div>
-                <div class="col-12 col-md-9 column-2">
-                    <div class="introduction-content">
-                        <div class="row mx-0">
-                            <div class="col-md-6 column-1">
-                                <h2 class="text-center d-none d-md-block">What does FTV Brand License Offer</h2>
-                                <div class="container-fluid d-block d-md-none">
-                                    <h2 class="text-start">What does FTV Brand License Offer</h2>
-                                </div>
-                            </div>
-                            <div class="col-6 d-none d-md-block column-2"></div>
-                            <div class="col-4 d-md-block column-3"></div>
-                            <div class="col-md-8 column-4">
-                                <div class="container-fluid d-block d-md-none">
-                                    <p>Welcome to a whole different realm where fashion, glamour, and an opulent way of life embellish the world. FashionTV has nurtured fashion into a global phenomenon. A space that inspires and adorns fashion enthusiasts with the power of media. Moreover, to further the brand's purpose, FashionTV is now collaborating with aspiring entrepreneurs to launch multiple businesses in various fields by franchising, licensing, events, media, concepts and city partnership.</p>
-                                </div>
-                                <p class="d-none d-md-block">Welcome to a whole different realm where fashion, glamour, and an opulent way of life embellish the world. FashionTV has nurtured fashion into a global phenomenon. A space that inspires and adorns fashion enthusiasts with the power of media. Moreover, to further the brand's purpose, FashionTV is now collaborating with aspiring entrepreneurs to launch multiple businesses in various fields by franchising, licensing, events, media, concepts and city partnership.</p>
-                            </div>
-                            <div class="col-3 column-5 d-none d-md-block"></div>
-                            <div class="col-md-9 column-6">
-                                <img src="<?php echo base_url(); ?>assets/media/images/home/example-9.png" alt="example image 9">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <!-- Banner Video -->
+        <section class="common-banner-video">
+            <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/templates/temp-banner-cover.png" class="w-100">
+                <source src="<?= base_url(); ?>" type="video/mp4" class="w-100">
+            </video>
         </section>
+
+        <section class="common-banner-video-for-mobile">
+            <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>" class="w-100">
+                <source src="<?= base_url(); ?>" type="video/mp4" class="w-100">
+            </video>
+        </section>
+        <!-- Banner Video -->
+
         <!-- Introduction -->
-                
-        <!-- Call To Action -->
-        <section class="common-cta">
+        <section class="common-introduction-0">
             <div class="row mx-0">
                 <div class="col-12 col-md-6 column-1">
-                    <img src="<?php echo base_url(); ?>assets/media/images/common/example-cta.png" alt="example-cta">
+                    <div class="introduction-content-0">
+                        <h2>Introduction</h2>
+                        <p>Step into a world where your brand's potential knows no bounds. At FTV, we're not just offering licenses; we're unleashing possibilities! Whether you're a budding entrepreneur or an established powerhouse, our platform is your ticket to new horizons, fresh collaborations, and boundless growth.</p>
+                        <p>Explore, innovate, and ignite your brand's journey with us - because here, every partnership is a masterpiece in the making. Let's embark on this exhilarating adventure together! Overall, brand licensing serves as a powerful strategy for driving growth, extending brand reach, and capitalizing on the value of intellectual property assets.</p>
+                    </div>
                 </div>
                 <div class="col-12 col-md-6 column-2">
-                    <div class="cta-content">
-                        <h3>Empower Your Brand with</h3>
-                        <h2>Licensing Opportunities Today!</h2>
-                        <a href="<?php echo base_url(); ?>contact-us">Contact US</a>
-                    </div>
+                    <div class="swiper osIntroductionSwiper">
+                        <div class="swiper-wrapper d-flex align-self-center">
+                            <div class="swiper-slide d-flex align-self-center">
+                                <img src="<?php echo base_url(); ?>assets/media/images/templates/home-intro-1.png" alt="">
+                            </div>
+                            <div class="swiper-slide d-flex align-self-center">
+                                <img src="<?php echo base_url(); ?>assets/media/images/templates/home-intro-2.png" alt="">
+                            </div>
+                            <div class="swiper-slide d-flex align-self-center">
+                                <img src="<?php echo base_url(); ?>assets/media/images/templates/home-intro-3.png" alt="">
+                            </div>
+                            <div class="swiper-slide d-flex align-self-center">
+                                <img src="<?php echo base_url(); ?>assets/media/images/templates/home-intro-4.png" alt="">
+                            </div>
+                            <div class="swiper-slide d-flex align-self-center">
+                                <img src="<?php echo base_url(); ?>assets/media/images/templates/home-intro-5.png" alt="">
+                            </div>
+                            <div class="swiper-slide d-flex align-self-center">
+                                <img src="<?php echo base_url(); ?>assets/media/images/templates/home-intro-6.png" alt="">
+                            </div>
+                            <div class="swiper-slide d-flex align-self-center">
+                                <img src="<?php echo base_url(); ?>assets/media/images/templates/home-intro-7.png" alt="" class="w-100">
+                            </div>
+                        </div>
+                    </div>                    
                 </div>
             </div>
         </section>
-        <!-- Call To Action -->
+        <!-- Introduction -->
+
+        <!-- common cta 1 -->
+        <section class="common-cta-1">
+            <div class="container-fluid">
+                <div class="row mx-0">
+                    <div class="col-md-8 .column-1">
+                        <div class="cta-content">
+                            <h3>Empower Your Brand with</h3>
+                            <h2 class="bl--font-typ-1">Licensing options today </h2>
+                            <a href="#">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 .column-2">
+                        <img src="<?= base_url(); ?>assets/media/images/templates/home-cta-example-img.png" alt="" class="w-100">
+                    </div>
+                </div>
+            </div>
+            <svg width="1920" height="228" viewBox="0 0 1920 228" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M-276.284 101.459C-601.165 217.851 -767.462 149.956 -810 101.459V228L1920 228V101.459C1834.92 35.0608 1590.47 -66.099 1293.26 60.4483C996.046 186.996 620.398 163.952 469.725 136.611C326.606 110.641 48.5963 -14.9332 -276.284 101.459Z" fill="#131313"/>
+            </svg>
+        </section>
+        <!-- common cta 1 -->
     </main>
 
     <!-- custom script -->

@@ -18,7 +18,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered subscribing-modal modal-lg">
                 <div class="modal-content" style="background-color: #151414;">
@@ -58,6 +58,103 @@
         </div>
 
         <!-- Code Footer Below -->
+        <div class="container-fluid px-0">
+            <footer class="py-5">
+                <div class="wrapper">
+                    <div class="row-1">
+                        <a class="navbar-brand t-loader" href="<?php echo base_url(); ?>">
+                            <img src="<?php echo base_url(); ?>assets/media/icons/nav-logo.png" alt="ftv-brand-license-logo">
+                        </a>
+                    </div>
+                    <div class="row row-2">
+                        <div class="col-12 col-md-3 mb-3">
+                            <h5 class="mb-4">Quick Links</h5>
+                            <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Michel Adam</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Kashiff Khan</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Fashion TV</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Licensing Opportunity</a></li>
+                            </ul>
+                        </div>
+            
+                        <div class="col-12 col-md-3 mb-3">
+                            <h5 class="mb-4">Helpful Links</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Careers</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Blogs</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Browse our verticals</a></li>
+                            </ul>
+                        </div>
+            
+                        <div class="col-12 col-md-5 offset-md-1 mb-3">
+                            <form>
+                                <h5 class="border-0 mb-4">Subscribe to FTV License.</h5>
+                                <div class="d-flex align-items-center flex-column flex-sm-row w-100 gap-3">
+                                    <label for="newsletter1" class="visually-hidden">Email address</label>
+                                    <input id="newsletter1" type="text" class="form-control shadow-none" placeholder="Enter your E-mail address">
+                                    <button class="btn inp-sbmt-btn p-0 shadow-none" type="button">
+                                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="30" cy="30" r="29.75" transform="rotate(-180 30 30)" stroke="white" stroke-width="0.5"/>
+                                            <path d="M22.2583 30.0001L38.7099 30.0001M38.7099 30.0001L34.8389 33.8711M38.7099 30.0001L34.8389 26.1292" stroke="white" stroke-width="0.5"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+            
+                        <div class="d-flex flex-column flex-sm-row justify-content-between my-4">
+                            <p class="copyright">Copyright ©2023 - 2024 FTV License. All Rights Reserved.</p>
+                            <ul class="social-links-group">
+                                <li class="social-link">
+                                    <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
+                                        <i class="fa-brands fa-facebook-f social-icon facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="social-link">
+                                    <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
+                                        <i class="fa-brands fa-instagram social-icon instagram"></i>
+                                    </a> 
+                                </li>
+                                <li class="social-link">
+                                    <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
+                                        <i class="fa-brands fa-linkedin-in social-icon linkedin"></i>
+                                    </a>
+                                </li>
+                                <li class="social-link">
+                                    <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
+                                        <i class="fa-brands fa-youtube social-icon youtube"></i>
+                                    </a>
+                                </li>
+                                <li class="social-link">
+                                    <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
+                                        <i class="fa-brands fa-x-twitter social-icon twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <ul class="f-additionals unstyled-list d-flex">
+                                <li class="ms-3 ms-md-4">
+                                    <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
+                                        Terms & Conditions
+                                    </a>
+                                </li>
+                                <li class="ms-3 ms-md-4">
+                                    <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
+                                        Privacy Policy
+                                    </a> 
+                                </li>
+                                <li class="ms-3 ms-md-4">
+                                    <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
+                                        Sitemap
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
     </div>
 </footer>
 
@@ -120,7 +217,7 @@
     let base_path = '<?php echo base_url() ?>';
     let isHomePage = false;
     var currentURL = window.location.href;
-    
+
     if (currentURL == base_path) {
         isHomePage = true;
     }
@@ -158,40 +255,80 @@
     })
     gsap.ticker.lagSmoothing(0);
 
-    // Navbar: Swiper
-    var swiper = new Swiper(".navbarSwiper", {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      allowTouchMove: false,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      }
+    // Navbar: Loader
+    document.addEventListener("DOMContentLoaded", function() {
+        const loaderWrapper = document.getElementById("loader-wrapper");
+        const loader = document.getElementById("loader");
+        const backDrop = document.getElementById("backdrop");
+        const navLinks = document.querySelectorAll(".t-loader");
+
+        navLinks.forEach(function(navLink) {
+            navLink.addEventListener("click", function(event) {
+                event.preventDefault();
+
+                loaderWrapper.style.display = "block";
+                backDrop.style.display = "block";
+                loader.style.display = "block";
+                loader.style.zIndex = "99999";
+
+                const targetPage = this.getAttribute("href");
+
+                setTimeout(function() {
+                    window.location.href = targetPage;
+                }, 500);
+            });
+        });
     });
 
-    // Homepage: Product Showcase Swiper
-    var swiper = new Swiper(".productShowcaseSwiper", {
-      slidesPerView: 4,
-      spaceBetween: 0,
-      allowTouchMove: false,
-      autoplay: {
-        delay: 0,
-        disableOnInteraction: false,
-      },
-      loop: true,
-      speed: 5000,
-      breakpoints: {
-        768: {
-            slidesPerView: 3,
-        },
-        300: {
-            slidesPerView: 2,
-        },
-        200: {
-            slidesPerView: 1,
+    // Navbar: Swiper
+    var swiper = new Swiper(".navbarSwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        allowTouchMove: false,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
         }
-      },
     });
+
+    // Home: Introduction Swiper
+    // Brand License: Introduction Swiper
+    // Our Services Introduction: Introduction Swiper
+    function introductionSectionSwiper(element) {
+        var swiper = new Swiper(element, {
+            slidesPerView: 3,
+            spaceBetween: 0,
+            allowTouchMove: false,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            loop: true,
+        });
+    }
+
+    introductionSectionSwiper(".homeIntroductionSwiper");
+    introductionSectionSwiper(".blIntroductionSwiper");
+    introductionSectionSwiper(".osIntroductionSwiper");
+
+    // Brand License : Product Showcase Swiper
+    // Our Story: Product Showcase Swiper
+    function commonProductShowcase(element) {
+        var swiper = new Swiper(element, {
+            slidesPerView: 4,
+            spaceBetween: 0,
+            allowTouchMove: false,
+            autoplay: {
+                delay: 0,
+                disableOnInteraction: false,
+            },
+            loop: true,
+            speed: 5000
+        });
+    }
+
+    commonProductShowcase(".productShowcaseSwiper-1");
+    commonProductShowcase(".productShowcaseSwiper-2");
 
     function incrementalStatistics() {
         let viewersRef = document.getElementById("viewers");

@@ -6,8 +6,22 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <body class="for--our-story">
 
     <main class="our-story">
+        <!-- Banner Video -->
+        <section class="common-banner-video">
+            <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/templates/temp-banner-cover.png" class="w-100">
+                <source src="<?= base_url(); ?>" type="video/mp4" class="w-100">
+            </video>
+        </section>
+
+        <section class="common-banner-video-for-mobile">
+            <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>" class="w-100">
+                <source src="<?= base_url(); ?>" type="video/mp4" class="w-100">
+            </video>
+        </section>
+        <!-- Banner Video -->
+
         <!-- Introduction -->
-        <section class="common-introduction">
+        <section class="common-introduction-1">
             <div class="row mx-0">
                 <div class="col-md-3 d-none d-md-block column-1">
                     <img src="<?php echo base_url(); ?>assets/media/images/home/example-8.png" alt="example-image-8" class="img-1">
@@ -16,9 +30,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="introduction-content">
                         <div class="row mx-0">
                             <div class="col-md-6 column-1">
-                                <h2 class="text-center d-none d-md-block">What does FTV Brand License Offer</h2>
+                                <h2 class="text-center d-none d-md-block">About FashionTV</h2>
                                 <div class="container-fluid d-block d-md-none">
-                                    <h2 class="text-start">What does FTV Brand License Offer</h2>
+                                    <h2 class="text-start">About FashionTV</h2>
                                 </div>
                             </div>
                             <div class="col-6 d-none d-md-block column-2"></div>
@@ -39,6 +53,38 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </div>
         </section>
         <!-- Introduction -->
+
+        <!-- Our Philosophy -->
+        <section class="common-philosophy">
+            <div class="container-fluid">
+                <h2 class="text-center">Our Philosophy</h2>
+                <div class="row row-1 c-row">
+                    <div class="col-12 col-md-3 column-1 d-flex align-items-center">
+                        <h3>Vision</h3>
+                    </div>
+                    <div class="col-12 col-md-9 column-2 d-flex align-items-center">
+                        <p>To seek ventures that auxiliary our love for fashion, and make his mark in India, one of the world's second-largest consumer markets.</p>
+                    </div>
+                </div>
+                <div class="row row-2 c-row">
+                    <div class="col-12 col-md-3 column-1 d-flex align-items-center">
+                        <h3>Mission</h3>
+                    </div>
+                    <div class="col-12 col-md-9 column-2 d-flex align-items-center">
+                        <p>We look forward to making FashionTV a household name by providing the masses with nothing but the best in association with our partners.</p>    
+                    </div>
+                </div>
+                <div class="row row-3 c-row">
+                    <div class="col-12 col-md-3 column-1 d-flex align-items-center">
+                        <h3>Aim</h3>    
+                    </div>
+                    <div class="col-12 col-md-9 column-2 d-flex align-items-center">
+                        <p>We aim to become the leading brand in the Indian market not only in the fashion industry but in numerous business sectors recognised for its synergy, brilliance and excellence.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Our Philosophy -->
 
         <!-- statistics -->
         <section class="statistics">
@@ -71,9 +117,40 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </div>
         </section>
         <!-- statistics -->
+
+        <!-- Product Showcase -->
+        <section class="common-product-showcase">
+            <div class="swiper productShowcaseSwiper-2">
+                <div class="swiper-wrapper d-flex align-self-center">
+                    <div class="swiper-slide align-self-center">
+                        <img src="<?php echo base_url(); ?>assets/media/images/home/example-1.png" alt="example-image-1">
+                    </div>
+                    <div class="swiper-slide align-self-center">
+                        <img src="<?php echo base_url(); ?>assets/media/images/home/example-2.png" alt="example-image-2">
+                    </div>
+                    <div class="swiper-slide align-self-center">
+                        <img src="<?php echo base_url(); ?>assets/media/images/home/example-3.png" alt="example-image-3">
+                    </div>
+                    <div class="swiper-slide align-self-center">
+                        <img src="<?php echo base_url(); ?>assets/media/images/home/example-4.png" alt="example-image-4">
+                    </div>
+                    <div class="swiper-slide align-self-center">
+                        <img src="<?php echo base_url(); ?>assets/media/images/home/example-5.png" alt="example-image-5">
+                    </div>
+                    <div class="swiper-slide align-self-center">
+                        <img src="<?php echo base_url(); ?>assets/media/images/home/example-6.png" alt="example-image-6">
+                    </div>
+                    <div class="swiper-slide align-self-center">
+                        <img src="<?php echo base_url(); ?>assets/media/images/home/example-7.png" alt="example-image-7">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Product Showcase -->        
         
         <!-- Our Boards -->
         <section class="our-boards">
+            <h2 class="text-center">Our Boards</h2>
             <div class="row mx-0 row-1">
                 <div class="col-12 col-md-6 px-0 column-1">
                     <img src="<?php echo base_url(); ?>assets/media/images/our-story/michel-adam.png" alt="michel-adam" class="w-100 h-100">
@@ -120,23 +197,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </div>
         </section>
         <!-- Our Boards -->
-        
-        <!-- Call To Action -->
-        <section class="common-cta">
-            <div class="row mx-0">
-                <div class="col-12 col-md-6 column-1">
-                    <img src="<?php echo base_url(); ?>assets/media/images/common/example-cta.png" alt="example-cta">
-                </div>
-                <div class="col-12 col-md-6 column-2">
-                    <div class="cta-content">
-                        <h3>Empower Your Brand with</h3>
-                        <h2>Licensing Opportunities Today!</h2>
-                        <a href="<?php echo base_url(); ?>contact-us">Contact US</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Call To Action -->
     </main>
     
     <!-- custom script -->
