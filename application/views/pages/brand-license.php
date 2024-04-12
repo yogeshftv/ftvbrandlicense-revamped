@@ -208,14 +208,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <section class="common-cta-1">
             <div class="container-fluid">
                 <div class="row mx-0">
-                    <div class="col-md-8 .column-1">
+                    <div class="col-md-8 column-1">
                         <div class="cta-content">
                             <h3>Empower Your Brand with</h3>
                             <h2 class="bl--font-typ-1">Licensing options today </h2>
                             <a href="#">Contact Us</a>
                         </div>
                     </div>
-                    <div class="col-md-4 .column-2">
+                    <div class="col-md-4 column-2">
                         <img src="<?= base_url(); ?>assets/media/images/templates/home-cta-example-img.png" alt="" class="w-100">
                     </div>
                 </div>

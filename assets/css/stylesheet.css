@@ -181,6 +181,10 @@ p {
 .bl--font-typ-1 {
 	font-family: 'bl--font-typ-1', sans-serif;
 }
+
+.poppins-font {
+	font-family: 'Poppins', sans-serif;
+}
 /* font imports & font families */
 
 /* variables */
@@ -623,6 +627,11 @@ footer .f-additionals a:hover {
 /* Common Introduction 0 */
 
 /* Common Introduction 1 */
+.common-introduction-1 {
+    background-color: #F0F0F0;
+    margin-top: 0;
+}
+
 .common-introduction-1 .column-1,
 .common-introduction-1 .column-2 {
     padding-left: 0rem;
@@ -637,6 +646,7 @@ footer .f-additionals a:hover {
 .common-introduction-1 .column-1 img,
 .common-introduction-1 .column-6 img {
     width: 100%;
+    height: 100%;
 }
 
 .common-introduction-1 .column-2 .column-1,
@@ -644,14 +654,43 @@ footer .f-additionals a:hover {
 .common-introduction-1 .column-2 .column-3, 
 .common-introduction-1 .column-2 .column-4, 
 .common-introduction-1 .column-2 .column-5, 
-.common-introduction-1 .column-2 .column-6 {
+.common-introduction-1 .column-2 .column-6,
+.common-introduction-1 .column-2 .column-7,
+.common-introduction-1 .column-2 .column-8 {
     padding-left: 0rem;
     padding-right: 0rem;
 }
 
+.common-introduction-1 h2 {
+    font-weight: 400;
+    line-height: 7.5rem;  
+    font-size: 4.375rem;
+    margin-bottom: 2.25rem;
+}
+
 .common-introduction-1 .column-2 .column-4 p {
-    width: 100ch;
+    width: 70ch;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
     text-align: justify;
+    letter-spacing: -0.02em;
+    margin-bottom: 6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.common-introduction-1 a {
+    font-weight: 400;
+    display: block;
+    font-size: 1.25rem;
+    line-height: 1.70875;
+    color: var(--df-black);
+    font-family: "Poppins", sans-serif;
+    padding-top: 5rem;
+}
+
+.common-introduction-1 a:hover {
+    color: var(--df-black);
 }
 /* Common Introduction 1 */
 
@@ -717,6 +756,46 @@ footer .f-additionals a:hover {
 /* Common Philosophy */
 
 /* Common CTA 1 */
+.common-cta-1 {
+    position: relative;
+    margin-bottom: 0rem;
+}
+
+.common-cta-1 svg {
+    bottom: 0%;
+    position: absolute;
+}
+
+.common-cta-1 img {
+    z-index: 1;
+    width: 100%;
+    position: relative;
+}
+
+.common-cta-1 h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 275;
+    line-height: 3.95625rem;
+    letter-spacing: 0.1em;
+}
+
+.common-cta-1 h2 {
+    font-size: 6.25rem;
+    line-height: 7.75rem;
+    font-weight: 400;
+    margin-bottom: 3.75rem;
+}
+
+.common-cta-1 a {
+    font-weight: 300;
+    font-size: 1.5rem;  
+    border-radius: 1.25rem;
+    line-height: 3.95625rem;
+    padding: 1rem 4.6875rem;
+    border: 1px solid #000000c0;
+    font-family: "Poppins", sans-serif;
+}
 /* Common CTA 1 */
 
 /* Common Product Showcase */
@@ -738,47 +817,6 @@ footer .f-additionals a:hover {
 
     .home-blogs .blog-card .wrapper {
         padding: 2rem;
-    }
-
-    .common-cta-1 {
-        position: relative;
-        margin-bottom: 0rem;
-    }
-
-    .common-cta-1 svg {
-        bottom: 0%;
-        position: absolute;
-    }
-
-    .common-cta-1 img {
-        z-index: 1;
-        width: 100%;
-        position: relative;
-    }
-
-    .common-cta-1 h3 {
-        font-family: "Poppins", sans-serif;
-        font-size: 2.5rem;
-        font-weight: 275;
-        line-height: 3.95625rem;
-        letter-spacing: 0.1em;
-    }
-
-    .common-cta-1 h2 {
-        font-size: 6.25rem;
-        line-height: 7.75rem;
-        font-weight: 400;
-        margin-bottom: 3.75rem;
-    }
-
-    .common-cta-1 a {
-        font-weight: 300;
-        font-size: 1.5rem;  
-        border-radius: 1.25rem;
-        line-height: 3.95625rem;
-        padding: 1rem 4.6875rem;
-        border: 1px solid #000000c0;
-        font-family: "Poppins", sans-serif;
     }
     /* home */
 
@@ -865,6 +903,16 @@ footer .f-additionals a:hover {
         border-bottom: 1px solid #dee2e6;
     }
     
+    .our-story .bg-color {
+        background-color: #F0F0F0;
+    }
+
+    .statistics h2 {
+        font-weight: 400;
+        font-size: 4.375rem;
+        line-height: 7.5rem;
+    }
+
     .statistics .stats-container {
         display: grid;
         padding: 4rem 0;
@@ -895,19 +943,16 @@ footer .f-additionals a:hover {
     }
     
     .statistics .stats-container h3 {
-        font-size: 128px;
         font-weight: 400;
-        line-height: 192px;
-        letter-spacing: 0em;
-        text-align: center;
+        font-size: 5.625rem;
+        line-height: 7.003125rem;    
     }
     
     .statistics .stats-container .stats-card p {
-        color: #000000;
-        font-size: 1.25rem;
-        font-style: normal;
-        text-align: center;
-        font-weight: 500;
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 1.8675rem;       
+        font-family: "Poppins", sans-serif;
     }
     
     .our-boards .row-1 .column-2,
@@ -918,6 +963,19 @@ footer .f-additionals a:hover {
         justify-content: center;
     }
     
+    .our-boards h2.heading {
+        font-weight: 400;
+        font-size: 4.375rem;
+        line-height: 7.5rem;
+        margin-bottom: 6rem;
+    }
+
+    .our-boards h2.sub-heading {
+        font-weight: 400;
+        font-size: 4.375rem;
+        line-height: 7.5rem;
+    }
+
     .our-boards .boards-content {
         width: 675px;
     }
@@ -933,6 +991,77 @@ footer .f-additionals a:hover {
     .our-boards .boards-content p {
         text-align: justify;
     }
+
+    .our-boards .designation {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #000000CC;
+        text-align: justify;
+        margin-bottom: 4rem;
+
+    }
+
+    .our-boards img {
+        margin-bottom: 4rem;
+    }
+
+    .our-story-cta {
+        position: relative;
+        margin-bottom: 0;
+    }
+
+    .our-story-cta .column-1, 
+    .our-story-cta .column-2 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .our-story-cta svg {
+        position: absolute;
+        bottom: 0%;
+    }
+
+    .our-story-cta .column-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url('../media/icons/f-brand-icon-cta-our-story.png');
+        background-position-x: 75%;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .our-story-cta .column-2 .cta-content {
+        transform: translateY(-62%);
+    }
+
+    .our-story-cta h3 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.5rem;
+        font-weight: 275;
+        line-height: 3.95625rem;
+        letter-spacing: 0.1em;
+    }
+
+    .our-story-cta h2 {
+        font-weight: 400;
+        margin-bottom: 4rem;
+        font-size: 5.9375rem;
+        line-height: 8rem;
+    }
+
+    .our-story-cta a {
+        font-weight: 300;
+        font-size: 1.5rem;  
+        border-radius: 1.25rem;
+        line-height: 3.95625rem;
+        padding: 1rem 4.6875rem;
+        border: 1px solid #000000c0;
+        font-family: "Poppins", sans-serif;
+    }
     /* our-story */
 
     /* brand-license */
@@ -944,14 +1073,6 @@ footer .f-additionals a:hover {
     /* our-services */
 
     /* faqs */
-    .for-faqs {
-        padding: 7em 0;
-    }
-
-    .for-faqs .cover {
-        padding-bottom: 6em;
-    }
-
     .for-faqs .accordion-body {
         width: 154ch;
     }
@@ -961,11 +1082,11 @@ footer .f-additionals a:hover {
         border: 0.75px solid #6E3035;
     }
 
-    .for-faqs .cs-acc-btn.accordion-button:not(.collapsed) {
-        color: #6E3035;
-        font-weight: 400;
-        background-color: transparent;
-    }
+        .for-faqs .cs-acc-btn.accordion-button:not(.collapsed) {
+            color: #6E3035;
+            font-weight: 400;
+            background-color: transparent;
+        }
 
     .for-faqs .cs-acc-btn.accordion-button::after {
         background-image: url('../media/icons/open-icon.png');
@@ -976,6 +1097,28 @@ footer .f-additionals a:hover {
         background-image: url('../media/icons/close-icon.png');
         background-size: cover;
     }
+
+    .for-faqs .cover h1 {
+        font-size: 5rem;
+        font-weight: 400;
+        line-height: 7.5rem;
+    }
+
+    .for-faqs .accordion-button {
+        font-family: "Poppins", sans-serif;
+        font-size: 1.875rem;
+        font-weight: 300;
+        line-height: 2.563125rem;
+    }
+
+    .for-faqs .accordion-body {
+        font-size: 1.125;
+        font-weight: 300;
+        text-align: justify;
+        line-height: 1.538125rem;
+        font-family: "Poppins", sans-serif;
+
+    }
     /* faqs */
 
     /* contact us */
@@ -983,7 +1126,53 @@ footer .f-additionals a:hover {
     /* contact us */
 
     /* blogs */
+    .blogs .cover h1 {
+        font-size: 5rem;
+        font-weight: 400;
+        line-height: 7.5rem;
+    }
 
+    .blogs .all-blogs .blogs-wrapper {
+        border: 1px solid #131313;
+    }
+
+    .blogs .all-blogs .blogs-content-wrapper {
+        padding: 10% 6%;
+    }
+
+    .all-blogs h3 {
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 1rem;
+        line-height: 19.14px;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .all-blogs h2 {
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 33.25px;
+        letter-spacing: -0.02em;
+        margin-bottom: 2rem;
+        font-family: "Poppins", sans-serif;
+
+    }
+
+    .all-blogs a {
+        display: block;
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1.19625rem;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .all-blogs a:hover {
+        color: inherit;
+    }
+
+    .all-blogs a span {
+        margin-inline-start: 1rem;
+    }
     /* blogs */
 
     /* blogs details */

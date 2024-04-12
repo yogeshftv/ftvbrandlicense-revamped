@@ -7,7 +7,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <main class="for-faqs">
         <section class="cover">
             <div class="container-fluid">
-                <h1 class="secondary-heading wt-brownish-crimson--fg-clr text-center maginia-ff">Frequently Asked Questions</h1>
+                <h1 class="bl--font-typ-1 text-center">Frequently Asked Questions</h1>
             </div>
         </section>
 
