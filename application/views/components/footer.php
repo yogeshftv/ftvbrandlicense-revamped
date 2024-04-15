@@ -1,5 +1,5 @@
 <footer class="flyt">
-    <div class="container-fluid">
+    <div class="container-fluid px-0">
         <!-- Modal -->
         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="z-index: 99999999 !important; backdrop-filter: blur(5px); background: rgba(0, 0, 0, 0.6);">
             <div class="modal-dialog modal-dialog-centered subscribing-modal modal-lg">
@@ -58,103 +58,104 @@
         </div>
 
         <!-- Code Footer Below -->
-        <div class="container-fluid px-0">
-            <footer class="py-5">
-                <div class="wrapper">
-                    <div class="row-1">
-                        <a class="navbar-brand t-loader" href="<?php echo base_url(); ?>">
+        <footer class="py-5">
+            <div class="wrapper">
+                <div class="row-1">
+                    <a class="t-loader" href="<?php echo base_url(); ?>">
+                        <img src="<?php echo base_url(); ?>assets/media/icons/nav-logo.png" alt="ftv-brand-license-logo">
+                    </a>
+                </div>
+                <div class="row mx-0 row-2">
+                    <div class="col-12 mb-4 col-md-3 px-0">
+                        <a class="t-loader footer-logo-hidden--for-mobile" href="<?php echo base_url(); ?>">
                             <img src="<?php echo base_url(); ?>assets/media/icons/nav-logo.png" alt="ftv-brand-license-logo">
                         </a>
+                        <h5 class="mb-4">Quick Links</h5>
+                        <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Michel Adam</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Kashiff Khan</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Fashion TV</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Licensing Opportunity</a></li>
+                        </ul>
                     </div>
-                    <div class="row row-2">
-                        <div class="col-12 col-md-3 mb-3">
-                            <h5 class="mb-4">Quick Links</h5>
-                            <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Home</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Michel Adam</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Kashiff Khan</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Fashion TV</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Licensing Opportunity</a></li>
-                            </ul>
-                        </div>
-            
-                        <div class="col-12 col-md-3 mb-3">
-                            <h5 class="mb-4">Helpful Links</h5>
-                            <ul class="nav flex-column">
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Careers</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Blogs</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Browse our verticals</a></li>
-                            </ul>
-                        </div>
-            
-                        <div class="col-12 col-md-5 offset-md-1 mb-3">
-                            <form>
-                                <h5 class="border-0 mb-4">Subscribe to FTV License.</h5>
-                                <div class="d-flex align-items-center flex-column flex-sm-row w-100 gap-3">
-                                    <label for="newsletter1" class="visually-hidden">Email address</label>
-                                    <input id="newsletter1" type="text" class="form-control shadow-none" placeholder="Enter your E-mail address">
-                                    <button class="btn inp-sbmt-btn p-0 shadow-none" type="button">
-                                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <circle cx="30" cy="30" r="29.75" transform="rotate(-180 30 30)" stroke="white" stroke-width="0.5"/>
-                                            <path d="M22.2583 30.0001L38.7099 30.0001M38.7099 30.0001L34.8389 33.8711M38.7099 30.0001L34.8389 26.1292" stroke="white" stroke-width="0.5"/>
-                                        </svg>
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
-            
-                        <div class="d-flex flex-column flex-sm-row justify-content-between my-4">
-                            <p class="copyright">Copyright ©2023 - 2024 FTV License. All Rights Reserved.</p>
-                            <ul class="social-links-group">
-                                <li class="social-link">
-                                    <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
-                                        <i class="fa-brands fa-facebook-f social-icon facebook"></i>
-                                    </a>
-                                </li>
-                                <li class="social-link">
-                                    <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
-                                        <i class="fa-brands fa-instagram social-icon instagram"></i>
-                                    </a> 
-                                </li>
-                                <li class="social-link">
-                                    <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
-                                        <i class="fa-brands fa-linkedin-in social-icon linkedin"></i>
-                                    </a>
-                                </li>
-                                <li class="social-link">
-                                    <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
-                                        <i class="fa-brands fa-youtube social-icon youtube"></i>
-                                    </a>
-                                </li>
-                                <li class="social-link">
-                                    <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
-                                        <i class="fa-brands fa-x-twitter social-icon twitter"></i>
-                                    </a>
-                                </li>
-                            </ul>
+        
+                    <div class="col-12 mb-4 col-md-3 px-0">
+                        <h5 class="mb-4">Helpful Links</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Careers</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Blogs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Browse our verticals</a></li>
+                        </ul>
+                    </div>
+        
+                    <div class="col-12 col-md-5 offset-md-1 px-0">
+                        <form>
+                            <h5 class="border-0 mb-4">Subscribe to FTV License.</h5>
+                            <div class="d-flex align-items-center gap-3 select-me-inp">
+                                <label for="newsletter1" class="visually-hidden">Email address</label>
+                                <input id="newsletter1" type="text" class="form-control shadow-none" placeholder="Enter your E-mail address">
+                                <button class="btn inp-sbmt-btn p-0 shadow-none" type="button">
+                                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="30" cy="30" r="29.75" transform="rotate(-180 30 30)" stroke="white" stroke-width="0.5"/>
+                                        <path d="M22.2583 30.0001L38.7099 30.0001M38.7099 30.0001L34.8389 33.8711M38.7099 30.0001L34.8389 26.1292" stroke="white" stroke-width="0.5"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+        
+                    <div class="d-flex align-items-center justify-content-between my-4 footer-info px-0">
+                        <p class="copyright">Copyright ©2023 - 2024 FTV License. All Rights Reserved.</p>
+                        <ul class="social-links-group">
+                            <li class="social-link">
+                                <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
+                                    <i class="fa-brands fa-facebook-f social-icon facebook"></i>
+                                </a>
+                            </li>
+                            <li class="social-link">
+                                <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
+                                    <i class="fa-brands fa-instagram social-icon instagram"></i>
+                                </a> 
+                            </li>
+                            <li class="social-link">
+                                <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
+                                    <i class="fa-brands fa-linkedin-in social-icon linkedin"></i>
+                                </a>
+                            </li>
+                            <li class="social-link">
+                                <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
+                                    <i class="fa-brands fa-youtube social-icon youtube"></i>
+                                </a>
+                            </li>
+                            <li class="social-link">
+                                <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
+                                    <i class="fa-brands fa-x-twitter social-icon twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
 
-                            <ul class="f-additionals unstyled-list d-flex">
-                                <li class="ms-3 ms-md-4">
-                                    <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
-                                        Terms & Conditions
-                                    </a>
-                                </li>
-                                <li class="ms-3 ms-md-4">
-                                    <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
-                                        Privacy Policy
-                                    </a> 
-                                </li>
-                                <li class="ms-3 ms-md-4">
-                                    <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
-                                        Sitemap
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                        <ul class="f-additionals unstyled-list d-flex">
+                            <li class="ms-3 ms-md-4">
+                                <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
+                                    Terms & Conditions
+                                </a>
+                            </li>
+                            <li class="ms-3 ms-md-4">
+                                <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
+                                    Privacy Policy
+                                </a> 
+                            </li>
+                            <li class="ms-3 ms-md-4">
+                                <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
+                                    Sitemap
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </footer>
-        </div>
+            </div>
+        </footer>
     </div>
 </footer>
 
@@ -296,20 +297,89 @@
     // Our Services Introduction: Introduction Swiper
     function introductionSectionSwiper(element) {
         var swiper = new Swiper(element, {
-            slidesPerView: 3,
+            slidesPerView: 3.5,
             spaceBetween: 0,
             allowTouchMove: false,
+            preloadImages: true,
+            centeredSlides: true,
             autoplay: {
                 delay: 2500,
                 disableOnInteraction: false,
             },
             loop: true,
+            // on: {
+            //     slideChange: function() {
+            //         updateSlideWidth();
+            //     }
+            // },
+            breakpoints: {
+                200: {
+                    slidesPerView: 1,
+                },
+                450: {
+                    slidesPerView: 1.25,
+
+                },
+                550: {
+                    slidesPerView: 1.5,
+
+                },
+                600: {
+                    slidesPerView: 1.75,
+
+                },
+                700: {
+                    slidesPerView: 2,
+
+                },
+                800: {
+                    slidesPerView: 2.5,
+
+                },
+                900: {
+                    slidesPerView: 1,
+
+                },
+                1000: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 30,
+                },
+                1100: {
+                    spaceBetween: 0,
+                },
+                1200: {
+                    slidesPerView: 3,
+                    spaceBetween: 0,
+                }
+            }
         });
     }
 
     introductionSectionSwiper(".homeIntroductionSwiper");
     introductionSectionSwiper(".blIntroductionSwiper");
     introductionSectionSwiper(".osIntroductionSwiper");
+
+    // function updateSlideWidth() {
+    //     let homeIntroSwiperSlide = document.querySelectorAll(".res-swiper-slide");
+
+    //     let screenWidth = window.innerWidth;
+    //     let slideWidth = '320px';
+
+    //     if (screenWidth >= 1300 && screenWidth <= 1500) {
+    //         slideWidth = '312px';
+
+    //     } else if (screenWidth >= 1000 && screenWidth < 1300) {
+    //         slideWidth = '300px'; 
+    //     } else if (screenWidth >= 768 && screenWidth < 1000) {
+    //         slideWidth = '295px'; 
+    //     } 
+
+    //     homeIntroSwiperSlide.forEach(function(slide) {
+    //         slide.style.width = slideWidth;
+    //         console.log(slide);
+    //         console.log(slide.style.width);
+    //     });
+    // }
 
     // Brand License : Product Showcase Swiper
     // Our Story: Product Showcase Swiper

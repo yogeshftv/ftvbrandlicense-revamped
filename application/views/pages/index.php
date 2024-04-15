@@ -8,7 +8,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <!-- Banner Video -->
         <section class="common-banner-video">
             <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/templates/temp-banner-cover.png" class="w-100">
-                <source src="<?= base_url(); ?>" type="video/mp4" class="w-100">
+                <source src="<?= base_url(); ?>assets/media/videos/bl-1-home.mp4" type="video/mp4" class="w-100">
             </video>
         </section>
 
@@ -32,25 +32,25 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="col-12 col-md-6 column-2">
                     <div class="swiper homeIntroductionSwiper">
                         <div class="swiper-wrapper d-flex align-self-center">
-                            <div class="swiper-slide d-flex align-self-center">
-                                <img src="<?php echo base_url(); ?>assets/media/images/templates/home-intro-1.png" alt="">
+                            <div class="swiper-slide d-flex align-self-center res-swiper-slide">
+                                <img src="<?php echo base_url(); ?>assets/media/images/templates/home-intro-1.png" alt="" class="w-100">
                             </div>
-                            <div class="swiper-slide d-flex align-self-center">
-                                <img src="<?php echo base_url(); ?>assets/media/images/templates/home-intro-2.png" alt="">
+                            <div class="swiper-slide d-flex align-self-center res-swiper-slide">
+                                <img src="<?php echo base_url(); ?>assets/media/images/templates/home-intro-2.png" alt="" class="w-100">
                             </div>
-                            <div class="swiper-slide d-flex align-self-center">
-                                <img src="<?php echo base_url(); ?>assets/media/images/templates/home-intro-3.png" alt="">
+                            <div class="swiper-slide d-flex align-self-center res-swiper-slide">
+                                <img src="<?php echo base_url(); ?>assets/media/images/templates/home-intro-3.png" alt="" class="w-100">
                             </div>
-                            <div class="swiper-slide d-flex align-self-center">
-                                <img src="<?php echo base_url(); ?>assets/media/images/templates/home-intro-4.png" alt="">
+                            <div class="swiper-slide d-flex align-self-center res-swiper-slide">
+                                <img src="<?php echo base_url(); ?>assets/media/images/templates/home-intro-4.png" alt="" class="w-100">
                             </div>
-                            <div class="swiper-slide d-flex align-self-center">
-                                <img src="<?php echo base_url(); ?>assets/media/images/templates/home-intro-5.png" alt="">
+                            <div class="swiper-slide d-flex align-self-center res-swiper-slide">
+                                <img src="<?php echo base_url(); ?>assets/media/images/templates/home-intro-5.png" alt="" class="w-100">
                             </div>
-                            <div class="swiper-slide d-flex align-self-center">
-                                <img src="<?php echo base_url(); ?>assets/media/images/templates/home-intro-6.png" alt="">
+                            <div class="swiper-slide d-flex align-self-center res-swiper-slide">
+                                <img src="<?php echo base_url(); ?>assets/media/images/templates/home-intro-6.png" alt="" class="w-100">
                             </div>
-                            <div class="swiper-slide d-flex align-self-center">
+                            <div class="swiper-slide d-flex align-self-center res-swiper-slide">
                                 <img src="<?php echo base_url(); ?>assets/media/images/templates/home-intro-7.png" alt="" class="w-100">
                             </div>
                         </div>
@@ -104,7 +104,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
         <!-- Section Breaker -->
         <section>
-            <div class="container-fluid">
+            <div class="container-fluid px-0">
                 <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/templates/home-section-breaker-1.png" class="w-100">
                     <source src="<?= base_url(); ?>" type="video/mp4" class="w-100">
                 </video>
@@ -116,7 +116,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <section class="home-blogs">
             <div class="container-fluid px-0">
                 <div class="row mx-0">
-                    <div class="col-md-4">
+                    <div class="col-md-4 px-0 px-md-2">
                         <div class="blog-card">
                             <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
                             <div class="wrapper">
@@ -126,7 +126,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 px-0 px-md-2">
                         <div class="blog-card">
                             <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
                             <div class="wrapper">
@@ -136,7 +136,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 px-0 px-md-2">
                         <div class="blog-card">
                             <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
                             <div class="wrapper">
@@ -153,23 +153,20 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
         <!-- common cta 1 -->
         <section class="common-cta-1">
-            <div class="container-fluid">
+            <div class="container-fluid px-0">
                 <div class="row mx-0">
-                    <div class="col-md-8 column-1">
+                    <div class="col-12 col-md-6 col-lg-7 column-1">
                         <div class="cta-content">
                             <h3>Empower Your Brand with</h3>
                             <h2 class="bl--font-typ-1">Licensing options today </h2>
                             <a href="#">Contact Us</a>
                         </div>
                     </div>
-                    <div class="col-md-4 column-2">
+                    <div class="col-12 col-md-6 col-lg-5 column-2">
                         <img src="<?= base_url(); ?>assets/media/images/templates/home-cta-example-img.png" alt="" class="w-100">
                     </div>
                 </div>
             </div>
-            <svg width="1920" height="228" viewBox="0 0 1920 228" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M-276.284 101.459C-601.165 217.851 -767.462 149.956 -810 101.459V228L1920 228V101.459C1834.92 35.0608 1590.47 -66.099 1293.26 60.4483C996.046 186.996 620.398 163.952 469.725 136.611C326.606 110.641 48.5963 -14.9332 -276.284 101.459Z" fill="#131313"/>
-            </svg>
         </section>
         <!-- common cta 1 -->
     </main>
