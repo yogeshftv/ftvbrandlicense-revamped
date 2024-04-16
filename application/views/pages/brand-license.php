@@ -8,7 +8,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <!-- Banner Video -->
         <section class="common-banner-video">
             <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/templates/temp-banner-cover.png" class="w-100">
-                <source src="<?= base_url(); ?>" type="video/mp4" class="w-100">
+                <source src="<?= base_url(); ?>assets/media/videos/bl-1-home.mp4" type="video/mp4" class="w-100">
             </video>
         </section>
 

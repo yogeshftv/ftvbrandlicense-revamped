@@ -1016,9 +1016,22 @@ footer .f-additionals a:hover {
     .our-boards .boards-content h2 {
         text-transform: capitalize;
     }
+
+    .our-boards .boards-content p.designation {
+        font-family: "Poppins", sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: justify;
+
+    }
     
     .our-boards .boards-content p {
         text-align: justify;
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
     }
 
     .our-boards .designation {
@@ -1572,7 +1585,8 @@ footer .f-additionals a:hover {
     .common-deliverables h2,
     .common-philosophy h2,
     .statistics h2,
-    .brand-support h2 {
+    .brand-support h2,
+    .our-boards h2.heading {
         font-size: 2.5rem;
         line-height: 3.375rem;
         margin-bottom: 1.125rem;
@@ -1668,6 +1682,41 @@ footer .f-additionals a:hover {
         margin-bottom: 2rem;
         line-height: 3.125rem;
     }
+
+    .our-boards h2.heading {
+        margin-bottom: 3rem;
+    }
+
+    .our-boards .boards-content h2.sub-heading {
+        font-size: 2rem;
+        line-height: 2;
+    }
+
+    .our-boards .boards-content p {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .our-boards .boards-content p {
+        font-size: 18px;
+        line-height: 1;
+        letter-spacing: 0.1rem;
+        margin-bottom: 3rem;
+    }
+    
+    .our-boards .boards-content p:nth-of-type(1) {
+        line-height: 1.5;
+        margin-bottom: 1rem;
+    }
+    
+    .our-boards img {
+        margin-bottom: 2rem;
+    }
+    
+    .our-boards .boards-content .desc P {
+        font-size: 16px;
+        line-height: 1.5;
+    }
     /* Our Story */
 
     /* Our Services */
@@ -1756,7 +1805,8 @@ footer .f-additionals a:hover {
     .common-deliverables h2,
     .common-philosophy h2,
     .statistics h2,
-    .brand-support h2 {
+    .brand-support h2,
+    .our-boards h2.heading {
         font-size: 3rem;
         line-height: 3.875rem;
         margin-bottom: 1.5rem;
@@ -1837,7 +1887,40 @@ footer .f-additionals a:hover {
     /* Brand License */
     
     /* Our Story */
+    .our-boards h2.heading {
+        margin-bottom: 3.5rem;
+    }
+
+    .our-boards .boards-content h2.sub-heading {
+        font-size: 2rem;
+        line-height: 2;
+    }
+
+    .our-boards .boards-content p {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .our-boards .boards-content p {
+        font-size: 18px;
+        line-height: 1;
+        letter-spacing: 0.1rem;
+        margin-bottom: 3rem;
+    }
     
+    .our-boards .boards-content p:nth-of-type(1) {
+        line-height: 1.5;
+        margin-bottom: 1rem;
+    }
+    
+    .our-boards img {
+        margin-bottom: 2rem;
+    }
+    
+    .our-boards .boards-content .desc P {
+        font-size: 16px;
+        line-height: 1.5;
+    }
     /* Our Story */
 
     /* Our Services */
@@ -1921,7 +2004,8 @@ footer .f-additionals a:hover {
     .common-deliverables h2,
     .common-philosophy h2,
     .statistics h2,
-    .brand-support h2 {
+    .brand-support h2,
+    .our-boards h2.heading {
         font-size: 3.75rem;
         line-height: 4.625rem;
         margin-bottom: 1.5rem;
@@ -1994,7 +2078,40 @@ footer .f-additionals a:hover {
     /* Brand License */
     
     /* Our Story */
+    .our-boards h2.heading {
+        margin-bottom: 3.5rem;
+    }
+
+    .our-boards .boards-content h2.sub-heading {
+        font-size: 2rem;
+        line-height: 2;
+    }
+
+    .our-boards .boards-content p {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .our-boards .boards-content p {
+        font-size: 18px;
+        line-height: 1;
+        letter-spacing: 0.1rem;
+        margin-bottom: 3rem;
+    }
     
+    .our-boards .boards-content p:nth-of-type(1) {
+        line-height: 1.5;
+        margin-bottom: 1rem;
+    }
+    
+    .our-boards img {
+        margin-bottom: 2rem;
+    }
+    
+    .our-boards .boards-content .desc P {
+        font-size: 16px;
+        line-height: 1.5;
+    }
     /* Our Story */
 
     /* Our Services */
@@ -2092,7 +2209,8 @@ footer .f-additionals a:hover {
     .common-deliverables h2,
     .common-philosophy h2,
     .statistics h2,
-    .brand-support h2  {
+    .brand-support h2,
+    .our-boards h2.heading {
         font-size: 4rem;
         line-height: 4.875rem;
         margin-bottom: 2rem;
@@ -2206,6 +2324,40 @@ footer .f-additionals a:hover {
     .our-boards .boards-content {
         width: 325px;
     }
+
+    .our-boards h2.heading {
+        margin-bottom: 4.5rem;
+    }
+
+    .our-boards .boards-content h2.sub-heading {
+        font-size: 2rem;
+        line-height: 2;
+    }
+
+    .our-boards .boards-content p {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .our-boards .boards-content p {
+        font-size: 1rem;
+        line-height: 1.5;
+        font-weight: 300;
+        text-align: justify;
+    }
+
+    .our-boards .boards-content p.me-margin {
+        margin-bottom: 1.5rem;
+    }
+    
+    .our-boards .boards-content p:nth-of-type(1) {
+        line-height: 1.5;
+        margin-bottom: 1rem;
+    }
+    
+    .our-boards img {
+        margin-bottom: 2rem;
+    }
     /* Our-Story */
 
     /* Our Services */
@@ -2281,7 +2433,8 @@ footer .f-additionals a:hover {
     .common-deliverables h2,
     .common-philosophy h2,
     .statistics h2,
-    .brand-support h2 {
+    .brand-support h2,    
+    .our-boards h2.heading {
         font-size: 3.25rem;
         line-height: 4.125rem;
         margin-bottom: 1.5rem;
@@ -2398,6 +2551,44 @@ footer .f-additionals a:hover {
     .our-boards .boards-content {
         width: 380px;
     }
+
+    .our-boards h2.heading {
+        margin-bottom: 3rem;
+    }
+
+    .our-boards h2.heading {
+        margin-bottom: 4.5rem;
+    }
+
+    .our-boards .boards-content h2.sub-heading {
+        font-size: 2rem;
+        line-height: 2;
+    }
+
+    .our-boards .boards-content p {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .our-boards .boards-content p {
+        font-size: 1rem;
+        line-height: 1.5;
+        font-weight: 300;
+        text-align: justify;
+    }
+
+    .our-boards .boards-content p.me-margin {
+        margin-bottom: 1.5rem;
+    }
+    
+    .our-boards .boards-content p:nth-of-type(1) {
+        line-height: 1.5;
+        margin-bottom: 1rem;
+    }
+    
+    .our-boards img {
+        margin-bottom: 2rem;
+    }
     /* Our Story */
 
     /* Our Services */
@@ -2465,7 +2656,8 @@ footer .f-additionals a:hover {
     .common-deliverables h2,
     .common-philosophy h2,
     .statistics h2,
-    .brand-support h2 {
+    .brand-support h2,
+    .our-boards h2.heading {
         font-size: 4rem;
         line-height: 4.875rem;
         margin-bottom: 2rem;
@@ -2545,6 +2737,44 @@ footer .f-additionals a:hover {
     .our-boards .boards-content {
         width: 460px;
     }
+
+    .our-boards h2.heading {
+        margin-bottom: 4.5rem;
+    }
+
+    .our-boards .boards-content h2.sub-heading {
+        font-size: 2.5rem;
+        line-height: 2;
+    }
+
+    .our-boards .boards-content p.designation {
+        font-size: 1.35rem;
+    }
+
+    .our-boards .boards-content p {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .our-boards .boards-content p {
+        font-size: 1rem;
+        line-height: 1.5;
+        font-weight: 300;
+        text-align: justify;
+    }
+
+    .our-boards .boards-content p.me-margin {
+        margin-bottom: 1.5rem;
+    }
+    
+    .our-boards .boards-content p:nth-of-type(1) {
+        line-height: 1.5;
+        margin-bottom: 1rem;
+    }
+    
+    .our-boards img {
+        margin-bottom: 2rem;
+    }
     /* Our Story */
 
     /* Our Services */
@@ -2618,7 +2848,8 @@ footer .f-additionals a:hover {
     .common-deliverables h2,
     .common-philosophy h2,
     .statistics h2,
-    .brand-support h2 {
+    .brand-support h2,
+    .our-boards h2.heading {
         font-size: 4.75rem;
         line-height: 5.625rem;
         margin-bottom: 2rem;
@@ -2702,6 +2933,48 @@ footer .f-additionals a:hover {
 
     .our-boards .boards-content {
         width: 540px;
+    }
+
+    .our-boards h2.heading {
+        margin-bottom: 6rem;
+    }
+
+    .our-boards h2.heading {
+        margin-bottom: 4.5rem;
+    }
+
+    .our-boards .boards-content h2.sub-heading {
+        font-size: 2.5rem;
+        line-height: 2;
+    }
+
+    .our-boards .boards-content p.designation {
+        font-size: 1.45rem;
+    }
+
+    .our-boards .boards-content p {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .our-boards .boards-content p {
+        font-size: 1.125rem;
+        line-height: 1.5;
+        font-weight: 300;
+        text-align: justify;
+    }
+
+    .our-boards .boards-content p.me-margin {
+        margin-bottom: 1.5rem;
+    }
+    
+    .our-boards .boards-content p:nth-of-type(1) {
+        line-height: 1.5;
+        margin-bottom: 1rem;
+    }
+    
+    .our-boards img {
+        margin-bottom: 2rem;
     }
     /* Our Story */
 
@@ -2810,6 +3083,44 @@ footer .f-additionals a:hover {
     /* Our Story */
     .our-boards .boards-content {
         width: 600px;
+    }
+
+    .our-boards h2.heading {
+        margin-bottom: 4.5rem;
+    }
+
+    .our-boards .boards-content h2.sub-heading {
+        font-size: 3rem;
+        line-height: 2;
+    }
+
+    .our-boards .boards-content p.designation {
+        font-size: 1.5rem;
+    }
+
+    .our-boards .boards-content p {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .our-boards .boards-content p {
+        font-size: 1.125rem;
+        line-height: 1.5;
+        font-weight: 300;
+        text-align: justify;
+    }
+
+    .our-boards .boards-content p.me-margin {
+        margin-bottom: 1.5rem;
+    }
+    
+    .our-boards .boards-content p:nth-of-type(1) {
+        line-height: 1.5;
+        margin-bottom: 1rem;
+    }
+    
+    .our-boards img {
+        margin-bottom: 2rem;
     }
     /* Our Story */
 
