@@ -611,8 +611,8 @@ footer .f-additionals a:hover {
 
 /* Common Introduction 0 */
 .common-introduction-0 {
-    /* max-width: 1920px;
-    margin: 0 auto; */
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .common-introduction-0 .column-1,
@@ -3545,6 +3545,13 @@ footer .f-additionals a:hover {
         }
     }    
     /* Common Introduction 0 */
+
+
+    @media (min-width: 2000px) {
+        .common-introduction-0 .introduction-content-0 {
+            padding-left: 0%;
+        }
+    }
 /* resets */
 
 /* 
