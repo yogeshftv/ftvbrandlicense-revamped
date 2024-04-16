@@ -166,7 +166,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
         <!-- Brand Support -->
         <section class="brand-support">
-            <div class="container-fluid">
+            <div class="container-fluid px-0">
                 <div class="brand-support-content">
                     <h2 class="bl--font-typ-1">Brand Support</h2>
                     <p>FashionTV gives 360-degree support to all our license partners. We help in all aspects ranging from location, architecture, and staff recruitment to PR launch plans, social media marketing, auditing, cross-marketing and more.</p>
@@ -208,14 +208,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <section class="common-cta-1">
             <div class="container-fluid px-0">
                 <div class="row mx-0">
-                    <div class="col-12 col-md-7 col-lg-7 column-1">
+                    <div class="col-12 col-md-6 col-lg-7 column-1">
                         <div class="cta-content">
                             <h3>Empower Your Brand with</h3>
                             <h2 class="bl--font-typ-1">Licensing options today </h2>
                             <a href="#">Contact Us</a>
                         </div>
                     </div>
-                    <div class="col-12 col-md-5 col-lg-5 column-2">
+                    <div class="col-12 col-md-6 col-lg-5 column-2">
                         <img src="<?= base_url(); ?>assets/media/images/templates/home-cta-example-img.png" alt="" class="w-100">
                     </div>
                 </div>

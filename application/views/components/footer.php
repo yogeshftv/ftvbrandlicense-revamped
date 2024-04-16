@@ -345,6 +345,7 @@
                     spaceBetween: 30,
                 },
                 1100: {
+                    slidesPerView: 2,
                     spaceBetween: 0,
                 },
                 1200: {
