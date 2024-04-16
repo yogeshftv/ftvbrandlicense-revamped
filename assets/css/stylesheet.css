@@ -401,8 +401,11 @@ p {
     transform: scale(1.4);
 }
 
-.navbar .hm-menu i {
+.navbar .hm-menu svg {
     margin-inline-end: 0.75rem;
+    width: 30px;
+    height: 30px;
+    aspect-ratio: 1;
 } 
 
 .navbar .hm-menu {

@@ -15,7 +15,12 @@ $path = end($path);
         <nav class="navbar absolute-black--element-bg-clr">
             <div class="container-fluid">
                 <button class="btn hm-menu shadow-none p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                    <i class="bi bi-list"></i>Menu
+                    <svg width="36" height="24" viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 2H34" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                        <path d="M2 12H26" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                        <path d="M2 22H34" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                    </svg>    
+                    <span>Menu</span>
                 </button>
                 <a class="navbar-brand t-loader" href="<?php echo base_url(); ?>">
                     <img src="<?php echo base_url(); ?>assets/media/icons/nav-logo.png" alt="ftv-brand-license-logo">
