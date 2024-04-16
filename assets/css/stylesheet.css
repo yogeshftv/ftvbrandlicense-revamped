@@ -472,6 +472,24 @@ button .bi.bi-list {
 .navbar-nav .nav-link {
     color: var(--df-white);
 }
+
+.nav-item a.navigation {
+    font-size: 30px;
+    font-weight: 300 !important;
+    line-height: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-item a.clickables {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 48px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-item a.clickables.active {
+    border-bottom: 1px solid #ffffff;
+} 
 /* common navbar */
 
 /* common footer */
@@ -1118,7 +1136,10 @@ footer .f-additionals a:hover {
 
     .contact-us .myenquire-form {
         margin: 10%;
-        padding: 8% 6%;
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-top: 4%;
+        padding-bottom: 15%;
         margin-bottom: 0;
         background-color: var(--df-white);
         border-radius: 20px 20px 0px 0px;
@@ -3062,7 +3083,32 @@ footer .f-additionals a:hover {
     /* faqs */
 
     /* contact us */
+    .contact-us h1 {
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 90px;
+        margin-bottom: 3rem;
+    }
 
+    .contact-us {
+        background-position-y: center;
+        background-position-x: 85%;
+    }
+
+    .contact-us .form-control,
+    .contact-us .investment-capicity {
+        padding: 20px;
+    }
+
+    .contact-us .column-1 {
+        width: 70%;
+    }
+
+    .contact-us .myenquire-form {
+        padding-top: 6%;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
     /* contact us */
 
     /* blogs */
@@ -3280,7 +3326,22 @@ footer .f-additionals a:hover {
     /* faqs */
 
     /* contact us */
+    .contact-us h1 {
+        font-size: 65px;
+        font-weight: 400;
+        line-height: 90px;
+        margin-bottom: 3rem;
+    }
 
+    .contact-us {
+        background-position-y: center;
+        background-position-x: 85%;
+    }
+
+    .form-control,
+    .investment-capicity {
+        padding: 20px;
+    }
     /* contact us */
 
     /* blogs */

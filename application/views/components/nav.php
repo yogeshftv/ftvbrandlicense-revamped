@@ -36,44 +36,44 @@ $path = end($path);
                             <div class="col-12 col-md-4 column-1">
                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li class="nav-item">
-                                        <a class="nav-link active t-loader" aria-current="page" href="<?php echo base_url(); ?>" id="home">Home</a>
+                                        <a class="nav-link active t-loader navigation" aria-current="page" href="<?php echo base_url(); ?>" id="home">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link t-loader" href="<?php echo base_url(); ?>brand-license" id="brand-license">Brand License</a>
+                                        <a class="nav-link t-loader navigation" href="<?php echo base_url(); ?>brand-license" id="brand-license">Brand License</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link t-loader" href="<?php echo base_url(); ?>our-story" id="our-story">Our Story</a>
+                                        <a class="nav-link t-loader navigation" href="<?php echo base_url(); ?>our-story" id="our-story">Our Story</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link t-loader" href="<?php echo base_url(); ?>our-services" id="our-services">Our Services</a>
+                                        <a class="nav-link t-loader navigation" href="<?php echo base_url(); ?>our-services" id="our-services">Our Services</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link t-loader" href="<?php echo base_url(); ?>faqs" id="faqs">Faqs</a>
+                                        <a class="nav-link t-loader navigation" href="<?php echo base_url(); ?>faqs" id="faqs">Faqs</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link t-loader" href="<?php echo base_url(); ?>contact-us" id="contact-us">Contact Us</a>
+                                        <a class="nav-link t-loader navigation" href="<?php echo base_url(); ?>contact-us" id="contact-us">Contact Us</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link t-loader" href="<?php echo base_url(); ?>blogs" id="blogs">Blogs</a>
+                                        <a class="nav-link t-loader navigation" href="<?php echo base_url(); ?>blogs" id="blogs">Blogs</a>
                                     </li>
                                 </ul>
                             </div>
                             <div class="col-12 col-md-8 column-2">
                                 <ul class="navbar-nav flex-row justify-content-around me-auto mb-2 mb-lg-0">
                                     <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="<?php echo base_url(); ?>">Apparel</a>
+                                        <a class="nav-link active clickables" aria-current="page" href="#">Apparel</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="<?php echo base_url(); ?>brand-license">Beverages</a>
+                                        <a class="nav-link clickables" href="#">Beverages</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="<?php echo base_url(); ?>our-story">Personal Care</a>
+                                        <a class="nav-link clickables" href="#">Personal Care</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="<?php echo base_url(); ?>our-services">Accessories</a>
+                                        <a class="nav-link clickables" href="#">Accessories</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="<?php echo base_url(); ?>faqs">White Goods</a>
+                                        <a class="nav-link clickables" href="#">White Goods</a>
                                     </li>
                                 </ul>
                                 <div class="swiper navbarSwiper">
