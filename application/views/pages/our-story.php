@@ -22,51 +22,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
         <!-- Introduction -->
         <section class="common-introduction-1">
-            <div class="row mx-0">
-                <div class="col-md-4 d-none d-md-block column-1">
-                    <img src="<?php echo base_url(); ?>assets/media/images/templates/about-example-1.png" alt="example-image-8" class="img-1">
-                </div>
-                <div class="col-12 col-md-8 column-2">
-                    <div class="introduction-content">
-                        <div class="row mx-0">
-                            <div class="col-md-8 column-1">
-                                <h2 class="text-center d-none d-md-block bl--font-typ-1">About FashionTV</h2>
-                                <div class="container-fluid d-block d-md-none">
-                                    <h2 class="text-start">About FashionTV</h2>
-                                </div>
-                            </div>
-                            <div class="col-4 d-none d-md-block column-2"></div>
-                            <div class="col-4 d-md-block column-3"></div>
-                            <div class="col-md-8 column-4">
-                                <div class="container-fluid d-block d-md-none">
-                                    <p>Welcome to a whole different realm where fashion, glamour, and an opulent way of life embellish the world. FashionTV has nurtured fashion into a global phenomenon. A space that inspires and adorns fashion enthusiasts with the power of media. Moreover, to further the brand's purpose, FashionTV is now collaborating with aspiring entrepreneurs to launch multiple businesses in various fields by franchising, licensing, events, media, concepts and city partnership.</p>
-                                </div>
-                                <p class="d-none d-md-block">Welcome to a whole different realm where fashion, glamour, and an opulent way of life embellish the world. FashionTV has nurtured fashion into a global phenomenon. A space that inspires and adorns fashion enthusiasts with the power of media. Moreover, to further the brand's purpose, FashionTV is now collaborating with aspiring entrepreneurs to launch multiple businesses in various fields by franchising, licensing, events, media, concepts and city partnership.</p>
-                            </div>
-                            <div class="col-3 column-5 d-none d-md-block"></div>
-                            <div class="col-md-9 column-6">
-                                <img src="<?php echo base_url(); ?>assets/media/images/templates/about-example-1-1.png" alt="example image 9">
-                            </div>
-                            <div class="col-3 column-7 d-none d-md-block"></div>
-                            <div class="col-md-9 column-8">
-                                <a href="#">Learn More 
-                                    <span>
-                                        <svg width="821" height="13" viewBox="0 0 821 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M821 6.50001L811 0.726507L811 12.2735L821 6.50001ZM-8.74228e-08 7.49994L812 7.50001L812 5.50001L8.74228e-08 5.49994L-8.74228e-08 7.49994Z" fill="black"/>
-                                        </svg>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <h2 class="text-center">About FashionTV</h2>
         </section>
         <!-- Introduction -->
 
         <!-- Our Philosophy -->
         <section class="common-philosophy">
-            <div class="container-fluid">
+            <div class="container-fluid px-0">
                 <h2 class="text-center">Our Philosophy</h2>
                 <div class="row row-1 c-row">
                     <div class="col-12 col-md-3 column-1 d-flex align-items-center">
@@ -133,25 +95,25 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <section class="common-product-showcase">
                 <div class="swiper productShowcaseSwiper-2">
                     <div class="swiper-wrapper d-flex align-self-center">
-                        <div class="swiper-slide align-self-center">
+                        <div class="swiper-slide align-self-center res-swiper-slide">
                             <img src="<?php echo base_url(); ?>assets/media/images/home/example-1.png" alt="example-image-1">
                         </div>
-                        <div class="swiper-slide align-self-center">
+                        <div class="swiper-slide align-self-center res-swiper-slide">
                             <img src="<?php echo base_url(); ?>assets/media/images/home/example-2.png" alt="example-image-2">
                         </div>
-                        <div class="swiper-slide align-self-center">
+                        <div class="swiper-slide align-self-center res-swiper-slide">
                             <img src="<?php echo base_url(); ?>assets/media/images/home/example-3.png" alt="example-image-3">
                         </div>
-                        <div class="swiper-slide align-self-center">
+                        <div class="swiper-slide align-self-center res-swiper-slide">
                             <img src="<?php echo base_url(); ?>assets/media/images/home/example-4.png" alt="example-image-4">
                         </div>
-                        <div class="swiper-slide align-self-center">
+                        <div class="swiper-slide align-self-center res-swiper-slide">
                             <img src="<?php echo base_url(); ?>assets/media/images/home/example-5.png" alt="example-image-5">
                         </div>
-                        <div class="swiper-slide align-self-center">
+                        <div class="swiper-slide align-self-center res-swiper-slide">
                             <img src="<?php echo base_url(); ?>assets/media/images/home/example-6.png" alt="example-image-6">
                         </div>
-                        <div class="swiper-slide align-self-center">
+                        <div class="swiper-slide align-self-center res-swiper-slide">
                             <img src="<?php echo base_url(); ?>assets/media/images/home/example-7.png" alt="example-image-7">
                         </div>
                     </div>
@@ -213,10 +175,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <!-- CTA -->
         <section class="our-story-cta">
             <div class="row mx-0">
-                <div class="col-md-4 column-1">
+                <div class="col-12 col-md-4 column-1">
                     <img src="<?= base_url(); ?>assets/media/images/our-story/cta.png" alt="" class="w-100">
                 </div>
-                <div class="col-md-8 column-2">
+                <div class="col-12 col-md-8 column-2">
                     <div class="cta-content">
                         <h3>Empower Your Brand with</h3>
                         <h2 class="bl--font-typ-1">Licensing options today </h2>

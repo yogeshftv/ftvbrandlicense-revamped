@@ -115,7 +115,7 @@ $(document).ready(function () {
 			success: function (data) {
 				$("#stateSelect").empty();
 				$("#stateSelect").append(
-					'<option selected="true" value="">SELECT STATE *</option>'
+					'<option selected="true" value="">Select State *</option>'
 				);
 				data.forEach((element) => {
 					$("#stateSelect").append(

@@ -631,70 +631,11 @@ footer .f-additionals a:hover {
 /* Common Introduction 0 */
 
 /* Common Introduction 1 */
-.common-introduction-1 {
-    background-color: #F0F0F0;
-    margin-top: 0;
-}
-
-.common-introduction-1 .column-1,
-.common-introduction-1 .column-2 {
-    padding-left: 0rem;
-    padding-right: 0rem;
-}
-
-.common-introduction-1 .column-2 {
-    display: flex;
-    align-items: center;
-}
-
-.common-introduction-1 .column-1 img,
-.common-introduction-1 .column-6 img {
-    width: 100%;
-    height: 100%;
-}
-
-.common-introduction-1 .column-2 .column-1,
-.common-introduction-1 .column-2 .column-2, 
-.common-introduction-1 .column-2 .column-3, 
-.common-introduction-1 .column-2 .column-4, 
-.common-introduction-1 .column-2 .column-5, 
-.common-introduction-1 .column-2 .column-6,
-.common-introduction-1 .column-2 .column-7,
-.common-introduction-1 .column-2 .column-8 {
-    padding-left: 0rem;
-    padding-right: 0rem;
-}
-
 .common-introduction-1 h2 {
     font-weight: 400;
     line-height: 7.5rem;  
     font-size: 4.375rem;
     margin-bottom: 2.25rem;
-}
-
-.common-introduction-1 .column-2 .column-4 p {
-    width: 70ch;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 27px;
-    text-align: justify;
-    letter-spacing: -0.02em;
-    margin-bottom: 6rem;
-    font-family: "Poppins", sans-serif;
-}
-
-.common-introduction-1 a {
-    font-weight: 400;
-    display: block;
-    font-size: 1.25rem;
-    line-height: 1.70875;
-    color: var(--df-black);
-    font-family: "Poppins", sans-serif;
-    padding-top: 5rem;
-}
-
-.common-introduction-1 a:hover {
-    color: var(--df-black);
 }
 /* Common Introduction 1 */
 
@@ -1164,7 +1105,96 @@ footer .f-additionals a:hover {
     /* faqs */
 
     /* contact us */
+    .contact-us {
+        background-image: url('../media/images/contact-us/contact-bg.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 
+    .contact-us .enquiry-form-sec {
+        margin: 0;
+    }
+
+    .contact-us .myenquire-form {
+        margin: 10%;
+        padding: 8% 6%;
+        margin-bottom: 0;
+        background-color: var(--df-white);
+        border-radius: 20px 20px 0px 0px;
+    } 
+
+    .contact-us h1 {
+        font-size: 80px;
+        font-weight: 400;
+        line-height: 120px;
+        margin-bottom: 2.5rem;
+    }
+
+    .form-control {
+        font-family: 'Poppins', sans-serif;
+        color: #6c757d;
+        border: 0;
+        border-bottom: 1px solid var(--df-black);
+        padding: 30px;
+    }
+
+    .form-control::placeholder {
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .investment-capicity {
+        color: #6c757d;
+        font-size: 1.125rem;
+        padding: 30px;
+        font-weight: 300;
+        font-family: 'Poppins', sans-serif;
+    }
+
+
+    #rangeSlider {
+        accent-color: var(--absolute-black);
+        outline: none;
+    }
+
+    .range-slider,
+    .range-slider .slider-container,
+    #rangeSlider {
+        width: 100%;
+    }
+
+    .contact-us input[type="text"]::placeholder,
+    .contact-us input[type="email"]::placeholder {
+        font-size: 1.125rem;
+        font-weight: 300;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #stateSelect,
+    #citySelect {
+        color: #6c757d !important;
+        font-size: 1.125rem !important;
+        font-weight: 300 !important;
+    }
+
+    .btn-submit {
+        color: #6c757d;
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32.81px;
+        background-color: var(--absolute-black);
+        opacity: 1;
+        padding: 20px 0;
+        width: 100%;
+    }
+
+    .error {
+        color: rgb(255, 75, 75);
+    }
     /* contact us */
 
     /* blogs */
@@ -1353,6 +1383,12 @@ footer .f-additionals a:hover {
     .our-boards .row-2 .column-1 {
         order: 2;
     }
+
+    .our-boards .boards-content p.designation {
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+    }
     /* Our Story */
 
     /* Our Services */
@@ -1410,7 +1446,11 @@ footer .f-additionals a:hover {
     /* Brand License */
     
     /* Our Story */
-    
+    .our-boards .boards-content p.designation {
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+    }
     /* Our Story */
     .statistics .stats-container {
         padding: 2rem 0;
@@ -1432,6 +1472,18 @@ footer .f-additionals a:hover {
         text-align: center;
         margin-bottom: 0 !important;
     }
+
+    .statistics .stats-container h3 {
+        font-size: 4rem;
+    }
+
+    .our-boards .boards-content p.designation {
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+
     /* Our Services */
 
     /* faqs */
@@ -1477,7 +1529,11 @@ footer .f-additionals a:hover {
     /* Brand License */
     
     /* Our Story */
-    
+    .our-boards .boards-content p.designation {
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+    }
     /* Our Story */
 
     /* Our Services */
@@ -1586,7 +1642,8 @@ footer .f-additionals a:hover {
     .common-philosophy h2,
     .statistics h2,
     .brand-support h2,
-    .our-boards h2.heading {
+    .our-boards h2.heading,
+    .common-introduction-1 h2 {
         font-size: 2.5rem;
         line-height: 3.375rem;
         margin-bottom: 1.125rem;
@@ -1717,6 +1774,49 @@ footer .f-additionals a:hover {
         font-size: 16px;
         line-height: 1.5;
     }
+
+    .our-story-cta svg {
+        display: none;
+    }
+
+    .our-story-cta .cta-content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        transform: translateY(0px);
+    }
+    
+    .our-story-cta h3 {
+        text-align: center;
+        font-size: 1rem;
+        line-height: 2rem;
+        margin-bottom: 0.125rem;
+    }
+    
+    .our-story-cta h2 {
+        text-align: center;
+        font-size: 2rem;
+        line-height: 3.125rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .our-story-cta a {
+        font-size: 1rem;
+        line-height: 3rem;
+        padding: 0.5rem 4.75rem;
+    }
+    
+    .our-story-cta .column-2 .cta-content {
+        transform: translateY(0%);
+    }
+
+    .our-story-cta .column-2 {
+        padding: 4rem 0;
+    }
+
+    .our-story-cta .column-1 {
+        order: 2;
+    }
     /* Our Story */
 
     /* Our Services */
@@ -1806,7 +1906,8 @@ footer .f-additionals a:hover {
     .common-philosophy h2,
     .statistics h2,
     .brand-support h2,
-    .our-boards h2.heading {
+    .our-boards h2.heading,
+    .common-introduction-1 h2 {
         font-size: 3rem;
         line-height: 3.875rem;
         margin-bottom: 1.5rem;
@@ -1921,6 +2022,49 @@ footer .f-additionals a:hover {
         font-size: 16px;
         line-height: 1.5;
     }
+
+    .our-story-cta svg {
+        display: none;
+    }
+
+    .our-story-cta .cta-content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        transform: translateY(0px);
+    }
+
+    .our-story-cta h3 {
+        text-align: center;
+        font-size: 1.75rem;
+        line-height: 2.125rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .our-story-cta h2 {
+        text-align: center;
+        font-size: 2.75rem;
+        line-height: 3.5rem;
+        margin-bottom: 3.5rem;
+    }
+
+    .our-story-cta a {
+        font-size: 1.25rem;
+        line-height: 3rem;
+        padding: 0.8rem 4.75rem;
+    }
+
+    .our-story-cta .column-2 .cta-content {
+        transform: translateY(0%);
+    }
+
+    .our-story-cta .column-2 {
+        padding: 4rem 0;
+    }
+
+    .our-story-cta .column-1 {
+        order: 2;
+    }
     /* Our Story */
 
     /* Our Services */
@@ -2005,7 +2149,8 @@ footer .f-additionals a:hover {
     .common-philosophy h2,
     .statistics h2,
     .brand-support h2,
-    .our-boards h2.heading {
+    .our-boards h2.heading,
+    .common-introduction-1 h2 {
         font-size: 3.75rem;
         line-height: 4.625rem;
         margin-bottom: 1.5rem;
@@ -2112,6 +2257,50 @@ footer .f-additionals a:hover {
         font-size: 16px;
         line-height: 1.5;
     }
+
+    .our-story-cta .cta-content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        transform: translateY(0px);
+    }
+
+    .our-story-cta svg {
+        display: none;
+    }
+
+    .our-story-cta h3 {
+        text-align: center;
+        font-size: 1.75rem;
+        line-height: 3rem;
+        margin-bottom: 1.25rem;
+    }
+    
+    .our-story-cta h2 {
+        text-align: center;
+        font-size: 3.75rem;
+        line-height: 4.625rem;
+        margin-bottom: 3.75rem;
+    }
+    
+    .our-story-cta a {
+        font-size: 1.125rem;
+        line-height: 3rem;
+        padding: 1rem 5.5rem;
+    }
+
+    .our-story-cta .column-2 .cta-content {
+        transform: translateY(0%);
+    }
+
+    .our-story-cta .column-2 {
+        padding: 4rem 0;
+    }
+
+    .our-story-cta .column-1 {
+        order: 2;
+    }
     /* Our Story */
 
     /* Our Services */
@@ -2210,7 +2399,8 @@ footer .f-additionals a:hover {
     .common-philosophy h2,
     .statistics h2,
     .brand-support h2,
-    .our-boards h2.heading {
+    .our-boards h2.heading,
+    .common-introduction-1 h2 {
         font-size: 4rem;
         line-height: 4.875rem;
         margin-bottom: 2rem;
@@ -2321,6 +2511,15 @@ footer .f-additionals a:hover {
     /* Brand License */
 
     /* Our-Story */
+    .statistics .stats-container h3 {
+        font-size: 2.75rem;
+    }
+    
+    .statistics .stats-container .stats-card p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
     .our-boards .boards-content {
         width: 325px;
     }
@@ -2357,6 +2556,31 @@ footer .f-additionals a:hover {
     
     .our-boards img {
         margin-bottom: 2rem;
+    }
+
+    .our-story-cta h3 {
+        font-size: 1.125rem;
+        line-height: 2.25rem;
+    }
+    
+    .our-story-cta h2 {
+        font-size: 3.5rem;
+        line-height: 3.75rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    .our-story-cta a {
+        font-size: 1.125rem;
+        padding: 1.125rem 4.5rem;
+    }
+
+    .our-story-cta .column-2 .cta-content {
+        transform: translateY(-20%);
+    }
+
+    .our-story-cta svg {
+        width: 100%;
+        height: 91px;
     }
     /* Our-Story */
 
@@ -2434,7 +2658,8 @@ footer .f-additionals a:hover {
     .common-philosophy h2,
     .statistics h2,
     .brand-support h2,    
-    .our-boards h2.heading {
+    .our-boards h2.heading,
+    .common-introduction-1 h2 {
         font-size: 3.25rem;
         line-height: 4.125rem;
         margin-bottom: 1.5rem;
@@ -2553,10 +2778,6 @@ footer .f-additionals a:hover {
     }
 
     .our-boards h2.heading {
-        margin-bottom: 3rem;
-    }
-
-    .our-boards h2.heading {
         margin-bottom: 4.5rem;
     }
 
@@ -2588,6 +2809,26 @@ footer .f-additionals a:hover {
     
     .our-boards img {
         margin-bottom: 2rem;
+    }
+
+    .our-story-cta h3 {
+        font-size: 1.45rem;
+        line-height: 2.70625rem;
+    }
+    
+    .our-story-cta h2 {
+        font-size: 3.29rem;
+        line-height: 3.675rem;
+        margin-bottom: 2.125rem;
+    }
+    
+    .our-story-cta a {
+        font-size: 1.125rem;
+        padding: 1.125rem 4.5rem;
+    }
+
+    .our-story-cta .column-2 .cta-content {
+        transform: translateY(-40%);
     }
     /* Our Story */
 
@@ -2657,7 +2898,8 @@ footer .f-additionals a:hover {
     .common-philosophy h2,
     .statistics h2,
     .brand-support h2,
-    .our-boards h2.heading {
+    .our-boards h2.heading,
+    .common-introduction-1 h2 {
         font-size: 4rem;
         line-height: 4.875rem;
         margin-bottom: 2rem;
@@ -2734,6 +2976,20 @@ footer .f-additionals a:hover {
     /* Brand License */
 
     /* Our Story */
+    .statistics .stats-container h3 {
+        font-size: 4rem;
+    }
+
+    .statistics .stats-container {
+        padding: 2rem 0;
+    }
+
+    .statistics .stats-container .stats-card p {
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+
     .our-boards .boards-content {
         width: 460px;
     }
@@ -2774,6 +3030,26 @@ footer .f-additionals a:hover {
     
     .our-boards img {
         margin-bottom: 2rem;
+    }
+
+    .our-story-cta h2 {
+        font-size: 3.45rem;
+        line-height: 4.125rem;
+        margin-bottom: 3.25rem;
+    }
+    
+    .our-story-cta h3 {
+        font-size: 1.5rem;
+        line-height: 2.95625rem;
+    }
+    
+    .our-story-cta a {
+        font-size: 1.25rem;
+        padding: 1.125rem 4.5rem;
+    }
+
+    .our-story-cta .column-2 .cta-content {
+        transform: translateY(-14%);
     }
     /* Our Story */
 
@@ -2849,7 +3125,8 @@ footer .f-additionals a:hover {
     .common-philosophy h2,
     .statistics h2,
     .brand-support h2,
-    .our-boards h2.heading {
+    .our-boards h2.heading,
+    .common-introduction-1 h2 {
         font-size: 4.75rem;
         line-height: 5.625rem;
         margin-bottom: 2rem;
@@ -2936,10 +3213,6 @@ footer .f-additionals a:hover {
     }
 
     .our-boards h2.heading {
-        margin-bottom: 6rem;
-    }
-
-    .our-boards h2.heading {
         margin-bottom: 4.5rem;
     }
 
@@ -2975,6 +3248,26 @@ footer .f-additionals a:hover {
     
     .our-boards img {
         margin-bottom: 2rem;
+    }
+
+    .our-story-cta h2 {
+        font-size: 4rem;
+        line-height: 6.375rem;
+        margin-bottom: 2.75rem;
+    }
+    
+    .our-story-cta h3 {
+        font-size: 1.75rem;
+        line-height: 3.20625rem;
+    }
+    
+    .our-story-cta a {
+        font-size: 1.25rem;
+        padding: 1.125rem 4.5rem;
+    }
+
+    .our-story-cta .column-2 .cta-content {
+        transform: translateY(-18%);
     }
     /* Our Story */
 
@@ -3121,6 +3414,29 @@ footer .f-additionals a:hover {
     
     .our-boards img {
         margin-bottom: 2rem;
+    }
+
+    .our-story-cta h2 {
+        font-size: 4.5rem;
+        line-height: 6.875rem;
+        font-weight: 400;
+        margin-bottom: 3.5  rem;
+    }
+    
+    .our-story-cta h3 {
+      font-family: "Poppins", sans-serif;
+      font-size: 2rem;
+      font-weight: 275;
+      line-height: 3.45625rem;
+      letter-spacing: 0.1em;
+    }
+    
+    .our-story-cta a {
+        padding: 1.25rem 4.6875rem;
+    }
+
+    .our-story-cta .column-2 .cta-content {
+        transform: translateY(-20%);
     }
     /* Our Story */
 

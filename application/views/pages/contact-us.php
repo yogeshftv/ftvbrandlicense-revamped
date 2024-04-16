@@ -6,97 +6,87 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
     <main class="contact-us">
         <!-- section 1 -->
-        <section class="section-1" data-aos="zoom-out">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="text-center padding-tb-lg bl-font light-salmon text-center mb-2 mb-md-5">
-                            <h1 class="spilit-word">Contact Us</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="enquiry-form-sec" id="enquiry-now" data-aos="fade-up">
-            <div class="container">
-                <div class="row align-items-center m-0 justify-content-center">
-                    <div class="col-xl-9 col-lg-9 col-md-10 col-sm-12 p-0" id="enquiry">
-                        <div class="myenquire-form">
-                            <form action="<?= base_url('pages/enquiry_validation') ?>" method="post" id="enquiryForm">
-                                <div class="row d-flex justify-content-between">
-                                    <div class="col-md-6 mb-4" data-aos="fade-up">
-                                        <input type="text" class="form-control rounded-0" name="name" id="" placeholder="FULL NAME *" autocomplete="off" value="<?= set_value('name') ?>" required>
-                                    </div>
-
-                                    <div class="col-md-6 mb-4" data-aos="fade-up">
-                                        <input type="email" class="form-control rounded-0" name="email" id="" placeholder="EMAIL ADDRESS *" value="<?= set_value('email') ?>" oninput="this.value = this.value.replace(/[^\w@.-]/g, '');" required autocomplete="off">
-
-                                    </div>
-
-                                    <div class="col-md-6 mb-4" data-aos="fade-up">
-                                        <input type="text" class="form-control rounded-0" name="mobile" id="number" placeholder="CONTACT NO *" required autocomplete="off" maxlength="10" minlength="10" min="0" oninput="this.value = this.value.replace(/[^0-9]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');">
-                                    </div>
-
-                                    <div class="col-md-6 mb-4" data-aos="fade-up">
-                                        <input type="text" class="form-control rounded-0" name="designation" id="" placeholder="DESIGNATION *" autocomplete="off" value="<?= set_value('designation') ?>" required>
-
-                                    </div>
+        <section class="enquiry-form-sec" id="enquiry-now">
+            <div class="row m-0">
+                <div class="col-xl-8 col-lg-9 col-md-10 col-sm-12 p-0" id="enquiry">
+                    <div class="myenquire-form">
+                        <h1>Contact Us</h1>
+                        <form action="<?= base_url('pages/enquiry_validation') ?>" method="post" id="enquiryForm">
+                            <div class="row d-flex justify-content-between">
+                                <div class="col-md-6 mb-4">
+                                    <input type="text" class="form-control rounded-0 shadow-none" name="name" id="" placeholder="Full Name *" autocomplete="off" value="<?= set_value('name') ?>" required>
                                 </div>
 
-                                <div class="row mb-2 d-flex justify-content-between">
-                                    <div class="col-md-6 mb-4" data-aos="fade-up">
-                                        <select class="form-control rounded-0" required autocomplete="off" name="state" id="stateSelect">
-                                            <option selected="true" value="">SELECT STATE *</option>
-                                        </select>
+                                <div class="col-md-6 mb-4">
+                                    <input type="email" class="form-control rounded-0 shadow-none" name="email" id="" placeholder="Email Address *" value="<?= set_value('email') ?>" oninput="this.value = this.value.replace(/[^\w@.-]/g, '');" required autocomplete="off">
 
-                                    </div>
-                                    <div class="col-md-6 mb-4" data-aos="fade-up">
-                                        <select class="form-control rounded-0" required autocomplete="off" name="city" id="citySelect">
-                                            <option selected="true">SELECT CITY *</option>
-                                        </select>
-
-                                    </div>
                                 </div>
 
-                                <div class="row mb-sm-3 mb-md-4">
-                                    <div class="col-md-12 mb-4 d-flex flex-column align-items-start" data-aos="fade-up">
-                                        <label for="" class="form-label text-uppercase mb-4 fw-light poppins--ff" style="font-size: 1.125rem; color:#ffffff;">Investment
-                                            Capacity</label>
-                                        <div class="range-slider d-flex align-items-center justify-content-center">
-                                            <span style="margin-inline-end: 1em; color: #ffffff; font-size: 1.125rem;">5 LPA</span>
-                                            <div class="slider-container d-flex align-items-center justify-content-center">
-                                                <input class="rounded-0" type="range" id="rangeSlider" name="investment" min="5" max="30" value="10">
-                                                <span id="sliderValue" style=" font-size: 1.125rem;">25 - Cr</span>
-                                            </div>
-                                            <span class="margin-20" style="margin-inline-start: 1em; color: #ffffff; font-size: 1.125rem;">30
-                                                LPA</span>
+                                <div class="col-md-6 mb-4">
+                                    <input type="text" class="form-control rounded-0 shadow-none" name="mobile" id="number" placeholder="Contact No *" required autocomplete="off" maxlength="10" minlength="10" min="0" oninput="this.value = this.value.replace(/[^0-9]/g, ''); this.value = this.value.replace(/(\..*)\./g, '$1');">
+                                </div>
+
+                                <div class="col-md-6 mb-4">
+                                    <input type="text" class="form-control rounded-0 shadow-none" name="designation" id="" placeholder="Designation *" autocomplete="off" value="<?= set_value('designation') ?>" required>
+
+                                </div>
+                            </div>
+
+                            <div class="row mb-2 d-flex justify-content-between">
+                                <div class="col-md-6 mb-4">
+                                    <select class="form-control rounded-0 shadow-none" required autocomplete="off" name="state" id="stateSelect">
+                                        <option selected="true" value="">Select State *</option>
+                                    </select>
+
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <select class="form-control rounded-0 shadow-none" required autocomplete="off" name="city" id="citySelect">
+                                        <option selected="true">Select City *</option>
+                                    </select>
+
+                                </div>
+                            </div>
+
+                            <div class="row mb-sm-3 mb-md-4">
+                                <div class="col-md-12 mb-4 d-flex flex-column align-items-start">
+                                    <label for="" class="form-label mb-4 fw-light poppins--ff poppins-font investment-capicity">Investment
+                                        Capacity</label>
+                                    <div class="range-slider d-flex align-items-center justify-content-center">
+                                        <!-- <span>5 LPA</span> -->
+                                        <div class="slider-container d-flex align-items-center justify-content-center">
+                                            <input class="rounded-0" type="range" id="rangeSlider" name="investment" min="5" max="30" value="10">
+                                            <!-- <span id="sliderValue" style=" font-size: 1.125rem;">25 - Cr</span> -->
                                         </div>
+                                        <!-- <span>30
+                                            LPA</span> -->
                                     </div>
                                 </div>
+                            </div>
 
-                                <div class="row mb-sm-3 mb-md-4">
-                                    <div class="col-md-12 mb-3 d-flex flex-column justify-content-center align-items-center" data-aos="fade-up">
-                                        <textarea class="form-control rounded-0" name="message" type="text" placeholder="TELL US MORE ABOUT YOUR ENQUIRY"></textarea>
-                                    </div>
+                            <div class="row mb-sm-3 mb-md-4">
+                                <div class="col-md-12 mb-3 d-flex flex-column justify-content-center align-items-center">
+                                    <textarea class="form-control rounded-0 shadow-none" name="message" type="text" placeholder="Message"></textarea>
                                 </div>
+                            </div>
 
-                                <div class="mb-4">
-                                    <div data-aos="fade-up" class="form-check form-check-custom d-flex align-items-center justify-content-start mb-5">
-                                        <input type="checkbox" class="form-check-input rounded-0" value="" name="terms_and_condition" id="flexCheckChecked" required>
-                                        <label class="form-check-label text-white" for="flexCheckChecked" style="color: #E5B4A8 !important; font-weight:500">
-                                            <span style="color: #ffffff; margin-left:10px; font-weight:400;">I accept the</span> Terms and Condition
-                                        </label>
-                                    </div>
-                                    <div class="d-flex flex-column align-items-center justify-content-center mb-5" id="recaptcha-container"></div>
+                            <div class="mb-4">
+                                <div class="form-check form-check-custom d-flex align-items-center justify-content-start mb-5">
+                                    <input type="checkbox" class="form-check-input rounded-0 mt-0 shadow-none" value="" name="terms_and_condition" id="flexCheckChecked" required>
+                                    <label class="form-check-label text-white ms-4 poppins-font fw-light shadow-none" for="flexCheckChecked" style="color: #6c757d !important; font-weight:500">
+                                        <span>I accept the</span> Terms and Condition
+                                    </label>
                                 </div>
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <button type="submit" value="Submit" class="btn btn-submit enquiry_submit" id="submitButton" name="enquiry_submit" data-aos="fade-up">
-                                        GET OTP
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
+                                <div class="d-flex flex-column align-items-center justify-content-center mb-5" id="recaptcha-container"></div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <button type="submit" value="Submit" class="btn btn-submit enquiry_submit" id="submitButton" name="enquiry_submit">
+                                    Submit
+                                </button>
+                                <!-- <button type="submit" value="Submit" class="btn btn-submit enquiry_submit" id="submitButton" name="enquiry_submit">
+                                    GET OTP
+                                </button> -->
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>

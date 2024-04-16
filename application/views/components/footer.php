@@ -307,11 +307,6 @@
                 disableOnInteraction: false,
             },
             loop: true,
-            // on: {
-            //     slideChange: function() {
-            //         updateSlideWidth();
-            //     }
-            // },
             breakpoints: {
                 200: {
                     slidesPerView: 1,
@@ -364,16 +359,18 @@
     //     let homeIntroSwiperSlide = document.querySelectorAll(".res-swiper-slide");
 
     //     let screenWidth = window.innerWidth;
-    //     let slideWidth = '320px';
+    //     let slideWidth = homeIntroSwiperSlide[0].style.width;
 
     //     if (screenWidth >= 1300 && screenWidth <= 1500) {
-    //         slideWidth = '312px';
+    //         slideWidth = '500px';
 
     //     } else if (screenWidth >= 1000 && screenWidth < 1300) {
     //         slideWidth = '300px'; 
     //     } else if (screenWidth >= 768 && screenWidth < 1000) {
     //         slideWidth = '295px'; 
-    //     } 
+    //     } else {
+    //         let slideWidth = homeIntroSwiperSlide[0].style.width;
+    //     }
 
     //     homeIntroSwiperSlide.forEach(function(slide) {
     //         slide.style.width = slideWidth;
@@ -394,7 +391,26 @@
                 disableOnInteraction: false,
             },
             loop: true,
-            speed: 5000
+            speed: 5000,
+            // on: {
+            //     slideChange: function() {
+            //         updateSlideWidth();
+            //     }
+            // },
+            breakpoints: {
+                200: {
+                    slidesPerView: 3,
+                },
+                1000: {
+                    slidesPerView: 3,
+                },
+                1200: {
+                    slidesPerView: 2.5,
+                },
+                1500: {
+                    slidesPerView: 4,
+                }
+            }
         });
     }
 
