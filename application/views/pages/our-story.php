@@ -127,7 +127,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <h2 class="text-center bl--font-typ-1 heading">Our Boards</h2>
             <div class="row mx-0 row-1">
                 <div class="col-12 col-md-6 px-0 column-1">
-                    <img src="<?php echo base_url(); ?>assets/media/images/our-story/michel-adam.png" alt="michel-adam" class="w-100 h-100">
+                    <img src="<?php echo base_url(); ?>assets/media/images/our-story/michel-adam.png" alt="michel-adam" class="w-100 h-100 michel-adam">
                 </div>
                 <div class="col-12 col-md-6 px-0 column-2">
                     <div class="boards-content">
@@ -166,7 +166,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                 </div>
                 <div class="col-12 col-md-6 px-0 column-2">
-                    <img src="<?php echo base_url(); ?>assets/media/images/our-story/kashiff-khan.png" alt="kashiff-khan" class="w-100 h-100">
+                    <img src="<?php echo base_url(); ?>assets/media/images/our-story/kashiff-khan.png" alt="kashiff-khan" class="w-100 h-100 kashiff-khan">
                 </div>
             </div>
         </section>

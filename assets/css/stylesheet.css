@@ -1056,6 +1056,11 @@ footer .f-additionals a:hover {
         flex-direction: column;
         justify-content: center;
     }
+
+    .our-boards .row-1 .column-2 img.michel-adam,
+    .our-boards .row-2 .column-1 img.kashiff-khan {
+        aspect-ratio: 1;
+    }
     
     .our-boards h2.heading {
         font-weight: 400;
