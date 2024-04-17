@@ -294,114 +294,6 @@
         });
     });
 
-    function visibleDifferentSwipers() {
-        const navbarClickables = document.querySelectorAll(".clickables");
-
-        navbarClickables.forEach(item => {
-            item.addEventListener("click", (e) => {
-                const targetId = e.target.getAttribute("id");
-                const swiperToShow = document.getElementById(`swiper-for--${targetId}`);
-
-                navbarClickables.forEach(link => {
-                    link.classList.remove("active-link");
-                });
-
-                e.target.classList.add("active-link");
-
-                const allSwipers = document.querySelectorAll(".swiper.navbarSwiper");
-                allSwipers.forEach(swiper => {
-                    swiper.classList.remove("show-swiper");
-                });
-
-                if (swiperToShow) {
-                    swiperToShow.classList.add("show-swiper");
-                }
-            });
-        });
-
-        const defaultSwiper = document.getElementById("swiper-for--apparel");
-        if (defaultSwiper) {
-            defaultSwiper.classList.add("show-swiper");
-        }
-        navbarClickables[0].classList.add("active-link");
-
-        // Navbar: Swiper
-        var swiper = new Swiper(".navbarSwiper", {
-            slidesPerView: 3,
-            spaceBetween: 30,
-            allowTouchMove: false,
-            autoplay: {
-                delay: 2500,
-                disableOnInteraction: false,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-    }
-    visibleDifferentSwipers();
-
-    function commonVisibleDifferentSwipers() {
-        const commonClickables = document.querySelectorAll(".common-clickables");
-
-        commonClickables.forEach(item => {
-            item.addEventListener("click", (e) => {
-                const targetId = e.target.getAttribute("id");
-                console.log(targetId);
-
-                const swiperToShow = document.getElementById(`swiper-for--${targetId}`);
-                console.log(swiperToShow);
-
-                commonClickables.forEach(link => {
-                    link.classList.remove("cmn-active-link");
-                });
-
-                e.target.classList.add("cmn-active-link");
-
-                const allSwipers = document.querySelectorAll(".swiper.commonSwiper");
-
-                allSwipers.forEach(swiper => {
-                    swiper.classList.remove("show-common-swiper");
-                });
-
-                if (swiperToShow) {
-                    swiperToShow.classList.add("show-common-swiper");
-                }
-            });
-        });
-
-        const defaultSwiper = document.getElementById("swiper-for--cmn-apparel");
-        if (defaultSwiper) {
-            defaultSwiper.classList.add("show-common-swiper");
-        }
-        commonClickables[0].classList.add("cmn-active-link");
-
-        var swiper = new Swiper(".commonSwiper", {
-            slidesPerView: 3,
-            spaceBetween: 30,
-            allowTouchMove: false,
-            autoplay: {
-                delay: 2500,
-                disableOnInteraction: false,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-            breakpoints: {
-                200: {
-                    slidesPerView: 2,
-                },
-                900: {
-                    slidesPerView: 2,
-
-                },
-            }
-        });
-    }
-    commonVisibleDifferentSwipers();
-
     // Home: Introduction Swiper
     // Brand License: Introduction Swiper
     // Our Services Introduction: Introduction Swiper
@@ -465,32 +357,6 @@
     introductionSectionSwiper(".blIntroductionSwiper");
     introductionSectionSwiper(".osIntroductionSwiper");
 
-    // function updateSlideWidth() {
-    //     let homeIntroSwiperSlide = document.querySelectorAll(".res-swiper-slide");
-
-    //     let screenWidth = window.innerWidth;
-    //     let slideWidth = homeIntroSwiperSlide[0].style.width;
-
-    //     if (screenWidth >= 1300 && screenWidth <= 1500) {
-    //         slideWidth = '500px';
-
-    //     } else if (screenWidth >= 1000 && screenWidth < 1300) {
-    //         slideWidth = '300px'; 
-    //     } else if (screenWidth >= 768 && screenWidth < 1000) {
-    //         slideWidth = '295px'; 
-    //     } else {
-    //         let slideWidth = homeIntroSwiperSlide[0].style.width;
-    //     }
-
-    //     homeIntroSwiperSlide.forEach(function(slide) {
-    //         slide.style.width = slideWidth;
-    //         console.log(slide);
-    //         console.log(slide.style.width);
-    //     });
-    // }
-
-    // Brand License : Product Showcase Swiper
-    // Our Story: Product Showcase Swiper
     function commonProductShowcase(element) {
         var swiper = new Swiper(element, {
             slidesPerView: 4,
@@ -608,4 +474,112 @@
         observer.observe(targetSection);
     }
     incrementalStatistics();
+
+    function visibleDifferentSwipers() {
+        const navbarClickables = document.querySelectorAll(".clickables");
+
+        navbarClickables.forEach(item => {
+            item.addEventListener("click", (e) => {
+                const targetId = e.target.getAttribute("id");
+                const swiperToShow = document.getElementById(`swiper-for--${targetId}`);
+
+                navbarClickables.forEach(link => {
+                    link.classList.remove("active-link");
+                });
+
+                e.target.classList.add("active-link");
+
+                const allSwipers = document.querySelectorAll(".swiper.navbarSwiper");
+                allSwipers.forEach(swiper => {
+                    swiper.classList.remove("show-swiper");
+                });
+
+                if (swiperToShow) {
+                    swiperToShow.classList.add("show-swiper");
+                }
+            });
+        });
+
+        const defaultSwiper = document.getElementById("swiper-for--apparel");
+        if (defaultSwiper) {
+            defaultSwiper.classList.add("show-swiper");
+        }
+        navbarClickables[0].classList.add("active-link");
+
+        // Navbar: Swiper
+        var swiper = new Swiper(".navbarSwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            allowTouchMove: false,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    }
+    visibleDifferentSwipers();
+
+    function commonVisibleDifferentSwipers() {
+        const commonClickables = document.querySelectorAll(".common-clickables");
+
+        commonClickables.forEach(item => {
+            item.addEventListener("click", (e) => {
+                const targetId = e.target.getAttribute("id");
+                console.log(targetId);
+
+                const swiperToShow = document.getElementById(`swiper-for--${targetId}`);
+                console.log(swiperToShow);
+
+                commonClickables.forEach(link => {
+                    link.classList.remove("cmn-active-link");
+                });
+
+                e.target.classList.add("cmn-active-link");
+
+                const allSwipers = document.querySelectorAll(".swiper.commonSwiper");
+
+                allSwipers.forEach(swiper => {
+                    swiper.classList.remove("show-common-swiper");
+                });
+
+                if (swiperToShow) {
+                    swiperToShow.classList.add("show-common-swiper");
+                }
+            });
+        });
+
+        const defaultSwiper = document.getElementById("swiper-for--cmn-apparel");
+        if (defaultSwiper) {
+            defaultSwiper.classList.add("show-common-swiper");
+        }
+        commonClickables[0].classList.add("cmn-active-link");
+
+        var swiper = new Swiper(".commonSwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            allowTouchMove: false,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                200: {
+                    slidesPerView: 2,
+                },
+                900: {
+                    slidesPerView: 2,
+
+                },
+            }
+        });
+    }
+    commonVisibleDifferentSwipers();
 </script>
