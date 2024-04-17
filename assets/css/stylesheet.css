@@ -501,8 +501,8 @@ button .bi.bi-list {
 .nav-item a.navigation {
     color: #ffffff;
     font-size: 30px;
-    font-weight: 300 !important;
-    line-height: 50px;
+    font-weight: 300;
+    padding-bottom: 0;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -540,6 +540,47 @@ button .bi.bi-list {
 
 .nav-link.active {
     border-bottom: 1px solid #ffffff;
+}
+
+nav #pos-here {
+    position: relative;
+}
+
+nav #pos-here .swiper-button-next, 
+nav #pos-here .swiper-rtl .swiper-button-prev {
+    right: 0%;
+    left: auto;
+}
+  
+nav #pos-here .swiper-button-next {
+    position: absolute;
+    background-color: transparent;
+    background-image: url('../media/icons/navbarSwiper-next.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60px;
+    width: 60px;
+}
+  
+nav #pos-here .swiper-button-prev, 
+nav #pos-here .swiper-rtl .swiper-button-next {
+    left: auto;
+    right: 100px;
+}
+  
+nav #pos-here .swiper-button-prev {
+    position: absolute;
+    background-image: url('../media/icons/navbarSwiper-prev.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    height: 60px;
+    width: 60px;
+}
+
+nav #pos-here .swiper-button-prev::after,
+nav #pos-here .swiper-button-next::after {
+    content: none;
 }
 /* common navbar */
 
@@ -1135,7 +1176,104 @@ footer .f-additionals a:hover {
     /* brand-license */
 
     /* our-services */
+    .commonSwiper {
+        display: none;
+    }
+    
+    .show-common-swiper {
+        display: block;
+        animation: fadeIn 1.5s ease forwards;
+    }
+    
+    .cmn-active-link {
+        border-bottom: 1px solid var(--absolute-black); 
+    }
+    
+    @keyframes fadeIn {
+        from {
+            opacity: 0; 
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    
+    .tri-pg-cmn-swpr .nav-link.navigation {
+        display: inline-block;
+    }
+    
+    .tri-pg-cmn-swpr .nav-link.active {
+        border-bottom: 1px solid #ffffff;
+    }
 
+    .tri-pg-cmn-swpr h2 {
+        font-weight: 400;
+        font-size: 3.915625rem;
+        line-height: 3.95625rem;
+    }
+
+    .tri-pg-cmn-swpr .nav-link {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2rem;
+        font-weight: 300;
+        line-height: 1;
+        color: var(--absolute-black);
+    }
+
+    .tri-pg-cmn-swpr .show-common-swiper h3 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.75rem;
+        font-weight: 300;
+        line-height: 2.625rem;
+        margin-top: 2rem;
+    }
+
+    .tri-pg-cmn-swpr .column-inner-2 .navbar-nav {
+        margin-bottom: 0 !important;
+    }
+
+    .tri-pg-cmn-swpr .inner-row {
+        margin-bottom: 4rem;
+    }
+
+    .tri-pg-cmn-swpr .row-1 {
+        position: relative;
+    }
+
+    .tri-pg-cmn-swpr .swiper-button-next, .swiper-rtl .swiper-button-prev {
+        right: 0%;
+        left: auto;
+    }
+      
+    .tri-pg-cmn-swpr .swiper-button-next {
+        position: absolute;
+        background-color: transparent;
+        background-image: url('../media/icons/next.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 60px;
+        width: 60px;
+    }
+      
+    .tri-pg-cmn-swpr .swiper-button-prev, .swiper-rtl .swiper-button-next {
+        left: auto;
+        right: 100px;
+    }
+      
+    .tri-pg-cmn-swpr .swiper-button-prev {
+        position: absolute;
+        background-image: url('../media/icons/prev.png');
+        background-repeat: no-repeat;
+        background-color: transparent;
+        background-size: contain;
+        height: 60px;
+        width: 60px;
+    }
+
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+        content: none;
+    }
     /* our-services */
 
     /* faqs */
@@ -1729,7 +1867,8 @@ footer .f-additionals a:hover {
     .statistics h2,
     .brand-support h2,
     .our-boards h2.heading,
-    .common-introduction-1 h2 {
+    .common-introduction-1 h2,
+    .for-faqs .cover h1 {
         font-size: 2.5rem;
         line-height: 3.375rem;
         margin-bottom: 1.125rem;
@@ -1908,7 +2047,18 @@ footer .f-additionals a:hover {
     /* Our Services */
 
     /* faqs */
+    .for-faqs .accordion-button {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
 
+    .for-faqs .accordion-body {
+        width: auto;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
     /* faqs */
 
     /* contact us */
@@ -1993,7 +2143,8 @@ footer .f-additionals a:hover {
     .statistics h2,
     .brand-support h2,
     .our-boards h2.heading,
-    .common-introduction-1 h2 {
+    .common-introduction-1 h2,
+    .for-faqs .cover h1 {
         font-size: 3rem;
         line-height: 3.875rem;
         margin-bottom: 1.5rem;
@@ -2044,6 +2195,47 @@ footer .f-additionals a:hover {
     .home-blogs .container-fluid > .row {
         gap: 3rem;
     } 
+
+    
+    .tri-pg-cmn-swpr .nav-link {
+        font-size: 1.125rem;
+    }
+    
+    .tri-pg-cmn-swpr .column-inner-1 {
+        margin-top: 1.75rem;
+        width: 80%;
+    }
+
+    .tri-pg-cmn-swpr .swiper-button-next {
+        height: 40px;
+        width: 40px;
+    }
+      
+    .tri-pg-cmn-swpr .swiper-button-prev {
+        height: 40px;
+        width: 40px;
+    }
+
+    .tri-pg-cmn-swpr .swiper-button-prev, .swiper-rtl .swiper-button-next {
+        right: 60px;
+    }
+
+    .tri-pg-cmn-swpr .show-common-swiper h3 {
+        font-size: 1.125rem;
+        line-height: 1.125rem;
+        margin-top: 1.125rem;
+    }
+
+    .tri-pg-cmn-swpr .inner-row {
+        margin-bottom: 2rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .tri-pg-cmn-swpr h2 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
     /* Home */
     
     /* Brand License */
@@ -2156,7 +2348,18 @@ footer .f-additionals a:hover {
     /* Our Services */
 
     /* faqs */
+    .for-faqs .accordion-button {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
 
+    .for-faqs .accordion-body {
+        width: auto;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
     /* faqs */
 
     /* contact us */
@@ -2236,7 +2439,8 @@ footer .f-additionals a:hover {
     .statistics h2,
     .brand-support h2,
     .our-boards h2.heading,
-    .common-introduction-1 h2 {
+    .common-introduction-1 h2,
+    .for-faqs .cover h1 {
         font-size: 3.75rem;
         line-height: 4.625rem;
         margin-bottom: 1.5rem;
@@ -2280,6 +2484,46 @@ footer .f-additionals a:hover {
     .home-blogs .container-fluid > .row {
         gap: 3rem;
     } 
+
+    .tri-pg-cmn-swpr .nav-link {
+        font-size: 1.125rem;
+    }
+    
+    .tri-pg-cmn-swpr .column-inner-1 {
+        margin-top: 1.75rem;
+        width: 80%;
+    }
+
+    .tri-pg-cmn-swpr .swiper-button-next {
+        height: 40px;
+        width: 40px;
+    }
+      
+    .tri-pg-cmn-swpr .swiper-button-prev {
+        height: 40px;
+        width: 40px;
+    }
+
+    .tri-pg-cmn-swpr .swiper-button-prev, .swiper-rtl .swiper-button-next {
+        right: 60px;
+    }
+
+    .tri-pg-cmn-swpr .show-common-swiper h3 {
+        font-size: 1.125rem;
+        line-height: 1.125rem;
+        margin-top: 1.125rem;
+    }
+
+    .tri-pg-cmn-swpr .inner-row {
+        margin-bottom: 2rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .tri-pg-cmn-swpr h2 {
+        font-size: 3.75rem;
+        line-height: 4rem;
+    }
     /* Home */
     
     /* Brand License */
@@ -2392,7 +2636,14 @@ footer .f-additionals a:hover {
     /* Our Services */
 
     /* faqs */
+    .for-faqs .accordion-button {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
 
+    .for-faqs .accordion-body {
+        width: auto;
+    }
     /* faqs */
 
     /* contact us */
@@ -2416,6 +2667,44 @@ footer .f-additionals a:hover {
     /* common navbar */
     .navbar-brand img {
         width: 75px;
+    }
+
+    .nav-item a.navigation {
+        font-size: 19px;
+    }
+
+    .nav-item a.clickables {
+        font-size: 17px;
+    }
+
+    .offcanvas .swiper-slide h3 {
+        margin-top: 1rem;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    nav .column-inner-1,
+    nav .column-inner-2 {
+        width: 100%;
+    }
+
+    nav .column-inner-2 > .navbar-nav {
+        margin-bottom: 0 !important;
+    }
+
+    nav #pos-here .swiper-button-next {
+        height: 40px;
+        width: 40px;
+    }
+    
+    nav #pos-here .swiper-button-prev {
+        height: 40px;
+        width: 40px;
+    }
+
+    nav #pos-here .swiper-button-prev, 
+    nav #pos-here .swiper-rtl .swiper-button-next {
+        right: 55px;
     }
     /* common navbar */
 
@@ -2486,7 +2775,8 @@ footer .f-additionals a:hover {
     .statistics h2,
     .brand-support h2,
     .our-boards h2.heading,
-    .common-introduction-1 h2 {
+    .common-introduction-1 h2,
+    .for-faqs .cover h1 {
         font-size: 4rem;
         line-height: 4.875rem;
         margin-bottom: 2rem;
@@ -2568,6 +2858,43 @@ footer .f-additionals a:hover {
         text-align: justify;
     }
     /* COMMON: Philosophy */
+
+    /* Home */
+    .tri-pg-cmn-swpr h2 {
+        font-size: 2.125rem;
+        line-height: 2.125rem;
+    }   
+
+    .tri-pg-cmn-swpr .nav-link {
+        font-size: 1rem;
+    }
+
+    .tri-pg-cmn-swpr .show-common-swiper h3 {
+        margin-top: 1rem;
+        line-height: 1.25rem;
+        font-size: 1rem;
+    }
+
+    .tri-pg-cmn-swpr .swiper-button-next {
+        height: 50px;
+        width: 50px;
+    }
+      
+    .tri-pg-cmn-swpr .swiper-button-prev {
+        height: 50px;
+        width: 50px;
+    }
+
+    .tri-pg-cmn-swpr .swiper-button-prev, .swiper-rtl .swiper-button-next {
+        left: auto;
+        right: 80px;
+    }
+
+    .column-inner-1 .navbar-nav {
+        gap: 2rem !important;
+        margin-bottom: 1rem !important;
+    }
+    /* Home */
 
     /* Brand License */
     .brand-support h2 {
@@ -2675,7 +3002,14 @@ footer .f-additionals a:hover {
     /* Our Services */
 
     /* faqs */
+    .for-faqs .accordion-button {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
 
+    .for-faqs .accordion-body {
+        width: auto;
+    }
     /* faqs */
 
     /* contact us */
@@ -2699,6 +3033,35 @@ footer .f-additionals a:hover {
     /* common navbar */
     .navbar-brand img {
         width: 75px;
+    }
+
+    .nav-item a.navigation {
+        font-size: 20px;
+    }
+
+    .nav-item a.clickables {
+        font-size: 18px;
+    }
+
+    .offcanvas .swiper-slide h3 {
+        margin-top: 1rem;
+        font-size: 1.125rem;
+        line-height: 1.5;
+    }
+
+    nav #pos-here .swiper-button-next {
+        height: 40px;
+        width: 40px;
+    }
+    
+    nav #pos-here .swiper-button-prev {
+        height: 40px;
+        width: 40px;
+    }
+
+    nav #pos-here .swiper-button-prev, 
+    nav #pos-here .swiper-rtl .swiper-button-next {
+        right: 60px;
     }
     /* common navbar */
 
@@ -2745,7 +3108,8 @@ footer .f-additionals a:hover {
     .statistics h2,
     .brand-support h2,    
     .our-boards h2.heading,
-    .common-introduction-1 h2 {
+    .common-introduction-1 h2,
+    .for-faqs .cover h1 {
         font-size: 3.25rem;
         line-height: 4.125rem;
         margin-bottom: 1.5rem;
@@ -2828,7 +3192,35 @@ footer .f-additionals a:hover {
     /* COMMON: Philosophy */
 
     /* Home */
+    .tri-pg-cmn-swpr h2 {
+        font-size: 2.75rem;
+        line-height: 2.75rem;
+    }   
 
+    .tri-pg-cmn-swpr .nav-link {
+        font-size: 1.25rem;
+    }
+
+    .tri-pg-cmn-swpr .show-common-swiper h3 {
+        margin-top: 1rem;
+        line-height: 1rem;
+        font-size: 1.125rem;
+    }
+
+    .tri-pg-cmn-swpr .swiper-button-next {
+        height: 50px;
+        width: 50px;
+    }
+      
+    .tri-pg-cmn-swpr .swiper-button-prev {
+        height: 50px;
+        width: 50px;
+    }
+
+    .tri-pg-cmn-swpr .swiper-button-prev, .swiper-rtl .swiper-button-next {
+        left: auto;
+        right: 80px;
+    }
     /* Home */
 
     /* Brand License */
@@ -2921,7 +3313,14 @@ footer .f-additionals a:hover {
     /* Our Services */
 
     /* faqs */
+    .for-faqs .accordion-button {
+        font-size: 1.25rem;
+        line-height: 1rem;
+    }
 
+    .for-faqs .accordion-body {
+        width: auto;
+    }
     /* faqs */
 
     /* contact us */
@@ -2939,7 +3338,34 @@ footer .f-additionals a:hover {
 
 @media (min-width: 1100px) and (max-width: 1299px) {
     /* common navbar */
+    .nav-item a.navigation {
+        font-size: 21px;
+    }
+
+    .nav-item a.clickables {
+        font-size: 19px;
+    }
+
+    .offcanvas .swiper-slide h3 {
+        margin-top: 1rem;
+        font-size: 1.25rem;
+        line-height: 2;
+    }
+
+    nav #pos-here .swiper-button-next {
+        height: 45px;
+        width: 45px;
+    }
     
+    nav #pos-here .swiper-button-prev {
+        height: 45px;
+        width: 45px;
+    }
+
+    nav #pos-here .swiper-button-prev, 
+    nav #pos-here .swiper-rtl .swiper-button-next {
+        right: 70px;
+    }
     /* common navbar */
 
     /* common footer */
@@ -2985,7 +3411,8 @@ footer .f-additionals a:hover {
     .statistics h2,
     .brand-support h2,
     .our-boards h2.heading,
-    .common-introduction-1 h2 {
+    .common-introduction-1 h2,
+    .for-faqs .cover h1 {
         font-size: 4rem;
         line-height: 4.875rem;
         margin-bottom: 2rem;
@@ -3031,7 +3458,29 @@ footer .f-additionals a:hover {
     /* COMMON: Philosophy */
 
     /* Home */
+    .tri-pg-cmn-swpr h2 {
+        font-size: 2.75rem;
+        line-height: 2.75rem;
+    }   
 
+    .tri-pg-cmn-swpr .nav-link {
+        font-size: 1.5rem;
+    }
+
+    .tri-pg-cmn-swpr .show-common-swiper h3 {
+        margin-top: 1.25rem;
+        font-size: 1.125rem;
+    }
+
+    .tri-pg-cmn-swpr .swiper-button-next {
+        height: 50px;
+        width: 50px;
+    }
+      
+    .tri-pg-cmn-swpr .swiper-button-prev {
+        height: 50px;
+        width: 50px;
+    }
     /* Home */
 
     /* Brand License */
@@ -3144,7 +3593,14 @@ footer .f-additionals a:hover {
     /* Our Services */
 
     /* faqs */
+    .for-faqs .accordion-button {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
 
+    .for-faqs .accordion-body {
+        width: 90ch;
+    }
     /* faqs */
 
     /* contact us */
@@ -3187,7 +3643,34 @@ footer .f-additionals a:hover {
 
 @media (min-width: 1300px) and (max-width: 1499px) {
     /* common navbar */
+    .nav-item a.navigation {
+        font-size: 22px;
+    }
+
+    .nav-item a.clickables {
+        font-size: 20px;
+    }
+
+    .offcanvas .swiper-slide h3 {
+        margin-top: 1rem;
+        font-size: 1.35rem;
+        line-height: 2;
+    }
+
+    nav #pos-here .swiper-button-next {
+        height: 50px;
+        width: 50px;
+    }
     
+    nav #pos-here .swiper-button-prev {
+        height: 50px;
+        width: 50px;
+    }
+
+    nav #pos-here .swiper-button-prev, 
+    nav #pos-here .swiper-rtl .swiper-button-next {
+        right: 80px;
+    }
     /* common navbar */
 
     /* common footer */
@@ -3237,7 +3720,8 @@ footer .f-additionals a:hover {
     .statistics h2,
     .brand-support h2,
     .our-boards h2.heading,
-    .common-introduction-1 h2 {
+    .common-introduction-1 h2,
+    .for-faqs .cover h1 {
         font-size: 4.75rem;
         line-height: 5.625rem;
         margin-bottom: 2rem;
@@ -3279,7 +3763,29 @@ footer .f-additionals a:hover {
     /* COMMON: Philosophy */
 
     /* home */
+    .tri-pg-cmn-swpr h2 {
+        font-size: 3.125rem;
+        line-height: 3.125rem;
+    }   
 
+    .tri-pg-cmn-swpr .nav-link {
+        font-size: 1.5rem;
+    }
+
+    .tri-pg-cmn-swpr .show-common-swiper h3 {
+        margin-top: 1.25rem;
+        font-size: 1.25rem;
+    }
+
+    .tri-pg-cmn-swpr .swiper-button-next {
+        height: 55px;
+        width: 55px;
+    }
+      
+    .tri-pg-cmn-swpr .swiper-button-prev {
+        height: 55px;
+        width: 55px;
+    }
     /* home */
 
     /* brand license */
@@ -3387,7 +3893,14 @@ footer .f-additionals a:hover {
     /* Our Services */
 
     /* faqs */
+    .for-faqs .accordion-button {
+        font-size: 1.65rem;
+        line-height: 2rem;
+    }
 
+    .for-faqs .accordion-body {
+        width: 110ch;
+    }
     /* faqs */
 
     /* contact us */
@@ -3420,7 +3933,19 @@ footer .f-additionals a:hover {
 
 @media (min-width: 1500px) and (max-width: 1700px) {
     /* common navbar */
+    .nav-item a.navigation {
+        font-size: 24px;
+    }
 
+    .nav-item a.clickables {
+        font-size: 20px;
+    }
+
+    .offcanvas .swiper-slide h3 {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        line-height: 2;
+    }
     /* common navbar */
 
     /* common footer */
@@ -3571,7 +4096,9 @@ footer .f-additionals a:hover {
     /* Our Services */
 
     /* faqs */
-
+    .for-faqs .accordion-body {
+        width: 124ch;
+    }
     /* faqs */
 
     /* contact us */

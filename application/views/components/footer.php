@@ -283,25 +283,15 @@
 
     // Active Page
     document.addEventListener("DOMContentLoaded", function() {
-      const currentLocation = window.location.href;
-      const navLinks = document.querySelectorAll(".nav-link.navigation");
+        const currentLocation = window.location.href;
+        const navLinks = document.querySelectorAll(".nav-link.navigation");
 
-      navLinks.forEach(link => {
-        if (link.href === currentLocation) {
-          link.classList.add("active");
-        }
-      });
-    });
-
-    // Navbar: Swiper
-    var swiper = new Swiper(".navbarSwiper", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        allowTouchMove: false,
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-        }
+        navLinks.forEach(link => {
+            link.classList.remove("active");
+            if (link.href === currentLocation) {
+                link.classList.add("active");
+            }
+        });
     });
 
     function visibleDifferentSwipers() {
@@ -334,8 +324,83 @@
             defaultSwiper.classList.add("show-swiper");
         }
         navbarClickables[0].classList.add("active-link");
+
+        // Navbar: Swiper
+        var swiper = new Swiper(".navbarSwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            allowTouchMove: false,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
     }
     visibleDifferentSwipers();
+
+    function commonVisibleDifferentSwipers() {
+        const commonClickables = document.querySelectorAll(".common-clickables");
+
+        commonClickables.forEach(item => {
+            item.addEventListener("click", (e) => {
+                const targetId = e.target.getAttribute("id");
+                console.log(targetId);
+
+                const swiperToShow = document.getElementById(`swiper-for--${targetId}`);
+                console.log(swiperToShow);
+
+                commonClickables.forEach(link => {
+                    link.classList.remove("cmn-active-link");
+                });
+
+                e.target.classList.add("cmn-active-link");
+
+                const allSwipers = document.querySelectorAll(".swiper.commonSwiper");
+
+                allSwipers.forEach(swiper => {
+                    swiper.classList.remove("show-common-swiper");
+                });
+
+                if (swiperToShow) {
+                    swiperToShow.classList.add("show-common-swiper");
+                }
+            });
+        });
+
+        const defaultSwiper = document.getElementById("swiper-for--cmn-apparel");
+        if (defaultSwiper) {
+            defaultSwiper.classList.add("show-common-swiper");
+        }
+        commonClickables[0].classList.add("cmn-active-link");
+
+        var swiper = new Swiper(".commonSwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            allowTouchMove: false,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                200: {
+                    slidesPerView: 2,
+                },
+                900: {
+                    slidesPerView: 2,
+
+                },
+            }
+        });
+    }
+    commonVisibleDifferentSwipers();
 
     // Home: Introduction Swiper
     // Brand License: Introduction Swiper

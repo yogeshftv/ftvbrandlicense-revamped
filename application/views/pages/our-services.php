@@ -55,6 +55,148 @@
         </section>
         <!-- Introduction -->
 
+        <!-- Our Licensing -->
+        <section class="our-licensing tri-pg-cmn-swpr">
+            <div class="container-fluid px-0">
+                <div class="row mx-0">
+                    <div class="col-12 col-md-3 column-1 px-0">
+                        <h2>Our<br>Licensing</h2>
+                    </div>
+                    <div class="col-12 col-md-9 column-2 px-0">
+                        <div class="row row-1 mx-0 inner-row">
+                            <div class="col-9 column-inner-1">
+                                <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto mb-3 mb-md-4">
+                                    <li class="nav-item">
+                                        <a class="nav-link common-clickables" aria-current="page" href="javascript:void(0);" id="cmn-apparel">Apparel</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-beverages">Beverages</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-personal-care">Personal Care</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-9 column-inner-2">
+                                <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto mb-3 mb-md-4">
+                                    <li class="nav-item">
+                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-accessories">Accessories</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-white-goods">White Goods</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+
+                        <div class="swiper commonSwiper" id="swiper-for--cmn-apparel">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-1.png" alt="example-image-1" class="w-100">
+                                    <h3>Men's Grooming</h3>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-2.png" alt="example-image-2" class="w-100">
+                                    <h3>Cosmetics/Makeup</h3>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-3.png" alt="example-image-3" class="w-100">
+                                    <h3>Haircare</h3>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-4.png" alt="example-image-4" class="w-100">
+                                    <h3>Nails</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper commonSwiper" id="swiper-for--cmn-beverages">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-4.png" alt="example-image-1" class="w-100">
+                                    <h3>Cosmetics/Makeup</h3>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-3.png" alt="example-image-1" class="w-100">
+                                    <h3>Men's Grooming</h3>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-2.png" alt="example-image-1" class="w-100">
+                                    <h3>Nails</h3>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-1.png" alt="example-image-1" class="w-100">
+                                    <h3>Haircare</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper commonSwiper" id="swiper-for--cmn-personal-care">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-1.png" alt="example-image-1" class="w-100">
+                                    <h3>Men's Grooming</h3>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-2.png" alt="example-image-2" class="w-100">
+                                    <h3>Cosmetics/Makeup</h3>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-3.png" alt="example-image-3" class="w-100">
+                                    <h3>Haircare</h3>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-4.png" alt="example-image-4" class="w-100">
+                                    <h3>Nails</h3>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="swiper commonSwiper" id="swiper-for--cmn-accessories">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-1.png" alt="example-image-4" class="w-100">
+                                    <h3>Cosmetics/Makeup</h3>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-1.png" alt="example-image-3" class="w-100">
+                                    <h3>Men's Grooming</h3>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-2.png" alt="example-image-1" class="w-100">
+                                    <h3>Nails</h3>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-1.png" alt="example-image-1" class="w-100">
+                                    <h3>Haircare</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper commonSwiper" id="swiper-for--cmn-white-goods">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-1.png" alt="example-image-1" class="w-100">
+                                    <h3>Men's Grooming</h3>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-2.png" alt="example-image-2" class="w-100">
+                                    <h3>Cosmetics/Makeup</h3>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-3.png" alt="example-image-3" class="w-100">
+                                    <h3>Haircare</h3>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-4.png" alt="example-image-4" class="w-100">
+                                    <h3>Nails</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Our Licensing -->
+
         <!-- common cta 1 -->
         <section class="common-cta-1">
             <div class="container-fluid px-0">
