@@ -72,14 +72,14 @@
                         </a>
                         <h5 class="mb-4">Quick Links</h5>
                         <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Michel Adam</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Kashiff Khan</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Fashion TV</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Licensing Opportunity</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Michel Adam</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Kashiff Khan</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Fashion TV</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Licensing Opportunity</a></li>
                         </ul>
                     </div>
-        
+
                     <div class="col-12 mb-4 col-md-3 px-0">
                         <h5 class="mb-4">Helpful Links</h5>
                         <ul class="nav flex-column">
@@ -88,7 +88,7 @@
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Browse our verticals</a></li>
                         </ul>
                     </div>
-        
+
                     <div class="col-12 col-md-5 offset-md-1 px-0">
                         <form>
                             <h5 class="border-0 mb-4">Subscribe to FTV License.</h5>
@@ -97,14 +97,14 @@
                                 <input id="newsletter1" type="text" class="form-control shadow-none" placeholder="Enter your E-mail address">
                                 <button class="btn inp-sbmt-btn p-0 shadow-none" type="button">
                                     <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <circle cx="30" cy="30" r="29.75" transform="rotate(-180 30 30)" stroke="white" stroke-width="0.5"/>
-                                        <path d="M22.2583 30.0001L38.7099 30.0001M38.7099 30.0001L34.8389 33.8711M38.7099 30.0001L34.8389 26.1292" stroke="white" stroke-width="0.5"/>
+                                        <circle cx="30" cy="30" r="29.75" transform="rotate(-180 30 30)" stroke="white" stroke-width="0.5" />
+                                        <path d="M22.2583 30.0001L38.7099 30.0001M38.7099 30.0001L34.8389 33.8711M38.7099 30.0001L34.8389 26.1292" stroke="white" stroke-width="0.5" />
                                     </svg>
                                 </button>
                             </div>
                         </form>
                     </div>
-        
+
                     <div class="d-flex align-items-center justify-content-between my-4 footer-info px-0">
                         <p class="copyright">Copyright ©2023 - 2024 FTV License. All Rights Reserved.</p>
                         <ul class="social-links-group">
@@ -116,7 +116,7 @@
                             <li class="social-link">
                                 <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
                                     <i class="fa-brands fa-instagram social-icon instagram"></i>
-                                </a> 
+                                </a>
                             </li>
                             <li class="social-link">
                                 <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
@@ -144,7 +144,7 @@
                             <li class="ms-3 ms-md-4">
                                 <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
                                     Privacy Policy
-                                </a> 
+                                </a>
                             </li>
                             <li class="ms-3 ms-md-4">
                                 <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
@@ -281,6 +281,18 @@
         });
     });
 
+    // Active Page
+    document.addEventListener("DOMContentLoaded", function() {
+      const currentLocation = window.location.href;
+      const navLinks = document.querySelectorAll(".nav-link.navigation");
+
+      navLinks.forEach(link => {
+        if (link.href === currentLocation) {
+          link.classList.add("active");
+        }
+      });
+    });
+
     // Navbar: Swiper
     var swiper = new Swiper(".navbarSwiper", {
         slidesPerView: 3,
@@ -291,6 +303,39 @@
             disableOnInteraction: false,
         }
     });
+
+    function visibleDifferentSwipers() {
+        const navbarClickables = document.querySelectorAll(".clickables");
+
+        navbarClickables.forEach(item => {
+            item.addEventListener("click", (e) => {
+                const targetId = e.target.getAttribute("id");
+                const swiperToShow = document.getElementById(`swiper-for--${targetId}`);
+
+                navbarClickables.forEach(link => {
+                    link.classList.remove("active-link");
+                });
+
+                e.target.classList.add("active-link");
+
+                const allSwipers = document.querySelectorAll(".swiper.navbarSwiper");
+                allSwipers.forEach(swiper => {
+                    swiper.classList.remove("show-swiper");
+                });
+
+                if (swiperToShow) {
+                    swiperToShow.classList.add("show-swiper");
+                }
+            });
+        });
+
+        const defaultSwiper = document.getElementById("swiper-for--apparel");
+        if (defaultSwiper) {
+            defaultSwiper.classList.add("show-swiper");
+        }
+        navbarClickables[0].classList.add("active-link");
+    }
+    visibleDifferentSwipers();
 
     // Home: Introduction Swiper
     // Brand License: Introduction Swiper

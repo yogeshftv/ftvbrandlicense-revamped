@@ -371,6 +371,11 @@ p {
 /* Utility Class */
 
 /* common navbar */
+header {
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
 .offcanvas {
     background-color: var(--df-black);
 }
@@ -457,27 +462,44 @@ button .bi.bi-list {
 
 .offcanvas .swiper {
     width: 100%;
-    height: 100%;
 }
 
 .offcanvas .swiper-slide {
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
 }
 
 .offcanvas .swiper-slide img {
-    display: block;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    display: block;
 }
 
-.navbar-nav .nav-link {
+.offcanvas .swiper-slide h3 {
+    width: 100%;
+    font-size: 1.75rem;
+    font-weight: 300;
+    color: #ffffff;
+    margin-top: 1.5rem;
+    text-align: left;
+    line-height: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.offcanvas-body .column-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nav-link.clickables {
     color: var(--df-white);
+    padding: 0;
 }
 
 .nav-item a.navigation {
+    color: #ffffff;
     font-size: 30px;
     font-weight: 300 !important;
     line-height: 50px;
@@ -486,19 +508,46 @@ button .bi.bi-list {
 
 .nav-item a.clickables {
     font-size: 24px;
-    font-weight: 400;
-    line-height: 48px;
+    font-weight: 300;
     font-family: 'Poppins', sans-serif;
 }
 
-.nav-item a.clickables.active {
+.navbarSwiper {
+    display: none;
+}
+
+.show-swiper {
+    display: block;
+    animation: fadeIn 1.5s ease forwards;
+}
+
+.active-link {
+    border-bottom: 1px solid #ffffff; 
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; 
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.nav-link.navigation {
+    display: inline-block;
+}
+
+.nav-link.active {
     border-bottom: 1px solid #ffffff;
-} 
+}
 /* common navbar */
 
 /* common footer */
 footer {
     background-color: var(--absolute-black);
+    margin: 0 auto;
+    max-width: 1920px;
 }
 
 footer .wrapper {
@@ -602,6 +651,8 @@ footer .f-additionals a:hover {
 /* Common Banner Video */
 .common-banner-video {
     margin: 0;
+    margin: 0 auto;
+    max-width: 1920px;
 }
 
 .common-banner-video-for-mobile {
@@ -612,7 +663,7 @@ footer .f-additionals a:hover {
 /* Common Introduction 0 */
 .common-introduction-0 {
     max-width: 1920px;
-    margin: 0 auto;
+    margin: 8rem auto;
 }
 
 .common-introduction-0 .column-1,
@@ -735,6 +786,11 @@ footer .f-additionals a:hover {
 /* Common Philosophy */
 
 /* COMMON: CTA 1 */
+.common-cta-1 {
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
 .common-cta-1 .column-1,
 .common-cta-1 .column-2 {
     padding-left: 0rem;
@@ -3547,7 +3603,7 @@ footer .f-additionals a:hover {
     /* Common Introduction 0 */
 
 
-    @media (min-width: 2000px) {
+    @media (min-width: 1921px) {
         .common-introduction-0 .introduction-content-0 {
             padding-left: 0%;
         }
