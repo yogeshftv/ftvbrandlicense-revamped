@@ -215,6 +215,9 @@
 <script src="<?= base_url(); ?>assets/js/custom.js"></script>
 <script src="<?= base_url(); ?>assets/js/script.js"></script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="<?= base_url(); ?>assets/js/animate.js"></script>
+
 <script>
     let base_path = '<?php echo base_url() ?>';
     let isHomePage = false;
