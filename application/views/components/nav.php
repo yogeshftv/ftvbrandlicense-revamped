@@ -204,3 +204,6 @@ $path = end($path);
         <div id="loader" class="loader"></div>
         <div id="backdrop"></div>
     </div>
+
+    <script>
+    </script>

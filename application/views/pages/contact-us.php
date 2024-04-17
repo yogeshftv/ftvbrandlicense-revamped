@@ -10,7 +10,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="row m-0">
                 <div class="col-xl-8 col-lg-9 col-md-10 col-sm-12 p-0 column-1" id="enquiry">
                     <div class="myenquire-form">
-                        <h1>Contact Us</h1>
+                        <h1 class="bl--font-typ-1">Contact Us</h1>
                         <form action="<?= base_url('pages/enquiry_validation') ?>" method="post" id="enquiryForm">
                             <div class="row d-flex justify-content-between">
                                 <div class="col-md-6 mb-4">

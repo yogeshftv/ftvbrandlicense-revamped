@@ -24,7 +24,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="row mx-0">
                 <div class="col-12 col-md-6 column-1">
                     <div class="introduction-content-0">
-                        <h2>Introduction</h2>
+                        <h2 class="bl--font-typ-1">Introduction</h2>
                         <p>Step into a world where your brand's potential knows no bounds. At FTV, we're not just offering licenses; we're unleashing possibilities! Whether you're a budding entrepreneur or an established powerhouse, our platform is your ticket to new horizons, fresh collaborations, and boundless growth.</p>
                         <p>Explore, innovate, and ignite your brand's journey with us - because here, every partnership is a masterpiece in the making. Let's embark on this exhilarating adventure together! Overall, brand licensing serves as a powerful strategy for driving growth, extending brand reach, and capitalizing on the value of intellectual property assets.</p>
                     </div>
@@ -63,7 +63,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <!-- Deliverables -->
         <section class="common-deliverables">
             <div class="container-fluid px-0">
-                <h2 class="text-center">Deliverables</h2>
+                <h2 class="bl--font-typ-1 text-center">Deliverables</h2>
                 <div class="common-deliverables-row">
                     <div class="columns">
                         <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
@@ -117,7 +117,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="container-fluid px-0">
                 <div class="row mx-0">
                     <div class="col-12 col-md-3 column-1 px-0">
-                        <h2>Our<br>Licensing</h2>
+                        <h2 class="bl--font-typ-1">Our<br>Licensing</h2>
                     </div>
                     <div class="col-12 col-md-9 column-2 px-0">
                         <div class="row row-1 mx-0 inner-row">
@@ -317,7 +317,5 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <script>
         
     </script>
-
-
 
     <!-- REFERENCE FOR Home Page Cover Section : https://codepen.io/ecemgo/pen/eYboyMe -->

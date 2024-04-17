@@ -22,17 +22,17 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
         <!-- Introduction -->
         <section class="common-introduction-1">
-            <h2 class="text-center">About FashionTV</h2>
+            <h2 class="bl--font-typ-1 text-center">About FashionTV</h2>
         </section>
         <!-- Introduction -->
 
         <!-- Our Philosophy -->
         <section class="common-philosophy">
             <div class="container-fluid px-0">
-                <h2 class="text-center">Our Philosophy</h2>
+                <h2 class="bl--font-typ-1 text-center">Our Philosophy</h2>
                 <div class="row row-1 c-row">
                     <div class="col-12 col-md-3 column-1 d-flex align-items-center">
-                        <h3>Vision</h3>
+                        <h3 class="bl--font-typ-1">Vision</h3>
                     </div>
                     <div class="col-12 col-md-9 column-2 d-flex align-items-center">
                         <p>To seek ventures that auxiliary our love for fashion, and make his mark in India, one of the world's second-largest consumer markets.</p>
@@ -40,7 +40,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 </div>
                 <div class="row row-2 c-row">
                     <div class="col-12 col-md-3 column-1 d-flex align-items-center">
-                        <h3>Mission</h3>
+                        <h3 class="bl--font-typ-1">Mission</h3>
                     </div>
                     <div class="col-12 col-md-9 column-2 d-flex align-items-center">
                         <p>We look forward to making FashionTV a household name by providing the masses with nothing but the best in association with our partners.</p>    
@@ -48,7 +48,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 </div>
                 <div class="row row-3 c-row">
                     <div class="col-12 col-md-3 column-1 d-flex align-items-center">
-                        <h3>Aim</h3>    
+                        <h3 class="bl--font-typ-1">Aim</h3>    
                     </div>
                     <div class="col-12 col-md-9 column-2 d-flex align-items-center">
                         <p>We aim to become the leading brand in the Indian market not only in the fashion industry but in numerous business sectors recognised for its synergy, brilliance and excellence.</p>
@@ -131,7 +131,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 </div>
                 <div class="col-12 col-md-6 px-0 column-2">
                     <div class="boards-content">
-                        <h2 class="d-none d-md-block bl--font-typ-1 sub-heading">michel adam</h2>
+                        <h2 class="bl--font-typ-1 d-none d-md-block bl--font-typ-1 sub-heading">michel adam</h2>
                         <p class="d-none d-md-block poppins-font designation">Chairman & Founder of FashionTV</p>
                         <div class="container-fluid px-0 d-block d-md-none">
                             <h2 class="bl--font-typ-1 sub-heading">michel adam</h2>
@@ -150,7 +150,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="row mx-0 row-2">
                 <div class="col-12 col-md-6 px-0 column-1">
                     <div class="boards-content">
-                        <h2 class="d-none d-md-block bl--font-typ-1 sub-heading">kashiff khan</h2>
+                        <h2 class="bl--font-typ-1 d-none d-md-block bl--font-typ-1 sub-heading">kashiff khan</h2>
                         <p class="d-none d-md-block poppins-font designation">Managing Director of FashionTV</p>
                         <div class="container-fluid px-0 d-block d-md-none">
                             <h2 class="bl--font-typ-1 sub-heading">kashiff khan</h2>
