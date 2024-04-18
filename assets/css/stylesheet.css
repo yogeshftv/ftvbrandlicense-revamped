@@ -872,9 +872,6 @@ footer .f-additionals a:hover {
 }
 
 .common-cta-1 h2 {
-    font-size: 5.375rem;
-    line-height: 7.75rem;
-    font-weight: 400;
     margin-bottom: 3.5rem;
 }
   
@@ -1902,9 +1899,6 @@ footer .f-additionals a:hover {
     }
 
     .common-cta-1 h2 {
-        text-align: center;
-        font-size: 2rem;
-        line-height: 3.125rem;
         margin-bottom: 1.5rem;
     }
 
@@ -2233,9 +2227,6 @@ footer .f-additionals a:hover {
     }
 
     .common-cta-1 h2 {
-        text-align: center;
-        font-size: 2.75rem;
-        line-height: 3.5rem;
         margin-bottom: 3.5rem;
     }
 
@@ -2547,9 +2538,6 @@ footer .f-additionals a:hover {
     }
 
     .common-cta-1 h2 {
-        text-align: center;
-        font-size: 3.75rem;
-        line-height: 4.625rem;
         margin-bottom: 3.75rem;
     }
 
@@ -2903,8 +2891,6 @@ footer .f-additionals a:hover {
 
     /* COMMON: CTA 1 */
     .common-cta-1 h2 {
-        font-size: 3.5rem;
-        line-height: 3.75rem;
         margin-bottom: 2.5rem;
     }
 
@@ -3282,8 +3268,6 @@ footer .f-additionals a:hover {
 
     /* COMMON: CTA 1 */
     .common-cta-1 h2 {
-        font-size: 3.29rem;
-        line-height: 3.675rem;
         margin-bottom: 2.125rem;
     }
 
@@ -3652,8 +3636,6 @@ footer .f-additionals a:hover {
     }
     
     .common-cta-1 h2 {
-        font-size: 3.45rem;
-        line-height: 4.125rem;
         margin-bottom: 3.25rem;
     }
     
@@ -4015,8 +3997,6 @@ footer .f-additionals a:hover {
     }
 
     .common-cta-1 h2 {
-        font-size: 4rem;
-        line-height: 6.375rem;
         margin-bottom: 2.75rem;
     }
 
@@ -4313,12 +4293,6 @@ footer .f-additionals a:hover {
     /* common footer */
 
     /* COMMON: CTA 1 */
-    .common-cta-1 h2 {
-        font-size: 4.5rem;
-        line-height: 6.875rem;
-        font-weight: 400;
-    }
-
     .common-cta-1 a {
         padding: 1.25rem 4.6875rem;
     }

@@ -211,7 +211,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="col-12 col-md-6 col-lg-7 column-1">
                         <div class="cta-content">
                             <h3>Empower Your Brand with</h3>
-                            <h2 class="bl--font-typ-1">Licensing options today </h2>
+                            <h2 class="bl-heading">Licensing options today </h2>
                             <a href="#">Contact Us</a>
                         </div>
                     </div>
