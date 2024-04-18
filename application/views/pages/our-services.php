@@ -66,7 +66,50 @@
                     </div>
                     <div class="col-12 col-md-9 column-2 px-0">
                         <div class="row row-1 mx-0 inner-row">
+                            <!-- Content Same as Our Licensing: Desktop -->
                             <div class="col-12 column-inner-1">
+                                <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link common-clickables" aria-current="page" href="javascript:void(0);" id="cmn-apparel">Apparel</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-beverages">Beverages</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Content Same as Our Licensing: Phone -->
+                            <div class="col-12 ms-5 sm-column-inner-1-hidden px-0">
+                                <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link common-clickables" aria-current="page" href="javascript:void(0);" id="cmn-apparel">Apparel</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-beverages">Beverages</a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="col-12 ms-5 sm-column-inner-2-hidden px-0">
+                                <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-personal-care">Personal Care</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-white-goods">White Goods</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 ms-5 sm-column-inner-3-hidden px-0">
+                                <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-accessories">Accessories</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Content Same as Our Licensing: Tab -->
+                            <div class="col-12 ms-5 column-inner-1-hidden">
                                 <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto">
                                     <li class="nav-item">
                                         <a class="nav-link common-clickables" aria-current="page" href="javascript:void(0);" id="cmn-apparel">Apparel</a>
@@ -77,15 +120,9 @@
                                     <li class="nav-item">
                                         <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-personal-care">Personal Care</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-accessories">Accessories</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-white-goods">White Goods</a>
-                                    </li>
                                 </ul>
                             </div>
-                            <!-- <div class="col-9 column-inner-2">
+                            <div class="col-12 ms-5 column-inner-2-hidden">
                                 <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto mb-3 mb-md-4">
                                     <li class="nav-item">
                                         <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-accessories">Accessories</a>
@@ -94,7 +131,7 @@
                                         <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-white-goods">White Goods</a>
                                     </li>
                                 </ul>
-                            </div> -->
+                            </div>
                         </div>
 
                         <div class="swiper commonSwiper" id="swiper-for--cmn-apparel">
@@ -154,7 +191,7 @@
                                 <div class="swiper-slide">
                                     <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-4.png" alt="example-image-4" class="w-100">
                                     <h3>Nails</h3>
-                                </div> 
+                                </div>
                             </div>
                         </div>
                         <div class="swiper commonSwiper" id="swiper-for--cmn-accessories">

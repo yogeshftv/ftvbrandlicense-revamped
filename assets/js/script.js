@@ -266,7 +266,7 @@ function commonVisibleDifferentSwipers() {
             200: {
                 slidesPerView: 1,
             },
-            1000: {
+            767: {
                 slidesPerView: 2,
             },
             1300: {

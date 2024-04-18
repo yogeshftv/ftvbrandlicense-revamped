@@ -123,6 +123,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                     <div class="col-12 col-md-9 column-2 px-0">
                         <div class="row row-1 mx-0 inner-row">
+                            <!-- Content Same as Our Licensing: Desktop -->
                             <div class="col-12 column-inner-1">
                                 <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto">
                                     <li class="nav-item">
@@ -131,19 +132,41 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                     <li class="nav-item">
                                         <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-beverages">Beverages</a>
                                     </li>
+                                </ul>
+                            </div>
+
+                            <!-- Content Same as Our Licensing: Phone -->
+                            <div class="col-12 ms-5 sm-column-inner-1-hidden px-0">
+                                <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center">
                                     <li class="nav-item">
-                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-personal-care">Personal Care</a>
+                                        <a class="nav-link common-clickables" aria-current="page" href="javascript:void(0);" id="cmn-apparel">Apparel</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-accessories">Accessories</a>
+                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-beverages">Beverages</a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="col-12 ms-5 sm-column-inner-2-hidden px-0">
+                                <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-personal-care">Personal Care</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-white-goods">White Goods</a>
                                     </li>
                                 </ul>
                             </div>
+                            <div class="col-12 ms-5 sm-column-inner-3-hidden px-0">
+                                <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-accessories">Accessories</a>
+                                    </li>
+                                </ul>
+                            </div>
 
-                            <div class="col-10 ms-5 column-inner-1-hidden">
+                            <!-- Content Same as Our Licensing: Tab -->
+                            <div class="col-12 ms-5 column-inner-1-hidden">
                                 <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto">
                                     <li class="nav-item">
                                         <a class="nav-link common-clickables" aria-current="page" href="javascript:void(0);" id="cmn-apparel">Apparel</a>
@@ -156,7 +179,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-10 ms-5 column-inner-2-hidden">
+                            <div class="col-12 ms-5 column-inner-2-hidden">
                                 <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto mb-3 mb-md-4">
                                     <li class="nav-item">
                                         <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-accessories">Accessories</a>
