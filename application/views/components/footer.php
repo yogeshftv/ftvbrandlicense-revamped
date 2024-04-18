@@ -342,6 +342,17 @@
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
             },
+            breakpoints: {
+                200: {
+                    slidesPerView: 1,
+                },
+                1000: {
+                    slidesPerView: 2,
+                },
+                1300: {
+                    slidesPerView: 3,
+                },
+            }
         });
     }
     visibleDifferentSwipers();

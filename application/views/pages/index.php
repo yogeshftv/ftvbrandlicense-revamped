@@ -8,7 +8,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <!-- Banner Video -->
         <section class="common-banner-video">
             <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/templates/temp-banner-cover.png" class="w-100">
-                <source src="<?= base_url(); ?>assets/media/videos/bl-1-home.mp4" type="video/mp4" class="w-100">
+                <source src="<?= base_url(); ?>assets/media/videos/homepage-banner-video.mp4" type="video/mp4" class="w-100">
             </video>
         </section>
 
@@ -19,17 +19,17 @@ defined('BASEPATH') or exit('No direct script access allowed');
         </section>
         <!-- Banner Video -->
 
-        <!-- Introduction -->
+        <!-- Introduction: RT-C -->
         <section class="common-introduction-0">
             <div class="row mx-0">
-                <div class="col-12 col-md-6 column-1">
+                <div class="col-12 col-md-6 column-1 px-0">
                     <div class="introduction-content-0">
-                        <h2 class="bl--font-typ-1">Introduction</h2>
-                        <p>Step into a world where your brand's potential knows no bounds. At FTV, we're not just offering licenses; we're unleashing possibilities! Whether you're a budding entrepreneur or an established powerhouse, our platform is your ticket to new horizons, fresh collaborations, and boundless growth.</p>
-                        <p>Explore, innovate, and ignite your brand's journey with us - because here, every partnership is a masterpiece in the making. Let's embark on this exhilarating adventure together! Overall, brand licensing serves as a powerful strategy for driving growth, extending brand reach, and capitalizing on the value of intellectual property assets.</p>
+                        <h2 class="bl-heading">Introduction</h2>
+                        <p class="bl-paragraph">Step into a world where your brand's potential knows no bounds. At FTV, we're not just offering licenses; we're unleashing possibilities! Whether you're a budding entrepreneur or an established powerhouse, our platform is your ticket to new horizons, fresh collaborations, and boundless growth.</p>
+                        <p class="bl-paragraph">Explore, innovate, and ignite your brand's journey with us - because here, every partnership is a masterpiece in the making. Let's embark on this exhilarating adventure together! Overall, brand licensing serves as a powerful strategy for driving growth, extending brand reach, and capitalizing on the value of intellectual property assets.</p>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 column-2">
+                <div class="col-12 col-md-6 column-2 px-0">
                     <div class="swiper homeIntroductionSwiper">
                         <div class="swiper-wrapper d-flex align-self-center">
                             <div class="swiper-slide d-flex align-self-center res-swiper-slide">
@@ -63,39 +63,39 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <!-- Deliverables -->
         <section class="common-deliverables">
             <div class="container-fluid px-0">
-                <h2 class="bl--font-typ-1 text-center">Deliverables</h2>
+                <h2 class="bl-heading text-center">Deliverables</h2>
                 <div class="common-deliverables-row">
                     <div class="columns">
                         <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3>icon 1</h3>
+                        <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2">icon 1</h3>
                     </div>
                     <div class="columns">
                         <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3>icon 2</h3>
+                        <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2">icon 2</h3>
                     </div>
                     <div class="columns">
                         <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3>icon 3</h3>
+                        <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2">icon 3</h3>
                     </div>
                     <div class="columns">
                         <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3>icon 4</h3>
+                        <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2">icon 4</h3>
                     </div>
                     <div class="columns">
                         <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3>icon 5</h3>
+                        <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2">icon 5</h3>
                     </div>
                     <div class="columns">
                         <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3>icon 6</h3>
+                        <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2">icon 6</h3>
                     </div>
                     <div class="columns">
                         <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3>icon 7</h3>
+                        <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2">icon 7</h3>
                     </div>
                     <div class="columns">
                         <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3>icon 8</h3>
+                        <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2">icon 8</h3>
                     </div>
                 </div>
             </div>
@@ -116,13 +116,35 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <section class="our-licensing tri-pg-cmn-swpr">
             <div class="container-fluid px-0">
                 <div class="row mx-0">
-                    <div class="col-12 col-md-3 column-1 px-0">
-                        <h2 class="bl--font-typ-1">Our<br>Licensing</h2>
+                    <div class="col-12 col-md-3 column-1 px-0 pos-rel">
+                        <h2 class="bl-heading">Our<br>Licensing</h2>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
                     <div class="col-12 col-md-9 column-2 px-0">
                         <div class="row row-1 mx-0 inner-row">
-                            <div class="col-9 column-inner-1">
-                                <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto mb-3 mb-md-4">
+                            <div class="col-12 column-inner-1">
+                                <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link common-clickables" aria-current="page" href="javascript:void(0);" id="cmn-apparel">Apparel</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-beverages">Beverages</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-personal-care">Personal Care</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-accessories">Accessories</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-white-goods">White Goods</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col-10 ms-5 column-inner-1-hidden">
+                                <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto">
                                     <li class="nav-item">
                                         <a class="nav-link common-clickables" aria-current="page" href="javascript:void(0);" id="cmn-apparel">Apparel</a>
                                     </li>
@@ -134,7 +156,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-9 column-inner-2">
+                            <div class="col-10 ms-5 column-inner-2-hidden">
                                 <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto mb-3 mb-md-4">
                                     <li class="nav-item">
                                         <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-accessories">Accessories</a>
@@ -144,8 +166,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                     </li>
                                 </ul>
                             </div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
                         </div>
 
                         <div class="swiper commonSwiper" id="swiper-for--cmn-apparel">
@@ -300,7 +320,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="col-12 col-md-6 col-lg-7 column-1">
                         <div class="cta-content">
                             <h3>Empower Your Brand with</h3>
-                            <h2 class="bl--font-typ-1">Licensing options today </h2>
+                            <h2 class="bl-heading bl--font-typ-1">Licensing options today </h2>
                             <a href="#">Contact Us</a>
                         </div>
                     </div>

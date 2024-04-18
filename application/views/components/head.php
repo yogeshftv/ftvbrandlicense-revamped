@@ -40,4 +40,5 @@
 
     <!-- custom stylesheets -->
     <link rel="stylesheet" href="<?= base_url(); ?>assets/css/stylesheet.css">
+    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/typography.css">
 </head>

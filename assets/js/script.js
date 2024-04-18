@@ -173,11 +173,6 @@ let productShowcaseSwiper1 = new Swiper(".productShowcaseSwiper-1", {
     },
     loop: true,
     speed: 5000,
-    // on: {
-    //     slideChange: function() {
-    //         updateSlideWidth();
-    //     }
-    // },
     breakpoints: {
         200: {
             slidesPerView: 3,
@@ -204,11 +199,6 @@ let productShowcaseSwiper2 = new Swiper(".productShowcaseSwiper-2", {
     },
     loop: true,
     speed: 5000,
-    // on: {
-    //     slideChange: function() {
-    //         updateSlideWidth();
-    //     }
-    // },
     breakpoints: {
         200: {
             slidesPerView: 3,
@@ -260,7 +250,7 @@ function commonVisibleDifferentSwipers() {
     }
     commonClickables[0].classList.add("cmn-active-link");
 
-    var swiper = new Swiper(".commonSwiper", {
+    let swiper = new Swiper(".commonSwiper", {
         slidesPerView: 3,
         spaceBetween: 30,
         allowTouchMove: false,
@@ -274,14 +264,14 @@ function commonVisibleDifferentSwipers() {
         },
         breakpoints: {
             200: {
-                slidesPerView: 2,
-            },
-            900: {
-                slidesPerView: 2,
+                slidesPerView: 1,
             },
             1000: {
+                slidesPerView: 2,
+            },
+            1300: {
                 slidesPerView: 3,
-            }
+            },
         }
     });
 }

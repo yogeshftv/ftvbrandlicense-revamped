@@ -21,8 +21,39 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <!-- Banner Video -->
 
         <!-- Introduction -->
-        <section class="common-introduction-1">
-            <h2 class="bl--font-typ-1 text-center">About FashionTV</h2>
+        <section class="common-introduction-1 mt-0">
+            <div class="row mx-0">
+                <div class="col-12 col-md-4 px-0 column-1">
+                    <img src="<?= base_url(); ?>assets/media/images/templates/about-example-1.png" alt="About-Brand-License-Image" class="w-100 h-100">
+                </div>
+                <div class="col-12 col-md-8 px-0 column-2">
+                    <div class="row row-1 mx-0">
+                        <div class="col-12 col-md-7 px-0 column-1">
+                            <h2 class="bl--font-typ-1">About FashionTV</h2>
+                        </div>
+                        <div class="col-md-5 d-none d-md-block px-0 column-2"></div>
+                    </div>
+                    <div class="row row-2 mx-0">
+                        <div class="col-md-3 d-none d-md-block px-0 column-1"></div>
+                        <div class="col-12 col-md-9 px-0 column-2">
+                            <p>Welcome to a whole different realm where fashion, glamour, and an opulent way of life embellish the world. FashionTV has nurtured fashion into a global phenomenon. A space that inspires and adorns fashion enthusiasts with the power of media. Moreover, to further the brand's purpose, FashionTV is now collaborating with aspiring entrepreneurs to launch multiple businesses in various fields by franchising, licensing, events, media, concepts and city partnership.</p>
+                        </div>
+                    </div>
+                    <div class="row row-3 mx-0">
+                        <div class="col-md-2 d-none d-md-block px-0 column-1"></div>
+                        <div class="col-12 col-md-10 px-0 column-2">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/about-example-1-1.png" alt="About-Brand-License-Image" class="w-100" style="filter: grayscale(0.85);">
+                            <a href="#" class="d-block">Learn More 
+                                <span class="ms-2 ms-md-4">
+                                    <svg class="w-75" width="821" height="13" viewBox="0 0 821 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M821 6.50001L811 0.726507L811 12.2735L821 6.50001ZM-8.74228e-08 7.49994L812 7.50001L812 5.50001L8.74228e-08 5.49994L-8.74228e-08 7.49994Z" fill="black"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- Introduction -->
 

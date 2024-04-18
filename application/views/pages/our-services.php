@@ -19,9 +19,9 @@
             <div class="row mx-0">
                 <div class="col-12 col-md-6 column-1">
                     <div class="introduction-content-0">
-                        <h2 class="bl--font-typ-1">Introduction</h2>
-                        <p>Step into a world where your brand's potential knows no bounds. At FTV, we're not just offering licenses; we're unleashing possibilities! Whether you're a budding entrepreneur or an established powerhouse, our platform is your ticket to new horizons, fresh collaborations, and boundless growth.</p>
-                        <p>Explore, innovate, and ignite your brand's journey with us - because here, every partnership is a masterpiece in the making. Let's embark on this exhilarating adventure together! Overall, brand licensing serves as a powerful strategy for driving growth, extending brand reach, and capitalizing on the value of intellectual property assets.</p>
+                        <h2 class="bl-heading">Introduction</h2>
+                        <p class="bl-paragraph">Step into a world where your brand's potential knows no bounds. At FTV, we're not just offering licenses; we're unleashing possibilities! Whether you're a budding entrepreneur or an established powerhouse, our platform is your ticket to new horizons, fresh collaborations, and boundless growth.</p>
+                        <p class="bl-paragraph">Explore, innovate, and ignite your brand's journey with us - because here, every partnership is a masterpiece in the making. Let's embark on this exhilarating adventure together! Overall, brand licensing serves as a powerful strategy for driving growth, extending brand reach, and capitalizing on the value of intellectual property assets.</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 column-2">
@@ -59,13 +59,15 @@
         <section class="our-licensing tri-pg-cmn-swpr">
             <div class="container-fluid px-0">
                 <div class="row mx-0">
-                    <div class="col-12 col-md-3 column-1 px-0">
-                        <h2 class="bl--font-typ-1">Our<br>Licensing</h2>
+                    <div class="col-12 col-md-3 column-1 px-0 pos-rel">
+                        <h2 class="bl-heading">Our<br>Licensing</h2>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
                     <div class="col-12 col-md-9 column-2 px-0">
                         <div class="row row-1 mx-0 inner-row">
-                            <div class="col-9 column-inner-1">
-                                <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto mb-3 mb-md-4">
+                            <div class="col-12 column-inner-1">
+                                <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto">
                                     <li class="nav-item">
                                         <a class="nav-link common-clickables" aria-current="page" href="javascript:void(0);" id="cmn-apparel">Apparel</a>
                                     </li>
@@ -75,10 +77,6 @@
                                     <li class="nav-item">
                                         <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-personal-care">Personal Care</a>
                                     </li>
-                                </ul>
-                            </div>
-                            <div class="col-9 column-inner-2">
-                                <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto mb-3 mb-md-4">
                                     <li class="nav-item">
                                         <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-accessories">Accessories</a>
                                     </li>
@@ -87,8 +85,16 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
+                            <!-- <div class="col-9 column-inner-2">
+                                <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto mb-3 mb-md-4">
+                                    <li class="nav-item">
+                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-accessories">Accessories</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-white-goods">White Goods</a>
+                                    </li>
+                                </ul>
+                            </div> -->
                         </div>
 
                         <div class="swiper commonSwiper" id="swiper-for--cmn-apparel">

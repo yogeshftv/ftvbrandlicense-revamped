@@ -179,7 +179,7 @@ p {
 }
 
 .bl--font-typ-1 {
-	font-family: 'bl--font-typ-1', sans-serif;
+	font-family: 'bl--font-typ-1', sans-serif !important;
 }
 
 .poppins-font {
@@ -225,6 +225,10 @@ p {
     .justify-items-center {
         display: flex;
         justify-content: center;
+    }
+
+    .pos-rel {
+        position: relative;
     }
 
     /* whatsapp common icon */
@@ -727,12 +731,6 @@ footer .f-additionals a:hover {
     margin: 8rem auto;
 }
 
-.common-introduction-0 .column-1,
-.common-introduction-0 .column-2 {
-    padding-left: 0;
-    padding-right: 0;
-}
-
 .common-introduction-0 .column-1 {
     display: flex;
     align-items: center;
@@ -750,22 +748,12 @@ footer .f-additionals a:hover {
     padding: 0 10%;
 }
 
-.common-introduction-0 .introduction-content-0 h2 {
-    font-weight: 400;
-    font-size: 5.375rem;
-    line-height: 6.25rem;
-    margin-bottom: 2rem;
-}
-
-.common-introduction-0 .introduction-content-0 p {
-    font-size: 1.125rem;
-    font-weight: 300;
-    line-height: 1.5rem;
-    text-align: justify;
-}
-
 .common-introduction-0 .introduction-content-0 p:nth-of-type(1) {
     margin-bottom: 1.125rem;
+}
+
+.common-introduction-0 .introduction-content-0 h2 {
+    margin-bottom: 1.5rem;
 }
 /* Common Introduction 0 */
 
@@ -779,13 +767,6 @@ footer .f-additionals a:hover {
 /* Common Introduction 1 */
 
 /* Common Deliverables */
-.common-deliverables h2 {
-    font-weight: 400;
-    margin-bottom: 6.75rem;
-    font-size: 5.375rem;
-    line-height: 6.25rem;
-}
-
 .common-deliverables .common-deliverables-row {
     gap: 1rem;
     width: 100%;
@@ -799,16 +780,20 @@ footer .f-additionals a:hover {
     width: calc(12.5% - 1rem);
 }
 
+.common-deliverables h2 {
+    margin-bottom: 5rem;
+}
+
 .common-deliverables .columns img {
     width: 100%;
 }
-
-.common-deliverables h3 {
-    font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 2.29375rem;
-}
 /* Common Deliverables */
+
+/* Common: Our Licensing */
+.tri-pg-cmn-swpr h2 {
+    line-height: 1.125;
+}
+/* Common: Our Licensing */
 
 /* Common Philosophy */
 .common-philosophy .c-row {
@@ -825,8 +810,8 @@ footer .f-additionals a:hover {
 
 .common-philosophy h2 {
     font-weight: 400;
-    font-size: 5.375rem;
-    line-height: 6.25rem;
+    font-size: 4.375rem;
+    line-height: 7.5rem;
     margin-bottom: 4rem;
 }
 
@@ -1011,6 +996,56 @@ footer .f-additionals a:hover {
 
     .our-story .banner-video-for-mobile {
         display: none;
+    }
+
+    .our-story .common-introduction-1 {
+        background-color: #F0F0F0;
+    }
+
+    .our-story .common-introduction-1 .column-1,
+    .our-story .common-introduction-1 .column-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .our-story .common-introduction-1 .row-1 {
+        margin-bottom: 2rem;
+    }
+
+    .our-story .common-introduction-1 .row-1 .column-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .common-introduction-1 h2 {
+        margin-bottom: 0;
+    }
+
+    .our-story .common-introduction-1 .row-2 {
+        margin-bottom: 6rem;
+    }
+
+    .our-story .common-introduction-1 .row-2 p {
+        width: 70ch;
+        font-weight: 300;
+        text-align: justify;
+        font-size: 1.125rem;
+        line-height: 1.6875rem;
+        letter-spacing: -0.02em;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .our-story .common-introduction-1 .row-3 img {
+        margin-bottom: 4rem;
+    }
+
+    .our-story .common-introduction-1 a {
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: 1.70875rem;
+        font-family: 'Poppins', sans-serif;
     }
 
     .philosophy .row {
@@ -1231,15 +1266,9 @@ footer .f-additionals a:hover {
         border-bottom: 1px solid #ffffff;
     }
 
-    .tri-pg-cmn-swpr h2 {
-        font-weight: 400;
-        font-size: 3.915625rem;
-        line-height: 3.95625rem;
-    }
-
     .tri-pg-cmn-swpr .nav-link {
         font-family: 'Poppins', sans-serif;
-        font-size: 2rem;
+        font-size: 1.75rem;
         font-weight: 300;
         line-height: 1;
         color: var(--absolute-black);
@@ -1247,10 +1276,15 @@ footer .f-additionals a:hover {
 
     .tri-pg-cmn-swpr .show-common-swiper h3 {
         font-family: 'Poppins', sans-serif;
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         font-weight: 300;
         line-height: 2.625rem;
-        margin-top: 2rem;
+        margin-top: 1.5rem;
+    }
+
+    .tri-pg-cmn-swpr .column-2 .inner-row .column-inner-1-hidden,
+    .tri-pg-cmn-swpr .column-2 .inner-row .column-inner-2-hidden {
+    	display: none;
     }
 
     .tri-pg-cmn-swpr .column-inner-2 .navbar-nav {
@@ -1258,7 +1292,7 @@ footer .f-additionals a:hover {
     }
 
     .tri-pg-cmn-swpr .inner-row {
-        margin-bottom: 4rem;
+        margin-bottom: 3rem;
     }
 
     .tri-pg-cmn-swpr .row-1 {
@@ -1266,8 +1300,9 @@ footer .f-additionals a:hover {
     }
 
     .tri-pg-cmn-swpr .swiper-button-next, .swiper-rtl .swiper-button-prev {
-        right: 0%;
-        left: auto;
+        top: 55%;
+        right: auto;
+        left: 80px;
     }
       
     .tri-pg-cmn-swpr .swiper-button-next {
@@ -1281,8 +1316,9 @@ footer .f-additionals a:hover {
     }
       
     .tri-pg-cmn-swpr .swiper-button-prev, .swiper-rtl .swiper-button-next {
-        left: auto;
-        right: 100px;
+        top: 55%;
+        left: 0%;
+        right: auto;
     }
       
     .tri-pg-cmn-swpr .swiper-button-prev {
@@ -1577,7 +1613,9 @@ footer .f-additionals a:hover {
     /* COMMON: Introduction */
 
     /* Home */
-
+    .common-introduction-0 .introduction-content-0 h2.bl-heading {
+        margin-bottom: 0.125rem;
+    }
     /* Home */
 
     /* Brand License */
@@ -1687,7 +1725,9 @@ footer .f-additionals a:hover {
     /* Common Deliverables */
 
     /* Home */
-
+    .common-introduction-0 .introduction-content-0 h2 {
+        margin-bottom: 0.5rem;
+    }
     /* Home */
     
     /* Brand License */
@@ -1885,20 +1925,6 @@ footer .f-additionals a:hover {
     }
     /* COMMON: CTA 1 */
 
-    /* COMMON: Introduction 0 */
-    .common-introduction-0 .introduction-content-0 h2,
-    .common-deliverables h2,
-    .common-philosophy h2,
-    .statistics h2,
-    .brand-support h2,
-    .our-boards h2.heading,
-    .common-introduction-1 h2,
-    .for-faqs .cover h1 {
-        font-size: 2.5rem;
-        line-height: 3.375rem;
-        margin-bottom: 1.125rem;
-    }
-
     .common-introduction-0 .column-2 {
         margin-top: 1.5rem;
     }
@@ -1912,13 +1938,8 @@ footer .f-additionals a:hover {
     .common-deliverables .columns {
         width: calc(50%  - 1rem);
     }
-
     .common-deliverables h2 {
-        margin-bottom: 2.75rem;
-    }
-
-    .common-deliverables h3 {
-        font-size: 1.125rem;
+        margin-bottom: 1rem;
     }
     /* COMMON: Deliverables */
 
@@ -2161,38 +2182,18 @@ footer .f-additionals a:hover {
     
     /* common banner video */
 
-    /* COMMON: Introduction 0 */
-    .common-introduction-0 .introduction-content-0 h2,
-    .common-deliverables h2,
-    .common-philosophy h2,
-    .statistics h2,
-    .brand-support h2,
-    .our-boards h2.heading,
-    .common-introduction-1 h2,
-    .for-faqs .cover h1 {
-        font-size: 3rem;
-        line-height: 3.875rem;
-        margin-bottom: 1.5rem;
-    }
-
     .common-introduction-0 .column-2 {
         margin-top: 2rem;
     }
     /* COMMON: Introduction 0 */
 
     /* COMMON: Deliverables */
-    .common-deliverables h3 {
-        font-size: 1.125rem;
-    }
-
     .common-deliverables .columns {
         width: calc(50%  - 1rem);
     }
 
-    .common-deliverables h2,
-    .common-philosophy h2,
-    .statistics h2 {
-        margin-bottom: 4rem;
+    .common-deliverables h2 {
+        margin-bottom: 1.5rem;
     }
     /* COMMON: Deliverables */
 
@@ -2221,7 +2222,6 @@ footer .f-additionals a:hover {
         gap: 3rem;
     } 
 
-    
     .tri-pg-cmn-swpr .nav-link {
         font-size: 1.125rem;
     }
@@ -2255,11 +2255,6 @@ footer .f-additionals a:hover {
         margin-bottom: 2rem;
         display: flex;
         align-items: center;
-    }
-
-    .tri-pg-cmn-swpr h2 {
-        font-size: 3rem;
-        line-height: 3rem;
     }
     /* Home */
     
@@ -2457,31 +2452,14 @@ footer .f-additionals a:hover {
     
     /* common banner video */
 
-    /* COMMON: Introduction 0 */
-    .common-introduction-0 .introduction-content-0 h2,
-    .common-deliverables h2,
-    .common-philosophy h2,
-    .statistics h2,
-    .brand-support h2,
-    .our-boards h2.heading,
-    .common-introduction-1 h2,
-    .for-faqs .cover h1 {
-        font-size: 3.75rem;
-        line-height: 4.625rem;
-        margin-bottom: 1.5rem;
-    }
-
     .common-introduction-0 .column-2 {
         margin-top: 3.5rem;
     }
     /* COMMON: Introduction 0 */
 
     /* COMMON: Deliverables */
-    .common-deliverables h2,
-    .common-philosophy h2,
-    .statistics h2,
-    .brand-support h2 {
-        margin-bottom: 5rem;
+    .common-deliverables h2 {
+        margin-bottom: 2rem;
     }
     /* COMMON: Deliverables */
 
@@ -2543,11 +2521,6 @@ footer .f-additionals a:hover {
         margin-bottom: 2rem;
         display: flex;
         align-items: center;
-    }
-
-    .tri-pg-cmn-swpr h2 {
-        font-size: 3.75rem;
-        line-height: 4rem;
     }
     /* Home */
     
@@ -2792,21 +2765,6 @@ footer .f-additionals a:hover {
     /* common banner video */
     
     /* common banner video */
-
-    /* COMMON: Introduction 0 */
-    .common-introduction-0 .introduction-content-0 h2,
-    .common-deliverables h2,
-    .common-philosophy h2,
-    .statistics h2,
-    .brand-support h2,
-    .our-boards h2.heading,
-    .common-introduction-1 h2,
-    .for-faqs .cover h1 {
-        font-size: 4rem;
-        line-height: 4.875rem;
-        margin-bottom: 2rem;
-    }
-
     .common-introduction-0 .column-1,
     .common-introduction-0 .column-2 {
         width: 100%;
@@ -2845,22 +2803,11 @@ footer .f-additionals a:hover {
     .common-introduction-1 .column-2 .column-4 p {
         width: 48ch;
     }
-
-    .common-introduction-0 .introduction-content-0 p {
-        font-size: 1.125rem;
-        line-height: 1.5;
-    }
-
-    .common-introduction-0 .introduction-content-0 p:nth-of-type(1) {
-        margin-bottom: 2rem;
-    }
     /* COMMON: Introduction */
 
     /* COMMON: Deliverables */
-    .common-deliverables h2,
-    .common-philosophy h2,
-    .statistics h2 {
-        margin-bottom: 5rem;
+    .common-deliverables h2 {
+        margin-bottom: 2.5rem;
     }
     /* COMMON: Deliverables */
 
@@ -2885,11 +2832,6 @@ footer .f-additionals a:hover {
     /* COMMON: Philosophy */
 
     /* Home */
-    .tri-pg-cmn-swpr h2 {
-        font-size: 2.125rem;
-        line-height: 2.125rem;
-    }   
-
     .tri-pg-cmn-swpr .nav-link {
         font-size: 1rem;
     }
@@ -2949,6 +2891,61 @@ footer .f-additionals a:hover {
     /* Brand License */
 
     /* Our-Story */
+    .common-introduction-1 .column-2 .row-1 .column-1 {
+        width: 100%;
+    }
+
+    .common-introduction-1 .column-2 .row-1 .column-1 h2 {
+        padding-top: 1.75rem;
+        margin-bottom: 0;
+    }
+
+    .common-introduction-1 .column-2 .row-1 .column-2 {
+        width: 0%;
+    }
+
+    .our-story .common-introduction-1 .row-2 {
+        margin-bottom: 2.25rem;
+    }
+
+    .common-introduction-1 .column-2 .row-2 .column-1 {
+        width: 0%;
+    }
+
+    .common-introduction-1 .column-2 .row-2 .column-2 {
+        width: 100%;
+    }
+
+    .common-introduction-1 .column-2 .row-2 .column-2 p {
+        width: 42ch;
+        margin: 0 auto;
+        font-size: 1rem;
+        line-height: 1.35;
+    }
+
+    .common-introduction-1 .column-2 .row-3 .column-1 { 
+        width: 0%;
+    }
+
+    .common-introduction-1 .column-2 .row-3 .column-2 { 
+        width: 100%;
+    }
+
+    .our-story .common-introduction-1 .row-3 img {
+        margin-bottom: 2rem;
+    }
+
+    .our-story .common-introduction-1 a {
+        font-size: 1rem;
+        text-align: center;
+        line-height: 1.5;
+        padding-bottom: 2rem;
+    }
+
+    .our-story .common-introduction-1 a svg {
+        width: 50% !important;
+    }
+
     .statistics .stats-container h3 {
         font-size: 2.75rem;
     }
@@ -3125,21 +3122,6 @@ footer .f-additionals a:hover {
     /* common banner video */
     
     /* common banner video */
-
-    /* COMMON: Introduction 0 */
-    .common-introduction-0 .introduction-content-0 h2,
-    .common-deliverables h2,
-    .common-philosophy h2,
-    .statistics h2,
-    .brand-support h2,    
-    .our-boards h2.heading,
-    .common-introduction-1 h2,
-    .for-faqs .cover h1 {
-        font-size: 3.25rem;
-        line-height: 4.125rem;
-        margin-bottom: 1.5rem;
-    }
-
     .common-introduction-0 .introduction-content-0 {
         padding: 0px 12%;
     }
@@ -3151,11 +3133,6 @@ footer .f-additionals a:hover {
 
     .common-introduction-0 .swiper-slide-active {
         filter: blur(0px);
-    }
-
-    .common-introduction-0 .introduction-content-0 p {
-        font-size: 1.125rem;
-        line-height: 1.5;
     }
     /* COMMON: Introduction 0 */
 
@@ -3190,11 +3167,8 @@ footer .f-additionals a:hover {
     /* COMMON: Introduction 1 */
 
     /* COMMON: Deliverables */
-    .common-deliverables h2,
-    .common-philosophy h2,
-    .statistics h2,
-    .brand-support h2 {
-        margin-bottom: 4.75rem;
+    .common-deliverables h2 {
+        margin-bottom: 2.75rem;
     }
     /* COMMON: Deliverables */
 
@@ -3217,10 +3191,9 @@ footer .f-additionals a:hover {
     /* COMMON: Philosophy */
 
     /* Home */
-    .tri-pg-cmn-swpr h2 {
-        font-size: 2.75rem;
-        line-height: 2.75rem;
-    }   
+    .common-introduction-0 .introduction-content-0 h2 {
+        margin-bottom: 0.5rem;
+    } 
 
     .tri-pg-cmn-swpr .nav-link {
         font-size: 1.25rem;
@@ -3276,6 +3249,64 @@ footer .f-additionals a:hover {
     /* Brand License */
 
     /* Our Story */
+    .our-story .common-introduction-1 .row-1 {
+        margin-bottom: 1.5rem;
+    }
+    
+    .our-story .common-introduction-1 .row-1 .column-1 {
+        width: 100%;
+        padding-top: 1.25rem;
+    }
+
+    .our-story .common-introduction-1 .row-2 {
+        margin-bottom: 2rem;
+    }
+
+    .our-story .common-introduction-1 .row-1 .column-1 {
+        width: 100%;
+    }
+    
+    .common-introduction-1 h2 {
+        margin-bottom: 0;
+    }
+
+    .common-introduction-1 .column-2 .row-2 .column-1 {
+        width: 0%;
+    }
+
+    .our-story .common-introduction-1 .row-3 img {
+        margin-bottom: 1.75rem;
+    }
+
+    .our-story .common-introduction-1 a {
+        font-size: 1.125rem;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    .our-story .common-introduction-1 a svg {
+        width: 65% !important;
+    }
+
+    .common-introduction-1 .column-2 .column-2 {
+        padding-bottom: 1.5rem;
+    }
+
+    .our-story .common-introduction-1 .row-2 p {
+        margin: 0 auto;
+        width: 51ch;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .common-introduction-1 .column-2 .row-1 .column-2 {
+        display: none !important;
+    }
+
+    .common-introduction-1 .column-2 .column-2 {
+        width: 100%;
+    }
+
     .our-boards .boards-content {
         width: 380px;
     }
@@ -3430,19 +3461,6 @@ footer .f-additionals a:hover {
     /* common banner video */
 
     /* COMMON: Introduction 0 */
-    .common-introduction-0 .introduction-content-0 h2,
-    .common-deliverables h2,
-    .common-philosophy h2,
-    .statistics h2,
-    .brand-support h2,
-    .our-boards h2.heading,
-    .common-introduction-1 h2,
-    .for-faqs .cover h1 {
-        font-size: 4rem;
-        line-height: 4.875rem;
-        margin-bottom: 2rem;
-    }
-
     .common-introduction-0 .introduction-content-0 {
         padding: 0px 12%;
     }
@@ -3455,10 +3473,8 @@ footer .f-additionals a:hover {
     /* COMMON: Introduction 1 */
 
     /* COMMON: Deliverables */
-    .common-deliverables h2,
-    .common-philosophy h2,
-    .statistics h2 {
-        margin-bottom: 5rem;
+    .common-deliverables h2 {
+        margin-bottom: 3.75rem;
     }
     /* COMMON: Deliverables */
 
@@ -3483,10 +3499,9 @@ footer .f-additionals a:hover {
     /* COMMON: Philosophy */
 
     /* Home */
-    .tri-pg-cmn-swpr h2 {
-        font-size: 2.75rem;
-        line-height: 2.75rem;
-    }   
+    .common-introduction-0 .introduction-content-0 h2 {
+        margin-bottom: 0.75rem;
+    }
 
     .tri-pg-cmn-swpr .nav-link {
         font-size: 1.5rem;
@@ -3505,6 +3520,35 @@ footer .f-additionals a:hover {
     .tri-pg-cmn-swpr .swiper-button-prev {
         height: 50px;
         width: 50px;
+    }
+
+    .tri-pg-cmn-swpr .column-2 .inner-row .column-inner-1 {
+        display: none;
+    }
+
+    .tri-pg-cmn-swpr .column-2 .inner-row .column-inner-1-hidden,
+    .tri-pg-cmn-swpr .column-2 .inner-row .column-inner-2-hidden {
+    	display: block;
+    }
+
+    .tri-pg-cmn-swpr .column-2 .inner-row .column-inner-1-hidden {
+        margin-bottom: 1rem;
+    }
+
+    .swiper.commonSwiper {
+        margin-inline-start: 3rem;
+    }
+
+    .tri-pg-cmn-swpr .swiper-button-next, .swiper-rtl .swiper-button-prev {
+        top: 50%;
+        right: auto;
+        left: 80px;
+    }
+
+    .tri-pg-cmn-swpr .swiper-button-prev, .swiper-rtl .swiper-button-next {
+        top: 50%;
+        left: 0%;
+        right: auto;
     }
     /* Home */
 
@@ -3536,6 +3580,48 @@ footer .f-additionals a:hover {
     /* Brand License */
 
     /* Our Story */
+    .our-story .common-introduction-1 .row-1 .column-1 {
+        width: 90%;
+    }
+
+    .our-story .common-introduction-1 .row-1 .column-2 {
+        width: 10%;
+    }
+
+    .common-introduction-1 h2 {
+        margin-bottom: 0rem;
+    }
+
+    .our-story .common-introduction-1 .row-2 p {
+        width: 50ch;
+    }
+
+    .our-story .common-introduction-1 .row-2 {
+        margin-bottom: 3rem;
+    }
+
+    .our-story .common-introduction-1 .row-3 img {
+        margin-bottom: 2rem;
+    }
+
+    .our-story .common-introduction-1 .row-2 .column-1 {
+        width: 25%;
+    }
+
+    .our-story .common-introduction-1 .row-2 .column-2 {
+        width: 75%;
+    }
+
+    .our-story .common-introduction-1 a {
+        font-size: 1.125rem;
+        line-height: 1.5;
+    }
+
+    .our-story .common-introduction-1 .row-2 p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
     .statistics .stats-container h3 {
         font-size: 4rem;
     }
@@ -3739,18 +3825,7 @@ footer .f-additionals a:hover {
     /* common banner video */
 
     /* COMMON: Introduction 0 */
-    .common-introduction-0 .introduction-content-0 h2,
-    .common-deliverables h2,
-    .common-philosophy h2,
-    .statistics h2,
-    .brand-support h2,
-    .our-boards h2.heading,
-    .common-introduction-1 h2,
-    .for-faqs .cover h1 {
-        font-size: 4.75rem;
-        line-height: 5.625rem;
-        margin-bottom: 2rem;
-    }
+
     /* COMMON: Introduction 0 */
 
     /* COMMON: Introduction 1 */
@@ -3760,9 +3835,8 @@ footer .f-additionals a:hover {
     /* COMMON: Introduction 1 */
 
     /* COMMON: Deliverables */
-    .common-deliverables h2,
-    .statistics h2 {
-        margin-bottom: 5.5rem;
+    .common-deliverables h2 {
+        margin-bottom: 4.25rem;
     }
     /* COMMON: Deliverables */
 
@@ -3788,13 +3862,28 @@ footer .f-additionals a:hover {
     /* COMMON: Philosophy */
 
     /* home */
-    .tri-pg-cmn-swpr h2 {
-        font-size: 3.125rem;
-        line-height: 3.125rem;
-    }   
+    .common-introduction-0 .introduction-content-0 h2 {
+        margin-bottom: 1rem;
+    }
 
     .tri-pg-cmn-swpr .nav-link {
-        font-size: 1.5rem;
+        font-size: 1.46rem;
+    }
+
+    .tri-pg-cmn-swpr .swiper-button-next, .swiper-rtl .swiper-button-prev {
+        top: 65%;
+        right: auto;
+        left: 80px;
+    }
+
+    .tri-pg-cmn-swpr .swiper-button-prev, .swiper-rtl .swiper-button-next {
+        top: 65%;
+        left: 0%;
+        right: auto;
+    }
+
+    .tri-pg-cmn-swpr .inner-row {
+        margin-bottom: 2.75rem;
     }
 
     .tri-pg-cmn-swpr .show-common-swiper h3 {
@@ -3835,6 +3924,38 @@ footer .f-additionals a:hover {
     /* brand license */
 
     /* Our Story */
+    .our-story .common-introduction-1 .row-1 .column-1 {
+        width: 80%;
+    }
+
+    .our-story .common-introduction-1 .row-1 .column-2 {
+        width: 20%;
+    }
+
+    .our-story .common-introduction-1 .row-2 {
+        margin-bottom: 4rem;
+    }
+
+    .our-story .common-introduction-1 .row-3 img {
+        margin-bottom: 2.75rem;
+    }
+
+    .our-story .common-introduction-1 .row-2 p {
+        width: 52ch;
+    }
+
+    .our-story .common-introduction-1 .row-1 {
+        margin-bottom: 1rem;
+    }
+
+    .our-story .common-introduction-1 a {
+        font-size: 1.125rem;
+    }
+
+    .our-story .common-introduction-1 a span svg {
+        width: 70% !important;
+    }
+    
     .statistics .stats-container h3 {
         font-weight: 400;
         font-size: 4rem;
@@ -4007,6 +4128,12 @@ footer .f-additionals a:hover {
     }
     /* COMMON: Introduction */
 
+    /* COMMON: Deliverables */
+    .common-deliverables h2 {
+        margin-bottom: 4.5rem;
+    }
+    /* COMMON: Deliverables */
+
     /* COMMON: Philosophy */
     .common-philosophy h3 {
         font-size: 3.5rem;
@@ -4050,6 +4177,30 @@ footer .f-additionals a:hover {
     /* Brand License */ 
 
     /* Our Story */
+    .our-story .common-introduction-1 .row-1 .column-1 {
+        width: 80%;
+    }
+
+    .our-story .common-introduction-1 .row-1 .column-2 {
+        width: 20%;
+    }
+
+    .our-story .row-2 p {
+        width: 60ch;
+    }
+
+    .our-story .common-introduction-1 .row-2 {
+        margin-bottom: 5rem;
+    }
+
+    .our-story .common-introduction-1 .row-3 img {
+        margin-bottom: 3rem;
+    }
+
+    .our-story .common-introduction-1 .row-2 p {
+        width: 60ch;
+    }
+
     .our-boards .boards-content {
         width: 600px;
     }
@@ -4167,3 +4318,11 @@ footer .f-additionals a:hover {
 Design Reference : https://www.figma.com/file/MUIBDJ2NNXiGSj9p7yS2Y4/Karan---FTV-BL?type=design&node-id=129-19&mode=design&t=2LEyR4m8JKh26Rli-0
 
 */
+
+/* Typography */
+
+/* Typography */
+
+/* Responsive Typography */
+
+/* Responsive Typography */
