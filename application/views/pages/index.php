@@ -132,6 +132,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                     <li class="nav-item">
                                         <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-beverages">Beverages</a>
                                     </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-personal-care">Personal Care</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-accessories">Accessories</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-white-goods">White Goods</a>
+                                    </li>
                                 </ul>
                             </div>
 

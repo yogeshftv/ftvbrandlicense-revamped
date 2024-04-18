@@ -1543,7 +1543,9 @@ footer .f-additionals a:hover {
 /* Responsiveness */
 @media (max-width: 767px) { 
     /* common navbar */
-
+    .offcanvas-body .column-2 {
+        display: none;
+    }
     /* common navbar */
 
     /* common footer */
