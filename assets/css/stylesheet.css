@@ -728,7 +728,8 @@ footer .f-additionals a:hover {
 /* Common Introduction 0 */
 .common-introduction-0 {
     max-width: 1920px;
-    margin: 8rem auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .common-introduction-0 .column-1 {
@@ -907,12 +908,49 @@ footer .f-additionals a:hover {
 
 /*? pages */
     /* home */
-    .home-blogs .blog-card {
+    .home-section-breaker--for-desktop {
+        display: block;
+    }
+
+    .home-section-breaker--for-mobile {
+        display: none;
+    }
+
+    .common-blogs .blog-card {
         border: 1px solid var(--df-black);
     }
 
-    .home-blogs .blog-card .wrapper {
+    .common-blogs .blog-card .wrapper {
         padding: 2rem;
+    }
+
+    .common-blogs .blog-card .wrapper p {
+        color: #6E3035;
+        font-weight: 300;
+        margin-bottom: 1rem;
+    }
+
+    .common-blogs .blog-card .wrapper h3 {
+        color: #353535;
+        font-weight: 500;
+        font-size: 1.100rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .common-blogs .blog-card .wrapper a {
+        display: flex;
+        color: #6E3035;
+        font-weight: 300;
+        line-height: 1.5;
+        text-decoration: underline;
+    }
+
+    .common-blogs .blog-card .wrapper a span {
+        width: 300px;
+    }
+
+    .common-blogs .blog-card .wrapper a span svg {
+        width: 100%;
     }
     /* home */
 
@@ -1590,7 +1628,7 @@ footer .f-additionals a:hover {
 
     /* Common Deliverables */
     .common-deliverables .columns {
-        width: calc(25% - 1rem);
+        width: calc(15% - 1rem);
     }
 
     .common-deliverables h3 {
@@ -1617,6 +1655,14 @@ footer .f-additionals a:hover {
     /* Home */
     .common-introduction-0 .introduction-content-0 h2.bl-heading {
         margin-bottom: 0.125rem;
+    }
+
+    .home-section-breaker--for-desktop {
+        display: none;
+    }
+
+    .home-section-breaker--for-mobile {
+        display: block;
     }
     /* Home */
 
@@ -1718,7 +1764,7 @@ footer .f-additionals a:hover {
 
     /* Common Deliverables */
     .common-deliverables .columns {
-        width: calc(25% - 1rem);
+        width: calc(15% - 1rem);
     }
 
     .common-deliverables h3 {
@@ -1892,14 +1938,16 @@ footer .f-additionals a:hover {
 
     /* COMMON: CTA 1 */
     .common-cta-1 h3 {
+        font-size: 1.25rem;
         text-align: center;
-        font-size: 1rem;
         line-height: 2rem;
-        margin-bottom: 0.125rem;
+        margin-bottom: 0.75rem;
     }
 
     .common-cta-1 h2 {
-        margin-bottom: 1.5rem;
+        text-align: center;
+        line-height: 2.75rem;
+        margin-bottom: 2.125rem;
     }
 
     .common-cta-1 .cta-content {
@@ -1935,7 +1983,7 @@ footer .f-additionals a:hover {
 
     /* COMMON: Deliverables */
     .common-deliverables .columns {
-        width: calc(50%  - 1rem);
+        width: calc(30%  - 1rem);
     }
     .common-deliverables h2 {
         margin-bottom: 1rem;
@@ -1971,12 +2019,50 @@ footer .f-additionals a:hover {
     /* common banner video */
 
     /* Home */
-    .home-blogs .container-fluid > .row {
-        gap: 3rem;
+    .common-blogs .container-fluid > .row {
+        gap: 1.75rem;
     } 
 
-    .home-blogs .blog-card .wrapper {
-        padding: 1.5rem;
+    .common-blogs h2.blogs-heading {
+        line-height: 0.25rem !important;
+    }
+
+    .common-blogs .view-more {
+        font-size: 0.9rem;
+    }
+
+    .common-blogs .blog-card .wrapper {
+        padding: 1.5rem 1.125rem;
+    }
+
+    .common-blogs .blog-card .wrapper p {
+        font-size: 1rem;
+        font-weight: 300;
+        margin-bottom: 0.75rem;
+    }
+
+    .common-blogs .blog-card .wrapper h3 {
+        font-weight: 500;
+        line-height: 1.25;
+        font-size: 1.100rem;
+        margin-bottom: 1rem;
+    }
+
+    .common-blogs .blog-card .wrapper a {
+        width: 100%;
+        font-weight: 300;
+        font-size: 0.9rem;
+        display: inline-block;
+        line-height: 2;
+        text-decoration: underline;
+    }
+
+    .common-blogs .blog-card .wrapper a span {
+        display: none;
+    }
+
+    .common-blogs .blog-card .wrapper a svg {
+        display: none;
     }
 
     .tri-pg-cmn-swpr .nav-link {
@@ -2199,7 +2285,7 @@ footer .f-additionals a:hover {
 
 @media (min-width: 300px) and (max-width: 499px) {
     section {
-        margin: 5.5rem 0;
+        margin: 5rem 0;
     }
 
     /* common navbar */
@@ -2221,13 +2307,15 @@ footer .f-additionals a:hover {
     /* COMMON: CTA 1 */
     .common-cta-1 h3 {
         text-align: center;
-        font-size: 1.75rem;
+        font-size: 1.125rem;
         line-height: 2.125rem;
-        margin-bottom: 1.5rem;
+        margin-bottom: 0.5rem;
     }
 
     .common-cta-1 h2 {
-        margin-bottom: 3.5rem;
+        text-align: center;
+        margin-bottom: 1.75rem;
+        line-height: 2.75rem !important;
     }
 
     .common-cta-1 .cta-content {
@@ -2240,7 +2328,7 @@ footer .f-additionals a:hover {
     .common-cta-1 a {
         font-size: 1.25rem;
         line-height: 3rem;
-        padding: 0.8rem 4.75rem;
+        padding: 0.75rem 4.75rem;
     }
 
     .common-cta-1 .column-2 {
@@ -2263,7 +2351,7 @@ footer .f-additionals a:hover {
 
     /* COMMON: Deliverables */
     .common-deliverables .columns {
-        width: calc(50%  - 1rem);
+        width: calc(30%  - 1rem);
     }
 
     .common-deliverables h2 {
@@ -2292,9 +2380,40 @@ footer .f-additionals a:hover {
     /* COMMON: Philosophy */
 
     /* Home */
-    .home-blogs .container-fluid > .row {
-        gap: 3rem;
+    .common-blogs .container-fluid > .row {
+        gap: 2rem;
     } 
+
+    .common-blogs h2.blogs-heading {
+        line-height: 2.125rem !important;
+    }
+
+    .common-blogs .blog-card .wrapper {
+        padding: 1.5rem 1.25rem;
+    }
+
+    .common-blogs .blog-card .wrapper p {
+        font-weight: 300;
+        margin-bottom: 1rem;
+    }
+
+    .common-blogs .blog-card .wrapper h3 {
+        font-weight: 500;
+        margin-bottom: 1.25rem;
+    }
+
+    .common-blogs .blog-card .wrapper a {
+        font-weight: 300;
+        text-decoration: underline;
+    }
+
+    .common-blogs .blog-card .wrapper a span {
+        display: none;
+    }
+
+    .common-blogs .blog-card .wrapper a svg {
+        display: none;
+    }
 
     .tri-pg-cmn-swpr .nav-link {
         font-size: 1.125rem;
@@ -2512,7 +2631,7 @@ footer .f-additionals a:hover {
 
 @media (min-width: 500px) and (max-width: 767px) {
     section {
-        margin: 6rem 0;
+        margin: 5.5rem 0;
     }
 
     /* common navbar */
@@ -2526,19 +2645,16 @@ footer .f-additionals a:hover {
     /* common footer */
 
     /* COMMON: CTA 1 */
-    .common-cta-1 .column-2 {
-        margin-top: 2rem;
-    }
-
     .common-cta-1 h3 {
         text-align: center;
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         line-height: 3rem;
-        margin-bottom: 1.25rem;
+        margin-bottom: 0rem;
     }
 
     .common-cta-1 h2 {
-        margin-bottom: 3.75rem;
+        margin-bottom: 1.75rem;
+        line-height: 4.625rem !important;
     }
 
     .common-cta-1 .cta-content {
@@ -2552,7 +2668,7 @@ footer .f-additionals a:hover {
     .common-cta-1 a {
         font-size: 1.125rem;
         line-height: 3rem;
-        padding: 1rem 5.5rem;
+        padding: 0.75rem 6.5rem;
     }
 
     .common-cta-1 img {
@@ -2596,9 +2712,42 @@ footer .f-additionals a:hover {
     /* COMMON: Philosophy */
 
     /* Home */
-    .home-blogs .container-fluid > .row {
-        gap: 3rem;
+    .common-blogs .container-fluid > .row {
+        gap: 2.5rem;
     } 
+
+    .common-blogs h2.blogs-heading {
+        line-height: 2.75rem !important;
+    }
+
+    .common-blogs .blog-card .wrapper {
+        padding: 1.75rem 1.5rem;
+    }
+
+    .common-blogs .blog-card .wrapper p {
+        font-weight: 300;
+        margin-bottom: 1rem;
+    }
+
+    .common-blogs .blog-card .wrapper h3 {
+        font-weight: 500;
+        font-size: 1.125rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .common-blogs .blog-card .wrapper a {
+        display: flex;
+        font-weight: 300;
+        line-height: 1.5;
+    }
+
+    .common-blogs .blog-card .wrapper a span {
+        width: 299px;
+    }
+
+    .common-blogs .blog-card .wrapper a span svg {
+        width: 100%;
+    }
 
     .tri-pg-cmn-swpr .nav-link {
         font-size: 1.325rem;
@@ -2891,6 +3040,7 @@ footer .f-additionals a:hover {
 
     /* COMMON: CTA 1 */
     .common-cta-1 h2 {
+        line-height: 3.75rem;
         margin-bottom: 2.5rem;
     }
 
@@ -2979,6 +3129,36 @@ footer .f-additionals a:hover {
     /* COMMON: Philosophy */
 
     /* Home */
+    .common-blogs .col-bm {
+        margin-bottom: 1.5rem !important;
+    }
+     
+    .common-blogs .blog-card .wrapper {
+        padding: 1.5rem 1.125rem;
+    }
+
+    .common-blogs .blog-card .wrapper p {
+        font-weight: 300;
+        margin-bottom: 1rem;
+    }
+
+    .common-blogs .blog-card .wrapper h3 {
+        font-weight: 500;
+        font-size: 1.100rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .common-blogs .blog-card .wrapper a {
+        display: flex;
+        font-weight: 300;
+        line-height: 1.5;
+        text-decoration: underline;
+    }
+
+    .common-blogs .blog-card .wrapper a span {
+        display: none;
+    }
+
     .tri-pg-cmn-swpr .inner-row {
         margin-bottom: 2.5rem;
     }
@@ -3268,6 +3448,7 @@ footer .f-additionals a:hover {
 
     /* COMMON: CTA 1 */
     .common-cta-1 h2 {
+        line-height: 3.85rem !important;
         margin-bottom: 2.125rem;
     }
 
@@ -3358,6 +3539,36 @@ footer .f-additionals a:hover {
     /* COMMON: Philosophy */
 
     /* Home */
+    .common-blogs .col-bm {
+        padding-bottom: 1.125rem;
+    }
+
+    .common-blogs .blog-card .wrapper {
+        padding: 1.5rem 1.125rem;
+    }
+
+    .common-blogs .blog-card .wrapper p {
+        font-weight: 300;
+        margin-bottom: 1rem;
+    }
+
+    .common-blogs .blog-card .wrapper h3 {
+        font-weight: 500;
+        font-size: 1.100rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .common-blogs .blog-card .wrapper a {
+        display: flex;
+        font-weight: 300;
+        line-height: 1.5;
+        text-decoration: underline;
+    }
+
+    .common-blogs .blog-card .wrapper a span {
+        display: none;
+    }
+
     .common-introduction-0 .introduction-content-0 h2 {
         margin-bottom: 0.5rem;
     } 
@@ -3636,11 +3847,12 @@ footer .f-additionals a:hover {
     }
     
     .common-cta-1 h2 {
-        margin-bottom: 3.25rem;
+        line-height: 4rem !important;
+        margin-bottom: 2.25rem;
     }
     
     .common-cta-1 .cta-content {
-        transform: translateY(50px);
+        transform: translateY(25px);
     }
     
     .common-cta-1 img {
@@ -3691,6 +3903,41 @@ footer .f-additionals a:hover {
     /* COMMON: Philosophy */
 
     /* Home */
+    .common-blogs .col-bm {
+        padding-bottom: 1.125rem;
+    }
+
+    .common-blogs .blog-card .wrapper {
+        padding: 1.5rem 1.125rem;
+    }
+
+    .common-blogs .blog-card .wrapper p {
+        font-weight: 300;
+        margin-bottom: 1rem;
+    }
+
+    .common-blogs .blog-card .wrapper h3 {
+        font-weight: 500;
+        font-size: 1.100rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .common-blogs .blog-card .wrapper a {
+        display: flex;
+        font-weight: 300;
+        line-height: 1.5;
+        text-decoration: underline;
+    }
+
+    .common-blogs .blog-card .wrapper a span {
+        display: none;
+        width: 299px;
+    }
+
+    .common-blogs .blog-card .wrapper a span svg {
+        width: 100%;
+    }
+
     .common-introduction-0 .introduction-content-0 h2 {
         margin-bottom: 0.75rem;
     }
@@ -3997,12 +4244,12 @@ footer .f-additionals a:hover {
     }
 
     .common-cta-1 h2 {
-        margin-bottom: 2.75rem;
+        margin-bottom: 2.125rem;
     }
 
     .common-cta-1 a {
         font-size: 1.25rem;
-        padding: 1.125rem 4.5rem;
+        padding: 1.5rem 5.5rem;
     }
 
     .common-cta-1 .cta-content {
@@ -4056,6 +4303,36 @@ footer .f-additionals a:hover {
     /* COMMON: Philosophy */
 
     /* home */
+    .common-blogs .blog-card .wrapper {
+        padding: 1.5rem 1.5rem;
+    }
+
+    .common-blogs .blog-card .wrapper p {
+        font-weight: 300;
+        margin-bottom: 1rem;
+    }
+
+    .common-blogs .blog-card .wrapper h3 {
+        font-weight: 500;
+        font-size: 1.100rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .common-blogs .blog-card .wrapper a {
+        display: flex;
+        font-weight: 300;
+        line-height: 1.5;
+        text-decoration: underline;
+    }
+
+    .common-blogs .blog-card .wrapper a span {
+        width: 200px;
+    }
+
+    .common-blogs .blog-card .wrapper a span svg {
+        width: 100%;
+    }
+
     .common-introduction-0 .introduction-content-0 h2 {
         margin-bottom: 1rem;
     }
@@ -4340,7 +4617,35 @@ footer .f-additionals a:hover {
     /* COMMON: Philosophy */
 
     /* Home */
-    
+    .common-blogs .blog-card .wrapper {
+        padding: 1.5rem 1.75rem;
+    }
+
+    .common-blogs .blog-card .wrapper p {
+        font-weight: 300;
+        margin-bottom: 1rem;
+    }
+
+    .common-blogs .blog-card .wrapper h3 {
+        font-weight: 500;
+        font-size: 1.100rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .common-blogs .blog-card .wrapper a {
+        display: flex;
+        font-weight: 300;
+        line-height: 1.5;
+        text-decoration: underline;
+    }
+
+    .common-blogs .blog-card .wrapper a span {
+        width: 250px;
+    }
+
+    .common-blogs .blog-card .wrapper a span svg {
+        width: 100%;
+    }
     /* Home */
 
     /* Brand License */

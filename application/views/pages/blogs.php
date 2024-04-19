@@ -6,158 +6,181 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
     <main class="blogs">
         <section class="cover">
-            <h1 class="bl--font-typ-1 text-center">Blogs</h1>
+            <h1 class="bl--font-typ-1 text-center">Our Blogs</h1>
         </section>    
 
-        <section class="all-blogs">
-            <div class="container-fluid">
-                <div class="row mx-0 mb-5">
-                    <div class="col-md-4 columns">
-                        <div class="blogs-wrapper">
-                            <img src="https://placehold.co/800x500" alt="" class="w-100">
-                            <div class="blogs-content-wrapper">
-                                <h3>MAY 31th, 2023 by Name Surname</h3>
-                                <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
-                                <a href="#">Read More
-                                    <span>
-                                        <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035"/>
-                                        </svg>
-                                    </span>
+        <section class="common-blogs">
+            <div class="container-fluid px-0">
+                <div class="row mx-0">
+                    <!-- <div class="col-12 px-0 d-flex align-items-center justify-content-between mb-md-0 mb-md-2 mb-lg-3 col-bm">
+                        <h2 class="bl-heading blogs-heading">Our Blogs</h2>
+                        <a href="<?= base_url(); ?>blogs" class="poppins-font text-decoration-underline view-more">View More</a>
+                    </div> -->
+                    <div class="col-md-4 px-0 px-md-2">
+                        <div class="blog-card">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
+                            <div class="wrapper">
+                                <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
+                                <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+
+                                <a href="#" class="poppins-font px-0">Read More 
+                                <span class="px-0 ms-3 ms-md-4">
+                                    <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035"/>
+                                    </svg>
+                                </span>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 columns">
-                        <div class="blogs-wrapper">
-                            <img src="https://placehold.co/800x500" alt="" class="w-100">
-                            <div class="blogs-content-wrapper">
-                                <h3>MAY 31th, 2023 by Name Surname</h3>
-                                <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
-                                <a href="#">Read More
-                                    <span>
-                                        <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035"/>
-                                        </svg>
-                                    </span>
+                    <div class="col-md-4 px-0 px-md-2">
+                        <div class="blog-card">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
+                            <div class="wrapper">
+                                <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
+                                <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+                                <a href="#" class="poppins-font px-0">Read More 
+                                <span class="px-0 ms-3 ms-md-4">
+                                    <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035"/>
+                                    </svg>
+                                </span>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 columns">
-                        <div class="blogs-wrapper">
-                            <img src="https://placehold.co/800x500" alt="" class="w-100">
-                            <div class="blogs-content-wrapper">
-                                <h3>MAY 31th, 2023 by Name Surname</h3>
-                                <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
-                                <a href="#">Read More
-                                    <span>
-                                        <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035"/>
-                                        </svg>
-                                    </span>
+                    <div class="col-md-4 px-0 px-md-2">
+                        <div class="blog-card">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
+                            <div class="wrapper">
+                                <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
+                                <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+                                <a href="#" class="poppins-font px-0">Read More 
+                                <span class="px-0 ms-3 ms-md-4">
+                                    <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035"/>
+                                    </svg>
+                                </span>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
 
-                <div class="row mx-0 mb-5">
-                    <div class="col-md-4 columns">
-                        <div class="blogs-wrapper">
-                            <img src="https://placehold.co/800x500" alt="" class="w-100">
-                            <div class="blogs-content-wrapper">
-                                <h3>MAY 31th, 2023 by Name Surname</h3>
-                                <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
-                                <a href="#">Read More
-                                    <span>
-                                        <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035"/>
-                                        </svg>
-                                    </span>
+        <section class="common-blogs">
+            <div class="container-fluid px-0">
+                <div class="row mx-0">
+                    <!-- <div class="col-12 px-0 d-flex align-items-center justify-content-between mb-md-0 mb-md-2 mb-lg-3 col-bm">
+                        <h2 class="bl-heading blogs-heading">Our Blogs</h2>
+                        <a href="<?= base_url(); ?>blogs" class="poppins-font text-decoration-underline view-more">View More</a>
+                    </div> -->
+                    <div class="col-md-4 px-0 px-md-2">
+                        <div class="blog-card">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
+                            <div class="wrapper">
+                                <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
+                                <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+
+                                <a href="#" class="poppins-font px-0">Read More 
+                                <span class="px-0 ms-3 ms-md-4">
+                                    <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035"/>
+                                    </svg>
+                                </span>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 columns">
-                        <div class="blogs-wrapper">
-                            <img src="https://placehold.co/800x500" alt="" class="w-100">
-                            <div class="blogs-content-wrapper">
-                                <h3>MAY 31th, 2023 by Name Surname</h3>
-                                <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
-                                <a href="#">Read More
-                                    <span>
-                                        <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035"/>
-                                        </svg>
-                                    </span>
+                    <div class="col-md-4 px-0 px-md-2">
+                        <div class="blog-card">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
+                            <div class="wrapper">
+                                <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
+                                <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+                                <a href="#" class="poppins-font px-0">Read More 
+                                <span class="px-0 ms-3 ms-md-4">
+                                    <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035"/>
+                                    </svg>
+                                </span>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 columns">
-                        <div class="blogs-wrapper">
-                            <img src="https://placehold.co/800x500" alt="" class="w-100">
-                            <div class="blogs-content-wrapper">
-                                <h3>MAY 31th, 2023 by Name Surname</h3>
-                                <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
-                                <a href="#">Read More
-                                    <span>
-                                        <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035"/>
-                                        </svg>
-                                    </span>
+                    <div class="col-md-4 px-0 px-md-2">
+                        <div class="blog-card">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
+                            <div class="wrapper">
+                                <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
+                                <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+                                <a href="#" class="poppins-font px-0">Read More 
+                                <span class="px-0 ms-3 ms-md-4">
+                                    <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035"/>
+                                    </svg>
+                                </span>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
 
-                <div class="row mx-0 mb-5">
-                    <div class="col-md-4 columns">
-                        <div class="blogs-wrapper">
-                            <img src="https://placehold.co/800x500" alt="" class="w-100">
-                            <div class="blogs-content-wrapper">
-                                <h3>MAY 31th, 2023 by Name Surname</h3>
-                                <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
-                                <a href="#">Read More
-                                    <span>
-                                        <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035"/>
-                                        </svg>
-                                    </span>
+        <section class="common-blogs">
+            <div class="container-fluid px-0">
+                <div class="row mx-0">
+                    <!-- <div class="col-12 px-0 d-flex align-items-center justify-content-between mb-md-0 mb-md-2 mb-lg-3 col-bm">
+                        <h2 class="bl-heading blogs-heading">Our Blogs</h2>
+                        <a href="<?= base_url(); ?>blogs" class="poppins-font text-decoration-underline view-more">View More</a>
+                    </div> -->
+                    <div class="col-md-4 px-0 px-md-2">
+                        <div class="blog-card">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
+                            <div class="wrapper">
+                                <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
+                                <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+
+                                <a href="#" class="poppins-font px-0">Read More 
+                                <span class="px-0 ms-3 ms-md-4">
+                                    <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035"/>
+                                    </svg>
+                                </span>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 columns">
-                        <div class="blogs-wrapper">
-                            <img src="https://placehold.co/800x500" alt="" class="w-100">
-                            <div class="blogs-content-wrapper">
-                                <h3>MAY 31th, 2023 by Name Surname</h3>
-                                <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
-                                <a href="#">Read More
-                                    <span>
-                                        <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035"/>
-                                        </svg>
-                                    </span>
+                    <div class="col-md-4 px-0 px-md-2">
+                        <div class="blog-card">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
+                            <div class="wrapper">
+                                <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
+                                <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+                                <a href="#" class="poppins-font px-0">Read More 
+                                <span class="px-0 ms-3 ms-md-4">
+                                    <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035"/>
+                                    </svg>
+                                </span>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 columns">
-                        <div class="blogs-wrapper">
-                            <img src="https://placehold.co/800x500" alt="" class="w-100">
-                            <div class="blogs-content-wrapper">
-                                <h3>MAY 31th, 2023 by Name Surname</h3>
-                                <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
-                                <a href="#">Read More
-                                    <span>
-                                        <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035"/>
-                                        </svg>
-                                    </span>
+                    <div class="col-md-4 px-0 px-md-2">
+                        <div class="blog-card">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
+                            <div class="wrapper">
+                                <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
+                                <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+                                <a href="#" class="poppins-font px-0">Read More 
+                                <span class="px-0 ms-3 ms-md-4">
+                                    <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035"/>
+                                    </svg>
+                                </span>
                                 </a>
                             </div>
                         </div>

@@ -12,7 +12,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </video>
         </section>
 
-        <section class="common-banner-video-for-mobile">
+        <section class="common-banner-video-for-mobile mt-0">
             <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>" class="w-100">
                 <source src="<?= base_url(); ?>" type="video/mp4" class="w-100">
             </video>
@@ -89,21 +89,20 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
                         <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2">icon 6</h3>
                     </div>
-                    <div class="columns">
-                        <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2">icon 7</h3>
-                    </div>
-                    <div class="columns">
-                        <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2">icon 8</h3>
-                    </div>
                 </div>
             </div>
         </section>
         <!-- Deliverables -->
 
         <!-- Section Breaker -->
-        <section>
+        <section class="home-section-breaker--for-desktop">
+            <div class="container-fluid px-0">
+                <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/templates/home-section-breaker-1.png" class="w-100">
+                    <source src="<?= base_url(); ?>" type="video/mp4" class="w-100">
+                </video>
+            </div>
+        </section>
+        <section class="home-section-breaker--for-mobile">
             <div class="container-fluid px-0">
                 <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/templates/home-section-breaker-1.png" class="w-100">
                     <source src="<?= base_url(); ?>" type="video/mp4" class="w-100">
@@ -307,16 +306,27 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <!-- Our Licensing -->
 
         <!-- Blogs -->
-        <section class="home-blogs">
+        <section class="common-blogs">
             <div class="container-fluid px-0">
                 <div class="row mx-0">
+                    <div class="col-12 px-0 d-flex align-items-center justify-content-between mb-md-0 mb-md-2 mb-lg-3 col-bm">
+                        <h2 class="bl-heading blogs-heading">Our Blogs</h2>
+                        <a href="<?= base_url(); ?>blogs" class="poppins-font text-decoration-underline view-more">View More</a>
+                    </div>
                     <div class="col-md-4 px-0 px-md-2">
                         <div class="blog-card">
                             <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
                             <div class="wrapper">
-                                <p>MAY 31th, 2023 by Name Surname</p>
-                                <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
-                                <a href="#">Read More</a>
+                                <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
+                                <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+
+                                <a href="#" class="poppins-font px-0">Read More 
+                                <span class="px-0 ms-3 ms-md-4">
+                                    <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035"/>
+                                    </svg>
+                                </span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -324,9 +334,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <div class="blog-card">
                             <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
                             <div class="wrapper">
-                                <p>MAY 31th, 2023 by Name Surname</p>
-                                <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
-                                <a href="#">Read More</a>
+                                <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
+                                <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+                                <a href="#" class="poppins-font px-0">Read More 
+                                <span class="px-0 ms-3 ms-md-4">
+                                    <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035"/>
+                                    </svg>
+                                </span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -334,9 +350,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <div class="blog-card">
                             <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
                             <div class="wrapper">
-                                <p>MAY 31th, 2023 by Name Surname</p>
-                                <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
-                                <a href="#">Read More</a>
+                                <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
+                                <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+                                <a href="#" class="poppins-font px-0">Read More 
+                                <span class="px-0 ms-3 ms-md-4">
+                                    <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035"/>
+                                    </svg>
+                                </span>
+                                </a>
                             </div>
                         </div>
                     </div>
