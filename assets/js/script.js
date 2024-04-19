@@ -175,15 +175,15 @@ let productShowcaseSwiper1 = new Swiper(".productShowcaseSwiper-1", {
     speed: 5000,
     breakpoints: {
         200: {
+            slidesPerView: 1.85,
+        },
+        300: {
+            slidesPerView: 2.25,
+        },
+        500: {
             slidesPerView: 3,
         },
-        1000: {
-            slidesPerView: 3,
-        },
-        1200: {
-            slidesPerView: 2.5,
-        },
-        1500: {
+        768: {
             slidesPerView: 4,
         }
     }
@@ -201,15 +201,15 @@ let productShowcaseSwiper2 = new Swiper(".productShowcaseSwiper-2", {
     speed: 5000,
     breakpoints: {
         200: {
+            slidesPerView: 1.85,
+        },
+        300: {
+            slidesPerView: 2.25,
+        },
+        500: {
             slidesPerView: 3,
         },
-        1000: {
-            slidesPerView: 3,
-        },
-        1200: {
-            slidesPerView: 2.5,
-        },
-        1500: {
+        768: {
             slidesPerView: 4,
         }
     }

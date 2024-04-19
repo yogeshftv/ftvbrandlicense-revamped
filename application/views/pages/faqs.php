@@ -6,13 +6,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
     <main class="for-faqs">
         <section class="cover">
-            <div class="container-fluid">
-                <h1 class="bl--font-typ-1 text-center">Frequently Asked Questions</h1>
+            <div class="container-fluid px-0">
+                <h2 class="bl-heading text-center">Frequently Asked Questions</h2>
             </div>
         </section>
 
         <section class="accordion">
-            <div class="container-fluid">
+            <div class="container-fluid px-0">
                 <div class="accordion accordion-flush" id="accordionFlushExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header aeroport-light-trial--ff" id="flush-headingOne">

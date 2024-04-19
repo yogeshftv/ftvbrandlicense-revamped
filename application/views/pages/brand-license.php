@@ -63,39 +63,31 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <!-- Why Join Us -->
         <section class="common-deliverables">
             <div class="container-fluid px-0">
-                <h2 class="bl--font-typ-1 text-center">Why Join Us?</h2>
+                <h2 class="bl-heading text-center">Why Join Us?</h2>
                 <div class="common-deliverables-row">
                     <div class="columns">
                         <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3>icon 1</h3>
+                        <h3 class="bl-paragraph">icon 1</h3>
                     </div>
                     <div class="columns">
                         <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3>icon 2</h3>
+                        <h3 class="bl-paragraph">icon 2</h3>
                     </div>
                     <div class="columns">
                         <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3>icon 3</h3>
+                        <h3 class="bl-paragraph">icon 3</h3>
                     </div>
                     <div class="columns">
                         <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3>icon 4</h3>
+                        <h3 class="bl-paragraph">icon 4</h3>
                     </div>
                     <div class="columns">
                         <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3>icon 5</h3>
+                        <h3 class="bl-paragraph">icon 5</h3>
                     </div>
                     <div class="columns">
                         <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3>icon 6</h3>
-                    </div>
-                    <div class="columns">
-                        <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3>icon 7</h3>
-                    </div>
-                    <div class="columns">
-                        <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3>icon 8</h3>
+                        <h3 class="bl-paragraph">icon 6</h3>
                     </div>
                 </div>
             </div>
@@ -105,29 +97,29 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <!-- Our Philosophy -->
         <section class="common-philosophy">
             <div class="container-fluid px-0">
-                <h2 class="bl--font-typ-1 text-center">Our Philosophy</h2>
+                <h2 class="bl-heading text-center">Our Philosophy</h2>
                 <div class="row row-1 c-row">
                     <div class="col-12 col-md-3 column-1 d-flex align-items-center">
-                        <h3>Vision</h3>
+                        <h3 class="bl-heading--sub-font">Vision</h3>
                     </div>
                     <div class="col-12 col-md-9 column-2 d-flex align-items-center">
-                        <p>To seek ventures that auxiliary our love for fashion, and make his mark in India, one of the world's second-largest consumer markets.</p>
+                        <p class="bl-paragraph">To seek ventures that auxiliary our love for fashion, and make his mark in India, one of the world's second-largest consumer markets.</p>
                     </div>
                 </div>
                 <div class="row row-2 c-row">
                     <div class="col-12 col-md-3 column-1 d-flex align-items-center">
-                        <h3>Mission</h3>
+                        <h3 class="bl-heading--sub-font">Mission</h3>
                     </div>
                     <div class="col-12 col-md-9 column-2 d-flex align-items-center">
-                        <p>We look forward to making FashionTV a household name by providing the masses with nothing but the best in association with our partners.</p>    
+                        <p class="bl-paragraph">We look forward to making FashionTV a household name by providing the masses with nothing but the best in association with our partners.</p>    
                     </div>
                 </div>
                 <div class="row row-3 c-row">
                     <div class="col-12 col-md-3 column-1 d-flex align-items-center">
-                        <h3>Aim</h3>    
+                        <h3 class="bl-heading--sub-font">Aim</h3>    
                     </div>
                     <div class="col-12 col-md-9 column-2 d-flex align-items-center">
-                        <p>We aim to become the leading brand in the Indian market not only in the fashion industry but in numerous business sectors recognised for its synergy, brilliance and excellence.</p>
+                        <p class="bl-paragraph">We aim to become the leading brand in the Indian market not only in the fashion industry but in numerous business sectors recognised for its synergy, brilliance and excellence.</p>
                     </div>
                 </div>
             </div>
@@ -168,9 +160,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <section class="brand-support">
             <div class="container-fluid px-0">
                 <div class="brand-support-content">
-                    <h2 class="bl--font-typ-1">Brand Support</h2>
-                    <p>FashionTV gives 360-degree support to all our license partners. We help in all aspects ranging from location, architecture, and staff recruitment to PR launch plans, social media marketing, auditing, cross-marketing and more.</p>
-                    <p>Strategic planning, which is very important for the success of any business, is worked on extensively by our team and license partners.</p>
+                    <h2 class="bl-heading">Brand Support</h2>
+                    <p class="bl-paragraph">FashionTV gives 360-degree support to all our license partners. We help in all aspects ranging from location, architecture, and staff recruitment to PR launch plans, social media marketing, auditing, cross-marketing and more.</p>
+                    <p class="bl-paragraph">Strategic planning, which is very important for the success of any business, is worked on extensively by our team and license partners.</p>
                 </div>
             </div>
         </section>
@@ -184,21 +176,21 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="wrapper">
                         <img src="<?= base_url(); ?>assets/media/icons/downloadables-icon.png" alt="download-icon" class="download-icon">
                     </div>
-                    <h3 class="bl--font-typ-1">Saleskit</h3>
+                    <h3 class="bl-heading--sub-font">Saleskit</h3>
                 </div>
                 <div class="col-12 col-md-4 columns column-2">
                     <img src="<?= base_url(); ?>assets/media/images/templates/bl-lookbook.png" alt="download-icon" class="w-100">
                     <div class="wrapper">
                         <img src="<?= base_url(); ?>assets/media/icons/downloadables-icon.png" alt="download-icon" class="download-icon">
                     </div>
-                    <h3 class="bl--font-typ-1">Lookbook</h3>
+                    <h3 class="bl-heading--sub-font">Lookbook</h3>
                 </div>
                 <div class="col-12 col-md-4 columns column-3">
                     <img src="<?= base_url(); ?>assets/media/images/templates/bl-videobook.png" alt="download-icon" class="w-100">
                     <div class="wrapper">
                         <img src="<?= base_url(); ?>assets/media/icons/downloadables-icon.png" alt="download-icon" class="download-icon">
                     </div>
-                    <h3 class="bl--font-typ-1">Videobook</h3>
+                    <h3 class="bl-heading--sub-font">Videobook</h3>
                 </div>
             </div>
         </section>

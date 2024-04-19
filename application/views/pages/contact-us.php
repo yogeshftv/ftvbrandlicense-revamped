@@ -6,11 +6,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
     <main class="contact-us">
         <!-- section 1 -->
+        <section class="contact-cover mt-0">
+            <img src="<?= base_url() ?>assets/media/images/contact-us/contact-bg.png" alt="contact-us--cover" class="w-100">
+            <h2 class="bl-heading">Contact Us</h2>
+        </section>
         <section class="enquiry-form-sec" id="enquiry-now">
             <div class="row m-0">
                 <div class="col-xl-8 col-lg-9 col-md-10 col-sm-12 p-0 column-1" id="enquiry">
                     <div class="myenquire-form">
-                        <h1 class="bl--font-typ-1">Contact Us</h1>
+                        <h2 class="bl-heading">Contact Us</h2>
                         <form action="<?= base_url('pages/enquiry_validation') ?>" method="post" id="enquiryForm">
                             <div class="row d-flex justify-content-between">
                                 <div class="col-md-6 mb-4">
@@ -63,8 +67,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 </div>
                             </div>
 
-                            <div class="row mb-sm-3 mb-md-4">
-                                <div class="col-md-12 mb-3 d-flex flex-column justify-content-center align-items-center">
+                            <div class="row mb-sm-3 mb-md-4 mb-2">
+                                <div class="col-md-12 mb-4 d-flex flex-column justify-content-center align-items-center">
                                     <textarea class="form-control rounded-0 shadow-none" name="message" type="text" placeholder="Message"></textarea>
                                 </div>
                             </div>

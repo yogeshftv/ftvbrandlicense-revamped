@@ -191,8 +191,8 @@ p {
 :root {
     --df-white: #ffffff;
     --df-black: #000000;
-
     --absolute-black: #131313;
+    /* cursor: url('https://res.cloudinary.com/madebyankur/image/upload/v1707409946/cursor'), default; */
 }
 /* variables */
 
@@ -810,25 +810,11 @@ footer .f-additionals a:hover {
 }
 
 .common-philosophy h2 {
-    font-weight: 400;
-    font-size: 4.375rem;
-    line-height: 7.5rem;
     margin-bottom: 4rem;
 }
 
-.common-philosophy h3 {
-    font-size: 4.375rem;
-    font-weight: 400;
-    line-height: 7.5rem;   
-}
-
 .common-philosophy p {
-    font-family: "Poppins", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 300;
-    line-height: 2.25rem;
-    letter-spacing: -0.02em;
-    text-align: justify;
+    width: 108ch;
 }
 /* Common Philosophy */
 
@@ -963,24 +949,16 @@ footer .f-additionals a:hover {
     }
 
     .brand-support h2 {
-        font-weight: 400;
-        text-align: center;
-        font-size: 4.375rem;
-        line-height: 7.5rem;
-        margin-bottom: 4.75rem;
+        margin-bottom: 2.5rem;
     }
 
     .brand-support p {
-        width: 75ch;
-        font-weight: 300;
+        width: 90ch;
         text-align: center;
-        font-size: 1.8125rem;
-        line-height: 2.71875rem;
-        font-family: "Poppins", sans-serif;
     }
 
     .brand-support p:nth-of-type(1) {
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
     }
 
     .downloadables .columns {
@@ -1006,10 +984,7 @@ footer .f-additionals a:hover {
         bottom: 10%;
         left: 50%;
         transform: translateX(-50%);
-        font-weight: 400;
-        font-size: 3.125rem;
         color: var(--df-white);
-        line-height: 3.171875rem;
         text-align: center;
     }
 
@@ -1425,6 +1400,10 @@ footer .f-additionals a:hover {
     /* faqs */
 
     /* contact us */
+    .contact-cover {
+        display: none;
+    }
+
     .contact-us {
         background-image: url('../media/images/contact-us/contact-bg.png');
         background-size: cover;
@@ -1504,7 +1483,7 @@ footer .f-additionals a:hover {
     }
 
     .btn-submit {
-        color: #6c757d;
+        color: #ffffff;
         font-family: 'Poppins', sans-serif;
         font-size: 24px;
         font-weight: 400;
@@ -1733,7 +1712,33 @@ footer .f-additionals a:hover {
     /* faqs */
 
     /* contact us */
+    .contact-cover {
+        display: block;
+        position: relative;
+    }
 
+    .contact-cover h2 {
+        top: 30%;
+        left: 50%;
+        color: #ffff;
+        position: absolute;
+        transform: translateX(-50%);
+        text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
+    }
+
+    .contact-us {
+        background-image: none;
+    }
+
+    .contact-us .myenquire-form {
+        padding-top: 6%;
+        margin-top: -17rem;
+        filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.15));
+    }
+
+    .contact-us .myenquire-form h2 {
+        display: none;
+    }
     /* contact us */
 
     /* blogs */
@@ -1828,7 +1833,37 @@ footer .f-additionals a:hover {
     /* faqs */
 
     /* contact us */
+    .contact-cover {
+        display: block;
+        position: relative;
+    }
 
+    .contact-cover h2 {
+        top: 30%;
+        left: 50%;
+        color: #ffff;
+        position: absolute;
+        transform: translateX(-50%);
+        text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
+    }
+
+    .contact-us {
+        background-image: none;
+    }
+
+    .contact-us #enquiry {
+        width: 100%;
+    }
+
+    .contact-us .myenquire-form {
+        padding-top: 6%;
+        margin-top: -20rem;
+        filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.15));
+    }
+
+    .contact-us .myenquire-form h2 {
+        display: none;
+    }
     /* contact us */
 
     /* blogs */
@@ -1977,7 +2012,7 @@ footer .f-additionals a:hover {
     }
 
     .common-introduction-0 .introduction-content-0 {
-        padding: 0 7%;
+        padding: 0 2%;
     }
     /* COMMON: Introduction 0 */
 
@@ -1991,22 +2026,18 @@ footer .f-additionals a:hover {
     /* COMMON: Deliverables */
 
     /* COMMON: Philosophy */
-    .common-philosophy h3 {
-        font-size: 2.375rem;
-        line-height: 4rem;
-        margin-bottom: 1rem;
+    .common-philosophy .row-1.c-row,
+    .common-philosophy .row-2.c-row,
+    .common-philosophy .row-3.c-row {
+        padding-top: 0;
     }
 
     .common-philosophy h2 {
-        margin-bottom: 1rem;
-        line-height: 3.125rem;
+        margin-bottom: 0rem;
     }
 
     .common-philosophy p {
-        font-size: 1rem;
-        font-weight: 300;
-        line-height: 1.5rem;
-        text-align: justify;
+        width: auto;
     }
     /* COMMON: Philosophy */
 
@@ -2017,6 +2048,12 @@ footer .f-additionals a:hover {
     /* common banner video */
     
     /* common banner video */
+
+    /* COMMON: Product Showcase */
+    .common-product-showcase .swiper-wrapper img {
+        width: 100%;
+    }
+    /* COMMON: Product Showcase */
 
     /* Home */
     .common-blogs .container-fluid > .row {
@@ -2146,20 +2183,12 @@ footer .f-additionals a:hover {
     
     /* Brand License */
     .brand-support h2 {
-        margin-bottom: 2.5rem;
-        line-height: 3.125rem;
+        margin-bottom: 1rem;
     }
 
     .brand-support p {
         width: auto;
-        font-size: 1rem;
-        font-weight: 300;
-        line-height: 1.5rem;
         text-align: justify;
-    }
-
-    .downloadables h3 {
-        font-size: 2.125rem;
     }
 
     .downloadables .wrapper img { 
@@ -2256,6 +2285,20 @@ footer .f-additionals a:hover {
     /* Our Services */
 
     /* faqs */
+    .for-faqs section.cover {
+        margin-top: 4rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .for-faqs section.accordion {
+        margin-top: 2rem !important;
+    }
+
+    .for-faqs h2.bl-heading {
+        font-size: 2rem !important;
+        line-height: 2.75rem !important;
+    }
+
     .for-faqs .accordion-button {
         font-size: 1.25rem;
         line-height: 1.5rem;
@@ -2271,7 +2314,55 @@ footer .f-additionals a:hover {
     /* faqs */
 
     /* contact us */
+    .contact-us h2 {
+        line-height: 2.5rem !important;
+    }
 
+    .contact-us .myenquire-form {
+        padding-top: 8%;
+        margin-top: -7rem;
+        padding-left: 7%;
+        padding-right: 7%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .contact-cover h2 {
+        top: 40%;
+    }
+
+    .form-control, 
+    .investment-capicity {
+        padding: 12px;
+    }
+
+    .form-check-label {
+        margin-left: 1rem !important;
+    }
+
+    .contact-cover h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .form-control::placeholder {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .contact-us input[type="text"]::placeholder,
+    .contact-us input[type="email"]::placeholder {
+        font-size: 16px;
+    }
+
+    .btn-submit {
+        font-size: 16px;
+    }
+
+    #stateSelect,
+    #citySelect {
+        font-size: 16px !important;
+    }
     /* contact us */
 
     /* blogs */
@@ -2360,24 +2451,26 @@ footer .f-additionals a:hover {
     /* COMMON: Deliverables */
 
     /* COMMON: Philosophy */
-    .common-philosophy h3 {
-        font-size: 2.375rem;
-        line-height: 2rem;
-        margin-bottom: 1.5rem;
+    .common-philosophy .row-1.c-row,
+    .common-philosophy .row-2.c-row,
+    .common-philosophy .row-3.c-row {
+        padding-top: 0;
     }
 
-    .common-philosophy h2,
-    .statistics h2 {
-        margin-bottom: 2rem;
+    .common-philosophy h2 {
+        margin-bottom: 1rem;
     }
 
     .common-philosophy p {
-        font-size: 1rem;
-        font-weight: 300;
-        line-height: 1.5rem;
-        text-align: justify;
+        width: auto;
     }
     /* COMMON: Philosophy */
+
+    /* COMMON: Product Showcase */
+    .common-product-showcase .swiper-wrapper img {
+        width: 100%;
+    }
+    /* COMMON: Product Showcase */
 
     /* Home */
     .common-blogs .container-fluid > .row {
@@ -2493,24 +2586,21 @@ footer .f-additionals a:hover {
     /* Home */
     
     /* Brand License */
+    .common-introduction-0 .introduction-content-0 {
+        padding: 0 0%;
+    }
+
     .brand-support h2 {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 
     .brand-support p {
         width: auto;
-        font-size: 1rem;
-        font-weight: 300;
-        line-height: 1.5rem;
         text-align: justify;
     }
 
     .brand-support p:nth-of-type(1) {
         margin-bottom: 1.5rem;
-    }
-
-    .downloadables h3 {
-        font-size: 2.25rem;
     }
 
     .downloadables .wrapper img { 
@@ -2602,6 +2692,19 @@ footer .f-additionals a:hover {
     /* Our Services */
 
     /* faqs */
+    .for-faqs section.cover {
+        margin-top: 4rem !important;
+        margin-bottom: 2.35rem !important;
+    }
+
+    .for-faqs section.accordion {
+        margin-top: 2.35rem !important;
+    }
+
+    .for-faqs h2.bl-heading {
+        line-height: 2.75rem !important;
+    }
+
     .for-faqs .accordion-button {
         font-size: 1.25rem;
         line-height: 1.5rem;
@@ -2617,7 +2720,55 @@ footer .f-additionals a:hover {
     /* faqs */
 
     /* contact us */
+    .contact-us h2 {
+        line-height: 2.5rem !important;
+    }
 
+    .contact-us .myenquire-form {
+        padding-top: 8%;
+        margin-top: -8rem;
+        padding-left: 7%;
+        padding-right: 7%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .contact-cover h2 {
+        top: 40%;
+    }
+
+    .form-control, 
+    .investment-capicity {
+        padding: 12px;
+    }
+
+    .form-check-label {
+        margin-left: 1rem !important;
+    }
+
+    .contact-cover h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .form-control::placeholder {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .contact-us input[type="text"]::placeholder,
+    .contact-us input[type="email"]::placeholder {
+        font-size: 16px;
+    }
+
+    .btn-submit {
+        font-size: 16px;
+    }
+
+    #stateSelect,
+    #citySelect {
+        font-size: 16px !important;
+    }
     /* contact us */
 
     /* blogs */
@@ -2692,24 +2843,20 @@ footer .f-additionals a:hover {
     /* COMMON: Deliverables */
 
     /* COMMON: Philosophy */
-    .common-philosophy h3 {
-        font-size: 2.5rem;
-        line-height: 3rem;
-        margin-bottom: 1.5rem;
-    }
-
-    .common-philosophy h2,
-    .statistics h2 {
-        margin-bottom: 2rem;
+    .common-philosophy h2 {
+        margin-bottom: 0rem;
     }
 
     .common-philosophy p {
-        font-size: 1rem;
-        font-weight: 300;
-        line-height: 1.5rem;
-        text-align: justify;
+        width: auto;
     }
     /* COMMON: Philosophy */
+
+    /* COMMON: Product Showcase */
+    .common-product-showcase .swiper-wrapper img {
+        width: 100%;
+    }
+    /* COMMON: Product Showcase */
 
     /* Home */
     .common-blogs .container-fluid > .row {
@@ -2823,23 +2970,19 @@ footer .f-additionals a:hover {
     /* Home */
     
     /* Brand License */
+    .common-introduction-0 .introduction-content-0 {
+        padding: 0 2%;
+    }
+
     .brand-support h2 {
-        margin-bottom: 3rem;
+        margin-bottom: 1.100rem;
     }   
     .brand-support p {
-        width: auto;
-        font-size: 1rem;
-        font-weight: 300;
-        line-height: 1.5rem;
-        text-align: justify;
+        width: 48ch;
     }
 
     .brand-support p:nth-of-type(1) {
         margin-bottom: 1rem;
-    }
-
-    .downloadables h3 {
-        font-size: 2.5rem;
     }
 
     .downloadables .wrapper img { 
@@ -2932,6 +3075,10 @@ footer .f-additionals a:hover {
     /* Our Services */
 
     /* faqs */
+    .for-faqs h2.bl-heading {
+        line-height: 3.625rem !important;
+    }
+
     .for-faqs .accordion-button {
         font-size: 1.25rem;
         line-height: 1.5rem;
@@ -2943,7 +3090,21 @@ footer .f-additionals a:hover {
     /* faqs */
 
     /* contact us */
+    .contact-us .myenquire-form {
+        padding-top: 6%;
+        margin-top: -12rem;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 
+    .form-control, 
+    .investment-capicity {
+        padding: 20px 15px;
+    }
+
+    .form-check-label {
+        margin-left: 1rem !important;
+    }
     /* contact us */
 
     /* blogs */
@@ -3109,24 +3270,20 @@ footer .f-additionals a:hover {
     /* COMMON: Deliverables */
 
     /* COMMON: Philosophy */
-    .common-philosophy h3 {
-        font-size: 2.5rem;
-        line-height: 2.5;
-        margin-bottom: 0rem;
-    }
-
-    .common-philosophy h2,
-    .statistics h2 {
-        margin-bottom: 2rem;
+    .common-philosophy h2 {
+        margin-bottom: 1rem;
     }
 
     .common-philosophy p {
-        font-size: 1.125rem;
-        line-height: 1.5;
-        font-weight: 300;
-        text-align: justify;
+        width: auto;
     }
     /* COMMON: Philosophy */
+
+    /* COMMON: Product Showcase */
+    .common-product-showcase .swiper-wrapper img {
+        width: 100%;
+    }
+    /* COMMON: Product Showcase */
 
     /* Home */
     .common-blogs .col-bm {
@@ -3213,24 +3370,20 @@ footer .f-additionals a:hover {
     /* Home */
 
     /* Brand License */
+    .common-introduction-0 .introduction-content-0 {
+        padding: 0 2%;
+    }
+
     .brand-support h2 {
-        margin-bottom: 3.5rem;
+        margin-bottom: 1.25rem;
     }
 
     .brand-support p {
-        width: auto;
-        font-size: 1.125rem;
-        line-height: 1.5;
-        font-weight: 300;
-        text-align: justify;
+        width: 64ch;
     }
 
     .brand-support p:nth-of-type(1) {
         margin-bottom: 1rem;
-    }
-
-    .downloadables h3 {
-        font-size: 2.125rem;
     }
 
     .downloadables .wrapper img { 
@@ -3471,7 +3624,7 @@ footer .f-additionals a:hover {
     
     /* common banner video */
     .common-introduction-0 .introduction-content-0 {
-        padding: 0px 12%;
+        padding: 0px 7%;
     }
 
     .common-introduction-0 .swiper-slide {
@@ -3521,22 +3674,20 @@ footer .f-additionals a:hover {
     /* COMMON: Deliverables */
 
     /* COMMON: Philosophy */
-    .common-philosophy h3 {
-        font-size: 2.75rem;
-        line-height: 1.75;
+    .common-philosophy h2 {
         margin-bottom: 0rem;
     }
 
-    .common-philosophy h2,
-    .statistics h2 {
-        margin-bottom: 2rem;
-    }
-
     .common-philosophy p {
-        font-size: 1.125rem;
-        line-height: 1.5;
+        width: auto;
     }
     /* COMMON: Philosophy */
+
+    /* COMMON: Product Showcase */
+    .common-product-showcase .swiper-wrapper img {
+        width: 100%;
+    }
+    /* COMMON: Product Showcase */
 
     /* Home */
     .common-blogs .col-bm {
@@ -3628,23 +3779,15 @@ footer .f-additionals a:hover {
 
     /* Brand License */
     .brand-support h2 {
-        margin-bottom: 3.125rem;
+        margin-bottom: 1.5rem;
     }
 
     .brand-support p {
-        width: auto;
-        font-size: 1.125rem;
-        font-weight: 300;
-        line-height: 1.5;
-        text-align: justify;
+        width: 74ch;
     }
 
     .brand-support p:nth-of-type(1) {
         margin-bottom: 1.5rem;
-    }
-
-    .downloadables h3 {
-        font-size: 2.125rem;
     }
 
     .downloadables .wrapper img { 
@@ -3785,7 +3928,37 @@ footer .f-additionals a:hover {
     /* faqs */
 
     /* contact us */
+    .contact-cover {
+        display: block;
+        position: relative;
+    }
 
+    .contact-cover h2 {
+        top: 30%;
+        left: 50%;
+        color: #ffff;
+        position: absolute;
+        transform: translateX(-50%);
+        text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
+    }
+
+    .contact-us {
+        background-image: none;
+    }
+
+    .contact-us #enquiry {
+        width: 100%;
+    }
+
+    .contact-us .myenquire-form {
+        padding-top: 6%;
+        margin-top: -20rem;
+        filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.15));
+    }
+
+    .contact-us .myenquire-form h2 {
+        display: none;
+    }
     /* contact us */
 
     /* blogs */
@@ -3866,7 +4039,7 @@ footer .f-additionals a:hover {
 
     /* COMMON: Introduction 0 */
     .common-introduction-0 .introduction-content-0 {
-        padding: 0px 12%;
+        padding: 0px 8.5%;
     }
     /* COMMON: Introduction 0 */
 
@@ -3883,24 +4056,20 @@ footer .f-additionals a:hover {
     /* COMMON: Deliverables */
 
     /* COMMON: Philosophy */
-    .common-philosophy h3 {
-        font-size: 2.5rem;
-        line-height: 1.75;
-        margin-bottom: 0rem;
-    }
-
-    .common-philosophy h2,
-    .statistics h2 {
+    .common-philosophy h2 {
         margin-bottom: 2rem;
     }
 
     .common-philosophy p {
-        font-size: 1rem;
-        font-weight: 300;
-        line-height: 1.5rem;
-        text-align: justify;
+        width: auto;
     }
     /* COMMON: Philosophy */
+
+    /* COMMON: Product Showcase */
+    .common-product-showcase .swiper-wrapper img {
+        width: 100%;
+    }
+    /* COMMON: Product Showcase */
 
     /* Home */
     .common-blogs .col-bm {
@@ -3997,23 +4166,15 @@ footer .f-additionals a:hover {
 
     /* Brand License */
     .brand-support h2 {
-        margin-bottom: 3.5rem;
+        margin-bottom: 1.75rem;
     }
 
     .brand-support p {
-        width: auto;
-        font-size: 1rem;
-        font-weight: 300;
-        line-height: 1.5rem;
-        text-align: justify;
+        width: 78ch;
     }
 
     .brand-support p:nth-of-type(1) {
         margin-bottom: 1.5rem;
-    }
-
-    .downloadables h3 {
-        font-size: 2.125rem;
     }
 
     .downloadables .wrapper img { 
@@ -4281,26 +4442,21 @@ footer .f-additionals a:hover {
     }
     /* COMMON: Deliverables */
 
-    /* COMMON: Philosophy */
-    .common-philosophy h3 {
-        font-size: 3.25rem;
-        line-height: 2;
-        margin-bottom: 0rem;
-    }
-
+    /* COMMON: Philosophy */ 
     .common-philosophy h2 {
         margin-bottom: 3rem;
     }
-    
-    .statistics h2 {
-        margin-bottom: 4rem;
-    }
 
     .common-philosophy p {
-        font-size: 1.25rem;
-        line-height: 1.5;
+        width: auto;
     }
     /* COMMON: Philosophy */
+
+    /* COMMON: Product Showcase */
+    .common-product-showcase .swiper-wrapper img {
+        width: 100%;
+    }
+    /* COMMON: Product Showcase */
 
     /* home */
     .common-blogs .blog-card .wrapper {
@@ -4375,17 +4531,11 @@ footer .f-additionals a:hover {
 
     /* brand license */
     .brand-support h2 {
-        margin-bottom: 3.25rem;
+        margin-bottom: 2rem;
     }
 
     .brand-support p {
-        width: auto;
-        font-size: 1.25rem;
-        line-height: 1.5;
-    }
-
-    .downloadables h3 {
-        font-size: 2.75rem;
+        width: 90ch;
     }
 
     .downloadables .wrapper img { 
@@ -4427,6 +4577,10 @@ footer .f-additionals a:hover {
         width: 70% !important;
     }
     
+    .statistics h2 {
+        margin-bottom: 4rem;
+    }
+
     .statistics .stats-container h3 {
         font-weight: 400;
         font-size: 4rem;
@@ -4600,21 +4754,16 @@ footer .f-additionals a:hover {
     /* COMMON: Deliverables */
 
     /* COMMON: Philosophy */
-    .common-philosophy h3 {
-        font-size: 3.5rem;
-        line-height: 2.25;
-        margin-bottom: 0rem;
-    }
-
-    .common-philosophy h2 {
-        margin-bottom: 5rem;
-    }
-
     .common-philosophy p {
-        font-size: 1.35rem;
-        line-height: 1.5;
+        width: auto;
     }
     /* COMMON: Philosophy */
+
+    /* COMMON: Product Showcase */
+    .common-product-showcase .swiper-wrapper img {
+        width: 100%;
+    }
+    /* COMMON: Product Showcase */
 
     /* Home */
     .common-blogs .blog-card .wrapper {
@@ -4650,17 +4799,11 @@ footer .f-additionals a:hover {
 
     /* Brand License */
     .brand-support h2 {
-        margin-bottom: 4.125rem;
+        margin-bottom: 3.125rem;
     }
 
     .brand-support p {
         width: 93ch;
-        font-size: 1.35rem;
-        line-height: 1.5;
-    }
-
-    .downloadables h3 {
-        font-size: 2.75rem;
     }
 
     .downloadables .wrapper img { 
