@@ -13,7 +13,7 @@ $path = end($path);
         <!-- Code Navbar below -->
 
         <nav class="navbar absolute-black--element-bg-clr">
-            <div class="container-fluid">
+            <div class="container-fluid px-0">
                 <button class="btn hm-menu shadow-none p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                     <svg width="36" height="24" viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M2 2H34" stroke="white" stroke-width="2.5" stroke-linecap="round"/>

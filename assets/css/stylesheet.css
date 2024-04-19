@@ -642,8 +642,8 @@ footer h5 {
     color: var(--df-white);
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 2.25rem;
+    font-size: 1.35rem;
+    line-height: 2rem;
     border-bottom: 1px solid var(--df-white);
 
 }
@@ -652,8 +652,8 @@ footer .footer-links {
     display: inline-block;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-size: 1.25rem;
-    line-height: 2rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
     color: #FFFFFFB2;
     transition: color 1s ease;
 }
@@ -695,11 +695,12 @@ footer .inp-sbmt-btn svg {
     width: 100%;
 }
 
-footer .f-additionals {
+footer .f-additionals a,
+footer .copyright {
+    font-size: 14px;
+    line-height: 1.5rem;
     color: #FFFFFF80;
-    font-size: 1rem;
     font-weight: 300;
-    line-height: 2rem;
     font-family: "Poppins", sans-serif;
 }
 
@@ -707,6 +708,7 @@ footer .f-additionals a:hover {
     color: #999;
     border-bottom: 1px solid #FFFFFF80;
 }
+
 /* common footer */
 
 /* common cta */
@@ -1560,6 +1562,15 @@ footer .f-additionals a:hover {
     .offcanvas-body .column-2 {
         display: none;
     }
+
+    .offcanvas-header h5,
+    .offcanvas-body .navbar-nav {
+        margin-left: 2rem !important;
+    }
+
+    .nav-item a.navigation {
+        font-size: 20px;
+    }
     /* common navbar */
 
     /* common footer */
@@ -1596,6 +1607,19 @@ footer .f-additionals a:hover {
 
     footer .select-me-inp {
         width: 75%;
+    }
+
+    footer h5 {
+        font-size: 1.25rem;
+    }
+
+    footer .footer-links {
+        font-size: 1.050rem;
+        line-height: 1.75rem;
+    }
+
+    footer .footer-info {
+        margin-bottom: 0 !important;
     }
     /* common footer */
 
@@ -1756,7 +1780,11 @@ footer .f-additionals a:hover {
     /* common navbar */
 
     /* common footer */
-
+    footer .f-additionals a,
+    footer .copyright {
+        font-size: 14px;
+        line-height: 1.5rem;
+    }
     /* common footer */
 
     /* common cta */
@@ -1935,8 +1963,35 @@ footer .f-additionals a:hover {
     }
 
     /* common navbar */
+    .navbar .hm-menu {
+        font-size: 1.125rem;
+        line-height: 2rem;
+    }
+
     .navbar-brand img {
-        width: 60px;
+        width: 40px;
+    }
+
+    .offcanvas-header img {
+        width: 50px;
+    }
+
+    .offcanvas-header button {
+        margin-right: 0rem !important;
+    }
+
+    .offcanvas-header h5,
+    .offcanvas-body .navbar-nav {
+        margin-left: 0rem !important;
+    }
+
+    .offcanvas-body {
+        margin-top: 2rem;
+        justify-content: flex-start !important;
+    }
+
+    .nav-item a.navigation {
+        font-size: 18px;
     }
     /* common navbar */
 
@@ -2012,7 +2067,7 @@ footer .f-additionals a:hover {
     }
 
     .common-introduction-0 .introduction-content-0 {
-        padding: 0 2%;
+        padding: 0 6%;
     }
     /* COMMON: Introduction 0 */
 
@@ -2380,8 +2435,35 @@ footer .f-additionals a:hover {
     }
 
     /* common navbar */
+    .navbar .hm-menu {
+        font-size: 1.125rem;
+        line-height: 2rem;
+    }
+
     .navbar-brand img {
-        width: 65px;
+        width: 40px;
+    }
+
+    .offcanvas-header img {
+        width: 50px;
+    }
+
+    .offcanvas-header button {
+        margin-right: 0rem !important;
+    }
+
+    .offcanvas-header h5,
+    .offcanvas-body .navbar-nav {
+        margin-left: 0rem !important;
+    }
+
+    .offcanvas-body {
+        margin-top: 2rem;
+        justify-content: flex-start !important;
+    }
+
+    .nav-item a.navigation {
+        font-size: 18px;
     }
     /* common navbar */
 
@@ -2587,7 +2669,7 @@ footer .f-additionals a:hover {
     
     /* Brand License */
     .common-introduction-0 .introduction-content-0 {
-        padding: 0 0%;
+        padding: 0 6%;
     }
 
     .brand-support h2 {
@@ -2789,6 +2871,15 @@ footer .f-additionals a:hover {
     .navbar-brand img {
         width: 70px;
     }
+
+    .offcanvas-body {
+        margin-top: 2rem;
+        justify-content: flex-start !important;
+    }
+
+    .navbar .hm-menu {
+        font-size: 1.25rem;
+    }
     /* common navbar */
 
     /* common footer */
@@ -2971,7 +3062,7 @@ footer .f-additionals a:hover {
     
     /* Brand License */
     .common-introduction-0 .introduction-content-0 {
-        padding: 0 2%;
+        padding: 0 3%;
     }
 
     .brand-support h2 {
@@ -3162,6 +3253,10 @@ footer .f-additionals a:hover {
     nav #pos-here .swiper-button-prev, 
     nav #pos-here .swiper-rtl .swiper-button-next {
         right: 55px;
+    }
+
+    .navbar .hm-menu {
+        font-size: 1.35rem;
     }
     /* common navbar */
 
