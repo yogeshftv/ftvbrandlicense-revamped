@@ -165,6 +165,8 @@ html.lenis {
 
 body {
     position: relative;
+    /* cursor: url('../media/icons/f-logo.png'), default; */
+    /* cursor: url('../media/icons/ftv-wings.png'), default; */
 }
 
 p {
@@ -192,7 +194,7 @@ p {
     --df-white: #ffffff;
     --df-black: #000000;
     --absolute-black: #131313;
-    /* cursor: url('https://res.cloudinary.com/madebyankur/image/upload/v1707409946/cursor'), default; */
+    /* cursor: url('../media/icons/wing-bg.png'), pointer; */
 }
 /* variables */
 
@@ -762,9 +764,6 @@ footer .f-additionals a:hover {
 
 /* Common Introduction 1 */
 .common-introduction-1 h2 {
-    font-weight: 400;
-    line-height: 7.5rem;  
-    font-size: 4.375rem;
     margin-bottom: 2.25rem;
 }
 /* Common Introduction 1 */

@@ -29,7 +29,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="col-12 col-md-8 px-0 column-2">
                     <div class="row row-1 mx-0">
                         <div class="col-12 col-md-7 px-0 column-1">
-                            <h2 class="bl--font-typ-1">About FashionTV</h2>
+                            <h2 class="bl-heading">About FashionTV</h2>
                         </div>
                         <div class="col-md-5 d-none d-md-block px-0 column-2"></div>
                     </div>
