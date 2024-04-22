@@ -271,5 +271,5 @@
 
     <!-- custom script -->
     <script>
-
+        console.log("Brand License by FashionTV");
     </script>

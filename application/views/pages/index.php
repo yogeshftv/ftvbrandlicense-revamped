@@ -389,7 +389,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
     <!-- custom script -->
     <script>
-        
+        console.log("Brand License by FashionTV");
     </script>
 
     <!-- REFERENCE FOR Home Page Cover Section : https://codepen.io/ecemgo/pen/eYboyMe -->

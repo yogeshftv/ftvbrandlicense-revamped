@@ -122,6 +122,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
     <!-- custom script -->
     <script>
+        console.log("Brand License by FashionTV");
+        
         var rangeSlider = document.getElementById("rangeSlider");
         var sliderValue = document.getElementById("sliderValue");
 

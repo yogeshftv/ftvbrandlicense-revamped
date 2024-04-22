@@ -169,3 +169,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         </div>
         <!--  -->
     </main>
+    
+    <script>
+        console.log("Brand License by FashionTV");
+    </script>

@@ -274,5 +274,9 @@
             <a href="<?= base_url(); ?>"><span> << </span>Go to home page</a>
         </div>
     </main>
+    
+    <script>
+        console.log("Brand License by FashionTV");
+    </script>
 </body>
 </html>

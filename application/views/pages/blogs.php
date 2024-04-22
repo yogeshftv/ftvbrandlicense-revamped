@@ -198,5 +198,5 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
     <!-- custom script -->
     <script>
-
+        console.log("Brand License by FashionTV");
     </script>
