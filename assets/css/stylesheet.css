@@ -1708,6 +1708,15 @@ footer .f-additionals a:hover {
         display: none;
     }
 
+    .dropdown {
+        position: relative !important;
+    }
+    
+    .dropdown-menu {
+        position: static !important;
+        left: 0% !important;
+        top: 0% !important;
+    }
     /* common navbar */
 
     /* common footer */
