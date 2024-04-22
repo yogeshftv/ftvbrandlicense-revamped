@@ -710,8 +710,8 @@ nav #pos-here .swiper-button-next::after {
 
 .dropdown-item.active,
 .dropdown-item:active {
-    color: #fff !important;
-    background-color: #131313;
+    text-decoration: underline;
+    background-color: transparent !important;
 }
 
 /* common navbar */
