@@ -13,7 +13,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </video>
         </section>
 
-        <section class="common-banner-video-for-mobile mt-0">
+        <section class="common-banner-video-for-mobile mt-0 mb-0">
             <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>" class="w-100">
                 <source src="<?= base_url(); ?>" type="video/mp4" class="w-100">
             </video>
@@ -190,16 +190,16 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 </div>
                 <div class="col-12 col-md-6 px-0 column-2">
                     <div class="boards-content">
-                        <h2 class="bl--font-typ-1 d-none d-md-block bl-heading--sub-font">michel adam</h2>
+                        <h2 class="d-none d-md-block bl-heading--sub-font">michel adam</h2>
                         <p class="d-none d-md-block poppins-font designation">Chairman & Founder of FashionTV</p>
                         <div class="container-fluid px-0 d-block d-md-none">
                             <h2 class="bl-heading--sub-font">michel adam</h2>
-                            <p class="poppins-font designation">Chairman & Founder of FashionTV</p>
+                            <p class="poppins-font designation text-start">Chairman & Founder of FashionTV</p>
                         </div>
                         <img src="<?php echo base_url(); ?>assets/media/images/our-story/michel-adam-2.png" alt="michel-adam">
                         <p class="d-none d-md-block mb-md-4 bl-paragraph">MICHEL ADAM LISOWSKI is the founder and chairman of FashionTV. He founded FashionTV to create a global fashion platform that focuses on fashion, luxury, and beauty. He is known as the 'FASHION MAESTRO' for his remarkable contribution to the vogue, luxury, and lifestyle industry around the globe. It has never been attempted before platform in India on a scale that is hard to match.</p>
                         <p class="d-none d-md-block bl-paragraph me-margin">He wishes to give young, talented, and ambitious aspirants from India an opportunity to understand the world of global chef-d'oeuvre fashion and bring them up to speed in this incredible vocation.</p>
-                        <div class="container-fluid desc px-0 d-block d-md-none">
+                        <div class="container-fluid desc desc-ma px-0 d-block d-md-none">
                             <p class="mb-md-4 bl-paragraph">MICHEL ADAM LISOWSKI is the founder and chairman of FashionTV. He founded FashionTV to create a global fashion platform that focuses on fashion, luxury, and beauty. He is known as the 'FASHION MAESTRO' for his remarkable contribution to the vogue, luxury, and lifestyle industry around the globe. It has never been attempted before platform in India on a scale that is hard to match.</p>
                             <p class="bl-paragraph">He wishes to give young, talented, and ambitious aspirants from India an opportunity to understand the world of global chef-d'oeuvre fashion and bring them up to speed in this incredible vocation.</p>
                         </div>
@@ -213,7 +213,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <p class="d-none d-md-block poppins-font designation">Managing Director of FashionTV</p>
                         <div class="container-fluid px-0 d-block d-md-none">
                             <h2 class="bl-heading--sub-font">kashiff khan</h2>
-                            <p class="poppins-font designation">Managing Director of FashionTV</p>
+                            <p class="poppins-font designation text-start">Managing Director of FashionTV</p>
                         </div>
                         <img src="<?php echo base_url(); ?>assets/media/images/our-story/kashiff-khan-2.png" alt="michel-adam">
                         <p class="d-none d-md-block mb-md-4 bl-paragraph">KASHIFF KHAN, the Managing Director of the world's largest fashion and lifestyle media brand, 'FashionTV, Asia Pacific, is an iconic name in the world of Fashion and Brand Business Development in India.</p>

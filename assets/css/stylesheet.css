@@ -1078,7 +1078,7 @@ footer .f-additionals a:hover {
     
     .statistics .stats-container h3 {
         font-weight: 400;
-        font-size: 5.625rem;
+        font-size: 5rem;
         line-height: 7.003125rem;    
     }
     
@@ -1125,13 +1125,13 @@ footer .f-additionals a:hover {
     }
 
     .our-boards .designation {
-        font-size: 30px;
+        font-size: 1.5rem;
         font-weight: 400;
         line-height: 30px;
-        color: #000000CC;
+        color: #202020;
         text-align: justify;
+        margin-top: -1rem;
         margin-bottom: 4rem;
-
     }
 
     .our-boards img {
@@ -1622,6 +1622,14 @@ footer .f-additionals a:hover {
 
     .our-story-introduction--for-mobile {
         display: block;
+    }
+
+    .our-story-introduction--for-mobile {
+        background-color: #F0F0F0;
+    }
+
+    .our-story-introduction--for-mobile .row .column-2 {
+        padding-bottom: 2rem;
     }
 
     .statistics .stats-container {
@@ -2207,13 +2215,33 @@ footer .f-additionals a:hover {
         line-height: 3.125rem;
     }
 
+    .statistics .stats-container .stats-card p {
+        font-size: 18px;
+        line-height: 1.35;
+    }
+
     .our-boards h2.heading {
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 
     .our-boards img {
         margin-bottom: 2rem;
     }
+
+    .our-boards .desc-ma {
+        padding-bottom: 2.75rem;
+    }
+
+    .our-boards .designation {
+        font-size: 1rem;
+        line-height: 1.375rem;
+        margin-top: -0.95rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .our-boards .desc p:nth-of-type(1) {
+        margin-bottom: 1rem;
+    } 
 
     .our-story-cta svg {
         display: none;
@@ -2234,7 +2262,9 @@ footer .f-additionals a:hover {
     }
     
     .our-story-cta h2 {
+        text-align: center;
         margin-bottom: 1.5rem;
+        line-height: 2.75rem !important;
     }
     
     .our-story-cta a {
@@ -2350,7 +2380,7 @@ footer .f-additionals a:hover {
 
 @media (min-width: 300px) and (max-width: 499px) {
     section {
-        margin: 5rem 0;
+        margin: 4rem 0;
     }
 
     /* common navbar */
@@ -2633,11 +2663,25 @@ footer .f-additionals a:hover {
     }
 
     .our-boards h2.heading {
-        margin-bottom: 3.5rem;
+        margin-bottom: 2.5rem;
     }
     
     .our-boards img {
         margin-bottom: 2rem;
+    }
+
+    .our-boards .desc-ma {
+        padding-bottom: 2.75rem;
+    }
+
+    .our-boards .designation {
+        font-size: 1rem;
+        margin-top: -1.25rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .our-boards .desc p:nth-of-type(1) {
+        margin-bottom: 1rem;
     }
 
     .our-story-cta svg {
@@ -2653,19 +2697,22 @@ footer .f-additionals a:hover {
 
     .our-story-cta h3 {
         text-align: center;
-        font-size: 1.75rem;
+        font-size: 1.125rem;
         line-height: 2.125rem;
         margin-bottom: 1.5rem;
     }
 
     .our-story-cta h2 {
-        margin-bottom: 3.5rem;
+        margin-top: -1rem;
+        text-align: center;
+        margin-bottom: 2.5rem;
+        line-height: 2.75rem !important;
     }
 
     .our-story-cta a {
         font-size: 1.25rem;
         line-height: 3rem;
-        padding: 0.8rem 4.75rem;
+        padding: 0.7rem 4.75rem;
     }
 
     .our-story-cta .column-2 .cta-content {
@@ -2774,7 +2821,7 @@ footer .f-additionals a:hover {
 
 @media (min-width: 500px) and (max-width: 767px) {
     section {
-        margin: 5.5rem 0;
+        margin: 5rem 0;
     }
 
     /* common navbar */
@@ -3002,7 +3049,7 @@ footer .f-additionals a:hover {
     }
 
     .our-story-introduction--for-mobile .column-2 img {
-        margin-bottom: 1.75rem;
+        margin-bottom: 0.75rem;
     }
 
     .our-story-introduction--for-mobile a {
@@ -3021,6 +3068,16 @@ footer .f-additionals a:hover {
         margin-bottom: 2rem;
     }
 
+    .our-boards .desc-ma {
+        padding-bottom: 2.75rem;
+    }
+
+    .our-boards .designation {
+        font-size: 1.125rem;
+        margin-top: -1.25rem;
+        margin-bottom: 2rem;
+    }
+
     .our-story-cta .cta-content {
         display: flex;
         align-items: center;
@@ -3035,19 +3092,20 @@ footer .f-additionals a:hover {
 
     .our-story-cta h3 {
         text-align: center;
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         line-height: 3rem;
-        margin-bottom: 1.25rem;
+        margin-bottom: 0rem;
     }
     
     .our-story-cta h2 {
-        margin-bottom: 3.75rem;
+        margin-top: -1rem;
+        margin-bottom: 2.75rem;
     }
     
     .our-story-cta a {
         font-size: 1.125rem;
         line-height: 3rem;
-        padding: 1rem 5.5rem;
+        padding: 0.75rem 5.5rem;
     }
 
     .our-story-cta .column-2 .cta-content {
@@ -3419,7 +3477,8 @@ footer .f-additionals a:hover {
     }
 
     .our-boards .boards-content {
-        width: 325px;
+        width: 350px;
+        padding-bottom: 2rem;
     }
 
     .our-boards h2.heading {
@@ -3430,13 +3489,24 @@ footer .f-additionals a:hover {
         margin-bottom: 2rem;
     }
 
+    .our-boards .designation {
+        font-size: 1.125rem;
+        margin-top: -1.25rem;
+        margin-bottom: 2rem;
+    }
+
+    .our-story-cta {
+        overflow: hidden;
+    }
+
     .our-story-cta h3 {
         font-size: 1.125rem;
         line-height: 2.25rem;
     }
     
     .our-story-cta h2 {
-        margin-bottom: 2.5rem;
+        margin-bottom: 1.5rem;
+        margin-top: -1rem;
     }
     
     .our-story-cta a {
@@ -3449,7 +3519,7 @@ footer .f-additionals a:hover {
     }
 
     .our-story-cta svg {
-        width: 100%;
+        width: 135%;
         height: 91px;
     }
     /* Our-Story */
@@ -3484,7 +3554,7 @@ footer .f-additionals a:hover {
 
 @media (min-width: 900px) and (max-width: 1099px) {
     section {
-        margin: 7rem 0;
+        margin: 6rem 0;
     }
 
     /* common navbar */
@@ -3721,7 +3791,7 @@ footer .f-additionals a:hover {
     } 
 
     .our-story-introduction--for-desktop .row-2 .column-2 p {
-        width: 50ch;
+        width: 54ch;
         margin: 0 auto;
         margin-bottom: 2rem;
     }
@@ -3751,15 +3821,32 @@ footer .f-additionals a:hover {
         text-align: center;
     }
 
+    .statistics .stats-container h3 {
+        font-size: 2.75rem;
+        line-height: 3rem;
+    }
+
+    .statistics .stats-container .stats-card p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
     .our-boards .boards-content {
-        width: 380px;
+        width: 420px;
+        padding-bottom: 2rem;
     }
 
     .our-boards h2.heading {
-        margin-bottom: 4.5rem;
+        margin-bottom: 2.75rem;
     }
     
     .our-boards img {
+        margin-bottom: 1.5rem;
+    }
+
+    .our-boards .designation {
+        font-size: 1.125rem;
+        margin-top: -1.25rem;
         margin-bottom: 2rem;
     }
 
@@ -3769,6 +3856,7 @@ footer .f-additionals a:hover {
     }
     
     .our-story-cta h2 {
+        margin-top: -1rem;
         margin-bottom: 2.125rem;
     }
     
@@ -3839,6 +3927,10 @@ footer .f-additionals a:hover {
 }
 
 @media (min-width: 1100px) and (max-width: 1299px) {
+    section {
+        margin: 7rem 0;
+    }
+
     /* common navbar */
     .nav-item a.navigation {
         font-size: 21px;
@@ -4050,6 +4142,22 @@ footer .f-additionals a:hover {
     /* Brand License */
 
     /* Our Story */
+    .our-story-introduction--for-desktop .row.row-2 .column-1 {
+        width: 25%;
+    }
+
+    .our-story-introduction--for-desktop .row.row-2 .column-2 {
+        width: 75%;
+    }
+
+    .our-story-introduction--for-desktop .row.row-3 .column-1 {
+        width: 20%;
+    }
+
+    .our-story-introduction--for-desktop .row.row-3 .column-2 {
+        width: 80%;
+    }
+
     .our-story-introduction--for-desktop .row-1 .column-1 {
         width: 80%;
     }
@@ -4059,24 +4167,30 @@ footer .f-additionals a:hover {
     }
 
     .our-story-introduction--for-desktop .row-1 h2 {
-        margin-bottom: 0rem;
+        margin-bottom: 1rem;
     }
     
     .our-story-introduction--for-desktop .row-2 p {
-        width: 42ch;
-        margin-bottom: 2.125rem;
+        width: 48ch;
+        margin-bottom: 2.75rem;
     }
 
     .our-story-introduction--for-desktop .row-3 img {
-        margin-bottom: 1.75rem;
+        margin-bottom: 2rem;
     }
 
     .our-story-introduction--for-desktop .row-3 a {
         font-size: 1.100rem;
     }
-
+    
     .statistics .stats-container h3 {
-        font-size: 4rem;
+        font-size: 3.125rem;
+        line-height: 4rem;
+    }
+
+    .statistics .stats-container .stats-card p {
+        font-size: 18px;
+        line-height: 24px;
     }
 
     .statistics .stats-container {
@@ -4094,7 +4208,7 @@ footer .f-additionals a:hover {
     }
 
     .our-boards h2.heading {
-        margin-bottom: 4.5rem;
+        margin-bottom: 4rem;
     }
     
     .our-boards img {
@@ -4102,7 +4216,14 @@ footer .f-additionals a:hover {
     }
 
     .our-story-cta h2 {
-        margin-bottom: 3.25rem;
+        margin-top: -1rem;
+        margin-bottom: 3rem;
+    }
+
+    .our-boards .designation {
+        font-size: 1.25rem;
+        margin-top: -1.25rem;
+        margin-bottom: 2.5rem;
     }
     
     .our-story-cta h3 {
@@ -4402,6 +4523,11 @@ footer .f-additionals a:hover {
 
     .our-boards h2.heading {
         margin-bottom: 4.5rem;
+    }
+
+    .our-boards .designation {
+        font-size: 1.35rem;
+        margin-bottom: 3rem;
     }
     
     .our-boards img {
