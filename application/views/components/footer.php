@@ -215,6 +215,8 @@
 <script src="<?= base_url(); ?>assets/js/custom.js"></script>
 <script src="<?= base_url(); ?>assets/js/script.js"></script>
 
+<!-- Fallback for downloadables animation -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <script src="<?= base_url(); ?>assets/js/animate.js"></script>
 
@@ -296,6 +298,15 @@
                 link.classList.add("active");
             }
         });
+    });
+
+    $('.upload').on('click touch', function(e) {
+        e.preventDefault();
+        var self = $(this);
+        self.addClass('loading');
+        setTimeout(function() {
+            self.removeClass('loading');
+        }, 4200)
     });
 
     function visibleDifferentSwipers() {

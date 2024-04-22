@@ -16,10 +16,10 @@ $path = end($path);
             <div class="container-fluid px-0">
                 <button class="btn hm-menu shadow-none p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                     <svg width="36" height="24" viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M2 2H34" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
-                        <path d="M2 12H26" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
-                        <path d="M2 22H34" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
-                    </svg>    
+                        <path d="M2 2H34" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+                        <path d="M2 12H26" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+                        <path d="M2 22H34" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+                    </svg>
                     <span>Menu</span>
                 </button>
                 <a class="navbar-brand t-loader" href="<?php echo base_url(); ?>">
@@ -36,7 +36,7 @@ $path = end($path);
                         </button>
                     </div>
                     <div class="offcanvas-body d-flex flex-column justify-content-center">
-                        
+
                         <div class="row mx-0">
                             <div class="col-12 col-md-4 column-1 px-0">
                                 <ul class="navbar-nav ms-5 mb-2 mb-lg-0">
@@ -52,6 +52,15 @@ $path = end($path);
                                     <li class="nav-item mb-2 mb-md-3">
                                         <a class="nav-link t-loader navigation" href="<?php echo base_url(); ?>our-services" id="our-services">Our Services</a>
                                     </li>
+                                    <div class="nav-item dropdown mb-2 mb-md-3">
+                                        <button class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Our Board
+                                        </button>
+                                        <ul class="dropdown-menu w-50" aria-labelledby="dropdownMenuButton1 ps-2 ps-md-3">
+                                            <li><a class="dropdown-item nav-link t-loader navigation" href="<?php echo base_url(); ?>michel-adam" style="padding: .25rem 1rem;">Michel Adam</a></li>
+                                            <li><a class="dropdown-item nav-link t-loader navigation" href="<?php echo base_url(); ?>kashiff-khan" style="padding: .25rem 1rem;">Kashiff Khan</a></li>
+                                        </ul>
+                                    </div>
                                     <li class="nav-item mb-2 mb-md-3">
                                         <a class="nav-link t-loader navigation" href="<?php echo base_url(); ?>faqs" id="faqs">Faqs</a>
                                     </li>
@@ -148,7 +157,7 @@ $path = end($path);
                                         <div class="swiper-slide">
                                             <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-4.png" alt="example-image-4" class="w-100">
                                             <h3>Nails</h3>
-                                        </div> 
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="swiper navbarSwiper" id="swiper-for--accessories">
@@ -197,7 +206,7 @@ $path = end($path);
                 </div>
             </div>
         </nav>
-        
+
     </header>
 
     <div id="loader-wrapper">

@@ -53,8 +53,10 @@ $route['default_controller'] = 'pages';
 
 $route['our-story'] = 'pages/our_story';
 $route['our-services'] = 'pages/our_services';
-
 $route['brand-license'] = 'pages/brand_license';
+
+$route['michel-adam'] = 'pages/michel_adam';
+$route['kashiff-khan'] = 'pages/kashiff_khan';
 
 $route['faqs'] = 'pages/faq';
 $route['contact-us'] = 'pages/contact_us';

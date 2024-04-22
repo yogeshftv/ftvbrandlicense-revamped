@@ -58,6 +58,30 @@ class Pages extends CI_Controller
                 $this->load->view("components/footer");
         }
 
+        public function michel_adam()
+        {
+                $data['meta_description'] = 'Are you looking licensing brand Collabration with top brands for mutual success? At fashionTV expand your brand reach through licensing opportunities.';
+                $data['meta_keywords'] = '';
+                $data['meta_title'] = 'Licensing Brand Collaboration - FashionTV';
+
+                $this->load->view("components/head", $data);
+                $this->load->view("components/nav");
+                $this->load->view("pages/michel-adam");
+                $this->load->view("components/footer");
+        }
+
+        public function kashiff_khan()
+        {
+                $data['meta_description'] = 'Are you looking licensing brand Collabration with top brands for mutual success? At fashionTV expand your brand reach through licensing opportunities.';
+                $data['meta_keywords'] = '';
+                $data['meta_title'] = 'Licensing Brand Collaboration - FashionTV';
+
+                $this->load->view("components/head", $data);
+                $this->load->view("components/nav");
+                $this->load->view("pages/kashiff-khan");
+                $this->load->view("components/footer");
+        }
+
         public function contact_us()
         {
 

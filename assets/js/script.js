@@ -219,12 +219,12 @@ function commonVisibleDifferentSwipers() {
     const commonClickables = document.querySelectorAll(".common-clickables");
 
     commonClickables.forEach(item => {
+        console.log("Swiper Wrapper or Parent",item);
         item.addEventListener("click", (e) => {
+
             const targetId = e.target.getAttribute("id");
-            console.log(targetId);
 
             const swiperToShow = document.getElementById(`swiper-for--${targetId}`);
-            console.log(swiperToShow);
 
             commonClickables.forEach(link => {
                 link.classList.remove("cmn-active-link");
@@ -245,6 +245,7 @@ function commonVisibleDifferentSwipers() {
     });
 
     const defaultSwiper = document.getElementById("swiper-for--cmn-apparel");
+
     if (defaultSwiper) {
         defaultSwiper.classList.add("show-common-swiper");
     }
