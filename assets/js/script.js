@@ -219,7 +219,6 @@ function commonVisibleDifferentSwipers() {
     const commonClickables = document.querySelectorAll(".common-clickables");
 
     commonClickables.forEach(item => {
-        console.log("Swiper Wrapper or Parent",item);
         item.addEventListener("click", (e) => {
 
             const targetId = e.target.getAttribute("id");
