@@ -1,38 +1,19 @@
 <footer class="flyt">
     <div class="container-fluid px-0">
         <!-- Modal -->
-        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="z-index: 99999999 !important; backdrop-filter: blur(5px); background: rgba(0, 0, 0, 0.6);">
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered subscribing-modal modal-lg">
-                <div class="modal-content" style="background-color: #151414;">
-                    <div class="modal-header" style="border: 0;">
-                        <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close" style="filter: invert(100%);"></button>
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
-                        <img class="logo-dark mb-4" src="<?php echo base_url(); ?>assets/media/icons/footer-logo.png" alt="" style="width: 12%; margin: 20px 0px;">
-                        <h2 class="bl-font sub-heading text-white mb-3">Thanks for Subscribing!!!</h2>
-                        <p class="poppins-font paragraph text-white">You will receive our latest updates and notification of FTV Brand License on your registered email id.</p>
+                    <div class="modal-body d-flex flex-column align-items-center justify-content-center">
+                        <img class="logo-dark mb-3 mb-md-5" src="<?php echo base_url(); ?>assets/media/icons/nav-logo.png" alt="">
+                        <h2 class="bl-heading--sub-font mb-3 mb-md-4">Thanks for Subscribing!!!</h2>
+                        <p class="bl-paragraph">You will receive our latest updates and notification of FTV Brand License on your registered email id.</p>
                     </div>
-                    <div class="modal-footer" style="border-top: 1px solid #414141;">
-                        <a href="<?php echo base_url(); ?>" type="button " class="btn wt-cp--btn blog_read-btn px-3 py-2" style="font-size: 18px; color: #E5B4A8;">Continue to Website</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered subscribing-modal modal-lg">
-                <div class="modal-content" style="background-color: #151414;">
-                    <div class="modal-header" style="border: 0;">
-                        <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close" style="filter: invert(100%);"></button>
-                    </div>
-                    <div class="modal-body">
-                        <img class="logo-dark mb-4" src="<?php echo base_url(); ?>assets/media/icons/footer-logo.png" alt="" style="width: 12%; margin: 20px 0px;">
-                        <h2 class="bl-font sub-heading text-white mb-3">IMPORTANT REMINDER FOR EXISTING USERS!</h2>
-                        <p class="poppins-font paragraph text-white">Already existing subscribers should follow our website &amp; social media channels for more
-                            information &amp; latest updates.</p>
-                    </div>
-                    <div class="modal-footer" style="border-top: 1px solid #414141;">
-                        <a href="<?php echo base_url(); ?>" type="button" class="btn wt-cp--btn blog_read-btn px-3 py-2" style="font-size: 18px; color: #E5B4A8;">Continue to Website</a>
+                    <div class="modal-footer border-0">
+                        <a href="<?php echo base_url(); ?>" type="button " class="bl-paragraph">Continue to Website</a>
                     </div>
                 </div>
             </div>
@@ -40,18 +21,37 @@
 
         <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered resubscribing-modal modal-lg">
-                <div class="modal-content" style="background-color: #151414;">
-                    <div class="modal-header" style="border: 0;">
-                        <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close" style="filter: invert(100%);"></button>
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body text-center">
-                        <img class="logo-dark mb-4" src="<?php echo base_url(); ?>assets/media/icons/footer-logo.png" alt="" />
-                        <h2 class="bl-font sub-heading text-white my-4">WELCOME BACK TO FTV Brand License</h2>
-                        <p class="poppins-font paragraph text-white my-4">A lot has changed since you last visited. Let us explore once again.</p>
-                        <p class="poppins-font paragraph text-white my-4">Checkout the latest updates &amp; blogs related to FTV Brand License.</p>
+                    <div class="modal-body d-flex flex-column align-items-center justify-content-center">
+                        <img class="logo-dark mb-3 mb-md-5" src="<?php echo base_url(); ?>assets/media/icons/nav-logo.png" alt="" />
+                        <h2 class="bl-heading--sub-font mb-3 mb-md-4">WELCOME BACK TO FTV Brand License</h2>
+                        <p class="bl-paragraph mb-2">A lot has changed since you last visited. Let us explore once again.</p>
+                        <p class="bl-paragraph">Checkout the latest updates &amp; blogs related to FTV Brand License.</p>
                     </div>
-                    <div class="modal-footer" style="border-top: 1px solid #414141;">
-                        <a href="<?php echo base_url(); ?>" type="button" class="btn blog_read-btn wt-cp--btn px-3 py-2" style="font-size: 18px;">Start Exploring</a>
+                    <div class="modal-footer border-0">
+                        <a href="<?php echo base_url(); ?>" type="button" class="bl-paragraph px-3 py-2">Start Exploring</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered subscribing-modal modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex flex-column align-items-center justify-content-center">
+                        <img class="logo-dark mb-3 mb-md-5" src="<?php echo base_url(); ?>assets/media/icons/nav-logo.png" alt="">
+                        <h2 class="bl-heading--sub-font mb-3 mb-md-4">Important Reminder For Existing Users!</h2>
+                        <p class="bl-paragraph">Already existing subscribers should follow our website &amp; social media channels for more
+                            information &amp; latest updates.</p>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <a href="<?php echo base_url(); ?>" type="button" class="bl-paragraph">Continue to Website</a>
                     </div>
                 </div>
             </div>
@@ -72,30 +72,30 @@
                         </a>
                         <h5 class="mb-4">Quick Links</h5>
                         <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Home</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Michel Adam</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Kashiff Khan</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Fashion TV</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Licensing Opportunity</a></li>
+                            <li class="nav-item mb-2"><a href="<?= base_url(); ?>" class="nav-link p-0 footer-links">Home</a></li>
+                            <li class="nav-item mb-2"><a href="<?= base_url(); ?>michel-adam" class="nav-link p-0 footer-links">Michel Adam</a></li>
+                            <li class="nav-item mb-2"><a href="<?= base_url(); ?>kashiff-khan" class="nav-link p-0 footer-links">Kashiff Khan</a></li>
+                            <li class="nav-item mb-2"><a href="<?= base_url(); ?>our-story" class="nav-link p-0 footer-links">Fashion TV</a></li>
+                            <li class="nav-item mb-2"><a href="<?= base_url(); ?>our-services" class="nav-link p-0 footer-links">Licensing Opportunity</a></li>
                         </ul>
                     </div>
 
                     <div class="col-12 mb-4 col-md-3 px-0">
                         <h5 class="mb-4">Helpful Links</h5>
                         <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Careers</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Blogs</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footer-links">Browse our verticals</a></li>
+                            <li class="nav-item mb-2"><a href="https://ftvjobs.in/" class="nav-link p-0 footer-links">Careers</a></li>
+                            <li class="nav-item mb-2"><a href="<?= base_url(); ?>blogs" class="nav-link p-0 footer-links">Blogs</a></li>
+                            <li class="nav-item mb-2"><a href="<?= base_url(); ?>" class="nav-link p-0 footer-links">Browse our verticals</a></li>
                         </ul>
                     </div>
 
                     <div class="col-12 col-md-5 offset-md-1 px-0">
-                        <form>
+                        <form action="" method="POST" id="subscribtion">
                             <h5 class="border-0 mb-4">Subscribe to FTV License.</h5>
                             <div class="d-flex align-items-center gap-3 select-me-inp">
                                 <label for="newsletter1" class="visually-hidden">Email address</label>
-                                <input id="newsletter1" type="text" class="form-control shadow-none" placeholder="Enter your E-mail address">
-                                <button class="btn inp-sbmt-btn p-0 shadow-none" type="button">
+                                <input id="newsletter1" type="text" class="form-control shadow-none" placeholder="Enter your E-mail address" name="email">
+                                <button class="btn inp-sbmt-btn p-0 shadow-none" type="submit">
                                     <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle cx="30" cy="30" r="29.75" transform="rotate(-180 30 30)" stroke="white" stroke-width="0.5" />
                                         <path d="M22.2583 30.0001L38.7099 30.0001M38.7099 30.0001L34.8389 33.8711M38.7099 30.0001L34.8389 26.1292" stroke="white" stroke-width="0.5" />

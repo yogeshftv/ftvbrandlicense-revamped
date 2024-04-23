@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        a {
+            color: #131313;
+            font-weight: 300;
+            font-size: 1.5rem;
+            text-decoration: none;
+            border-radius: 1.25rem;
+            line-height: 3.95625rem;
+            padding: 1.5rem 4.6875rem;
+            border: 1px solid #000000c0;
+            font-family: "Poppins", sans-serif;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        a:hover {
+            color: #fff;
+            background-color: #121212;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="category">
+            <div class="buttons-wrapper">
+                <div><a class="click-btn btn-style1" href="#">Hover me</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

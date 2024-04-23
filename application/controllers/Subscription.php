@@ -14,7 +14,7 @@ class Subscription extends CI_Controller
         // Handle invalid email error
         $response = array(
             'status' => 'error',
-            'message' => 'Invalid email address'
+            'message' => 'Invalid email address',
         );
         echo json_encode($response);
         return;

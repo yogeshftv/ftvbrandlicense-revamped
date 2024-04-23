@@ -120,10 +120,10 @@ $(document).ready(function () {
 				data.forEach((element) => {
 					$("#stateSelect").append(
 						'<option value="' +
-							element.state_name +
-							'">' +
-							element.state_name +
-							"</option>"
+						element.state_name +
+						'">' +
+						element.state_name +
+						"</option>"
 					);
 				});
 			},
@@ -151,10 +151,10 @@ $(document).ready(function () {
 				data.forEach((element) => {
 					$("#citySelect").append(
 						'<option value="' +
-							element.city_name +
-							'">' +
-							element.city_name +
-							"</option>"
+						element.city_name +
+						'">' +
+						element.city_name +
+						"</option>"
 					);
 				});
 			},
@@ -173,7 +173,7 @@ $(document).ready(function () {
 //     $("#joinus_form").submit(function (event) {
 //         event.preventDefault();
 //         var formData = $(this).serialize();
-        
+
 //         $("#joinus_form .text-danger").remove();
 //         $("#joinus_form .is-invalid").removeClass("is-invalid");
 
@@ -202,12 +202,12 @@ $(document).ready(function () {
 //             });
 //         }
 //     });
-    
+
 //     $("#name").on("input", function () {
 //         $(this).removeClass("is-invalid");
 //         $(this).next(".invalid-feedback").remove();
 //     });
-    
+
 //     $("#email").on("input", function () {
 //         $(this).removeClass("is-invalid");
 //         $(this).next(".invalid-feedback").remove();
@@ -258,40 +258,48 @@ $(document).ready(function () {
 });
 
 // footer subscribe handel new
-$(document).ready(function() {
-    $('#subscribtion').on('submit', function(e) {
-      e.preventDefault();
-      
-      var submitBtn = $(this).find('button[type="submit"]');
-      submitBtn.prop('disabled', true).html('<i class="fa-solid fa-spinner fa-spin" style="color: #ffffff; font-size: 1.75rem;"></i>');
-  
-      $.ajax({
-        url: base_path + 'subscription/subscribe',
-        method: 'POST',
-        dataType: 'json',
-        data: $(this).serialize(),
-        success: function(response) {
-          submitBtn.prop('disabled', false).html('<i class="bi bi-arrow-right-square text-dark" style="font-size: 1.75rem; opacity:0;"></i>');
-  
-          if (response.status === 'success') {
-  
-            $('#staticBackdrop').modal('show');
-          } else if (response.status === 'already_subscribed') {
-  
-            $('#staticBackdrop3').modal('show');
-          } else if (response.status === 'resubscribe') {
-            $('#staticBackdrop2').modal('show');
-          } else {
-  
-            $('#staticBackdrop3').modal('show');
-          }
-        },
-        error: function() {
-  
-          submitBtn.prop('disabled', false).html('<i class="bi bi-arrow-right-square text-dark" style="font-size: 1.75rem;"></i>');
-  
-          $('#staticBackdrop3').modal('show');
-        }
-      });
-    });
-  });
+$(document).ready(function () {
+	$('#subscribtion').on('submit', function (e) {
+		e.preventDefault();
+
+		var submitBtn = $(this).find('button[type="submit"]');
+		submitBtn.prop('disabled', true).html('<i class="fa-solid fa-spinner fa-spin" style="color: #ffffff; font-size: 1.75rem;"></i>');
+
+		$.ajax({
+			url: base_path + 'subscription/subscribe',
+			method: 'POST',
+			dataType: 'json',
+			data: $(this).serialize(),
+			success: function (response) {
+				submitBtn.prop('disabled', false).html(`
+		  		<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+		  			<circle cx="30" cy="30" r="29.75" transform="rotate(-180 30 30)" stroke="white" stroke-width="0.5" />
+		  			<path d="M22.2583 30.0001L38.7099 30.0001M38.7099 30.0001L34.8389 33.8711M38.7099 30.0001L34.8389 26.1292" stroke="white" stroke-width="0.5" />
+	  			</svg>
+		  `);
+
+				if (response.status === 'success') {
+					$('#staticBackdrop').modal('show');
+				} else if (response.status === 'already_subscribed') {
+
+					$('#staticBackdrop3').modal('show');
+				} else if (response.status === 'resubscribe') {
+					$('#staticBackdrop2').modal('show');
+				} else {
+
+					$('#staticBackdrop3').modal('show');
+				}
+			},
+			error: function () {
+				submitBtn.prop('disabled', false).html(
+					`<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<circle cx="30" cy="30" r="29.75" transform="rotate(-180 30 30)" stroke="white" stroke-width="0.5" />
+						<path d="M22.2583 30.0001L38.7099 30.0001M38.7099 30.0001L34.8389 33.8711M38.7099 30.0001L34.8389 26.1292" stroke="white" stroke-width="0.5" />
+					</svg>`
+				);
+
+				$('#staticBackdrop3').modal('show');
+			}
+		});
+	});
+});

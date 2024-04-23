@@ -241,7 +241,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="cta-content">
                         <h3>Empower Your Brand with</h3>
                         <h2 class="bl-heading">Licensing options today </h2>
-                        <a href="#">Contact Us</a>
+                        <a href="<?= base_url(); ?>contact-us" class="cta-btn">Contact Us</a>
                     </div>
                 </div>
             </div>

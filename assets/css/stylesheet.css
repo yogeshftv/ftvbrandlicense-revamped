@@ -240,6 +240,29 @@ p {
     position: relative;
 }
 
+.pos-abs {
+    position: absolute;
+}
+
+.pos-ra-center {
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-btn {
+    transition: background-color 0.5s ease, color 0.5s ease, border 0.5s ease;
+}
+
+.cta-btn:hover {
+    border: none;
+    color: #fff;
+    background-color: #131313;
+}
+
 /* whatsapp common icon */
 .btn-whatsapp-pulse {
     background: #25d366;
@@ -430,30 +453,73 @@ p {
 section {
     margin: 8rem 0;
 }
-
 /* default margin for section */
 
-.ml7 {
-    position: relative;
-    font-weight: 900;
-    font-size: 3.7em;
+#staticBackdrop,
+#staticBackdrop2,
+#staticBackdrop3 {
+    backdrop-filter: blur(5px) !important; 
+    z-index: 99999999 !important; 
+    background: rgba(0, 0, 0, 0.6) !important;
 }
 
-.ml7 .text-wrapper {
-    position: relative;
-    display: inline-block;
-    padding-top: 0.2em;
-    padding-right: 0.05em;
-    padding-bottom: 0.1em;
-    overflow: hidden;
+#staticBackdrop .modal-content,
+#staticBackdrop2 .modal-content,
+#staticBackdrop3 .modal-content {
+    background-color: #ffffff;
 }
 
-.ml7 .letter {
-    transform-origin: 0 100%;
-    display: inline-block;
-    line-height: 1em;
+#staticBackdrop .modal-header,
+#staticBackdrop2 .modal-header,
+#staticBackdrop3 .modal-header {
+    border: 0;
 }
 
+#staticBackdrop .modal-header button.btn-close,
+#staticBackdrop2 .modal-header button.btn-close,
+#staticBackdrop3 .modal-header button.btn-close {
+    opacity: 1 !important;
+}
+
+#staticBackdrop .modal-body img,
+#staticBackdrop2 .modal-body img,
+#staticBackdrop3 .modal-body img {
+    width: 80px;
+    filter: invert(1);
+    margin-top: -2rem;
+}
+
+#staticBackdrop .modal-body h2,
+#staticBackdrop2 .modal-body h2,
+#staticBackdrop3 .modal-body h2 {
+    color: #131313;
+    line-height: 2.75rem;
+    text-align: center;
+}
+
+#staticBackdrop .modal-body p,
+#staticBackdrop2 .modal-body p,
+#staticBackdrop3 .modal-body p {
+    color: #131313;
+    text-align: center;
+}
+
+#staticBackdrop .modal-footer,
+#staticBackdrop2 .modal-footer,
+#staticBackdrop3 .modal-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#staticBackdrop .modal-footer a,
+#staticBackdrop2 .modal-footer a,
+#staticBackdrop3 .modal-footer a {
+    color: #131313; 
+    border-radius: 1.25rem;
+    padding: 0.75rem 3rem !important;
+    border: 1px solid #131313;
+}
 /* Utility Class */
 
 /* common navbar */
@@ -800,7 +866,16 @@ footer #newsletter1::placeholder {
 }
 
 footer .inp-sbmt-btn svg {
-    width: 100%;
+    width: 90%;
+}
+
+footer .inp-sbmt-btn {
+    transition: transform 0.3s ease;
+}
+
+footer .inp-sbmt-btn:active,
+footer .inp-sbmt-btn:hover {
+    transform: scale(1.125);
 }
 
 footer .f-additionals a,
@@ -988,6 +1063,7 @@ footer .f-additionals a:hover {
 }
 
 .common-cta-1 a {
+    color: #131313;
     font-weight: 300;
     font-size: 1.5rem;
     border-radius: 1.25rem;
@@ -1135,7 +1211,7 @@ footer .f-additionals a:hover {
 }
 
 .our-story-introduction--for-desktop .row-2 p {
-    width: 74ch;
+    width: 65ch;
     margin-bottom: 3rem;
 }
 
@@ -1520,7 +1596,7 @@ footer .f-additionals a:hover {
 }
 
 .form-control::placeholder {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 20px;
     font-family: 'Poppins', sans-serif;
@@ -1570,6 +1646,12 @@ footer .f-additionals a:hover {
     opacity: 1;
     padding: 20px 0;
     width: 100%;
+}
+
+.btn-submit:hover {
+    color: #131313;
+    border: 1px solid #131313;
+    background-color: #ffffff;
 }
 
 .error {
@@ -2148,9 +2230,58 @@ footer .f-additionals a:hover {
 
 /* Granular Responsiveness */
 @media (min-width: 200px) and (max-width: 299px) {
+    /* terms and conditions */
+    .privacy-policy h1,
+    .t-and-c h1 {
+        line-height: 2rem;
+    }
+
+    .privacy-policy h2,
+    .t-and-c h2 {
+        line-height: 2rem !important;
+        margin-top: 1rem !important;
+        margin-bottom: 1.25rem !important;
+    }
+    /* terms and conditions */
+
     section {
         margin: 4rem 0;
     }
+
+    /* utility classes */
+    #staticBackdrop .modal-body img,
+    #staticBackdrop2 .modal-body img,
+    #staticBackdrop3 .modal-body img {
+        width: 60px;
+        margin-top: -1.5rem;
+        margin-bottom: 1.75rem !important;
+    }
+
+    #staticBackdrop .modal-body h2,
+    #staticBackdrop2 .modal-body h2,
+    #staticBackdrop3 .modal-body h2 {
+        line-height: 2rem;
+    }
+
+    #staticBackdrop .modal-body p,
+    #staticBackdrop2 .modal-body p,
+    #staticBackdrop3 .modal-body p {
+    }
+
+    #staticBackdrop .modal-footer,
+    #staticBackdrop2 .modal-footer,
+    #staticBackdrop3 .modal-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #staticBackdrop .modal-footer a,
+    #staticBackdrop2 .modal-footer a,
+    #staticBackdrop3 .modal-footer a {
+        padding: 0.8rem 1.125rem;
+    }
+    /* utility classes */
 
     /* common navbar */
     .navbar .hm-menu {
@@ -2705,9 +2836,58 @@ footer .f-additionals a:hover {
 }
 
 @media (min-width: 300px) and (max-width: 499px) {
+    /* terms and conditions */
+    .privacy-policy h1,
+    .t-and-c h1 {
+        line-height: 2.125rem;
+    }
+
+    .privacy-policy h2,
+    .t-and-c h2 {
+        line-height: 2.125rem !important;
+        margin-top: 1rem !important;
+        margin-bottom: 1.25rem !important;
+    }
+    /* terms and conditions */
+
     section {
         margin: 4rem 0;
     }
+
+    /* utility classes */
+    #staticBackdrop .modal-body img,
+    #staticBackdrop2 .modal-body img,
+    #staticBackdrop3 .modal-body img {
+        width: 60px;
+        margin-top: -1.5rem;
+        margin-bottom: 1.75rem !important;
+    }
+
+    #staticBackdrop .modal-body h2,
+    #staticBackdrop2 .modal-body h2,
+    #staticBackdrop3 .modal-body h2 {
+        line-height: 2rem;
+    }
+
+    #staticBackdrop .modal-body p,
+    #staticBackdrop2 .modal-body p,
+    #staticBackdrop3 .modal-body p {
+    }
+
+    #staticBackdrop .modal-footer,
+    #staticBackdrop2 .modal-footer,
+    #staticBackdrop3 .modal-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #staticBackdrop .modal-footer a,
+    #staticBackdrop2 .modal-footer a,
+    #staticBackdrop3 .modal-footer a {
+        padding: 0.8rem 1.125rem;
+    }
+    /* utility classes */
 
     /* common navbar */
     .navbar .hm-menu {
@@ -3200,9 +3380,58 @@ footer .f-additionals a:hover {
 }
 
 @media (min-width: 500px) and (max-width: 767px) {
+    /* terms and conditions */
+    .privacy-policy h1,
+    .t-and-c h1 {
+        line-height: 2.125rem;
+    }
+
+    .privacy-policy h2,
+    .t-and-c h2 {
+        line-height: 2.125rem !important;
+        margin-top: 1rem !important;
+        margin-bottom: 1.25rem !important;
+    }
+    /* terms and conditions */
+
     section {
         margin: 5rem 0;
     }
+
+    /* utility classes */
+    #staticBackdrop .modal-body img,
+    #staticBackdrop2 .modal-body img,
+    #staticBackdrop3 .modal-body img {
+        width: 60px;
+        margin-top: -1.5rem;
+        margin-bottom: 1.75rem !important;
+    }
+
+    #staticBackdrop .modal-body h2,
+    #staticBackdrop2 .modal-body h2,
+    #staticBackdrop3 .modal-body h2 {
+        line-height: 2rem;
+    }
+
+    #staticBackdrop .modal-body p,
+    #staticBackdrop2 .modal-body p,
+    #staticBackdrop3 .modal-body p {
+    }
+
+    #staticBackdrop .modal-footer,
+    #staticBackdrop2 .modal-footer,
+    #staticBackdrop3 .modal-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #staticBackdrop .modal-footer a,
+    #staticBackdrop2 .modal-footer a,
+    #staticBackdrop3 .modal-footer a {
+        padding: 0.8rem 1.125rem;
+    }
+    /* utility classes */
 
     /* common navbar */
     .navbar-brand img {
@@ -3596,9 +3825,58 @@ footer .f-additionals a:hover {
 }
 
 @media (min-width: 768px) and (max-width: 899px) {
+    /* terms and conditions */
+    .privacy-policy h1,
+    .t-and-c h1 {
+        line-height: 3rem;
+    }
+
+    .privacy-policy h2,
+    .t-and-c h2 {
+        line-height: 2.125rem !important;
+        margin-top: 1.75rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+    /* terms and conditions */
+
     section {
         margin: 6rem 0;
     }
+
+    /* utility classes */
+    #staticBackdrop .modal-body img,
+    #staticBackdrop2 .modal-body img,
+    #staticBackdrop3 .modal-body img {
+        width: 60px;
+        margin-top: -1.5rem;
+        margin-bottom: 1.75rem !important;
+    }
+
+    #staticBackdrop .modal-body h2,
+    #staticBackdrop2 .modal-body h2,
+    #staticBackdrop3 .modal-body h2 {
+        line-height: 2rem;
+    }
+
+    #staticBackdrop .modal-body p,
+    #staticBackdrop2 .modal-body p,
+    #staticBackdrop3 .modal-body p {
+    }
+
+    #staticBackdrop .modal-footer,
+    #staticBackdrop2 .modal-footer,
+    #staticBackdrop3 .modal-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #staticBackdrop .modal-footer a,
+    #staticBackdrop2 .modal-footer a,
+    #staticBackdrop3 .modal-footer a {
+        padding: 0.8rem 1.125rem;
+    }
+    /* utility classes */
 
     /* common navbar */
     .navbar-brand img {
@@ -4031,9 +4309,58 @@ footer .f-additionals a:hover {
 }
 
 @media (min-width: 900px) and (max-width: 1099px) {
+    /* terms and conditions */
+    .privacy-policy h1,
+    .t-and-c h1 {
+        line-height: 3rem;
+    }
+
+    .privacy-policy h2,
+    .t-and-c h2 {
+        line-height: 2.125rem !important;
+        margin-top: 1.75rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+    /* terms and conditions */
+
     section {
         margin: 6rem 0;
     }
+
+    /* utility classes */
+    #staticBackdrop .modal-body img,
+    #staticBackdrop2 .modal-body img,
+    #staticBackdrop3 .modal-body img {
+        width: 60px;
+        margin-top: -1.5rem;
+        margin-bottom: 1.75rem !important;
+    }
+
+    #staticBackdrop .modal-body h2,
+    #staticBackdrop2 .modal-body h2,
+    #staticBackdrop3 .modal-body h2 {
+        line-height: 2rem;
+    }
+
+    #staticBackdrop .modal-body p,
+    #staticBackdrop2 .modal-body p,
+    #staticBackdrop3 .modal-body p {
+    }
+
+    #staticBackdrop .modal-footer,
+    #staticBackdrop2 .modal-footer,
+    #staticBackdrop3 .modal-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #staticBackdrop .modal-footer a,
+    #staticBackdrop2 .modal-footer a,
+    #staticBackdrop3 .modal-footer a {
+        padding: 0.8rem 1.125rem;
+    }
+    /* utility classes */
 
     /* common navbar */
     .navbar-brand img {
@@ -4458,9 +4785,58 @@ footer .f-additionals a:hover {
 }
 
 @media (min-width: 1100px) and (max-width: 1299px) {
+    /* terms and conditions */
+    .privacy-policy h1,
+    .t-and-c h1 {
+        line-height: 3rem;
+    }
+
+    .privacy-policy h2,
+    .t-and-c h2 {
+        line-height: 2.125rem !important;
+        margin-top: 1.75rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+    /* terms and conditions */
+
     section {
         margin: 7rem 0;
     }
+
+    /* utility classes */
+    #staticBackdrop .modal-body img,
+    #staticBackdrop2 .modal-body img,
+    #staticBackdrop3 .modal-body img {
+        width: 60px;
+        margin-top: -1.5rem;
+        margin-bottom: 2.5rem !important;
+    }
+
+    #staticBackdrop .modal-body h2,
+    #staticBackdrop2 .modal-body h2,
+    #staticBackdrop3 .modal-body h2 {
+        line-height: 2rem;
+    }
+
+    #staticBackdrop .modal-body p,
+    #staticBackdrop2 .modal-body p,
+    #staticBackdrop3 .modal-body p {
+    }
+
+    #staticBackdrop .modal-footer,
+    #staticBackdrop2 .modal-footer,
+    #staticBackdrop3 .modal-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #staticBackdrop .modal-footer a,
+    #staticBackdrop2 .modal-footer a,
+    #staticBackdrop3 .modal-footer a {
+        padding: 1rem 2rem;
+    }
+    /* utility classes */
 
     /* common navbar */
     .nav-item a.navigation {
@@ -4880,6 +5256,36 @@ footer .f-additionals a:hover {
 
 @media (min-width: 1300px) and (max-width: 1499px) {
 
+    /* utility classes */
+    #staticBackdrop .modal-body img,
+    #staticBackdrop2 .modal-body img,
+    #staticBackdrop3 .modal-body img {
+        width: 60px;
+        margin-top: -1.5rem;
+        margin-bottom: 2.5rem !important;
+    }
+
+    #staticBackdrop .modal-body h2,
+    #staticBackdrop2 .modal-body h2,
+    #staticBackdrop3 .modal-body h2 {
+        line-height: 2.75rem;
+    }
+
+    #staticBackdrop .modal-footer,
+    #staticBackdrop2 .modal-footer,
+    #staticBackdrop3 .modal-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #staticBackdrop .modal-footer a,
+    #staticBackdrop2 .modal-footer a,
+    #staticBackdrop3 .modal-footer a {
+        padding: 1rem 2rem;
+    }
+    /* utility classes */
+
     /* common navbar */
     .nav-item a.navigation {
         font-size: 22px;
@@ -5269,9 +5675,6 @@ footer .f-additionals a:hover {
         font-size: 1.5rem;
         line-height: 2;
     }
-
-
-
     /* common navbar */
 
     /* common footer */
@@ -5380,12 +5783,18 @@ footer .f-additionals a:hover {
     }
 
     .our-story-introduction--for-desktop .row-2 p {
-        width: 60ch;
+        width: 54ch;
         margin-bottom: 3rem;
     }
 
     .our-story-introduction--for-desktop .row-3 img {
         margin-bottom: 2rem;
+    }
+
+    .statistics .stats-container h3 {
+        font-weight: 400;
+        font-size: 3.75rem;
+        line-height: 5rem;
     }
 
     .our-boards .boards-content {
@@ -5430,7 +5839,6 @@ footer .f-additionals a:hover {
     .for-faqs .accordion-body {
         width: 124ch;
     }
-
     /* faqs */
 
     /* contact us */
@@ -5438,7 +5846,9 @@ footer .f-additionals a:hover {
     /* contact us */
 
     /* blogs */
-
+    .blogs .svg-texture svg.blogs-svg {
+        margin-bottom: -0.125rem;
+    }
     /* blogs */
 
     /* blogs details */
@@ -5801,3 +6211,4 @@ Design Reference : https://www.figma.com/file/MUIBDJ2NNXiGSj9p7yS2Y4/Karan---FTV
 }
 
 /* additionals */
+

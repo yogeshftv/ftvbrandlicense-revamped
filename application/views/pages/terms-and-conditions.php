@@ -4,45 +4,45 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 <body class="for-home" style="overflow-y: visible;">
 
-    <main class="text-white">
-        <section class="section-1">
-            <img src="<?= base_url();?>assets/media/images/home-cover-img.png" alt="" class="img-fluid">
-            <div class="content">
-                <h1 class="cover-heading hvc-reg--ff text-uppercase text-white text-center">Terms & Conditions</h1>
+    <main class="t-and-c text-dark">
+        <section class="section-1 mt-0 mb-0 pos-rel w-100">
+            <img src="<?= base_url();?>assets/media/images/navbar/example-img-4.png" alt="" class="w-100">
+            <div class="content pos-abs pos-ra-center">
+                <h1 class="bl-heading text-capitialize text-center" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)">Terms & Conditions</h1>
             </div>
         </section>
 
         <div class="container">
             <div>
-                <h2 class="my-5">Introduction</h2>
-                <p>The terms and conditions written in this website shall control your use of our website. These terms may be applied genuinely and affect your use of this website. By the way of using this website, you agreed to accept all the terms and conditions written here. You need to no longer use this website in case you disagree with any of these internet website terms and conditions.</p>
+                <h2 class="bl-heading--sub-font my-2 my-md-4">Introduction</h2>
+                <p class="bl-paragraph">The terms and conditions written in this website shall control your use of our website. These terms may be applied genuinely and affect your use of this website. By the way of using this website, you agreed to accept all the terms and conditions written here. You need to no longer use this website in case you disagree with any of these internet website terms and conditions.</p>
             </div>
             <!--  -->
             <div>
-                <h2 class="my-5">Intellectual Property Rights</h2>
-                <p>Other than your personal content material, this internet website contains FashionTV India LTD and/or its licensors very personal all of the intellectual property rights below these terms and conditions. You're granted a confined license just for functions of viewing the substances contained on this internet site.</p>
+                <h2 class="bl-heading--sub-font my-2 my-md-4">Intellectual Property Rights</h2>
+                <p class="bl-paragraph">Other than your personal content material, this internet website contains FashionTV India LTD and/or its licensors very personal all of the intellectual property rights below these terms and conditions. You're granted a confined license just for functions of viewing the substances contained on this internet site.</p>
             </div>
             <!--  -->
             <div>
-                <h2 class="my-5">Restrictions</h2>
-                <ul>
-                    <p>Publishing any internet site material in another media.</p>
-                    <p>Promoting, sublicensing and/or in any other case commercializing any website fabric.</p>
-                    <p>Publicly appearing and/or showing any website materials.</p>
-                    <p>Using this internet site in any way that may be destructive to this internet site.</p>
-                    <p>The use of this website in any manner that affects person get admission to this website.</p>
-                    <p>The usage of this website contrary to applicable legal guidelines and policies, or in any manner may additionally cause damage to the internet site, or to any individual or enterprise entity.</p>
-                    <p>
+                <h2 class="bl-heading--sub-font my-2 my-md-4">Restrictions</h2>
+                <ul class="bl-paragraph">
+                    <p class="bl-paragraph">Publishing any internet site material in another media.</p>
+                    <p class="bl-paragraph">Promoting, sublicensing and/or in any other case commercializing any website fabric.</p>
+                    <p class="bl-paragraph">Publicly appearing and/or showing any website materials.</p>
+                    <p class="bl-paragraph">Using this internet site in any way that may be destructive to this internet site.</p>
+                    <p class="bl-paragraph">The use of this website in any manner that affects person get admission to this website.</p>
+                    <p class="bl-paragraph">The usage of this website contrary to applicable legal guidelines and policies, or in any manner may additionally cause damage to the internet site, or to any individual or enterprise entity.</p>
+                    <p class="bl-paragraph">
                         Accomplishing any facts mining, data harvesting, data extracting or
                         any other activity in terms of this internet site.
                     </p>
-                    <p>
+                    <p class="bl-paragraph">
                         Using the internet site to have interaction in any marketing or
                         advertising.
                     </p>
                 </ul>
                 <br />
-                <p>
+                <p class="bl-paragraph">
                     Some regions of this website are confined from being accessed by you
                     and FashionTV India LTD can also similarly limit access by using you
                     to any regions of this internet site, at any time, in absolute
@@ -52,8 +52,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </div>
             <!--  -->
             <div>
-                <h2 class="my-5">Your Content</h2>
-                <p>
+                <h2 class="bl-heading--sub-font my-2 my-md-4">Your Content</h2>
+                <p class="bl-paragraph">
                     “Your content” can be any audio, video, text content, images or
                     different material you select to display on this website. You grant a
                     non-exclusive, international irrevocable, sub-licensable license to
@@ -62,7 +62,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     FashionTV India LTD.
                 </p>
                 <br />
-                <p>
+                <p class="bl-paragraph">
                     Your content material has to be generated by your own and should not
                     be invading any third party's rights. FashionTV India LTD reserves the
                     proper right to remove any of your content from their website at any
@@ -71,8 +71,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </div>
             <!--  -->
             <div>
-                <h2 class="my-5">No Warranties</h2>
-                <p>
+                <h2 class="bl-heading--sub-font my-2 my-md-4">No Warranties</h2>
+                <p class="bl-paragraph">
                     FashionTV India LTD provides no representations or warranties, of any
                     type related to this internet site or the materials contained on this
                     website. additionally, nothing contained on this internet site shall
@@ -81,8 +81,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </div>
             <!--  -->
             <div>
-                <h2 class="my-5">Limitation of liability</h2>
-                <p>
+                <h2 class="bl-heading--sub-font my-2 my-md-4">Limitation of liability</h2>
+                <p class="bl-paragraph">
                     FashionTV India LTD provides no representations or warranties, of any
                     type related to this internet site or the materials contained on this
                     website. additionally, nothing contained on this internet site shall
@@ -91,8 +91,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </div>
             <!--  -->
             <div>
-                <h2 class="my-5">Indemnification</h2>
-                <p>
+                <h2 class="bl-heading--sub-font my-2 my-md-4">Indemnification</h2>
+                <p class="bl-paragraph">
                     You hereby compensate to the fullest extent FashionTV India LTD from
                     and in opposition to any and/or all liabilities, prices, needs,
                     reasons of movement, damages and expenses arising in any way
@@ -101,8 +101,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </div>
             <!--  -->
             <div>
-                <h2 class="my-5">Severability</h2>
-                <p>
+                <h2 class="bl-heading--sub-font my-2 my-md-4">Severability</h2>
+                <p class="bl-paragraph">
                     If any provision of these terms is determined to be invalid underneath
                     any relevant regulation, such provisions will be deleted without
                     affecting the other provisions herein.
@@ -110,8 +110,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </div>
             <!--  -->
             <div>
-                <h2 class="my-5">Variation of Terms</h2>
-                <p>
+                <h2 class="bl-heading--sub-font my-2 my-md-4">Variation of Terms</h2>
+                <p class="bl-paragraph">
                     By using this website you are supposed to review these Terms on a
                     regular basis because FashionTV India LTD is allowed to revise these
                     Terms at any time as it sees fit.
@@ -119,8 +119,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </div>
             <!--  -->
             <div>
-                <h2 class="my-5">Assignment</h2>
-                <p>
+                <h2 class="bl-heading--sub-font my-2 my-md-4">Assignment</h2>
+                <p class="bl-paragraph">
                     You are not permitted to assign, transfer, or subcontract any of your
                     rights and/or obligations under these terms. But the company name is
                     allowed to assign, transfer, and subcontract its rights and/or
@@ -129,8 +129,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </div>
             <!--  -->
             <div>
-                <h2 class="my-5">Entire Agreemen</h2>
-                <p>
+                <h2 class="bl-heading--sub-font my-2 my-md-4">Entire Agreemen</h2>
+                <p class="bl-paragraph">
                     These terms represent the whole agreement between FashionTV India LTD
                     and you in terms of your use of this internet site and supersede all
                     prior agreements and understandings.
@@ -138,8 +138,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </div>
             <!--  -->
             <div>
-                <h2 class="my-5">Governing Law & Jurisdiction</h2>
-                <p>
+                <h2 class="bl-heading--sub-font my-2 my-md-4">Governing Law & Jurisdiction</h2>
+                <p class="bl-paragraph">
                     These terms will be governed by the legal guidelines of The Mumbai
                     Jurisdiction. You post to the non-exclusive jurisdiction of the state
                     and federal courts placed in the country for the resolution of any
@@ -148,17 +148,17 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </div>
             <!--  -->
             <div>
-                <h2 class="my-5">Contact Us</h2>
-                <p>
+                <h2 class="bl-heading--sub-font my-2 my-md-4">Contact Us</h2>
+                <p class="bl-paragraph">
                     If you have any queries about these Terms and Conditions, please
                     contact us.
                 </p>
-                <p><strong>info@fashiontvindia.in</strong></p>
+                <p class="bl-paragraph"><strong>info@fashiontvindia.in</strong></p>
             </div>
             <!--  -->
             <div>
-                <h2 class="my-5">Press</h2>
-                <p>
+                <h2 class="bl-heading--sub-font my-2 my-md-4">Press</h2>
+                <p class="bl-paragraph">
                     We are adored by our purchasers and cherished by everyone. Our
                     top-notch brand experience never fails to satisfy our consumers hence
                     FTV is always in the spotlight of media coverage. We are recognised
@@ -169,7 +169,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         </div>
         <!--  -->
     </main>
-    
+
     <script>
         console.log("Brand License by FashionTV");
     </script>
