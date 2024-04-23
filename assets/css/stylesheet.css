@@ -1125,6 +1125,7 @@ footer .f-additionals a:hover {
 /* home */
 .home-section-breaker--for-desktop {
     display: block;
+    cursor: url('../media/icons/f-cursor.png'), default;
 }
 
 .home-section-breaker--for-mobile {

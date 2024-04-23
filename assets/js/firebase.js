@@ -18,7 +18,8 @@ window.onload = function () {
 
       if ($("#enquiryForm").valid()) {
         disableSubmitButton();
-        phoneAuth();
+        // Step 3
+        // phoneAuth();
       } else {
         // Handle the case where the form is not valid, e.g., display an error message.
         // alert("Please fill in all required fields correctly.");
@@ -45,40 +46,41 @@ function enableSubmitButton() {
   document.getElementById("submitButton").innerHTML = "ENQUIRE NOW";
 }
 
-function phoneAuth() {
-  var number = "+91" + document.getElementById("number").value;
+// OTP : Step 2
+// function phoneAuth() {
+//   var number = "+91" + document.getElementById("number").value;
 
-  grecaptcha.ready(function () {
-    recaptchaVerifier.render().then(function (widgetId) {
-      var recaptchaResponse = grecaptcha.getResponse(widgetId);
+//   grecaptcha.ready(function () {
+//     recaptchaVerifier.render().then(function (widgetId) {
+//       var recaptchaResponse = grecaptcha.getResponse(widgetId);
 
-      if (!recaptchaResponse) {
-        var message = "Please Verify Captcha first";
-        enableSubmitButton();
-        displayErrorInModal(message);
-        return;
-      }
+//       if (!recaptchaResponse) {
+//         var message = "Please Verify Captcha first";
+//         enableSubmitButton();
+//         displayErrorInModal(message);
+//         return;
+//       }
 
-      firebase
-        .auth()
-        .signInWithPhoneNumber(number, recaptchaVerifier)
-        .then(function (confirmationResult) {
-          window.confirmationResult = confirmationResult;
-          coderesult = confirmationResult;
-          verificationId = confirmationResult.verificationId;
+//       firebase
+//         .auth()
+//         .signInWithPhoneNumber(number, recaptchaVerifier)
+//         .then(function (confirmationResult) {
+//           window.confirmationResult = confirmationResult;
+//           coderesult = confirmationResult;
+//           verificationId = confirmationResult.verificationId;
 
-          // Handle OTP sending success, open a modal if needed
-          $("#verificationModal").modal("show");
-          startCountdown(120);
-          otpSent = true;
-        })
-        .catch(function (error) {
-          enableSubmitButton();
-          displayErrorInModal(error.message);
-        });
-    });
-  });
-}
+//           // Handle OTP sending success, open a modal if needed
+//           $("#verificationModal").modal("show");
+//           startCountdown(120);
+//           otpSent = true;
+//         })
+//         .catch(function (error) {
+//           enableSubmitButton();
+//           displayErrorInModal(error.message);
+//         });
+//     });
+//   });
+// }
 
 function codeverify() {
   var otpFields = document.querySelectorAll(".wrapper input.field");

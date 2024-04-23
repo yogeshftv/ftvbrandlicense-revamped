@@ -87,7 +87,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                         <span>I accept the</span> Terms and Condition
                                     </label>
                                 </div>
-                                <div class="d-flex flex-column align-items-center justify-content-center mb-5" id="recaptcha-container"></div>
+                                <!-- OTP : Step 1 -->
+                                <!-- <div class="d-flex flex-column align-items-center justify-content-center mb-5" id="recaptcha-container"></div> -->
                             </div>
                             <div class="d-flex align-items-center justify-content-center">
                                 <button type="submit" value="Submit" class="btn btn-submit enquiry_submit" id="submitButton" name="enquiry_submit">

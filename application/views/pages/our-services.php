@@ -86,7 +86,7 @@
                             <div class="col-12 column-inner-1">
                                 <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto">
                                     <li class="nav-item">
-                                        <a class="nav-link common-clickables" aria-current="page" href="javascript:void(0);" id="cmn-apparel">Apparel</a>
+                                        <a class="nav-link common-clickables cmn-active-link" aria-current="page" href="javascript:void(0);" id="cmn-apparel">Apparel</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-beverages">Beverages</a>
@@ -107,7 +107,7 @@
                             <div class="col-12 ms-5 sm-column-inner-1-hidden px-0">
                                 <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center">
                                     <li class="nav-item">
-                                        <a class="nav-link common-clickables" aria-current="page" href="javascript:void(0);" id="cmn-apparel">Apparel</a>
+                                        <a class="nav-link common-clickables cmn-active-link" aria-current="page" href="javascript:void(0);" id="cmn-apparel">Apparel</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-beverages">Beverages</a>
@@ -137,7 +137,7 @@
                             <div class="col-12 ms-5 column-inner-1-hidden">
                                 <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto">
                                     <li class="nav-item">
-                                        <a class="nav-link common-clickables" aria-current="page" href="javascript:void(0);" id="cmn-apparel">Apparel</a>
+                                        <a class="nav-link common-clickables cmn-active-link" aria-current="page" href="javascript:void(0);" id="cmn-apparel">Apparel</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-beverages">Beverages</a>
