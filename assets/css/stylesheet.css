@@ -167,7 +167,7 @@ html.lenis {
 
 body {
     position: relative;
-    cursor: url('../media/icons/ftv-wings-black.png'), default;   
+    cursor: url('../media/icons/ftv-wings-black.png'), default;
 }
 
 p {
@@ -177,6 +177,7 @@ p {
 ::selection {
     background-color: #c5c5c5;
 }
+
 /* Defaults */
 
 /* font imports & font families */
@@ -448,6 +449,7 @@ p {
     -webkit-animation: spin 1.5s linear infinite;
     z-index: 99999
 }
+
 /* loader */
 
 .swiper-button-next,
@@ -459,13 +461,14 @@ p {
 section {
     margin: 8rem 0;
 }
+
 /* default margin for section */
 
 #staticBackdrop,
 #staticBackdrop2,
 #staticBackdrop3 {
-    backdrop-filter: blur(5px) !important; 
-    z-index: 99999999 !important; 
+    backdrop-filter: blur(5px) !important;
+    z-index: 99999999 !important;
     background: rgba(0, 0, 0, 0.6) !important;
 }
 
@@ -521,11 +524,12 @@ section {
 #staticBackdrop .modal-footer a,
 #staticBackdrop2 .modal-footer a,
 #staticBackdrop3 .modal-footer a {
-    color: #131313; 
+    color: #131313;
     border-radius: 1.25rem;
     padding: 0.75rem 3rem !important;
     border: 1px solid #131313;
 }
+
 /* Utility Class */
 
 /* common navbar */
@@ -694,7 +698,7 @@ button .bi.bi-list {
 }
 
 header {
-    cursor: default;   
+    cursor: default;
 }
 
 .nav-link.navigation {
@@ -797,7 +801,7 @@ footer {
     background-color: var(--absolute-black);
     margin: 0 auto;
     max-width: 1920px;
-    cursor: default !important;   
+    cursor: default !important;
 }
 
 footer .wrapper {
@@ -914,7 +918,7 @@ footer .f-additionals a:hover {
     margin: 0;
     margin: 0 auto;
     max-width: 1920px;
-    cursor: url('../media/icons/f-cursor.png'), default;   
+    cursor: url('../media/icons/f-cursor.png'), default;
 }
 
 .common-banner-video-for-mobile {
@@ -925,13 +929,20 @@ footer .f-additionals a:hover {
 
 /* Common Introduction 0 */
 .common-introduction-0 {
+    position: relative;
     max-width: 1920px;
     margin-left: auto;
     margin-right: auto;
-    background-size: contain;
+    /* background-size: contain;
     background-repeat: no-repeat;
     background-position-x: start;
-    background-image: url('../media/icons/f-intro.png');
+    background-image: url('../media/icons/f-intro.png'); */
+}
+
+.common-introduction-0 svg {
+    top: -20%;
+    width: 340px;
+    position: absolute;
 }
 
 .common-introduction-0 .column-1 {
@@ -1048,17 +1059,10 @@ footer .f-additionals a:hover {
 .common-cta-1 {
     position: relative;
     margin-bottom: 0rem;
-    background-image: url('../media/images/cta-bg.png');
-    background-position: center bottom;
     background-size: 100%;
-
-    /* background-image: 
-    url('../media/images/common/f-logo.png'), 
-    url('../media/images/cta-bg.png');
-    background-size: contain, 100%;
-
-    background-position: 30%, center bottom; */
     background-repeat: no-repeat;
+    background-position: center bottom;
+    background-image: url('../media/images/cta-bg.png');
 }
 
 .common-cta-1 svg {
@@ -1505,7 +1509,9 @@ footer .f-additionals a:hover {
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url('../media/icons/f-common.png');
+    animation: breathingBackground 2s ease-in-out infinite alternate;
 }
+
 
 .tri-pg-cmn-swpr .nav-link.navigation {
     display: inline-block;
@@ -1798,10 +1804,16 @@ footer .f-additionals a:hover {
 
 /* boards */
 .boards-common-introduction {
-    background-size: contain;
-    background-position: left start;
-    background-repeat: no-repeat;
-    background-image: url('../media/icons/f-common.png');
+    position: relative;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boards-common-introduction svg {
+    top: -15%;
+    width: 340px;
+    position: absolute;
 }
 
 .boards-common-introduction .column-1 {
@@ -1823,11 +1835,11 @@ footer .f-additionals a:hover {
     position: relative;
     margin-bottom: 0rem;
     background-image:
-    url('../media/images/cta-bg.png'),
-    url('../media/icons/f-common.png'); 
-        background-repeat: no-repeat;
-        background-size: 100%, 20%;
-        background-position: center bottom, 90% bottom;
+        url('../media/images/cta-bg.png'),
+        url('../media/icons/f-common.png');
+    background-repeat: no-repeat;
+    background-size: 100%, 20%;
+    background-position: center bottom, 90% bottom;
     padding-bottom: 20rem;
 }
 
@@ -1889,12 +1901,13 @@ footer .f-additionals a:hover {
     .dropdown {
         position: relative !important;
     }
-    
+
     .dropdown-menu {
         position: static !important;
         left: 0% !important;
         top: 0% !important;
     }
+
     /* common navbar */
 
     /* common footer */
@@ -1978,8 +1991,20 @@ footer .f-additionals a:hover {
     /* common banner video */
 
     /* COMMON: Introduction */
-
     /* COMMON: Introduction */
+
+    .common-philosophy {
+        background-repeat: repeat-y;   
+    }
+
+    .statistics {
+        background-repeat: repeat-y;
+    }
+
+    .our-boards .row-2 .column-1,
+    .our-boards .row-1 .column-2 {
+        background-image: none;
+    }
 
     /* Home */
     .common-introduction-0 .introduction-content-0 h2.bl-heading {
@@ -2326,6 +2351,7 @@ footer .f-additionals a:hover {
 
 /* Granular Responsiveness */
 @media (min-width: 200px) and (max-width: 299px) {
+
     /* terms and conditions */
     .privacy-policy h1,
     .t-and-c h1 {
@@ -2338,6 +2364,7 @@ footer .f-additionals a:hover {
         margin-top: 1rem !important;
         margin-bottom: 1.25rem !important;
     }
+
     /* terms and conditions */
 
     section {
@@ -2361,8 +2388,7 @@ footer .f-additionals a:hover {
 
     #staticBackdrop .modal-body p,
     #staticBackdrop2 .modal-body p,
-    #staticBackdrop3 .modal-body p {
-    }
+    #staticBackdrop3 .modal-body p {}
 
     #staticBackdrop .modal-footer,
     #staticBackdrop2 .modal-footer,
@@ -2377,6 +2403,7 @@ footer .f-additionals a:hover {
     #staticBackdrop3 .modal-footer a {
         padding: 0.8rem 1.125rem;
     }
+
     /* utility classes */
 
     /* common navbar */
@@ -2515,6 +2542,13 @@ footer .f-additionals a:hover {
     }
 
     /* COMMON: Introduction 0 */
+    .common-introduction-0 svg {
+        top: 10%;
+        right: 0%;
+        width: 220px;
+    }
+
+    /* COMMON: Introduction 0 */
 
     /* COMMON: Deliverables */
     .common-deliverables .columns {
@@ -2604,6 +2638,15 @@ footer .f-additionals a:hover {
 
     .common-blogs .blog-card .wrapper a svg {
         display: none;
+    }
+
+    .tri-pg-cmn-swpr::before {
+        background-size: 85%;
+    }
+        
+    .tri-pg-cmn-swpr::before {
+        top: 4%;
+        left: 5%;
     }
 
     .tri-pg-cmn-swpr .nav-link {
@@ -2706,6 +2749,13 @@ footer .f-additionals a:hover {
     /* Brand License */
 
     /* Our Story */
+    .our-story-introduction--for-mobile .row .column-2 {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center bottom;
+        background-image: url('../media/icons/f-common.png');
+    }
+
     .our-story-introduction--for-mobile h2 {
         margin-top: 1.5rem;
         margin-bottom: 1.125rem;
@@ -2932,6 +2982,7 @@ footer .f-additionals a:hover {
 }
 
 @media (min-width: 300px) and (max-width: 499px) {
+
     /* terms and conditions */
     .privacy-policy h1,
     .t-and-c h1 {
@@ -2944,6 +2995,7 @@ footer .f-additionals a:hover {
         margin-top: 1rem !important;
         margin-bottom: 1.25rem !important;
     }
+
     /* terms and conditions */
 
     section {
@@ -2967,8 +3019,7 @@ footer .f-additionals a:hover {
 
     #staticBackdrop .modal-body p,
     #staticBackdrop2 .modal-body p,
-    #staticBackdrop3 .modal-body p {
-    }
+    #staticBackdrop3 .modal-body p {}
 
     #staticBackdrop .modal-footer,
     #staticBackdrop2 .modal-footer,
@@ -2983,6 +3034,7 @@ footer .f-additionals a:hover {
     #staticBackdrop3 .modal-footer a {
         padding: 0.8rem 1.125rem;
     }
+
     /* utility classes */
 
     /* common navbar */
@@ -3085,6 +3137,13 @@ footer .f-additionals a:hover {
     }
 
     /* COMMON: Introduction 0 */
+    .common-introduction-0 svg {
+        top: 10%;
+        right: 0%;
+        width: 220px;
+    }
+
+    /* COMMON: Introduction 0 */
 
     /* COMMON: Deliverables */
     .common-deliverables .columns {
@@ -3155,6 +3214,15 @@ footer .f-additionals a:hover {
 
     .common-blogs .blog-card .wrapper a svg {
         display: none;
+    }
+
+    .tri-pg-cmn-swpr::before {
+        background-size: 75%;
+    }
+        
+    .tri-pg-cmn-swpr::before {
+        top: 4%;
+        left: 12%;
     }
 
     .tri-pg-cmn-swpr .nav-link {
@@ -3263,6 +3331,13 @@ footer .f-additionals a:hover {
     /* Brand License */
 
     /* Our Story */
+    .our-story-introduction--for-mobile .row .column-2 {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center bottom;
+        background-image: url('../media/icons/f-common.png');
+    }
+
     .our-story-introduction--for-mobile h2 {
         margin-bottom: 0;
     }
@@ -3476,6 +3551,7 @@ footer .f-additionals a:hover {
 }
 
 @media (min-width: 500px) and (max-width: 767px) {
+
     /* terms and conditions */
     .privacy-policy h1,
     .t-and-c h1 {
@@ -3488,6 +3564,7 @@ footer .f-additionals a:hover {
         margin-top: 1rem !important;
         margin-bottom: 1.25rem !important;
     }
+
     /* terms and conditions */
 
     section {
@@ -3511,8 +3588,7 @@ footer .f-additionals a:hover {
 
     #staticBackdrop .modal-body p,
     #staticBackdrop2 .modal-body p,
-    #staticBackdrop3 .modal-body p {
-    }
+    #staticBackdrop3 .modal-body p {}
 
     #staticBackdrop .modal-footer,
     #staticBackdrop2 .modal-footer,
@@ -3527,6 +3603,7 @@ footer .f-additionals a:hover {
     #staticBackdrop3 .modal-footer a {
         padding: 0.8rem 1.125rem;
     }
+
     /* utility classes */
 
     /* common navbar */
@@ -3588,6 +3665,13 @@ footer .f-additionals a:hover {
     /* common banner video */
 
     /* common banner video */
+
+    /* COMMON: Introduction 0 */
+    .common-introduction-0 svg {
+        top: -6%;
+        right: 4%;
+        width: 260px;
+    }
 
     .common-introduction-0 .column-2 {
         margin-top: 3.5rem;
@@ -3656,6 +3740,16 @@ footer .f-additionals a:hover {
 
     .common-blogs .blog-card .wrapper a span svg {
         width: 100%;
+    }
+
+    .tri-pg-cmn-swpr::before {
+        background-size: 55%;
+    }
+        
+    .tri-pg-cmn-swpr::before {
+        top: 0%;
+        left: 21%;
+        bottom: 100%;
     }
 
     .tri-pg-cmn-swpr .nav-link {
@@ -3761,6 +3855,13 @@ footer .f-additionals a:hover {
     /* Brand License */
 
     /* Our Story */
+    .our-story-introduction--for-mobile .row .column-2 {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center bottom;
+        background-image: url('../media/icons/f-common.png');
+    }
+
     .our-story-introduction--for-mobile h2 {
         margin-bottom: 0;
     }
@@ -3921,6 +4022,7 @@ footer .f-additionals a:hover {
 }
 
 @media (min-width: 768px) and (max-width: 899px) {
+
     /* terms and conditions */
     .privacy-policy h1,
     .t-and-c h1 {
@@ -3933,6 +4035,7 @@ footer .f-additionals a:hover {
         margin-top: 1.75rem !important;
         margin-bottom: 1.5rem !important;
     }
+
     /* terms and conditions */
 
     section {
@@ -3956,8 +4059,7 @@ footer .f-additionals a:hover {
 
     #staticBackdrop .modal-body p,
     #staticBackdrop2 .modal-body p,
-    #staticBackdrop3 .modal-body p {
-    }
+    #staticBackdrop3 .modal-body p {}
 
     #staticBackdrop .modal-footer,
     #staticBackdrop2 .modal-footer,
@@ -3972,6 +4074,7 @@ footer .f-additionals a:hover {
     #staticBackdrop3 .modal-footer a {
         padding: 0.8rem 1.125rem;
     }
+
     /* utility classes */
 
     /* common navbar */
@@ -4103,6 +4206,14 @@ footer .f-additionals a:hover {
     /* common banner video */
 
     /* common banner video */
+
+    /* COMMON: Introduction 0 */
+    .common-introduction-0 svg {
+        top: -10%;
+        right: 4%;
+        width: 260px;
+    }
+
     .common-introduction-0 .column-1,
     .common-introduction-0 .column-2 {
         width: 100%;
@@ -4113,10 +4224,6 @@ footer .f-additionals a:hover {
     }
 
     /* COMMON: Introduction 0 */
-
-    /* COMMON: Introduction */
-
-    /* COMMON: Introduction */
 
     /* COMMON: Deliverables */
     .common-deliverables h2 {
@@ -4172,6 +4279,15 @@ footer .f-additionals a:hover {
 
     .common-blogs .blog-card .wrapper a span {
         display: none;
+    }
+
+    .tri-pg-cmn-swpr::before {
+        background-size: 28%;
+    }
+        
+    .tri-pg-cmn-swpr::before {
+        left: 2%;
+        bottom: -70%;
     }
 
     .tri-pg-cmn-swpr .inner-row {
@@ -4255,6 +4371,14 @@ footer .f-additionals a:hover {
     /* Brand License */
 
     /* Our-Story */
+    .our-story-introduction--for-desktop .row.primary-row .column-2.bg-me {
+        background-size: 50%;
+    }
+
+    .our-story-introduction--for-desktop .row.primary-row .column-2.bg-me {
+        background-position: left 100%;
+    }
+
     .our-story-introduction--for-desktop .row-1 .column-1 {
         width: 100%;
     }
@@ -4405,6 +4529,7 @@ footer .f-additionals a:hover {
 }
 
 @media (min-width: 900px) and (max-width: 1099px) {
+
     /* terms and conditions */
     .privacy-policy h1,
     .t-and-c h1 {
@@ -4417,6 +4542,7 @@ footer .f-additionals a:hover {
         margin-top: 1.75rem !important;
         margin-bottom: 1.5rem !important;
     }
+
     /* terms and conditions */
 
     section {
@@ -4440,8 +4566,7 @@ footer .f-additionals a:hover {
 
     #staticBackdrop .modal-body p,
     #staticBackdrop2 .modal-body p,
-    #staticBackdrop3 .modal-body p {
-    }
+    #staticBackdrop3 .modal-body p {}
 
     #staticBackdrop .modal-footer,
     #staticBackdrop2 .modal-footer,
@@ -4456,6 +4581,7 @@ footer .f-additionals a:hover {
     #staticBackdrop3 .modal-footer a {
         padding: 0.8rem 1.125rem;
     }
+
     /* utility classes */
 
     /* common navbar */
@@ -4554,6 +4680,11 @@ footer .f-additionals a:hover {
     /* common banner video */
 
     /* common banner video */
+    .common-introduction-0 svg {
+        top: -0%;
+        width: 260px;
+    }
+
     .common-introduction-0 .introduction-content-0 {
         padding: 0px 7%;
     }
@@ -4566,12 +4697,7 @@ footer .f-additionals a:hover {
     .common-introduction-0 .swiper-slide-active {
         filter: blur(0px);
     }
-
     /* COMMON: Introduction 0 */
-
-    /* COMMON: Introduction 1 */
-
-    /* COMMON: Introduction 1 */
 
     /* COMMON: Deliverables */
     .common-deliverables h2 {
@@ -4631,6 +4757,15 @@ footer .f-additionals a:hover {
 
     .common-introduction-0 .introduction-content-0 h2 {
         margin-bottom: 0.5rem;
+    }
+
+    .tri-pg-cmn-swpr::before {
+        background-size: 24%;
+    }
+        
+    .tri-pg-cmn-swpr::before {
+        left: 5%;
+        bottom: -70%;
     }
 
     .tri-pg-cmn-swpr .inner-row {
@@ -4710,6 +4845,10 @@ footer .f-additionals a:hover {
     /* Brand License */
 
     /* Our Story */
+    .our-story-introduction--for-desktop .row.primary-row .column-2.bg-me {
+        background-size: 49%;
+    }
+
     .our-story-introduction--for-desktop .row-1 .column-1 {
         width: 100%;
     }
@@ -4881,6 +5020,7 @@ footer .f-additionals a:hover {
 }
 
 @media (min-width: 1100px) and (max-width: 1299px) {
+
     /* terms and conditions */
     .privacy-policy h1,
     .t-and-c h1 {
@@ -4893,6 +5033,7 @@ footer .f-additionals a:hover {
         margin-top: 1.75rem !important;
         margin-bottom: 1.5rem !important;
     }
+
     /* terms and conditions */
 
     section {
@@ -4916,8 +5057,7 @@ footer .f-additionals a:hover {
 
     #staticBackdrop .modal-body p,
     #staticBackdrop2 .modal-body p,
-    #staticBackdrop3 .modal-body p {
-    }
+    #staticBackdrop3 .modal-body p {}
 
     #staticBackdrop .modal-footer,
     #staticBackdrop2 .modal-footer,
@@ -4932,6 +5072,7 @@ footer .f-additionals a:hover {
     #staticBackdrop3 .modal-footer a {
         padding: 1rem 2rem;
     }
+
     /* utility classes */
 
     /* common navbar */
@@ -5028,15 +5169,15 @@ footer .f-additionals a:hover {
     /* common banner video */
 
     /* COMMON: Introduction 0 */
+    .common-introduction-0 svg {
+        top: -25%;
+        width: 280px;
+    }
+
     .common-introduction-0 .introduction-content-0 {
         padding: 0px 8.5%;
     }
-
     /* COMMON: Introduction 0 */
-
-    /* COMMON: Introduction 1 */
-
-    /* COMMON: Introduction 1 */
 
     /* COMMON: Deliverables */
     .common-deliverables h2 {
@@ -5101,6 +5242,15 @@ footer .f-additionals a:hover {
 
     .common-introduction-0 .introduction-content-0 h2 {
         margin-bottom: 0.75rem;
+    }
+
+    .tri-pg-cmn-swpr::before {
+        left: 4%;
+        bottom: -60%;
+    }
+
+    .tri-pg-cmn-swpr::before {
+        background-size: 24%;
     }
 
     .tri-pg-cmn-swpr .inner-row {
@@ -5380,6 +5530,7 @@ footer .f-additionals a:hover {
     #staticBackdrop3 .modal-footer a {
         padding: 1rem 2rem;
     }
+
     /* utility classes */
 
     /* common navbar */
@@ -5479,12 +5630,12 @@ footer .f-additionals a:hover {
     /* common banner video */
 
     /* COMMON: Introduction 0 */
+    .common-introduction-0 svg {
+        top: -25%;
+        width: 280px;
+    }
 
     /* COMMON: Introduction 0 */
-
-    /* COMMON: Introduction 1 */
-
-    /* COMMON: Introduction 1 */
 
     /* COMMON: Deliverables */
     .common-deliverables h2 {
@@ -5544,6 +5695,15 @@ footer .f-additionals a:hover {
 
     .common-introduction-0 .introduction-content-0 h2 {
         margin-bottom: 1rem;
+    }
+
+    .tri-pg-cmn-swpr::before {
+        left: 10%;
+        bottom: -75%;
+    }
+
+    .tri-pg-cmn-swpr::before {
+        background-size: 16%;
     }
 
     .tri-pg-cmn-swpr .nav-link {
@@ -5771,6 +5931,7 @@ footer .f-additionals a:hover {
         font-size: 1.5rem;
         line-height: 2;
     }
+
     /* common navbar */
 
     /* common footer */
@@ -5800,6 +5961,10 @@ footer .f-additionals a:hover {
     /* common banner video */
 
     /* COMMON: Introduction */
+    .common-introduction-0 svg {
+        top: -30%;
+        width: 310px;
+    }
 
     /* COMMON: Introduction */
 
@@ -5823,6 +5988,15 @@ footer .f-additionals a:hover {
     }
 
     /* COMMON: Product Showcase */
+
+    .tri-pg-cmn-swpr::before {
+        left: 10%;
+        bottom: -75%;
+    }
+
+    .tri-pg-cmn-swpr::before {
+        background-size: 16%;
+    }
 
     /* Home */
     .common-blogs .blog-card .wrapper {
@@ -5935,6 +6109,7 @@ footer .f-additionals a:hover {
     .for-faqs .accordion-body {
         width: 124ch;
     }
+
     /* faqs */
 
     /* contact us */
@@ -5945,6 +6120,7 @@ footer .f-additionals a:hover {
     .blogs .svg-texture svg.blogs-svg {
         margin-bottom: -0.125rem;
     }
+
     /* blogs */
 
     /* blogs details */
@@ -6306,5 +6482,25 @@ Design Reference : https://www.figma.com/file/MUIBDJ2NNXiGSj9p7yS2Y4/Karan---FTV
     }
 }
 
-/* additionals */
+@keyframes breathingBackground {
+    0% {
+        opacity: 0.25;
+    }
 
+    25% {
+        opacity: 0.45;
+    }
+
+    50% {
+        opacity: 0.75;
+    }
+
+    75% {
+        opacity: 0.95;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+/* additionals */

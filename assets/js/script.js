@@ -277,21 +277,4 @@ function commonVisibleDifferentSwipers() {
 }
 commonVisibleDifferentSwipers();
 
-document.addEventListener('DOMContentLoaded', function() {
-    const cursor = document.getElementById('custom-cursor');
-    const footer = document.querySelector('footer');
-    const distanceFromFooter = 300; 
 
-    document.addEventListener('mousemove', function(e) {
-        const cursorPosition = e.clientY;
-        const footerPosition = footer.getBoundingClientRect().top;
-
-        if (footerPosition - cursorPosition <= distanceFromFooter) {
-            cursor.style.display = 'none'; 
-        } else {
-            cursor.style.display = 'block'; 
-            cursor.style.left = (e.clientX - 10) + 'px'; 
-            cursor.style.top = (e.clientY - 10) + 'px';
-        }
-    });
-});
