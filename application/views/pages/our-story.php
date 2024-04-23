@@ -49,7 +49,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="col-4 column-1 px-0">
                     <img src="<?= base_url(); ?>assets/media/images/templates/about-example-1.png" alt="" style="filter: grayscale(0.85);" class="w-100 h-100">
                 </div>
-                <div class="col-8 column-2 px-0">
+                <div class="col-8 column-2 bg-me px-0">
                     <div class="row-mx-0 row-1">
                         <div class="col-8 px-0 column-1">
                             <h2 class="bl-heading text-center">About FashionTV</h2>

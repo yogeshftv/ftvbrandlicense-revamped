@@ -194,7 +194,6 @@
 <!-- Firebase -->
 <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase.js"></script>
 
-
 <script>
     const firebaseConfig = {
         apiKey: "AIzaSyDQvNYzu-BoyGQijPDx3BDkpWajiCK2XN0",

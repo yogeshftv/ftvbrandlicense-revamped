@@ -167,14 +167,16 @@ html.lenis {
 
 body {
     position: relative;
-    /* cursor: url('../media/icons/f-logo.png'), default; */
-    /* cursor: url('../media/icons/ftv-wings.png'), default; */
+    cursor: url('../media/icons/ftv-wings-black.png'), default;   
 }
 
 p {
     font-family: "Poppins", sans-serif;
 }
 
+::selection {
+    background-color: #c5c5c5;
+}
 /* Defaults */
 
 /* font imports & font families */
@@ -446,8 +448,12 @@ p {
     -webkit-animation: spin 1.5s linear infinite;
     z-index: 99999
 }
-
 /* loader */
+
+.swiper-button-next,
+.swiper-button-prev {
+    cursor: pointer;
+}
 
 /* default margin for section */
 section {
@@ -687,6 +693,10 @@ button .bi.bi-list {
     }
 }
 
+header {
+    cursor: default;   
+}
+
 .nav-link.navigation {
     display: inline-block;
 }
@@ -787,6 +797,7 @@ footer {
     background-color: var(--absolute-black);
     margin: 0 auto;
     max-width: 1920px;
+    cursor: default !important;   
 }
 
 footer .wrapper {
@@ -903,6 +914,7 @@ footer .f-additionals a:hover {
     margin: 0;
     margin: 0 auto;
     max-width: 1920px;
+    cursor: url('../media/icons/f-cursor.png'), default;   
 }
 
 .common-banner-video-for-mobile {
@@ -916,6 +928,10 @@ footer .f-additionals a:hover {
     max-width: 1920px;
     margin-left: auto;
     margin-right: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: start;
+    background-image: url('../media/icons/f-intro.png');
 }
 
 .common-introduction-0 .column-1 {
@@ -981,6 +997,13 @@ footer .f-additionals a:hover {
 /* Common: Our Licensing */
 
 /* Common Philosophy */
+.common-philosophy {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../media/icons/f-wings-common.png');
+}
+
 .common-philosophy .c-row {
     display: flex;
     align-items: center;
@@ -1007,6 +1030,13 @@ footer .f-additionals a:hover {
 .common-cta-1 {
     margin: 0 auto;
     max-width: 1920px;
+}
+
+.common-cta-1 .column-1 {
+    background-size: contain;
+    background-position: 70% center;
+    background-repeat: no-repeat;
+    background-image: url('../media/icons/f-common.png');
 }
 
 .common-cta-1 .column-1,
@@ -1137,6 +1167,21 @@ footer .f-additionals a:hover {
 /* home */
 
 /* brand license */
+.brand-support {
+    position: relative;
+}
+
+.brand-support::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: center 70%;
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-image: url('../media/icons/f-wings-common.png');
+}
+
 .brand-support .brand-support-content {
     display: flex;
     flex-direction: column;
@@ -1206,6 +1251,13 @@ footer .f-additionals a:hover {
     justify-content: center;
 }
 
+.our-story-introduction--for-desktop .row.primary-row .column-2.bg-me {
+    background-size: 23%;
+    background-position: left 60%;
+    background-repeat: no-repeat;
+    background-image: url('../media/icons/f-common.png');
+}
+
 .our-story-introduction--for-desktop .row-1 h2 {
     margin-bottom: 2rem;
 }
@@ -1245,6 +1297,18 @@ footer .f-additionals a:hover {
     background-color: #F0F0F0;
 }
 
+.statistics {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../media/icons/f-wings-common.png');
+}
+
+.statistics h2,
+.statistics h3 {
+    color: #6E3035;
+}
+
 .statistics .stats-container {
     display: grid;
     padding: 4rem 0;
@@ -1263,7 +1327,7 @@ footer .f-additionals a:hover {
     position: absolute;
     top: 35%;
     right: 0;
-    background-color: #000000;
+    background-color: #6E3035;
     height: 10vh;
     width: 2px;
     content: ""
@@ -1293,6 +1357,10 @@ footer .f-additionals a:hover {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    background-position: 90% 135%;
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-image: url('../media/icons/f-common.png');
 }
 
 .our-boards .row-1 .column-2 img.michel-adam,
@@ -1301,6 +1369,7 @@ footer .f-additionals a:hover {
 }
 
 .our-boards h2.heading {
+    color: #6E3035;
     margin-bottom: 6rem;
 }
 
@@ -1319,6 +1388,7 @@ footer .f-additionals a:hover {
 }
 
 .our-boards .boards-content h2 {
+    color: #6E3035;
     text-transform: capitalize;
 }
 
@@ -1418,6 +1488,23 @@ footer .f-additionals a:hover {
     to {
         opacity: 1;
     }
+}
+
+.tri-pg-cmn-swpr {
+    position: relative;
+}
+
+.tri-pg-cmn-swpr::before {
+    content: '';
+    left: 10%;
+    width: 100%;
+    height: 100%;
+    bottom: -60%;
+    display: block;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../media/icons/f-common.png');
 }
 
 .tri-pg-cmn-swpr .nav-link.navigation {
@@ -1710,6 +1797,13 @@ footer .f-additionals a:hover {
 /* blogs details */
 
 /* boards */
+.boards-common-introduction {
+    background-size: contain;
+    background-position: left start;
+    background-repeat: no-repeat;
+    background-image: url('../media/icons/f-common.png');
+}
+
 .boards-common-introduction .column-1 {
     display: flex;
     align-items: center;
@@ -1728,10 +1822,12 @@ footer .f-additionals a:hover {
 .boards-info {
     position: relative;
     margin-bottom: 0rem;
-    background-image: url('../media/images/cta-bg.png');
-    background-position: center bottom;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-image:
+    url('../media/images/cta-bg.png'),
+    url('../media/icons/f-common.png'); 
+        background-repeat: no-repeat;
+        background-size: 100%, 20%;
+        background-position: center bottom, 90% bottom;
     padding-bottom: 20rem;
 }
 
