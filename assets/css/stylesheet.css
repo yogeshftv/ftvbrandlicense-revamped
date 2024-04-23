@@ -1751,6 +1751,24 @@ footer .f-additionals a:hover {
     color: rgb(255, 75, 75);
 }
 
+
+.myenquire-form .range-slider .slider-container {
+    position: relative;
+}
+  
+.myenquire-form .range-slider .slider-container #sliderValue {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    background-color: #000 !important;
+    color: #fff;
+    border-radius: 5px;
+    opacity: 1;
+    pointer-events: none;
+    transition: opacity 0.2s ease-in-out;
+}
 /* contact us */
 
 /* blogs */
@@ -2407,6 +2425,13 @@ footer .f-additionals a:hover {
     /* utility classes */
 
     /* common navbar */
+    .offcanvas-body {
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-size: contain;
+        background-image: url('../media/icons/f-common.png');
+    }
+
     .navbar .hm-menu {
         font-size: 1.125rem;
         line-height: 2rem;
@@ -2950,6 +2975,11 @@ footer .f-additionals a:hover {
     /* blogs details */
 
     /* Boards */
+    .boards-common-introduction svg {
+        top: 10%;
+        width: 260px;
+    }
+
     .boards-common-introduction .boards-introduction-content h2 {
         margin-top: -3rem;
     }
@@ -2977,7 +3007,6 @@ footer .f-additionals a:hover {
     .boards-info .column-3 .content-container p:nth-of-type(2) {
         margin-bottom: 0;
     }
-
     /* Boards */
 }
 
@@ -3069,6 +3098,12 @@ footer .f-additionals a:hover {
         font-size: 18px;
     }
 
+    .offcanvas-body {
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-size: contain;
+        background-image: url('../media/icons/f-common.png');
+    }
     /* common navbar */
 
     /* common footer */
@@ -3519,6 +3554,11 @@ footer .f-additionals a:hover {
     /* blogs details */
 
     /* Boards */
+    .boards-common-introduction svg {
+        top: 10%;
+        width: 260px;
+    }
+
     .boards-common-introduction .boards-introduction-content h2 {
         margin-top: -3rem;
     }
@@ -3546,7 +3586,6 @@ footer .f-additionals a:hover {
     .boards-info .column-3 .content-container p:nth-of-type(2) {
         margin-bottom: 0;
     }
-
     /* Boards */
 }
 
@@ -3607,6 +3646,13 @@ footer .f-additionals a:hover {
     /* utility classes */
 
     /* common navbar */
+    .offcanvas-body {
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-size: contain;
+        background-image: url('../media/icons/f-common.png');
+    }
+
     .navbar-brand img {
         width: 70px;
     }
@@ -3990,6 +4036,11 @@ footer .f-additionals a:hover {
     /* blogs details */
 
     /* Boards */
+    .boards-common-introduction svg {
+        top: -8%;
+        width: 250px;
+    }
+
     .boards-common-introduction .boards-introduction-content h2 {
         margin-top: -4rem;
     }
@@ -4017,7 +4068,6 @@ footer .f-additionals a:hover {
     .boards-info .column-3 .content-container p:nth-of-type(2) {
         margin-bottom: 0;
     }
-
     /* Boards */
 }
 
@@ -4513,6 +4563,11 @@ footer .f-additionals a:hover {
     /* blogs details */
 
     /* boards */
+    .boards-common-introduction svg {
+        top: -18%;
+        width: 300px;
+    }
+
     .boards-common-introduction .boards-introduction-content p {
         width: auto;
         padding-right: 10%;
@@ -4524,7 +4579,6 @@ footer .f-additionals a:hover {
         margin-top: 2rem;
         margin-bottom: 1.75rem;
     }
-
     /* boards */
 }
 
@@ -5004,6 +5058,11 @@ footer .f-additionals a:hover {
     /* blogs details */
 
     /* boards */
+    .boards-common-introduction svg {
+        top: -21%;
+        width: 300px;
+    }
+
     .boards-common-introduction .boards-introduction-content p {
         width: auto;
         padding-right: 10%;
@@ -5485,6 +5544,11 @@ footer .f-additionals a:hover {
     /* blogs details */
 
     /* boards */
+    .boards-common-introduction svg {
+        top: -21%;
+        width: 280px;
+    }
+
     .boards-common-introduction .boards-introduction-content p {
         width: auto;
         padding-right: 10%;
@@ -5880,6 +5944,11 @@ footer .f-additionals a:hover {
     /* blogs details */
 
     /* boards */
+    .boards-common-introduction svg {
+        top: -8%;
+        width: 304px;
+    }
+
     .boards-info {
         padding-bottom: 16rem;
     }
@@ -6128,6 +6197,11 @@ footer .f-additionals a:hover {
     /* blogs details */
 
     /* boards */
+    .boards-common-introduction svg {
+        top: -3%;
+        width: 320px;
+    }
+
     .boards-info {
         padding-bottom: 15rem;
     }

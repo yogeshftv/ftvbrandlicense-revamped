@@ -55,14 +55,21 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 <div class="col-md-12 mb-4 d-flex flex-column align-items-start">
                                     <label for="" class="form-label mb-4 fw-light poppins--ff poppins-font investment-capicity">Investment
                                         Capacity</label>
-                                    <div class="range-slider d-flex align-items-center justify-content-center">
-                                        <!-- <span>5 LPA</span> -->
-                                        <div class="slider-container d-flex align-items-center justify-content-center">
-                                            <input class="rounded-0" type="range" id="rangeSlider" name="investment" min="5" max="30" value="10">
-                                            <!-- <span id="sliderValue" style=" font-size: 1.125rem;">25 - Cr</span> -->
+                                    <div class="range-slider d-flex flex-column align-items-center justify-content-center">
+                                        <div class="row mx-0 w-100">
+                                            <div class="slider-container d-flex align-items-center justify-content-center px-0">
+                                                <input class="rounded-0" type="range" id="rangeSlider" name="investment"  min="25" max="200" value="100">
+                                                <span class="bl-paragraph" id="sliderValue" style=" font-size: 1.125rem;">25 - Cr</span>
+                                            </div>
                                         </div>
-                                        <!-- <span>30
-                                            LPA</span> -->
+                                        <div class="row d-flex align-content-center justify-content-between mx-0 w-100">
+                                            <div class="col-2 px-0 d-flex align-content-center justify-content-center">
+                                                <span class="bl-paragraph">₹ 25 LPA</span>
+                                            </div>
+                                            <div class="col-2 px-0 d-flex align-content-center justify-content-center">
+                                                <span class="bl-paragraph">₹ 2 CR</span>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -130,6 +137,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
         rangeSlider.addEventListener("input", function() {
             sliderValue.innerText = rangeSlider.value + ' LPA';
             updateSliderValuePosition();
+            
+            if (rangeSlider.value >= 100) {
+                sliderValue.innerText = ((rangeSlider.value/100).toFixed(1) == 1.0)?`${1} CR`:(rangeSlider.value/100).toFixed(1) + ' CR';
+                updateSliderValuePosition();
+            }
+
         });
 
         function updateSliderValuePosition() {
