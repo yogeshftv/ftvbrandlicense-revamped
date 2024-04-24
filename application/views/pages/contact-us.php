@@ -10,6 +10,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <img src="<?= base_url() ?>assets/media/images/contact-us/contact-bg.png" alt="contact-us--cover" class="w-100">
             <h2 class="bl-heading">Contact Us</h2>
         </section>
+
         <section class="enquiry-form-sec" id="enquiry-now">
             <div class="row m-0">
                 <div class="col-xl-8 col-lg-9 col-md-10 col-sm-12 p-0 column-1" id="enquiry">
@@ -23,7 +24,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
                                 <div class="col-md-6 mb-4">
                                     <input type="email" class="form-control rounded-0 shadow-none" name="email" id="" placeholder="Email Address *" value="<?= set_value('email') ?>" oninput="this.value = this.value.replace(/[^\w@.-]/g, '');" required autocomplete="off">
-
                                 </div>
 
                                 <div class="col-md-6 mb-4">
@@ -41,13 +41,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                     <select class="form-control rounded-0 shadow-none" required autocomplete="off" name="state" id="stateSelect">
                                         <option selected="true" value="">Select State *</option>
                                     </select>
-
                                 </div>
                                 <div class="col-md-6 mb-4">
                                     <select class="form-control rounded-0 shadow-none" required autocomplete="off" name="city" id="citySelect">
                                         <option selected="true">Select City *</option>
                                     </select>
-
                                 </div>
                             </div>
 
@@ -58,8 +56,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                     <div class="range-slider d-flex flex-column align-items-center justify-content-center">
                                         <div class="row mx-0 w-100">
                                             <div class="slider-container d-flex align-items-center justify-content-center px-0">
-                                                <input class="rounded-0" type="range" id="rangeSlider" name="investment"  min="25" max="200" value="100">
-                                                <span class="bl-paragraph" id="sliderValue" style=" font-size: 1.125rem;">25 - Cr</span>
+                                                <input class="rounded-0" type="range" id="rangeSlider" name="investment" min="25" max="200" value="100">
+                                                <span class="bl-paragraph" id="sliderValue" style=" font-size: 1.125rem;">1 CR</span>
                                             </div>
                                         </div>
                                         <div class="row d-flex align-content-center justify-content-between mx-0 w-100">
@@ -138,12 +136,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
         rangeSlider.addEventListener("input", function() {
             sliderValue.innerText = rangeSlider.value + ' LPA';
             updateSliderValuePosition();
-            
+
             if (rangeSlider.value >= 100) {
-                sliderValue.innerText = ((rangeSlider.value/100).toFixed(1) == 1.0)?`${1} CR`:(rangeSlider.value/100).toFixed(1) + ' CR';
+                sliderValue.innerText = ((rangeSlider.value / 100).toFixed(1) == 1.0) ? `${1} CR` : (rangeSlider.value / 100).toFixed(1) + ' CR';
                 updateSliderValuePosition();
             }
-
         });
 
         function updateSliderValuePosition() {
@@ -167,11 +164,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 return nextField && nextField.focus();
             }
         }
+        // const submitButton = document.getElementById("otpbutton");
+
         const inputNumber = document.getElementById("number");
-        const submitButton = document.getElementById("otpbutton");
-
-
         inputNumber.addEventListener("input", checkInputLength);
+
+        const submitButton = document.getElementById("submitButton");
 
         function checkInputLength() {
             if (inputNumber.value.length >= 10) {

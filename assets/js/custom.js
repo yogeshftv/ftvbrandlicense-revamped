@@ -24,16 +24,11 @@ $.validator.addMethod(
 
 $(document).ready(function () {
 	$("#enquiryForm").validate({
-		// errorPlacement: function(error, element) {
-		//     var errorID = element.attr("id") + "-error";
-		//     error.appendTo("#" + errorID);
-		// },
 		rules: {
 			name: {
 				fullName: true,
 				minlength: 4,
 				maxlength: 100,
-				//   atLeastOneLetter: true,
 				required: true,
 			},
 			mobile: {
@@ -61,7 +56,6 @@ $(document).ready(function () {
 				fullName: "Please Don't Keep Space Before Name & Enter Full Name",
 				minlength: "Name should be at least 4 characters",
 				maxlength: "Name cannot exceed 100 characters",
-				// atLeastOneLetter: "At least one letter is required in the name",
 			},
 			email: {
 				required: "Please Enter Valid Email Address",
@@ -169,54 +163,6 @@ $(document).ready(function () {
 	}
 });
 
-// $(document).ready(function () {
-//     $("#joinus_form").submit(function (event) {
-//         event.preventDefault();
-//         var formData = $(this).serialize();
-
-//         $("#joinus_form .text-danger").remove();
-//         $("#joinus_form .is-invalid").removeClass("is-invalid");
-
-//         var clientSideErrors = false;
-
-//         if (!$("#joinus_form").valid()) {
-//             clientSideErrors = true;
-//         }
-
-//         if (!clientSideErrors) {
-//             $.ajax({
-//                 url: base_path + "pages/home_enquiry",
-//                 method: "POST",
-//                 data: formData,
-//                 success: function (response) {
-//                     if (response.success) {
-//                         window.location = "thankyou";
-//                     } else {
-//                         $.each(response.errors, function (field, message) {
-//                             $("#" + field)
-//                                 .addClass("is-invalid")
-//                                 .after('<div class="invalid-feedback">' + message + "</div>");
-//                         });
-//                     }
-//                 },
-//             });
-//         }
-//     });
-
-//     $("#name").on("input", function () {
-//         $(this).removeClass("is-invalid");
-//         $(this).next(".invalid-feedback").remove();
-//     });
-
-//     $("#email").on("input", function () {
-//         $(this).removeClass("is-invalid");
-//         $(this).next(".invalid-feedback").remove();
-//     });
-
-// });
-
-
-
 $(document).ready(function () {
 	$("#joinus_form").validate({
 		rules: {
@@ -224,7 +170,6 @@ $(document).ready(function () {
 				fullName: true,
 				minlength: 4,
 				maxlength: 100,
-				//   atLeastOneLetter: true,
 				required: true,
 			},
 			email: {
@@ -243,7 +188,6 @@ $(document).ready(function () {
 				fullName: "Please Don't Keep Space Before Name & Enter Full Name",
 				minlength: "Name should be at least 4 characters",
 				maxlength: "Name cannot exceed 100 characters",
-				// atLeastOneLetter: "At least one letter is required in the name",
 			},
 			email: {
 				required: "Please Enter Valid Email Address",
@@ -257,7 +201,7 @@ $(document).ready(function () {
 	});
 });
 
-// footer subscribe handel new
+// footer subscribe handle new
 $(document).ready(function () {
 	$('#subscribtion').on('submit', function (e) {
 		e.preventDefault();

@@ -6,7 +6,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
     <main class="blogs">
         <section class="cover">
-            <h1 class="bl-heading text-center">Our Blogs</h1>
+            <h1 class="bl-heading text-center split-text spilit-word">Our Blogs</h1>
         </section>    
 
         <section class="common-blogs">

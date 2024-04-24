@@ -12,8 +12,8 @@
                         <h2 class="bl-heading--sub-font mb-3 mb-md-4">Thanks for Subscribing!!!</h2>
                         <p class="bl-paragraph">You will receive our latest updates and notification of FTV Brand License on your registered email id.</p>
                     </div>
-                    <div class="modal-footer border-0">
-                        <a href="<?php echo base_url(); ?>" type="button " class="bl-paragraph">Continue to Website</a>
+                    <div class="modal-footer border-0 pb-4">
+                        <a href="<?php echo base_url(); ?>" type="button " class="bl-paragraph" style="color: #fff; background-color: #6E3035;">Continue to Website</a>
                     </div>
                 </div>
             </div>
@@ -27,12 +27,12 @@
                     </div>
                     <div class="modal-body d-flex flex-column align-items-center justify-content-center">
                         <img class="logo-dark mb-3 mb-md-5" src="<?php echo base_url(); ?>assets/media/icons/nav-logo.png" alt="" />
-                        <h2 class="bl-heading--sub-font mb-3 mb-md-4">WELCOME BACK TO FTV Brand License</h2>
+                        <h2 class="bl-heading--sub-font mb-3 mb-md-4" style="color: #6E3035;">WELCOME BACK TO FTV Brand License</h2>
                         <p class="bl-paragraph mb-2">A lot has changed since you last visited. Let us explore once again.</p>
                         <p class="bl-paragraph">Checkout the latest updates &amp; blogs related to FTV Brand License.</p>
                     </div>
-                    <div class="modal-footer border-0">
-                        <a href="<?php echo base_url(); ?>" type="button" class="bl-paragraph px-3 py-2">Start Exploring</a>
+                    <div class="modal-footer border-0 pb-4">
+                        <a href="<?php echo base_url(); ?>" type="button" class="bl-paragraph px-3 py-2" style="background-color: #6E3035; color: #ffffff;">Start Exploring</a>
                     </div>
                 </div>
             </div>
@@ -46,12 +46,30 @@
                     </div>
                     <div class="modal-body d-flex flex-column align-items-center justify-content-center">
                         <img class="logo-dark mb-3 mb-md-5" src="<?php echo base_url(); ?>assets/media/icons/nav-logo.png" alt="">
-                        <h2 class="bl-heading--sub-font mb-3 mb-md-4">Important Reminder For Existing Users!</h2>
+                        <h2 class="bl-heading--sub-font mb-3 mb-md-4" style="color: #6E3035;">Important Reminder For Existing Users!</h2>
                         <p class="bl-paragraph">Already existing subscribers should follow our website &amp; social media channels for more
                             information &amp; latest updates.</p>
                     </div>
-                    <div class="modal-footer border-0">
-                        <a href="<?php echo base_url(); ?>" type="button" class="bl-paragraph">Continue to Website</a>
+                    <div class="modal-footer border-0 pb-4">
+                        <a href="<?php echo base_url(); ?>" type="button" class="bl-paragraph" style="color: #ffffff; background-color: #6E3035;">Continue to Website</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered subscribing-modal modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex flex-column align-items-center justify-content-center">
+                        <img class="logo-dark mb-3 mb-md-5" src="<?php echo base_url(); ?>assets/media/icons/nav-logo.png" alt="" style="filter: invert(1);">
+                        <h2 class="bl-heading--sub-font mb-3 mb-md-4" style="color: #6E3035;">Thank You!</h2>
+                        <p class="bl-paragraph text-center">Thank you for getting in touch. <br>Our business executives will reach out to you soon</p>
+                    </div>
+                    <div class="modal-footer border-0 pb-4">
+                        <a href="javascript:void(0);" type="button" class="bl-paragraph" style="background-color: #6E3035; color: #ffffff;" data-bs-dismiss="modal" aria-label="Close">Continue to Website</a>
                     </div>
                 </div>
             </div>
@@ -191,6 +209,9 @@
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 
+<!-- Split Text -->
+<script src="https://ftvlicenses.in/assets/cdns/js/splittext.min.js"></script>
+
 <!-- Firebase -->
 <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase.js"></script>
 
@@ -220,6 +241,53 @@
 <script src="<?= base_url(); ?>assets/js/animate.js"></script>
 
 <script>
+    // console.log("verify below code ");
+    // $.ajax({
+    //     type: 'GET',
+    //     url: "<?= base_url('pages/enquiry_validation') ?>",
+    //     success: function (data) {
+    //         debugger
+    //         console.log(data.success);
+    //         console.log(data.errors);
+    //         if (data.success === true) {
+    //             debugger
+    //             $('#staticBackdrop4').modal('show');
+    //         }
+    //     }
+    // })  
+
+    let splitAll = document.querySelectorAll(".spilit-word");
+
+    splitAll.forEach((text) => {
+        const childSplit = new SplitText(text, {
+            type: "words",
+            linesClass: "split-child",
+        });
+        const parentSplit = new SplitText(text, {
+            // type: "words",
+            linesClass: "split-parent",
+        });
+        let tl = gsap.timeline({
+            scrollTrigger: {
+                trigger: text,
+                toggleActions: "restart none none reset",
+            },
+        });
+        tl.from(childSplit.words, {
+            duration: 1.5,
+            yPercent: 100,
+            ease: "power4",
+            stagger: 0.12,
+        });
+    });
+
+    const splitText = new SplitText(".split-text", {
+        type: "chars,words,lines",
+        charsClass: "char",
+    });
+    const chars = splitText.chars;
+
+
     let base_path = '<?php echo base_url() ?>';
     let isHomePage = false;
     var currentURL = window.location.href;

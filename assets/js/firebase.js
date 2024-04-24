@@ -17,7 +17,10 @@ window.onload = function () {
       event.preventDefault();
 
       if ($("#enquiryForm").valid()) {
-        disableSubmitButton();
+        // uncomment if otp true - disableSubmitButton();
+        
+        submitButton.setAttribute("disabled", "true");
+        
         // Step 3
         // phoneAuth();
       } else {
@@ -36,15 +39,17 @@ function render() {
   recaptchaVerifier.render();
 }
 
-function disableSubmitButton() {
-  document.getElementById("submitButton").disabled = true;
-  document.getElementById("submitButton").innerHTML = "Please Wait...";
-}
+// uncomment if otp true 
+// function disableSubmitButton() {
+//   document.getElementById("submitButton").disabled = true;
+//   document.getElementById("submitButton").innerHTML = "Please Wait...";
+// }
 
-function enableSubmitButton() {
-  document.getElementById("submitButton").disabled = false;
-  document.getElementById("submitButton").innerHTML = "ENQUIRE NOW";
-}
+// uncomment if otp true 
+// function enableSubmitButton() {
+//   document.getElementById("submitButton").disabled = false;
+//   document.getElementById("submitButton").innerHTML = "ENQUIRE NOW";
+// }
 
 // OTP : Step 2
 // function phoneAuth() {
@@ -82,76 +87,77 @@ function enableSubmitButton() {
 //   });
 // }
 
-function codeverify() {
-  var otpFields = document.querySelectorAll(".wrapper input.field");
-  var otpCode = "";
+// OTP : Step 4
+// function codeverify() {
+//   var otpFields = document.querySelectorAll(".wrapper input.field");
+//   var otpCode = "";
 
-  otpFields.forEach(function (field) {
-    otpCode += field.value;
-  });
+//   otpFields.forEach(function (field) {
+//     otpCode += field.value;
+//   });
 
-  if (!otpCode) {
-    var message = "Please enter the OTP";
-    displayErrorInModal(message);
-    return;
-  }
+//   if (!otpCode) {
+//     var message = "Please enter the OTP";
+//     displayErrorInModal(message);
+//     return;
+//   }
 
-  // document.getElementById('verifyButton').disabled = true;
-  // document.getElementById('verifyButton').innerHTML = 'Please Wait...';
+//   // document.getElementById('verifyButton').disabled = true;
+//   // document.getElementById('verifyButton').innerHTML = 'Please Wait...';
 
-  confirmationResult
-    .confirm(otpCode)
-    .then(function (result) {
-      var user = result.user;
+//   confirmationResult
+//     .confirm(otpCode)
+//     .then(function (result) {
+//       var user = result.user;
 
-      otpVerified = true;
-      if (otpVerified) {
-        $("#verificationModal").modal("hide");
-        submitForm();
-      }
-    })
-    .catch(function (error) {
-      enableSubmitButton();
-      displayErrorInModal(error.message);
-    });
-}
+//       otpVerified = true;
+//       if (otpVerified) {
+//         $("#verificationModal").modal("hide");
+//         submitForm();
+//       }
+//     })
+//     .catch(function (error) {
+//       enableSubmitButton();
+//       displayErrorInModal(error.message);
+//     });
+// }
 // ------ submit function is here ------
 
-function submitForm() {
-  var formData = new FormData(document.getElementById("enquiryForm"));
+// this code is not working (not being used by code)
+// function submitForm() {
+//   var formData = new FormData(document.getElementById("enquiryForm"));
+//   console.log("????", formData);
 
-  $.ajax({
-    url: base_path + "pages/enquiry_validation",
-    type: "post",
-    data: formData,
-    cache: false,
-    contentType: false,
-    processData: false,
-    success: function (data, textStatus, jqXHR) {
-      debugger
-      let submitdata = data;
+//   $.ajax({
+//     url: base_path + "pages/enquiry_validation",
+//     type: "post",
+//     data: formData,
+//     cache: false,
+//     contentType: false,
+//     processData: false,
+//     success: function (data, textStatus, jqXHR) {
+//       let submitdata = data;
 
-      console.log(data);
-      console.log(textStatus);
-      console.log(jqXHR.status);
+//       console.log(data);
+//       console.log(textStatus);
+//       console.log(jqXHR.status);
 
-      debugger
-      if (jqXHR.status === 200 && textStatus === "success") {
-        console.log("Do i come here");
-        $("#enquiryForm")[0].reset();
-        window.location.href = 'thankyou';
-        console.log("checkmate");
-      } else {
-        console.log("what is the message",submitdata.message);
-        displayErrorInModal(submitdata.message);
-      }
-    },
-    error: function (error) {
-      console.error("Error:", error);
-      enableSubmitButton();
-    },
-  });
-}
+//       if (jqXHR.status === 200 && textStatus === "success") {
+//         console.log("Do i come here");
+//         $("#enquiryForm")[0].reset();
+//         window.location.href = 'thankyou';
+//         console.log("checkmate");
+//       } else {
+//         console.log("what is the message",submitdata.message);
+//         displayErrorInModal(submitdata.message);
+//       }
+//     },
+//     error: function (error) {
+//       console.error("Error:", error);
+//       enableSubmitButton();
+//     },
+//   });
+// }
 
 
 function startCountdown(seconds) {

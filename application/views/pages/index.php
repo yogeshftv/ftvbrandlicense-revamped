@@ -8,13 +8,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <!-- Banner Video -->
         <section class="common-banner-video">
             <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/templates/temp-banner-cover.png" class="w-100">
-                <source src="<?= base_url(); ?>assets/media/videos/homepage-banner-video.mp4" type="video/mp4" class="w-100">
+                <source src="<?= base_url(); ?>assets/media/videos/homepage-banner-desktop.mp4" type="video/mp4" class="w-100">
             </video>
         </section>
 
         <section class="common-banner-video-for-mobile mt-0 mb-0">
             <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>" class="w-100">
-                <source src="<?= base_url(); ?>" type="video/mp4" class="w-100">
+                <source src="<?= base_url(); ?>assets/media/videos/homepage-banner-mobile.mp4" type="video/mp4" class="w-100">
             </video>
         </section>
         <!-- Banner Video -->
@@ -40,7 +40,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="row mx-0">
                 <div class="col-12 col-md-6 column-1 px-0">
                     <div class="introduction-content-0">
-                        <h2 class="bl-heading">Introduction</h2>
+                        <h2 class="bl-heading split-text spilit-word">Introduction</h2>
                         <p class="bl-paragraph">Step into a world where your brand's potential knows no bounds. At FTV, we're not just offering licenses; we're unleashing possibilities! Whether you're a budding entrepreneur or an established powerhouse, our platform is your ticket to new horizons, fresh collaborations, and boundless growth.</p>
                         <p class="bl-paragraph">Explore, innovate, and ignite your brand's journey with us - because here, every partnership is a masterpiece in the making. Let's embark on this exhilarating adventure together! Overall, brand licensing serves as a powerful strategy for driving growth, extending brand reach, and capitalizing on the value of intellectual property assets.</p>
                     </div>
@@ -79,7 +79,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <!-- Deliverables -->
         <section class="common-deliverables">
             <div class="container-fluid px-0">
-                <h2 class="bl-heading text-center">Deliverables</h2>
+                <h2 class="bl-heading text-center split-text spilit-word">Deliverables</h2>
                 <div class="common-deliverables-row">
                     <div class="columns">
                         <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
@@ -132,7 +132,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="container-fluid px-0">
                 <div class="row mx-0">
                     <div class="col-12 col-md-3 column-1 px-0 pos-rel">
-                        <h2 class="bl-heading">Our<br>Licensing</h2>
+                        <h2 class="bl-heading split-text spilit-word">Our<br>Licensing</h2>
                         <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div>
                     </div>
@@ -326,7 +326,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="container-fluid px-0">
                 <div class="row mx-0">
                     <div class="col-12 px-0 d-flex align-items-center justify-content-between mb-md-0 mb-md-2 mb-lg-3 col-bm">
-                        <h2 class="bl-heading blogs-heading">Our Blogs</h2>
+                        <h2 class="bl-heading blogs-heading split-text spilit-word">Our Blogs</h2>
                         <a href="<?= base_url(); ?>blogs" class="poppins-font text-decoration-underline view-more">View More</a>
                     </div>
                     <div class="col-md-4 px-0 px-md-2">
@@ -389,8 +389,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="row mx-0">
                     <div class="col-12 col-md-6 col-lg-7 column-1">
                         <div class="cta-content">
-                            <h3>Empower Your Brand with</h3>
-                            <h2 class="bl-heading">Licensing options today </h2>
+                            <h3 class="split-text spilit-word">Empower Your Brand with</h3>
+                            <h2 class="bl-heading split-text spilit-word">Licensing options today </h2>
                             <a href="<?= base_url(); ?>contact-us" class="cta-btn">Contact Us</a>
                         </div>
                     </div>

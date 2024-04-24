@@ -108,6 +108,24 @@ let brandLicenseIntroSwiper = new Swiper(".blIntroductionSwiper", {
     }
 });
 
+// Brand License: Our Benefits Swiper
+let ourBenefitsSwiper = new Swiper(".ourBenefitsSwiper", {
+    slidesPerView: 1,
+    spaceBetween: 0,
+    allowTouchMove: false,
+    preloadImages: true,
+    centeredSlides: true,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    loop: true,
+});
+
 // Our Services Introduction: Introduction Swiper
 let ourStoryIntroSwiper = new Swiper(".osIntroductionSwiper", {
     slidesPerView: 3.5,

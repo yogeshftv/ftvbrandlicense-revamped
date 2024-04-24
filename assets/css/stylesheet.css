@@ -168,6 +168,7 @@ html.lenis {
 body {
     position: relative;
     cursor: url('../media/icons/ftv-wings-black.png'), default;
+    /* cursor: url('../media/icons/cursor-new-6.png'), default; */
 }
 
 p {
@@ -223,6 +224,14 @@ p {
 /* colors */
 
 /* Utility Class */
+.split-parent {
+    overflow: hidden;
+}
+
+.split-child {
+    display: inline-block;
+}
+
 .container-fluid {
     width: 90%;
     max-width: 1920px;
@@ -466,6 +475,7 @@ section {
 
 #staticBackdrop,
 #staticBackdrop2,
+#staticBackdrop4,
 #staticBackdrop3 {
     backdrop-filter: blur(5px) !important;
     z-index: 99999999 !important;
@@ -474,23 +484,27 @@ section {
 
 #staticBackdrop .modal-content,
 #staticBackdrop2 .modal-content,
+#staticBackdrop4 .modal-content,
 #staticBackdrop3 .modal-content {
     background-color: #ffffff;
 }
 
 #staticBackdrop .modal-header,
 #staticBackdrop2 .modal-header,
+#staticBackdrop4 .modal-header,
 #staticBackdrop3 .modal-header {
     border: 0;
 }
 
 #staticBackdrop .modal-header button.btn-close,
 #staticBackdrop2 .modal-header button.btn-close,
+#staticBackdrop4 .modal-header button.btn-close,
 #staticBackdrop3 .modal-header button.btn-close {
     opacity: 1 !important;
 }
 
 #staticBackdrop .modal-body img,
+#staticBackdrop4 .modal-body img,
 #staticBackdrop2 .modal-body img,
 #staticBackdrop3 .modal-body img {
     width: 80px;
@@ -500,6 +514,7 @@ section {
 
 #staticBackdrop .modal-body h2,
 #staticBackdrop2 .modal-body h2,
+#staticBackdrop4 .modal-body h2,
 #staticBackdrop3 .modal-body h2 {
     color: #131313;
     line-height: 2.75rem;
@@ -508,6 +523,7 @@ section {
 
 #staticBackdrop .modal-body p,
 #staticBackdrop2 .modal-body p,
+#staticBackdrop4 .modal-body p,
 #staticBackdrop3 .modal-body p {
     color: #131313;
     text-align: center;
@@ -515,6 +531,7 @@ section {
 
 #staticBackdrop .modal-footer,
 #staticBackdrop2 .modal-footer,
+#staticBackdrop4 .modal-footer,
 #staticBackdrop3 .modal-footer {
     display: flex;
     align-items: center;
@@ -523,6 +540,7 @@ section {
 
 #staticBackdrop .modal-footer a,
 #staticBackdrop2 .modal-footer a,
+#staticBackdrop4 .modal-footer a,
 #staticBackdrop3 .modal-footer a {
     color: #131313;
     border-radius: 1.25rem;
@@ -551,8 +569,7 @@ header {
 }
 
 .navbar-brand img {
-    width: 80px;
-    aspect-ratio: 1;
+    width: 140px;
     transition: transform 0.3s ease;
 }
 
@@ -2027,6 +2044,7 @@ footer .f-additionals a:hover {
 
     /* Home */
     .common-introduction-0 .introduction-content-0 h2.bl-heading {
+        margin-top: -3rem;
         margin-bottom: 0.125rem;
     }
 
@@ -2393,6 +2411,7 @@ footer .f-additionals a:hover {
     /* utility classes */
     #staticBackdrop .modal-body img,
     #staticBackdrop2 .modal-body img,
+    #staticBackdrop4 .modal-body img,
     #staticBackdrop3 .modal-body img {
         width: 60px;
         margin-top: -1.5rem;
@@ -2400,16 +2419,19 @@ footer .f-additionals a:hover {
     }
 
     #staticBackdrop .modal-body h2,
+    #staticBackdrop4 .modal-body h2,
     #staticBackdrop2 .modal-body h2,
     #staticBackdrop3 .modal-body h2 {
         line-height: 2rem;
     }
 
     #staticBackdrop .modal-body p,
+    #staticBackdrop4 .modal-body p,
     #staticBackdrop2 .modal-body p,
     #staticBackdrop3 .modal-body p {}
 
     #staticBackdrop .modal-footer,
+    #staticBackdrop4 .modal-footer,
     #staticBackdrop2 .modal-footer,
     #staticBackdrop3 .modal-footer {
         display: flex;
@@ -2419,8 +2441,9 @@ footer .f-additionals a:hover {
 
     #staticBackdrop .modal-footer a,
     #staticBackdrop2 .modal-footer a,
+    #staticBackdrop4 .modal-footer a,
     #staticBackdrop3 .modal-footer a {
-        padding: 0.8rem 1.125rem;
+        padding: 0.8rem 1.125rem !important;
     }
 
     /* utility classes */
@@ -2439,7 +2462,7 @@ footer .f-additionals a:hover {
     }
 
     .navbar-brand img {
-        width: 40px;
+        width: 80px;
     }
 
     .offcanvas-header img {
@@ -3035,6 +3058,7 @@ footer .f-additionals a:hover {
     /* utility classes */
     #staticBackdrop .modal-body img,
     #staticBackdrop2 .modal-body img,
+    #staticBackdrop4 .modal-body img,
     #staticBackdrop3 .modal-body img {
         width: 60px;
         margin-top: -1.5rem;
@@ -3043,16 +3067,19 @@ footer .f-additionals a:hover {
 
     #staticBackdrop .modal-body h2,
     #staticBackdrop2 .modal-body h2,
+    #staticBackdrop4 .modal-body h2,
     #staticBackdrop3 .modal-body h2 {
         line-height: 2rem;
     }
 
     #staticBackdrop .modal-body p,
     #staticBackdrop2 .modal-body p,
+    #staticBackdrop4 .modal-body p,
     #staticBackdrop3 .modal-body p {}
 
     #staticBackdrop .modal-footer,
     #staticBackdrop2 .modal-footer,
+    #staticBackdrop4 .modal-footer,
     #staticBackdrop3 .modal-footer {
         display: flex;
         align-items: center;
@@ -3061,6 +3088,7 @@ footer .f-additionals a:hover {
 
     #staticBackdrop .modal-footer a,
     #staticBackdrop2 .modal-footer a,
+    #staticBackdrop4 .modal-footer a,
     #staticBackdrop3 .modal-footer a {
         padding: 0.8rem 1.125rem;
     }
@@ -3074,7 +3102,7 @@ footer .f-additionals a:hover {
     }
 
     .navbar-brand img {
-        width: 40px;
+        width: 90px;
     }
 
     .offcanvas-header img {
@@ -3614,6 +3642,7 @@ footer .f-additionals a:hover {
     /* utility classes */
     #staticBackdrop .modal-body img,
     #staticBackdrop2 .modal-body img,
+    #staticBackdrop4 .modal-body img,
     #staticBackdrop3 .modal-body img {
         width: 60px;
         margin-top: -1.5rem;
@@ -3622,16 +3651,19 @@ footer .f-additionals a:hover {
 
     #staticBackdrop .modal-body h2,
     #staticBackdrop2 .modal-body h2,
+    #staticBackdrop4 .modal-body h2,
     #staticBackdrop3 .modal-body h2 {
         line-height: 2rem;
     }
 
     #staticBackdrop .modal-body p,
     #staticBackdrop2 .modal-body p,
+    #staticBackdrop4 .modal-body p,
     #staticBackdrop3 .modal-body p {}
 
     #staticBackdrop .modal-footer,
     #staticBackdrop2 .modal-footer,
+    #staticBackdrop4 .modal-footer,
     #staticBackdrop3 .modal-footer {
         display: flex;
         align-items: center;
@@ -3640,6 +3672,7 @@ footer .f-additionals a:hover {
 
     #staticBackdrop .modal-footer a,
     #staticBackdrop2 .modal-footer a,
+    #staticBackdrop4 .modal-footer a,
     #staticBackdrop3 .modal-footer a {
         padding: 0.8rem 1.125rem;
     }
@@ -3655,7 +3688,7 @@ footer .f-additionals a:hover {
     }
 
     .navbar-brand img {
-        width: 70px;
+        width: 100px;
     }
 
     .offcanvas-body {
@@ -4096,6 +4129,7 @@ footer .f-additionals a:hover {
     /* utility classes */
     #staticBackdrop .modal-body img,
     #staticBackdrop2 .modal-body img,
+    #staticBackdrop4 .modal-body img,
     #staticBackdrop3 .modal-body img {
         width: 60px;
         margin-top: -1.5rem;
@@ -4104,16 +4138,19 @@ footer .f-additionals a:hover {
 
     #staticBackdrop .modal-body h2,
     #staticBackdrop2 .modal-body h2,
+    #staticBackdrop4 .modal-body h2,
     #staticBackdrop3 .modal-body h2 {
         line-height: 2rem;
     }
 
     #staticBackdrop .modal-body p,
     #staticBackdrop2 .modal-body p,
+    #staticBackdrop4 .modal-body p,
     #staticBackdrop3 .modal-body p {}
 
     #staticBackdrop .modal-footer,
     #staticBackdrop2 .modal-footer,
+    #staticBackdrop4 .modal-footer,
     #staticBackdrop3 .modal-footer {
         display: flex;
         align-items: center;
@@ -4122,6 +4159,7 @@ footer .f-additionals a:hover {
 
     #staticBackdrop .modal-footer a,
     #staticBackdrop2 .modal-footer a,
+    #staticBackdrop4 .modal-footer a,
     #staticBackdrop3 .modal-footer a {
         padding: 0.8rem 1.125rem;
     }
@@ -4130,7 +4168,7 @@ footer .f-additionals a:hover {
 
     /* common navbar */
     .navbar-brand img {
-        width: 75px;
+        width: 110px;
     }
 
     .nav-item a.navigation {
@@ -4607,6 +4645,7 @@ footer .f-additionals a:hover {
     /* utility classes */
     #staticBackdrop .modal-body img,
     #staticBackdrop2 .modal-body img,
+    #staticBackdrop4 .modal-body img,
     #staticBackdrop3 .modal-body img {
         width: 60px;
         margin-top: -1.5rem;
@@ -4615,16 +4654,19 @@ footer .f-additionals a:hover {
 
     #staticBackdrop .modal-body h2,
     #staticBackdrop2 .modal-body h2,
+    #staticBackdrop4 .modal-body h2,
     #staticBackdrop3 .modal-body h2 {
         line-height: 2rem;
     }
 
     #staticBackdrop .modal-body p,
     #staticBackdrop2 .modal-body p,
+    #staticBackdrop4 .modal-body p,
     #staticBackdrop3 .modal-body p {}
 
     #staticBackdrop .modal-footer,
     #staticBackdrop2 .modal-footer,
+    #staticBackdrop4 .modal-footer,
     #staticBackdrop3 .modal-footer {
         display: flex;
         align-items: center;
@@ -4633,6 +4675,7 @@ footer .f-additionals a:hover {
 
     #staticBackdrop .modal-footer a,
     #staticBackdrop2 .modal-footer a,
+    #staticBackdrop4 .modal-footer a,
     #staticBackdrop3 .modal-footer a {
         padding: 0.8rem 1.125rem;
     }
@@ -4641,7 +4684,7 @@ footer .f-additionals a:hover {
 
     /* common navbar */
     .navbar-brand img {
-        width: 75px;
+        width: 120px;
     }
 
     .nav-item a.navigation {
@@ -5103,6 +5146,7 @@ footer .f-additionals a:hover {
     /* utility classes */
     #staticBackdrop .modal-body img,
     #staticBackdrop2 .modal-body img,
+    #staticBackdrop4 .modal-body img,
     #staticBackdrop3 .modal-body img {
         width: 60px;
         margin-top: -1.5rem;
@@ -5111,16 +5155,19 @@ footer .f-additionals a:hover {
 
     #staticBackdrop .modal-body h2,
     #staticBackdrop2 .modal-body h2,
+    #staticBackdrop4 .modal-body h2,
     #staticBackdrop3 .modal-body h2 {
         line-height: 2rem;
     }
 
     #staticBackdrop .modal-body p,
     #staticBackdrop2 .modal-body p,
+    #staticBackdrop4 .modal-body p,
     #staticBackdrop3 .modal-body p {}
 
     #staticBackdrop .modal-footer,
     #staticBackdrop2 .modal-footer,
+    #staticBackdrop4 .modal-footer,
     #staticBackdrop3 .modal-footer {
         display: flex;
         align-items: center;
@@ -5129,6 +5176,7 @@ footer .f-additionals a:hover {
 
     #staticBackdrop .modal-footer a,
     #staticBackdrop2 .modal-footer a,
+    #staticBackdrop4 .modal-footer a,
     #staticBackdrop3 .modal-footer a {
         padding: 1rem 2rem;
     }
@@ -5136,6 +5184,10 @@ footer .f-additionals a:hover {
     /* utility classes */
 
     /* common navbar */
+    .navbar-brand img {
+        width: 120px;
+    }
+
     .nav-item a.navigation {
         font-size: 21px;
     }
@@ -5570,6 +5622,7 @@ footer .f-additionals a:hover {
     /* utility classes */
     #staticBackdrop .modal-body img,
     #staticBackdrop2 .modal-body img,
+    #staticBackdrop4 .modal-body img,
     #staticBackdrop3 .modal-body img {
         width: 60px;
         margin-top: -1.5rem;
@@ -5578,12 +5631,14 @@ footer .f-additionals a:hover {
 
     #staticBackdrop .modal-body h2,
     #staticBackdrop2 .modal-body h2,
+    #staticBackdrop4 .modal-body h2,
     #staticBackdrop3 .modal-body h2 {
         line-height: 2.75rem;
     }
 
     #staticBackdrop .modal-footer,
     #staticBackdrop2 .modal-footer,
+    #staticBackdrop4 .modal-footer,
     #staticBackdrop3 .modal-footer {
         display: flex;
         align-items: center;
@@ -5592,6 +5647,7 @@ footer .f-additionals a:hover {
 
     #staticBackdrop .modal-footer a,
     #staticBackdrop2 .modal-footer a,
+    #staticBackdrop4 .modal-footer a,
     #staticBackdrop3 .modal-footer a {
         padding: 1rem 2rem;
     }
@@ -5599,6 +5655,10 @@ footer .f-additionals a:hover {
     /* utility classes */
 
     /* common navbar */
+    .navbar-brand img {
+        width: 120px;
+    }
+
     .nav-item a.navigation {
         font-size: 22px;
     }

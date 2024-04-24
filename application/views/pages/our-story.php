@@ -28,7 +28,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 </div>
                 <div class="col-12 column-2 px-0">
                     <div class="container-fluid px-0">
-                        <h2 class="bl-heading">About FashionTV</h2>
+                        <h2 class="bl-heading split-text spilit-word">About FashionTV</h2>
                         <p class="bl-paragraph">Welcome to a whole different realm where fashion, glamour, and an opulent way of life embellish the world. FashionTV has nurtured fashion into a global phenomenon. A space that inspires and adorns fashion enthusiasts with the power of media. Moreover, to further the brand's purpose, FashionTV is now collaborating with aspiring entrepreneurs to launch multiple businesses in various fields by franchising, licensing, events, media, concepts and city partnership.</p>
                         <img src="<?= base_url(); ?>assets/media/images/templates/about-example-1-1.png" alt="" style="filter: grayscale(0.85);" class="w-100">
                         <a href="#">
@@ -52,7 +52,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="col-8 column-2 bg-me px-0">
                     <div class="row-mx-0 row-1">
                         <div class="col-8 px-0 column-1">
-                            <h2 class="bl-heading text-center">About FashionTV</h2>
+                            <h2 class="bl-heading text-center split-text spilit-word">About FashionTV</h2>
                         </div>
                         <div class="col-4 px-0 column-2"></div>
                     </div>
@@ -88,7 +88,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <!-- Our Philosophy -->
         <section class="common-philosophy">
             <div class="container-fluid px-0">
-                <h2 class="bl-heading text-center">Our Philosophy</h2>
+                <h2 class="bl-heading text-center split-text spilit-word">Our Philosophy</h2>
                 <div class="row row-1 c-row">
                     <div class="col-12 col-md-3 column-1 d-flex align-items-center">
                         <h3 class="bl-heading--sub-font">Vision</h3>
@@ -120,7 +120,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <div class="bg-color pt-1 pb-5">
             <!-- statistics -->
             <section class="statistics">
-                <h2 class="bl-heading text-center">Our Statistics</h2>
+                <h2 class="bl-heading text-center split-text spilit-word">Our Statistics</h2>
                 <div class="stats-container" id="statistics-section">
                     <div class="stats-card">
                         <h3 id="viewers" class="bl--font-typ-1">2B+</h3>
@@ -183,17 +183,17 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
         <!-- Our Boards -->
         <section class="our-boards">
-            <h2 class="text-center bl-heading heading">Our Boards</h2>
+            <h2 class="text-center bl-heading heading split-text spilit-word">Our Boards</h2>
             <div class="row mx-0 row-1">
                 <div class="col-12 col-md-6 px-0 column-1">
                     <img src="<?php echo base_url(); ?>assets/media/images/our-story/michel-adam.png" alt="michel-adam" class="w-100 h-100 michel-adam">
                 </div>
                 <div class="col-12 col-md-6 px-0 column-2">
                     <div class="boards-content">
-                        <h2 class="d-none d-md-block bl-heading--sub-font">michel adam</h2>
+                        <h2 class="d-none d-md-block bl-heading--sub-font split-text spilit-word">michel adam</h2>
                         <p class="d-none d-md-block poppins-font designation">Chairman & Founder of FashionTV</p>
                         <div class="container-fluid px-0 d-block d-md-none">
-                            <h2 class="bl-heading--sub-font">michel adam</h2>
+                            <h2 class="bl-heading--sub-font split-text spilit-word">michel adam</h2>
                             <p class="poppins-font designation text-start">Chairman & Founder of FashionTV</p>
                         </div>
                         <img src="<?php echo base_url(); ?>assets/media/images/our-story/michel-adam-2.png" alt="michel-adam">
@@ -209,10 +209,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="row mx-0 row-2">
                 <div class="col-12 col-md-6 px-0 column-1">
                     <div class="boards-content">
-                        <h2 class="d-none d-md-block bl-heading--sub-font">kashiff khan</h2>
+                        <h2 class="d-none d-md-block bl-heading--sub-font split-text spilit-word">kashiff khan</h2>
                         <p class="d-none d-md-block poppins-font designation">Managing Director of FashionTV</p>
                         <div class="container-fluid px-0 d-block d-md-none">
-                            <h2 class="bl-heading--sub-font">kashiff khan</h2>
+                            <h2 class="bl-heading--sub-font split-text spilit-word">kashiff khan</h2>
                             <p class="poppins-font designation text-start">Managing Director of FashionTV</p>
                         </div>
                         <img src="<?php echo base_url(); ?>assets/media/images/our-story/kashiff-khan-2.png" alt="michel-adam">
@@ -239,8 +239,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 </div>
                 <div class="col-12 col-md-8 column-2">
                     <div class="cta-content">
-                        <h3>Empower Your Brand with</h3>
-                        <h2 class="bl-heading">Licensing options today </h2>
+                        <h3 class="split-text spilit-word">Empower Your Brand with</h3>
+                        <h2 class="bl-heading split-text spilit-word">Licensing options today </h2>
                         <a href="<?= base_url(); ?>contact-us" class="cta-btn">Contact Us</a>
                     </div>
                 </div>

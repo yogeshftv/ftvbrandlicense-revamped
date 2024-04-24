@@ -36,16 +36,16 @@
 
       <thead style="width:100%;">
         <tr style="width:100%;">
-          <td colspan="4" style="text-align:center; width: 100%; display: block; padding-bottom: 46px;">
+          <td colspan="4" style="text-align:center; width: 100%; display: block; padding-bottom: 0px;">
             <img src="https://ftvlicenses.in/assets/media/icons/footer-logo.png" style="width: 12%; padding-top: 56px;">
           </td>
         </tr>
         <tr style="width:100%;">
           <td colspan="4" style="text-align:center; width: 100%; display: block;">
-            <h1 style="color: #fff; font-size: 60px; text-align: center; font-weight: 300; padding-bottom: 30px; padding-top: 46px;">Thank You</h1>
+            <h1 style="color: #fff; font-size: 60px; text-align: center; font-weight: 300; padding-bottom: 0px; padding-top: 46px;">Thank You</h1>
           </td>
           <td colspan="4" style="text-align:center; width: 100%; display: block;">
-            <h1 style="color: #fff; font-size: 60px; text-align: center; font-weight: 300; padding-top: 30px; padding-bottom: 86px;">For Subscribing!</h1>
+            <h1 style="color: #fff; font-size: 60px; text-align: center; font-weight: 300; padding-top: 0px; padding-bottom: 86px;">For Subscribing!</h1>
           </td>
         </tr>
       </thead>
@@ -79,7 +79,7 @@
                 <tr style="width:100%;">
                   <td colspan="3" style="width:100%;text-align:center;padding: 32px 240px; padding-bottom: 30px;">
                     <a href="https://ftvcitypartner.in/" target="_blank"
-                      style="font-family:'Montserrat'; font-size:16px; margin: 0; background-color: #dba334; padding: 18px 30px; border-radius: 50px; color: #ffffff; text-transform: uppercase; text-decoration: none;">Start
+                      style="font-family:'Montserrat'; font-size:16px; margin: 0; background-color: #6E3035; padding: 18px 30px; border-radius: 20px; color: #ffffff; text-transform: uppercase; text-decoration: none;">Start
                       Exploring</a>
                   </td>
                 </tr>
@@ -87,7 +87,7 @@
                   <td colspan="3" style="width:100%;text-align:center;padding: 32px 50px;">
                     <p style="font-family:'Montserrat'; font-size:16px; line-height:1.5; margin: 0;">Got any question?
                       Reach out to us anytime at <a href="mailto:info@ftv.ind.in"
-                        style="color: #dba334;">info@ftv.ind.in</a><br>Stay tuned for more.</p>
+                        style="color: #6E3035;">info@ftv.ind.in</a><br>Stay tuned for more.</p>
                   </td>
                 </tr>
               </tbody>
