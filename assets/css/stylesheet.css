@@ -665,6 +665,13 @@ button .bi.bi-list {
     font-family: 'Poppins', sans-serif;
 }
 
+.offcanvas-body .column-1 {
+    background-image: url('../media/icons/f-common.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom right;
+}
+
 .offcanvas-body .column-2 {
     display: flex;
     flex-direction: column;
@@ -6638,3 +6645,20 @@ Design Reference : https://www.figma.com/file/MUIBDJ2NNXiGSj9p7yS2Y4/Karan---FTV
     }
 }
 /* additionals */
+
+
+/* 
+
+Content Updated for:
+
+1. Home page
+2. Brand License page
+3. Our Services page
+4. Faqs page
+
+Pending Content:
+
+1. Home page blogs
+2. Our story
+
+*/

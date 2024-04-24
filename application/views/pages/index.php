@@ -49,25 +49,25 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="swiper homeIntroductionSwiper">
                         <div class="swiper-wrapper d-flex align-self-center">
                             <div class="swiper-slide d-flex align-self-center res-swiper-slide">
-                                <img src="<?php echo base_url(); ?>assets/media/images/templates/home-intro-1.png" alt="" class="w-100">
+                                <img src="<?php echo base_url(); ?>assets/media/images/home/intro-3.png" alt="" class="w-100">
                             </div>
                             <div class="swiper-slide d-flex align-self-center res-swiper-slide">
-                                <img src="<?php echo base_url(); ?>assets/media/images/templates/home-intro-2.png" alt="" class="w-100">
+                                <img src="<?php echo base_url(); ?>assets/media/images/home/intro-4.png" alt="" class="w-100">
                             </div>
                             <div class="swiper-slide d-flex align-self-center res-swiper-slide">
-                                <img src="<?php echo base_url(); ?>assets/media/images/templates/home-intro-3.png" alt="" class="w-100">
+                                <img src="<?php echo base_url(); ?>assets/media/images/home/intro-5.png" alt="" class="w-100">
                             </div>
                             <div class="swiper-slide d-flex align-self-center res-swiper-slide">
-                                <img src="<?php echo base_url(); ?>assets/media/images/templates/home-intro-4.png" alt="" class="w-100">
+                                <img src="<?php echo base_url(); ?>assets/media/images/home/intro-6.png" alt="" class="w-100">
                             </div>
                             <div class="swiper-slide d-flex align-self-center res-swiper-slide">
-                                <img src="<?php echo base_url(); ?>assets/media/images/templates/home-intro-5.png" alt="" class="w-100">
+                                <img src="<?php echo base_url(); ?>assets/media/images/home/intro-7.png" alt="" class="w-100">
                             </div>
                             <div class="swiper-slide d-flex align-self-center res-swiper-slide">
-                                <img src="<?php echo base_url(); ?>assets/media/images/templates/home-intro-6.png" alt="" class="w-100">
+                                <img src="<?php echo base_url(); ?>assets/media/images/home/intro-1.png" alt="" class="w-100">
                             </div>
                             <div class="swiper-slide d-flex align-self-center res-swiper-slide">
-                                <img src="<?php echo base_url(); ?>assets/media/images/templates/home-intro-7.png" alt="" class="w-100">
+                                <img src="<?php echo base_url(); ?>assets/media/images/home/intro-2.png" alt="" class="w-100">
                             </div>
                         </div>
                     </div>
