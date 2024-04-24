@@ -41,8 +41,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="col-12 col-md-6 column-1">
                     <div class="introduction-content-0">
                         <h2 class="bl-heading split-text spilit-word">About BL</h2>
-                        <p class="bl-paragraph">Step into a world where your brand's potential knows no bounds. At FTV, we're not just offering licenses; we're unleashing possibilities! Whether you're a budding entrepreneur or an established powerhouse, our platform is your ticket to new horizons, fresh collaborations, and boundless growth.</p>
-                        <p class="bl-paragraph">Explore, innovate, and ignite your brand's journey with us - because here, every partnership is a masterpiece in the making. Let's embark on this exhilarating adventure together! Overall, brand licensing serves as a powerful strategy for driving growth, extending brand reach, and capitalizing on the value of intellectual property assets.</p>
+                        <p class="bl-paragraph">An arrangement between two or more businesses for the mutually beneficial formation of a firm without a substantial financial commitment is known as brand licensing. A beneficiary company may expand and grow its business by using the parent company's intellectual property for commercial purposes.</p>
+                        <p class="bl-paragraph">By using the FTV brand license, you will be able to draw in the devoted clientele. It might be a practical way to expand reach and increase revenue without taking any risks. In addition, Fashion TV will guide you to reach your business objectives.</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 column-2">
@@ -82,28 +82,52 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <h2 class="bl-heading text-center split-text spilit-word">Why Join Us?</h2>
                 <div class="common-deliverables-row">
                     <div class="columns">
-                        <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3 class="bl-paragraph">icon 1</h3>
+                        <div class="h-100">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
+                        </div>
+                        <div style="height: 64px;">
+                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2 text-center">Scalability</h3>
+                        </div>
                     </div>
                     <div class="columns">
-                        <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3 class="bl-paragraph">icon 2</h3>
+                        <div class="h-100">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
+                        </div>
+                        <div style="height: 64px;">
+                            <h3 class="bl-paragraph text-start text-center">Immense brand awareness</h3>
+                        </div>
                     </div>
                     <div class="columns">
-                        <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3 class="bl-paragraph">icon 3</h3>
+                        <div class="h-100">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
+                        </div>
+                        <div style="height: 64px;">
+                            <h3 class="bl-paragraph text-start text-center">Exceptional growth opportunities</h3>
+                        </div>
                     </div>
                     <div class="columns">
-                        <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3 class="bl-paragraph">icon 4</h3>
+                        <div class="h-100">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
+                        </div>
+                        <div style="height: 64px;">
+                            <h3 class="bl-paragraph text-start text-center">Less marketing time</h3>
+                        </div>
                     </div>
                     <div class="columns">
-                        <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3 class="bl-paragraph">icon 5</h3>
+                        <div class="h-100">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
+                        </div>
+                        <div style="height: 64px;">
+                            <h3 class="bl-paragraph text-start text-center">Global Recognition</h3>
+                        </div>
                     </div>
                     <div class="columns">
-                        <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3 class="bl-paragraph">icon 6</h3>
+                        <div class="h-100">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
+                        </div>
+                        <div style="height: 64px;">
+                            <h3 class="bl-paragraph text-start text-center">Competitive advantage</h3>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -137,26 +161,32 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <div class="swiper-wrapper">
                             <div class="swiper-slide d-flex align-items-center">
                                 <div class="container-fluid px-0">
-                                    <h2 class="bl-heading--sub-font"><span style="color: #6E3035;">01 </span>Established Brand Identity</h2>
-                                    <p class="bl-paragraph">Licensing with FashionTV grants you access to a well-respected and globally recognized brand, giving your business an immediate edge in the market.</p>
+                                    <h2 class="bl-heading--sub-font"><span style="color: #6E3035;">01 </span>Established brand identity</h2>
+                                    <p class="bl-paragraph">Licensees can get a quick brand recognition with an F license allowing them to go global without investing any extra time, money and energy.</p>
                                 </div>
                             </div>
                             <div class="swiper-slide d-flex align-items-center">
                                 <div class="container-fluid px-0">
-                                    <h2 class="bl-heading--sub-font"><span style="color: #6E3035;">02 </span>Established Brand Identity</h2>
-                                    <p class="bl-paragraph">Licensing with FashionTV grants you access to a well-respected and globally recognized brand, giving your business an immediate edge in the market.</p>
+                                    <h2 class="bl-heading--sub-font"><span style="color: #6E3035;">02 </span>Direct Revenue Stream</h2>
+                                    <p class="bl-paragraph">Capitalize over established customer base and cash in huge revenue streams without putting an extra effort into marketing and promotion.</p>
                                 </div>
                             </div>
                             <div class="swiper-slide d-flex align-items-center">
                                 <div class="container-fluid px-0">
-                                    <h2 class="bl-heading--sub-font"><span style="color: #6E3035;">03 </span>Established Brand Identity</h2>
-                                    <p class="bl-paragraph">Licensing with FashionTV grants you access to a well-respected and globally recognized brand, giving your business an immediate edge in the market.</p>
+                                    <h2 class="bl-heading--sub-font"><span style="color: #6E3035;">03 </span>Cost-effective</h2>
+                                    <p class="bl-paragraph">Avoid standardized mechanisms to build a brand in order to save capital and grow exponentially.</p>
                                 </div>
                             </div>
                             <div class="swiper-slide d-flex align-items-center">
                                 <div class="container-fluid px-0">
-                                    <h2 class="bl-heading--sub-font"><span style="color: #6E3035;">04 </span>Established Brand Identity</h2>
-                                    <p class="bl-paragraph">Licensing with FashionTV grants you access to a well-respected and globally recognized brand, giving your business an immediate edge in the market.</p>
+                                    <h2 class="bl-heading--sub-font"><span style="color: #6E3035;">04 </span>Consumer Trust</h2>
+                                    <p class="bl-paragraph">Get access to a huge customer base with established consumer trust for the brand. </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide d-flex align-items-center">
+                                <div class="container-fluid px-0">
+                                    <h2 class="bl-heading--sub-font"><span style="color: #6E3035;">05 </span>Access to expertise</h2>
+                                    <p class="bl-paragraph">Learn ways to develop brand strategies under the guidance of veterans in the industry having years of experience in brand building.</p>
                                 </div>
                             </div>
                         </div>
@@ -177,7 +207,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <h3 class="bl-heading--sub-font">Vision</h3>
                     </div>
                     <div class="col-12 col-md-9 column-2 d-flex align-items-center">
-                        <p class="bl-paragraph">To seek ventures that auxiliary our love for fashion, and make his mark in India, one of the world's second-largest consumer markets.</p>
+                        <p class="bl-paragraph">To turn great ideas into the greatest one and push skilled entrepreneurs and companies to make a mark in the industry.</p>
                     </div>
                 </div>
                 <div class="row row-2 c-row">
@@ -185,7 +215,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <h3 class="bl-heading--sub-font">Mission</h3>
                     </div>
                     <div class="col-12 col-md-9 column-2 d-flex align-items-center">
-                        <p class="bl-paragraph">We look forward to making FashionTV a household name by providing the masses with nothing but the best in association with our partners.</p>
+                        <p class="bl-paragraph">To create a platform where innovation meets talents and give chance to every burgeoning startups travel across the globe.</p>
                     </div>
                 </div>
                 <div class="row row-3 c-row">
@@ -193,7 +223,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <h3 class="bl-heading--sub-font">Aim</h3>
                     </div>
                     <div class="col-12 col-md-9 column-2 d-flex align-items-center">
-                        <p class="bl-paragraph">We aim to become the leading brand in the Indian market not only in the fashion industry but in numerous business sectors recognised for its synergy, brilliance and excellence.</p>
+                        <p class="bl-paragraph">We aim to establish beneficial partnerships that enable our clients to reach new brand heights and position ourselves as leading licensing partners.</p>
                     </div>
                 </div>
             </div>
@@ -235,8 +265,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="container-fluid px-0">
                 <div class="brand-support-content">
                     <h2 class="bl-heading split-text spilit-word">Brand Support</h2>
-                    <p class="bl-paragraph">FashionTV gives 360-degree support to all our license partners. We help in all aspects ranging from location, architecture, and staff recruitment to PR launch plans, social media marketing, auditing, cross-marketing and more.</p>
-                    <p class="bl-paragraph">Strategic planning, which is very important for the success of any business, is worked on extensively by our team and license partners.</p>
+                    <p class="bl-paragraph">Get boundless support to flourish your business in all aspects from marketing to operations. Apart from that, we strategize campaigns to give you a solid entry into the industry via PR launch plans, cross-marketing tactics.</p>
+                    <p class="bl-paragraph">Our team gives their day-in, day-out to consolidate your occupancy in the market and allow you to benefit from the Fashion TV presence. </p>
                 </div>
             </div>
         </section>

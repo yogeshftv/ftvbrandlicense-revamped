@@ -41,8 +41,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="col-12 col-md-6 column-1 px-0">
                     <div class="introduction-content-0">
                         <h2 class="bl-heading split-text spilit-word">Introduction</h2>
-                        <p class="bl-paragraph">Step into a world where your brand's potential knows no bounds. At FTV, we're not just offering licenses; we're unleashing possibilities! Whether you're a budding entrepreneur or an established powerhouse, our platform is your ticket to new horizons, fresh collaborations, and boundless growth.</p>
-                        <p class="bl-paragraph">Explore, innovate, and ignite your brand's journey with us - because here, every partnership is a masterpiece in the making. Let's embark on this exhilarating adventure together! Overall, brand licensing serves as a powerful strategy for driving growth, extending brand reach, and capitalizing on the value of intellectual property assets.</p>
+                        <p class="bl-paragraph">Fashion TV has had a monumental presence in fashion and broadcasting since 1997. We have widened our branches to multiple verticals where brand licensing via Fashion TV is an opportunity for aspiring companies to unlock their full potential of their intellectual property, driving growth, and fostering long-term success.</p>
+                        <p class="bl-paragraph">At Fashion TV, we understand that in an ever-changing world, it has become significant to have an influential brand image for any company. We have brought a substantial medium for burgeoning startups seeking to expand their market presence or an established brand aiming to diversify their revenue streams.</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 column-2 px-0">
@@ -82,28 +82,68 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <h2 class="bl-heading text-center split-text spilit-word">Deliverables</h2>
                 <div class="common-deliverables-row">
                     <div class="columns">
-                        <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2">icon 1</h3>
+                        <div class="h-100">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
+                        </div>
+                        <div style="height: 64px;">
+                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2 text-center">Social media marketing support</h3>
+                        </div>
                     </div>
                     <div class="columns">
-                        <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2">icon 2</h3>
+                        <div class="h-100">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
+                        </div>
+                        <div style="height: 64px;">
+                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2 text-center">Brand logo usage</h3>
+                        </div>
                     </div>
                     <div class="columns">
-                        <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2">icon 3</h3>
+                        <div class="h-100">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
+                        </div>
+                        <div style="height: 64px;">
+                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2 text-center">Market Analysis</h3>
+                        </div>
                     </div>
                     <div class="columns">
-                        <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2">icon 4</h3>
+                        <div class="h-100">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
+                        </div>
+                        <div style="height: 64px;">
+                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2 text-center">Launch Support</h3>
+                        </div>
                     </div>
                     <div class="columns">
-                        <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2">icon 5</h3>
+                        <div class="h-100">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
+                        </div>
+                        <div style="height: 64px;">
+                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2 text-center">Product Development Support</h3>
+                        </div>
                     </div>
                     <div class="columns">
-                        <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2">icon 6</h3>
+                        <div class="h-100">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
+                        </div>
+                        <div style="height: 64px;">
+                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2 text-center">Product Festive Revamps</h3>
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="h-100">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
+                        </div>
+                        <div style="height: 64px;">
+                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2 text-center">Trend Forecasting</h3>
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="h-100">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
+                        </div>
+                        <div style="height: 64px;">
+                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2 text-center">Product Packaging</h3>
+                        </div>
                     </div>
                 </div>
             </div>

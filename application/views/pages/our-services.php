@@ -271,8 +271,8 @@
                 <div class="row mx-0">
                     <div class="col-12 col-md-6 col-lg-7 column-1">
                         <div class="cta-content">
-                            <h3 class="split-text spilit-word">Empower Your Brand with</h3>
-                            <h2 class="bl-heading split-text spilit-word">Licensing options today </h2>
+                            <h3 class="split-text spilit-word">get yourself heard with</h3>
+                            <h2 class="bl-heading split-text spilit-word">F Licensing options today!</h2>
                             <a href="<?= base_url(); ?>contact-us" class="cta-btn">Contact Us</a>
                         </div>
                     </div>
