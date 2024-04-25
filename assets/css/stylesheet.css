@@ -1825,7 +1825,7 @@ footer .f-additionals a:hover {
 }
 
 .error {
-    color: rgb(255, 75, 75);
+    color: rgb(196, 70, 70);
 }
 
 
@@ -3049,7 +3049,7 @@ footer .f-additionals a:hover {
 
     .form-control,
     .investment-capicity {
-        padding: 12px;
+        padding: 12px 0;
     }
 
     .form-check-label {
@@ -3646,7 +3646,7 @@ footer .f-additionals a:hover {
 
     .form-control,
     .investment-capicity {
-        padding: 12px;
+        padding: 12px 0;
     }
 
     .form-check-label {

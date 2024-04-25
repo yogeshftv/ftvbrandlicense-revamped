@@ -61,10 +61,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                             </div>
                                         </div>
                                         <div class="row d-flex align-content-center justify-content-between mx-0 w-100">
-                                            <div class="col-2 px-0 d-flex align-content-center justify-content-center">
-                                                <span class="bl-paragraph">₹ 25 LPA</span>
+                                            <div class="col-3 col-md-2 px-0 d-flex align-content-center justify-content-start">
+                                                <span class="bl-paragraph text-start ms-0 ms-md-3">₹ 25 LPA</span>
                                             </div>
-                                            <div class="col-2 px-0 d-flex align-content-center justify-content-center">
+                                            <div class="col-3 col-md-2 px-0 d-flex align-content-center justify-content-end me-0 me-md-3">
                                                 <span class="bl-paragraph">₹ 2 CR</span>
                                             </div>
                                         </div>
@@ -104,7 +104,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     </main>
 
     <!-- OTP modal  Start Here -->
-    <div class="modal fade main-ppp" id="verificationModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <!-- <div class="modal fade main-ppp" id="verificationModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered subscribing-modal modal-lg">
             <div class="modal-content py-2 px-2 py-md-3 px-md-3">
                 <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close" onclick="closeModal();"></button>
@@ -124,7 +124,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- custom script -->
     <script>
