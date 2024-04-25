@@ -164,11 +164,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 return nextField && nextField.focus();
             }
         }
+        
         // const submitButton = document.getElementById("otpbutton");
-
         const inputNumber = document.getElementById("number");
         inputNumber.addEventListener("input", checkInputLength);
-
         const submitButton = document.getElementById("submitButton");
 
         function checkInputLength() {

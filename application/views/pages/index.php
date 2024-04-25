@@ -3,7 +3,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 ?>
 
 <body class="for-home">
-
+    <div id="cursor"></div>
     <main class="home">
         <!-- Banner Video -->
         <section class="common-banner-video">
@@ -470,3 +470,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
     </script>
 
     <!-- REFERENCE FOR Home Page Cover Section : https://codepen.io/ecemgo/pen/eYboyMe -->
+
+    <!-- 
+
+    ASUS ROG Strix B650E-F Gaming WiFi
+    MSI MEG X670E Godlike
+    Gigabyte X670E AORUS Master
+    ASRock X670E Taichi Carrara
+    ASUS ROG Strix X670E-I Gaming WiFi
+    
+    -->
