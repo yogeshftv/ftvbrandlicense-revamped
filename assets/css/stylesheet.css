@@ -838,7 +838,7 @@ footer .row-1 {
 }
 
 footer .row-1 img {
-    width: 65%;
+    width: 90%;
 }
 
 footer .row-2 {
@@ -1195,6 +1195,29 @@ footer .f-additionals a:hover {
 /* home */
 
 /* brand license */
+.our-benefits-swiper .swiper-button-next {
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+    position: absolute;
+    background-color: transparent;
+    background-image: url('../media/icons/navbarSwiper-next.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+}
+
+.our-benefits-swiper .swiper-button-prev {
+    position: absolute;
+    background-image: url('../media/icons/navbarSwiper-prev.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+}
+
 .brand-support {
     position: relative;
 }
@@ -1902,6 +1925,10 @@ footer .f-additionals a:hover {
         display: none;
     }
 
+    .offcanvas-body .column-1 {
+        background-image: none;
+    }
+
     .offcanvas-header h5,
     .offcanvas-body .navbar-nav {
         margin-left: 2rem !important;
@@ -2012,7 +2039,7 @@ footer .f-additionals a:hover {
 
     /* Common Deliverables */
     .common-deliverables .columns {
-        width: calc(15% - 1rem);
+        width: calc(25% - 1rem);
     }
 
     .common-deliverables h3 {
@@ -2034,6 +2061,12 @@ footer .f-additionals a:hover {
 
     /* COMMON: Introduction */
     /* COMMON: Introduction */
+
+    /* COMMON: Philsopohy */
+    .common-philosophy {
+        background-size: 89%;
+    }
+    /* COMMON: Philsopohy */
 
     .common-philosophy {
         background-repeat: repeat-y;   
@@ -2593,7 +2626,7 @@ footer .f-additionals a:hover {
     }
 
     .common-introduction-0 .introduction-content-0 {
-        padding: 0 6%;
+        padding: 0 3%;
     }
 
     /* COMMON: Introduction 0 */
@@ -3005,6 +3038,16 @@ footer .f-additionals a:hover {
     /* blogs details */
 
     /* Boards */
+    .boards-info .column-1,
+    .boards-info .column-2,
+    .boards-info .column-3 {
+        background-size: 216%;
+        background-position: center bottom;
+        background-repeat: repeat-y;
+        background-image: url('../media/images/dimaond-bg-alt.png');
+    }
+
+    
     .boards-common-introduction svg {
         top: 10%;
         width: 260px;
@@ -3129,6 +3172,7 @@ footer .f-additionals a:hover {
         justify-content: flex-start !important;
     }
 
+    .navbar .dropdown-toggle,
     .nav-item a.navigation {
         font-size: 18px;
     }
@@ -3208,11 +3252,10 @@ footer .f-additionals a:hover {
 
     /* COMMON: Introduction 0 */
     .common-introduction-0 svg {
-        top: 10%;
-        right: 0%;
+        top: 6%;
+        right: 20%;
         width: 220px;
     }
-
     /* COMMON: Introduction 0 */
 
     /* COMMON: Deliverables */
@@ -3224,6 +3267,9 @@ footer .f-additionals a:hover {
         margin-bottom: 1.5rem;
     }
 
+    .common-deliverables .columns h3 {
+        line-height: 1.100rem !important;
+    }
     /* COMMON: Deliverables */
 
     /* COMMON: Philosophy */
@@ -3287,12 +3333,12 @@ footer .f-additionals a:hover {
     }
 
     .tri-pg-cmn-swpr::before {
-        background-size: 75%;
+        background-size: 41%;
     }
         
     .tri-pg-cmn-swpr::before {
-        top: 4%;
-        left: 12%;
+        top: 10%;
+        left: 20%;
     }
 
     .tri-pg-cmn-swpr .nav-link {
@@ -3589,6 +3635,15 @@ footer .f-additionals a:hover {
     /* blogs details */
 
     /* Boards */
+    .boards-info .column-1,
+    .boards-info .column-2,
+    .boards-info .column-3 {
+        background-size: 210%;
+        background-position: center bottom;
+        background-repeat: repeat-y;
+        background-image: url('../media/images/dimaond-bg-alt.png');
+    }
+
     .boards-common-introduction svg {
         top: 10%;
         width: 260px;
@@ -3829,7 +3884,7 @@ footer .f-additionals a:hover {
     }
 
     .tri-pg-cmn-swpr::before {
-        background-size: 55%;
+        background-size: 40%;
     }
         
     .tri-pg-cmn-swpr::before {
