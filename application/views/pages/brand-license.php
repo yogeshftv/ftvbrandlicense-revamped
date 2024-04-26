@@ -83,7 +83,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="common-deliverables-row">
                     <div class="columns">
                         <div class="h-100">
-                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
+                            <img src="<?= base_url(); ?>assets/media/images/brand-license/why-join-us-icon-6.jpg" alt="scalability" class="w-100">
                         </div>
                         <div style="height: 64px;">
                             <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2 text-center">Scalability</h3>
@@ -91,7 +91,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                     <div class="columns">
                         <div class="h-100">
-                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
+                            <img src="<?= base_url(); ?>assets/media/images/brand-license/why-join-us-icon-4.jpg" alt="immense-brand-awareness" class="w-100">
                         </div>
                         <div style="height: 64px;">
                             <h3 class="bl-paragraph text-start text-center">Immense brand awareness</h3>
@@ -99,7 +99,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                     <div class="columns">
                         <div class="h-100">
-                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
+                            <img src="<?= base_url(); ?>assets/media/images/brand-license/why-join-us-icon-1.jpg" alt="exceptional-growth-opportunities" class="w-100">
                         </div>
                         <div style="height: 64px;">
                             <h3 class="bl-paragraph text-start text-center">Exceptional growth opportunities</h3>
@@ -107,7 +107,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                     <div class="columns">
                         <div class="h-100">
-                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
+                            <img src="<?= base_url(); ?>assets/media/images/brand-license/why-join-us-icon-3.jpg" alt="less-marketing-time" class="w-100">
                         </div>
                         <div style="height: 64px;">
                             <h3 class="bl-paragraph text-start text-center">Less marketing time</h3>
@@ -115,7 +115,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                     <div class="columns">
                         <div class="h-100">
-                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
+                            <img src="<?= base_url(); ?>assets/media/images/brand-license/why-join-us-icon-2.jpg" alt="global-recognition" class="w-100">
                         </div>
                         <div style="height: 64px;">
                             <h3 class="bl-paragraph text-start text-center">Global Recognition</h3>
@@ -123,7 +123,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                     <div class="columns">
                         <div class="h-100">
-                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
+                            <img src="<?= base_url(); ?>assets/media/images/brand-license/why-join-us-icon-6.jpg" alt="competitive-advantage" class="w-100">
                         </div>
                         <div style="height: 64px;">
                             <h3 class="bl-paragraph text-start text-center">Competitive advantage</h3>
@@ -239,7 +239,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </div>
         </section> -->
 
-        <section class="our-benefits-swiper-desktop d-none d-md-block">
+        <!-- <section class="our-benefits-swiper-desktop d-none d-md-block">
             <h2 class="bl-heading text-center split-text spilit-word">Our Benefits</h2>
             <div class="swiper swiperConstant swiperBack">
                 <div class="swiper-wrapper">
@@ -343,7 +343,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <section class="our-benefits d-block d-md-none">
             <h2 class="bl-heading text-center mb-0 mb-md-4 split-text spilit-word">Our Benefits</h2>
