@@ -97,8 +97,8 @@ $path = end($path);
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="swiper-button-next"></div>
-                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-button-next swiper-button-next--navbar"></div>
+                                    <div class="swiper-button-prev swiper-button-prev--navbar"></div>
                                 </div>
                                 <div class="swiper navbarSwiper" id="swiper-for--apparel">
                                     <div class="swiper-wrapper">
@@ -213,6 +213,3 @@ $path = end($path);
         <div id="loader" class="loader"></div>
         <div id="backdrop"></div>
     </div>
-
-    <script>
-    </script>

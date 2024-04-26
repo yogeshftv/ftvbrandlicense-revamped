@@ -417,8 +417,8 @@
                 disableOnInteraction: false,
             },
             navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+                nextEl: ".swiper-button-next--navbar",
+                prevEl: ".swiper-button-prev--navbar",
             },
             breakpoints: {
                 200: {

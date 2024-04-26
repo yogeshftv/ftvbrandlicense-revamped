@@ -135,6 +135,110 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <!-- Why Join Us -->
 
         <!-- Our Benefits -->
+        <div class="our-benefits-desktop d-none d-md-block">
+            <h2 class="bl-heading text-center split-text spilit-word">Our Benefits</h2>
+            <div class="parent-container">
+                <div class="swiper swiperConstant swiperBack">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="<?= base_url(); ?>assets/media/images/img-4.jpg" alt="our-benefits-image-1" class="h-100 w-100">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="<?= base_url(); ?>assets/media/images/img-3.jpg" alt="our-benefits-image-2" class="h-100 w-100">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="<?= base_url(); ?>assets/media/images/img-2.jpg" alt="our-benefits-image-3" class="h-100 w-100">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="<?= base_url(); ?>assets/media/images/img-1.jpg" alt="our-benefits-image-4" class="h-100 w-100">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="<?= base_url(); ?>assets/media/images/img-4.jpg" alt="our-benefits-image-5" class="h-100 w-100">
+                        </div>
+                    </div>
+                </div>
+                <div class="child-container d-flex">
+                    <div class="wrapper-1">
+                        <div class="swiper swiperConstant swiperFront-1">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <h2 class="bl-heading--sub-font">01</h2>
+                                    <h3 class="bl-heading--sub-font">Established<br>Brand Identity</h3>
+                                    <p class="bl-paragraph">Licensing with FashionTV grants you access to a well-respected and globally recognized brand, giving your business an immediate edge in the market.</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h2 class="bl-heading--sub-font">02</h2>
+                                    <h3 class="bl-heading--sub-font">Established<br>Brand Identity</h3>
+                                    <p class="bl-paragraph">Licensing with FashionTV grants you access to a well-respected and globally recognized brand, giving your business an immediate edge in the market.</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h2 class="bl-heading--sub-font">03</h2>
+                                    <h3 class="bl-heading--sub-font">Established<br>Brand Identity</h3>
+                                    <p class="bl-paragraph">Licensing with FashionTV grants you access to a well-respected and globally recognized brand, giving your business an immediate edge in the market.</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h2 class="bl-heading--sub-font">04</h2>
+                                    <h3 class="bl-heading--sub-font">Established<br>Brand Identity</h3>
+                                    <p class="bl-paragraph">Licensing with FashionTV grants you access to a well-respected and globally recognized brand, giving your business an immediate edge in the market.</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h2 class="bl-heading--sub-font">05</h2>
+                                    <h3 class="bl-heading--sub-font">Established<br>Brand Identity</h3>
+                                    <p class="bl-paragraph">Licensing with FashionTV grants you access to a well-respected and globally recognized brand, giving your business an immediate edge in the market.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrapper-2 d-flex flex-column justify-content-between">
+                        <div class="column-1">
+                            <div class="swiper swiperConstant swiperFront-2">
+                                <div class="swiper-button-prev m-0"></div>
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                        <h3 class="bl-heading--sub-font mb-0">05</h3>
+                                    </div>
+                                    <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                        <h3 class="bl-heading--sub-font mb-0">01</h3>
+                                    </div>
+                                    <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                        <h3 class="bl-heading--sub-font mb-0">02</h3>
+                                    </div>
+                                    <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                        <h3 class="bl-heading--sub-font mb-0">03</h3>
+                                    </div>
+                                    <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                        <h3 class="bl-heading--sub-font mb-0">04</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column-2">
+                            <div class="swiper swiperConstant swiperFront-3">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                        <h3 class="bl-heading--sub-font mb-0">02</h3>
+                                    </div>
+                                    <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                        <h3 class="bl-heading--sub-font mb-0">03</h3>
+                                    </div>
+                                    <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                        <h3 class="bl-heading--sub-font mb-0">04</h3>
+                                    </div>
+                                    <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                        <h3 class="bl-heading--sub-font mb-0">05</h3>                                        
+                                    </div>
+                                    <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                        <h3 class="bl-heading--sub-font mb-0">01</h3>                                        
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next m-0"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <section class="our-benefits d-block d-md-none">
             <h2 class="bl-heading text-center mb-0 mb-md-4 split-text spilit-word">Our Benefits</h2>
             <div class="row mx-0">

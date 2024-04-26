@@ -1,17 +1,3 @@
-document.addEventListener("DOMContentLoaded", function() {
-    var cursor = document.getElementById("cursor");
-
-    document.addEventListener("touchmove", function(event) {
-        cursor.style.display = "block";
-        cursor.style.left = event.touches[0].pageX + "px";
-        cursor.style.top = event.touches[0].pageY + "px";
-    });
-
-    document.addEventListener("touchend", function() {
-        cursor.style.display = "none";
-    });
-});
-
 // Home: Introduction Swiper
 let homeIntroSwiper = new Swiper(".homeIntroductionSwiper", {
     slidesPerView: 3.5,
@@ -122,8 +108,17 @@ let brandLicenseIntroSwiper = new Swiper(".blIntroductionSwiper", {
     }
 });
 
-// Brand License: Our Benefits Swiper
-let swiper = new Swiper(".ourBenefitsSwiper", {
+// Brand License: Our Benefits Swiper Mobile
+let swiper8 = new Swiper(".swiperConstant", {
+    loop: true,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
+
+// Brand License: Our Benefits Swiper Mobile
+let swiper9 = new Swiper(".ourBenefitsSwiper", {
     loop: true,
     navigation: {
         nextEl: ".swiper-button-next",
