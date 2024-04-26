@@ -1589,8 +1589,7 @@ footer .f-additionals a:hover {
 }
 
 .our-benefits-desktop .swiper-button-next {
-    top: 50%;
-    transform: translateY(-50%);
+    top: 75%;
     right: 5%;
     position: absolute;
     background-color: transparent;
@@ -1602,8 +1601,7 @@ footer .f-additionals a:hover {
 }
 
 .our-benefits-desktop .swiper-button-prev {
-    top: 50%;
-    transform: translateY(-50%);
+    top: 13%;
     left: 5%;
     position: absolute;
     background-image: url('../media/icons/navbarSwiper-prev.png');
@@ -1620,6 +1618,27 @@ footer .f-additionals a:hover {
     background-color: #363636;
     height: 100%;
 }
+
+.our-benefits-desktop .child-container .wrapper-2 .column-1,
+.our-benefits-desktop .child-container .wrapper-2 .column-2 {
+    font-size: 2rem;
+}
+
+/* .our-benefits-desktop .child-container .wrapper-2 {
+    position: relative;
+}
+
+.our-benefits-desktop .child-container .wrapper-2::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    z-index: 999;
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../media/icons/f-common.png');
+} */
 /* brand-license */
 
 /* our-services */

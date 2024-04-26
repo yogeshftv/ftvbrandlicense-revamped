@@ -108,7 +108,7 @@ let brandLicenseIntroSwiper = new Swiper(".blIntroductionSwiper", {
     }
 });
 
-// Brand License: Our Benefits Swiper Mobile
+// Brand License: Our Benefits Swiper Desktop
 let swiper8 = new Swiper(".swiperConstant", {
     loop: true,
     navigation: {

@@ -194,20 +194,20 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             <div class="swiper swiperConstant swiperFront-2">
                                 <div class="swiper-button-prev m-0"></div>
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide d-flex align-items-center justify-content-center">
-                                        <h3 class="bl-heading--sub-font mb-0">05</h3>
+                                    <div class="swiper-slide d-flex align-items-start justify-content-center">
+                                        <h3 class="mb-0 mt-3">05</h3>
                                     </div>
-                                    <div class="swiper-slide d-flex align-items-center justify-content-center">
-                                        <h3 class="bl-heading--sub-font mb-0">01</h3>
+                                    <div class="swiper-slide d-flex align-items-start justify-content-center">
+                                        <h3 class="mb-0 mt-3">01</h3>
                                     </div>
-                                    <div class="swiper-slide d-flex align-items-center justify-content-center">
-                                        <h3 class="bl-heading--sub-font mb-0">02</h3>
+                                    <div class="swiper-slide d-flex align-items-start justify-content-center">
+                                        <h3 class="mb-0 mt-3">02</h3>
                                     </div>
-                                    <div class="swiper-slide d-flex align-items-center justify-content-center">
-                                        <h3 class="bl-heading--sub-font mb-0">03</h3>
+                                    <div class="swiper-slide d-flex align-items-start justify-content-center">
+                                        <h3 class="mb-0 mt-3">03</h3>
                                     </div>
-                                    <div class="swiper-slide d-flex align-items-center justify-content-center">
-                                        <h3 class="bl-heading--sub-font mb-0">04</h3>
+                                    <div class="swiper-slide d-flex align-items-start justify-content-center">
+                                        <h3 class="mb-0 mt-3">04</h3>
                                     </div>
                                 </div>
                             </div>
@@ -215,20 +215,20 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <div class="column-2">
                             <div class="swiper swiperConstant swiperFront-3">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide d-flex align-items-center justify-content-center">
-                                        <h3 class="bl-heading--sub-font mb-0">02</h3>
+                                    <div class="swiper-slide d-flex align-items-end justify-content-center">
+                                        <h3 class="mb-3">02</h3>
                                     </div>
-                                    <div class="swiper-slide d-flex align-items-center justify-content-center">
-                                        <h3 class="bl-heading--sub-font mb-0">03</h3>
+                                    <div class="swiper-slide d-flex align-items-end justify-content-center">
+                                        <h3 class="mb-3">03</h3>
                                     </div>
-                                    <div class="swiper-slide d-flex align-items-center justify-content-center">
-                                        <h3 class="bl-heading--sub-font mb-0">04</h3>
+                                    <div class="swiper-slide d-flex align-items-end justify-content-center">
+                                        <h3 class="mb-3">04</h3>
                                     </div>
-                                    <div class="swiper-slide d-flex align-items-center justify-content-center">
-                                        <h3 class="bl-heading--sub-font mb-0">05</h3>                                        
+                                    <div class="swiper-slide d-flex align-items-end justify-content-center">
+                                        <h3 class="mb-3">05</h3>                                        
                                     </div>
-                                    <div class="swiper-slide d-flex align-items-center justify-content-center">
-                                        <h3 class="bl-heading--sub-font mb-0">01</h3>                                        
+                                    <div class="swiper-slide d-flex align-items-end justify-content-center">
+                                        <h3 class="mb-3">01</h3>                                        
                                     </div>
                                 </div>
                                 <div class="swiper-button-next m-0"></div>
