@@ -123,7 +123,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                     <div class="columns">
                         <div class="h-100">
-                            <img src="<?= base_url(); ?>assets/media/images/brand-license/why-join-us-icon-6.jpg" alt="competitive-advantage" class="w-100">
+                            <img src="<?= base_url(); ?>assets/media/images/brand-license/why-join-us-icon-6.jpg" alt="competitive-advantage" >
                         </div>
                         <div style="height: 64px;">
                             <h3 class="bl-paragraph text-start text-center">Competitive advantage</h3>

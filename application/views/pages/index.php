@@ -3,7 +3,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 ?>
 
 <body class="for-home">
-    <div id="cursor"></div>
     <main class="home">
         <!-- Banner Video -->
         <section class="common-banner-video">

@@ -241,21 +241,6 @@
 <script src="<?= base_url(); ?>assets/js/animate.js"></script>
 
 <script>
-    // console.log("verify below code ");
-    // $.ajax({
-    //     type: 'GET',
-    //     url: "<?= base_url('pages/enquiry_validation') ?>",
-    //     success: function (data) {
-    //         debugger
-    //         console.log(data.success);
-    //         console.log(data.errors);
-    //         if (data.success === true) {
-    //             debugger
-    //             $('#staticBackdrop4').modal('show');
-    //         }
-    //     }
-    // })  
-
     let splitAll = document.querySelectorAll(".spilit-word");
 
     splitAll.forEach((text) => {

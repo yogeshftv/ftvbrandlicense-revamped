@@ -6960,12 +6960,3 @@ Pending Content:
 2. Our story
 
 */
-#cursor {
-    position: fixed;
-    width: 20px;
-    height: 20px;
-    background-color: red;
-    border-radius: 50%;
-    pointer-events: none;
-    display: none; 
-}
