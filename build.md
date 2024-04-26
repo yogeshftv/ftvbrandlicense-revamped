@@ -1,5 +1,5 @@
 - CPU : Ryzen 7 7900X
-- GPU : RX 6700 XT
+- GPU : RX 6750 XT (12 GB)
 - Chipset : ASUS ROG Strix X670E Gaming WiFi 6E or Asus B650 TUF Gaming Plus Wifi
 - RAM : Corsair Vengeance DDR5 32 GB
 - SSD : WD_Black SN850X NVMe 1TB
