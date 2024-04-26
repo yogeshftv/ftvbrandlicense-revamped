@@ -96,7 +96,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <div style="height: 64px;">
                             <h3 class="bl-paragraph text-start text-center">Immense brand awareness</h3>
                         </div>
-                    </div>
+                    </div>  
                     <div class="columns">
                         <div class="h-100">
                             <img src="<?= base_url(); ?>assets/media/images/brand-license/why-join-us-icon-1.jpg" alt="exceptional-growth-opportunities" class="w-100">
