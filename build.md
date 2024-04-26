@@ -1,0 +1,11 @@
+- CPU : Ryzen 7 7900X
+- GPU : RX 6700 XT
+- Chipset : ASUS ROG Strix X670E Gaming WiFi 6E or Asus B650 TUF Gaming Plus Wifi
+- RAM : Corsair Vengeance DDR5 32 GB
+- SSD : WD_Black SN850X NVMe 1TB
+- HDD : Seagate Skyhawk 1 TB
+- PSU : MSI MAG A850GL PCIE5
+- Monitor : LG Ultragear IPS Gaming Monitor 60 CM 144Hz
+- Case : Galax Revolution 06
+- Keyboard : Rapoo V500PRO
+- Cooler : Deepcool AK500 W

@@ -1540,7 +1540,7 @@ footer .f-additionals a:hover {
 /* our-story */
 
 /* brand-license */
-.our-benefits-desktop .parent-container {
+/* .our-benefits-desktop .parent-container {
     position: relative;
 }
 
@@ -1555,7 +1555,7 @@ footer .f-additionals a:hover {
 
 .our-benefits-desktop .child-container {
     left: 0%;
-    width: 40%;
+    width: 35%;
     bottom: 0%;
     position: absolute;
 }
@@ -1622,7 +1622,7 @@ footer .f-additionals a:hover {
 .our-benefits-desktop .child-container .wrapper-2 .column-1,
 .our-benefits-desktop .child-container .wrapper-2 .column-2 {
     font-size: 2rem;
-}
+} */
 
 /* .our-benefits-desktop .child-container .wrapper-2 {
     position: relative;
@@ -1639,6 +1639,92 @@ footer .f-additionals a:hover {
     background-repeat: no-repeat;
     background-image: url('../media/icons/f-common.png');
 } */
+
+.our-benefits-swiper-desktop .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.our-benefits-swiper-desktop {
+    position: relative;
+}
+
+.our-benefits-swiper-desktop .swiper-container-2 {
+    left: 0%;
+    bottom: 0%;
+    width: 40%;
+    z-index: 9999;
+    position: absolute;
+}
+
+.our-benefits-swiper-desktop .swiperFront-1 {
+    border: 1px solid black;
+}
+
+.our-benefits-swiper-desktop .swiperFront-1 .swiper-slide {
+    padding: 60px;
+    height: auto;
+}
+
+.our-benefits-swiper-desktop .swiperFront-1,
+.our-benefits-swiper-desktop .swiperFront-2 {
+    width: 100%;
+    height: 100%;
+}
+
+.our-benefits-swiper-desktop .swiperFront-1 .swiper-slide {
+    background-color: #fff;
+}
+
+.our-benefits-swiper-desktop .swiperFront-2 .swiper-slide,
+.our-benefits-swiper-desktop .swiperFront-3 .swiper-slide {
+    color: #fff;
+    background-color: #363636;
+}
+
+.our-benefits-swiper-desktop .swiper-container-2 .column-1,
+.our-benefits-swiper-desktop .swiper-container-2 .column-2 {
+    height: 180px;
+}
+
+.our-benefits-swiper-desktop .swiper-container-2 h3 {
+    font-size: 2rem !important;
+    line-height: 3.5rem !important;
+    margin-bottom: 1.75rem;
+}
+
+.our-benefits-swiper-desktop .swiper-button-prev {
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+
+.our-benefits-swiper-desktop .swiper-button-next {
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+    position: absolute;
+    background-color: transparent;
+    background-image: url('../media/icons/navbarSwiper-next.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+}
+
+.our-benefits-swiper-desktop .swiper-button-prev {
+    position: absolute;
+    background-image: url('../media/icons/navbarSwiper-prev.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+}
+
+.our-benefits-swiper-desktop .swiper-slide {
+    height: auto;
+}
 /* brand-license */
 
 /* our-services */
@@ -6082,6 +6168,10 @@ footer .f-additionals a:hover {
     /* home */
 
     /* brand license */
+    /* .our-benefits-desktop .child-container {
+        width: 45%;
+    } */
+
     .brand-support h2 {
         margin-bottom: 2rem;
     }
@@ -6373,6 +6463,10 @@ footer .f-additionals a:hover {
     /* Home */
 
     /* Brand License */
+    .our-benefits-desktop .child-container {
+        width: 40%;
+    }
+
     .brand-support h2 {
         margin-bottom: 3.125rem;
     }
@@ -6385,7 +6479,6 @@ footer .f-additionals a:hover {
         width: 90px;
         margin-bottom: 0rem;
     }
-
     /* Brand License */
 
     /* Our Story */

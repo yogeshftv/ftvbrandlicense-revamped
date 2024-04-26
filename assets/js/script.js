@@ -109,8 +109,17 @@ let brandLicenseIntroSwiper = new Swiper(".blIntroductionSwiper", {
 });
 
 // Brand License: Our Benefits Swiper Desktop
+let swiper = new Swiper(".swiperConstant", {
+    loop: true,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
+
 let swiper8 = new Swiper(".swiperConstant", {
     loop: true,
+    allowTouchMove: false,
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
