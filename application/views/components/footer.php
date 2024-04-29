@@ -215,7 +215,7 @@
 <!-- Firebase -->
 <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase.js"></script>
 
-<script>
+<!-- <script>
     const firebaseConfig = {
         apiKey: "AIzaSyDQvNYzu-BoyGQijPDx3BDkpWajiCK2XN0",
         authDomain: "phone-auth-f0667.firebaseapp.com",
@@ -229,7 +229,7 @@
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     firebase.analytics();
-</script>
+</script> -->
 
 <script src="<?= base_url(); ?>assets/js/firebase.js"></script>
 <script src="<?= base_url(); ?>assets/js/custom.js"></script>

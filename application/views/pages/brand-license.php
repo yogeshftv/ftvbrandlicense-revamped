@@ -486,9 +486,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <section class="downloadables">
             <div class="row mx-0">
                 <div class="col-12 col-md-4 columns column-1">
-                    <img src="<?= base_url(); ?>assets/media/images/templates/bl-saleskit.png" alt="" class="w-100">
+                    <img src="https://uat.ftvlicenses.in/assets/media/images/templates/bl-saleskit.png" alt="" class="w-100">
                     <div class="wrapper">
-                        <!-- <img src="<?= base_url(); ?>assets/media/icons/downloadables-icon.png" alt="download-icon" class="download-icon"> -->
+                        <!-- <img src="https://uat.ftvlicenses.in/assets/media/icons/downloadables-icon.png" alt="download-icon" class="download-icon"> -->
 
                         <!-- Temp -->
                         <div class="upload">
@@ -496,16 +496,16 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 <div class="arrow"></div>
                                 <svg>
                                     <use xlink:href="#path">
-                                </svg>
+                                </use></svg>
                             </div>
                             <div class="circle">
                                 <div class="water">
                                     <svg>
                                         <use xlink:href="#wave">
-                                    </svg>
+                                    </use></svg>
                                     <svg>
                                         <use xlink:href="#wave">
-                                    </svg>
+                                    </use></svg>
                                 </div>
                             </div>
                         </div>
@@ -520,12 +520,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             </symbol>
                         </svg>
                     </div>
-                    <h3 class="bl-heading--sub-font split-text spilit-word">Saleskit</h3>
+                    <h3 class="bl-heading--sub-font">Saleskit</h3>
                 </div>
                 <div class="col-12 col-md-4 columns column-2">
-                    <img src="<?= base_url(); ?>assets/media/images/templates/bl-lookbook.png" alt="download-icon" class="w-100">
+                    <img src="https://uat.ftvlicenses.in/assets/media/images/templates/bl-lookbook.png" alt="download-icon" class="w-100">
                     <div class="wrapper">
-                        <!-- <img src="<?= base_url(); ?>assets/media/icons/downloadables-icon.png" alt="download-icon" class="download-icon"> -->
+                        <!-- <img src="https://uat.ftvlicenses.in/assets/media/icons/downloadables-icon.png" alt="download-icon" class="download-icon"> -->
 
                         <!-- Temp -->
                         <div class="upload">
@@ -533,16 +533,16 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 <div class="arrow"></div>
                                 <svg>
                                     <use xlink:href="#path">
-                                </svg>
+                                </use></svg>
                             </div>
                             <div class="circle">
                                 <div class="water">
                                     <svg>
                                         <use xlink:href="#wave">
-                                    </svg>
+                                    </use></svg>
                                     <svg>
                                         <use xlink:href="#wave">
-                                    </svg>
+                                    </use></svg>
                                 </div>
                             </div>
                         </div>
@@ -557,12 +557,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             </symbol>
                         </svg>
                     </div>
-                    <h3 class="bl-heading--sub-font split-text spilit-word">Lookbook</h3>
+                    <h3 class="bl-heading--sub-font">Lookbook</h3>
                 </div>
                 <div class="col-12 col-md-4 columns column-3">
-                    <img src="<?= base_url(); ?>assets/media/images/templates/bl-videobook.png" alt="download-icon" class="w-100">
+                    <img src="https://uat.ftvlicenses.in/assets/media/images/templates/bl-videobook.png" alt="download-icon" class="w-100">
                     <div class="wrapper">
-                        <!-- <img src="<?= base_url(); ?>assets/media/icons/downloadables-icon.png" alt="download-icon" class="download-icon"> -->
+                        <!-- <img src="https://uat.ftvlicenses.in/assets/media/icons/downloadables-icon.png" alt="download-icon" class="download-icon"> -->
 
                         <!-- Temp -->
                         <div class="upload">
@@ -570,16 +570,16 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 <div class="arrow"></div>
                                 <svg>
                                     <use xlink:href="#path">
-                                </svg>
+                                </use></svg>
                             </div>
                             <div class="circle">
                                 <div class="water">
                                     <svg>
                                         <use xlink:href="#wave">
-                                    </svg>
+                                    </use></svg>
                                     <svg>
                                         <use xlink:href="#wave">
-                                    </svg>
+                                    </use></svg>
                                 </div>
                             </div>
                         </div>
@@ -594,7 +594,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             </symbol>
                         </svg>
                     </div>
-                    <h3 class="bl-heading--sub-font split-text spilit-word">Videobook</h3>
+                    <h3 class="bl-heading--sub-font">Videobook</h3>
                 </div>
             </div>
         </section>
