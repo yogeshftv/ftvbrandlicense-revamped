@@ -83,7 +83,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="common-deliverables-row">
                     <div class="columns">
                         <div class="h-100">
-                            <img src="<?= base_url(); ?>assets/media/images/brand-license/why-join-us-icon-6.jpg" alt="scalability" class="w-100">
+                            <img src="<?= base_url(); ?>assets/media/images/brand-license/why-join-us-icon-7.jpg" alt="scalability" class="w-100">
                         </div>
                         <div style="height: 64px;">
                             <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2 text-center">Scalability</h3>
@@ -239,7 +239,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </div>
         </section> -->
 
-        <!-- <section class="our-benefits-swiper-desktop d-none d-md-block">
+        <section class="our-benefits-swiper-desktop d-none d-md-block">
             <h2 class="bl-heading text-center split-text spilit-word">Our Benefits</h2>
             <div class="swiper swiperConstant swiperBack">
                 <div class="swiper-wrapper">
@@ -266,27 +266,27 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <div class="swiper swiperConstant swiperFront-1">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <h2 class="bl-heading--sub-font">01</h2>
+                                    <h2 class="bl-heading">01</h2>
                                     <h3 class="bl-heading--sub-font">Established<br>Brand Identity</h3>
                                     <p class="bl-paragraph">Licensing with FashionTV grants you access to a well-respected and globally recognized brand, giving your business an immediate edge in the market.</p>
                                 </div>
                                 <div class="swiper-slide">
-                                    <h2 class="bl-heading--sub-font">02</h2>
+                                    <h2 class="bl-heading">02</h2>
                                     <h3 class="bl-heading--sub-font">Established<br>Brand Identity</h3>
                                     <p class="bl-paragraph">Licensing with FashionTV grants you access to a well-respected and globally recognized brand, giving your business an immediate edge in the market.</p>
                                 </div>
                                 <div class="swiper-slide">
-                                    <h2 class="bl-heading--sub-font">03</h2>
+                                    <h2 class="bl-heading">03</h2>
                                     <h3 class="bl-heading--sub-font">Established<br>Brand Identity</h3>
                                     <p class="bl-paragraph">Licensing with FashionTV grants you access to a well-respected and globally recognized brand, giving your business an immediate edge in the market.</p>
                                 </div>
                                 <div class="swiper-slide">
-                                    <h2 class="bl-heading--sub-font">04</h2>
+                                    <h2 class="bl-heading">04</h2>
                                     <h3 class="bl-heading--sub-font">Established<br>Brand Identity</h3>
                                     <p class="bl-paragraph">Licensing with FashionTV grants you access to a well-respected and globally recognized brand, giving your business an immediate edge in the market.</p>
                                 </div>
                                 <div class="swiper-slide">
-                                    <h2 class="bl-heading--sub-font">05</h2>
+                                    <h2 class="bl-heading">05</h2>
                                     <h3 class="bl-heading--sub-font">Established<br>Brand Identity</h3>
                                     <p class="bl-paragraph">Licensing with FashionTV grants you access to a well-respected and globally recognized brand, giving your business an immediate edge in the market.</p>
                                 </div>
@@ -343,7 +343,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
 
         <section class="our-benefits d-block d-md-none">
             <h2 class="bl-heading text-center mb-0 mb-md-4 split-text spilit-word">Our Benefits</h2>

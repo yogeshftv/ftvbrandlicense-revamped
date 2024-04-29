@@ -1652,13 +1652,15 @@ footer .f-additionals a:hover {
 .our-benefits-swiper-desktop .swiper-container-2 {
     left: 0%;
     bottom: 0%;
-    width: 40%;
+    width: 30%;
     z-index: 9999;
     position: absolute;
 }
 
 .our-benefits-swiper-desktop .swiperFront-1 {
-    border: 1px solid black;
+    border: 0;
+    border-radius: 0px 10px 0px 0px;
+    border-bottom: 1px solid black;
 }
 
 .our-benefits-swiper-desktop .swiperFront-1 .swiper-slide {
@@ -1670,6 +1672,10 @@ footer .f-additionals a:hover {
 .our-benefits-swiper-desktop .swiperFront-2 {
     width: 100%;
     height: 100%;
+}
+
+.our-benefits-swiper-desktop .swiperFront-2 {
+    border-radius: 0px 10px 0px 0px;
 }
 
 .our-benefits-swiper-desktop .swiperFront-1 .swiper-slide {
@@ -1689,7 +1695,7 @@ footer .f-additionals a:hover {
 
 .our-benefits-swiper-desktop .swiper-container-2 h3 {
     font-size: 2rem !important;
-    line-height: 3.5rem !important;
+    line-height: 2.75rem !important;
     margin-bottom: 1.75rem;
 }
 
@@ -3056,6 +3062,11 @@ footer .f-additionals a:hover {
     /* Home */
 
     /* Brand License */
+    .our-benefits .ourBenefitsSwiper h2 {
+        line-height: 2rem !important;
+        margin: 1rem 0;
+    }
+
     .brand-support h2 {
         margin-bottom: 1rem;
     }
@@ -3658,6 +3669,11 @@ footer .f-additionals a:hover {
     /* Home */
 
     /* Brand License */
+    .our-benefits .ourBenefitsSwiper h2 {
+        line-height: 2rem !important;
+        margin: 1rem 0;
+    }
+
     .common-introduction-0 .introduction-content-0 {
         padding: 0 6%;
     }
@@ -4208,6 +4224,11 @@ footer .f-additionals a:hover {
     /* Home */
 
     /* Brand License */
+    .our-benefits .ourBenefitsSwiper h2 {
+        line-height: 2rem !important;
+        margin: 1rem 0;
+    }
+    
     .common-introduction-0 .introduction-content-0 {
         padding: 0 3%;
     }
@@ -4733,6 +4754,28 @@ footer .f-additionals a:hover {
     /* Home */
 
     /* Brand License */
+    .our-benefits-swiper-desktop .swiper-container-2 {
+        width: 60%;
+    }
+
+    .our-benefits-swiper-desktop .swiperFront-1 .swiper-slide {
+        padding: 38px;
+    }
+
+    .our-benefits-swiper-desktop .swiper-container-2 .column-1, .our-benefits-swiper-desktop .swiper-container-2 .column-2 {
+        height: 160px;
+    }
+
+    .our-benefits-swiper-desktop .swiper-container-2 .swiperFront-1 h2 {
+        line-height: 4rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+
+    .our-benefits-swiper-desktop .swiper-container-2 .swiperFront-1 h3 {
+        line-height: 2.5rem !important;
+        margin-bottom: 1.125rem !important;
+    }
+
     .common-introduction-0 .introduction-content-0 {
         padding: 0 2%;
     }
@@ -5220,6 +5263,28 @@ footer .f-additionals a:hover {
     /* Home */
 
     /* Brand License */
+    .our-benefits-swiper-desktop .swiper-container-2 {
+        width: 60%;
+    }
+
+    .our-benefits-swiper-desktop .swiperFront-1 .swiper-slide {
+        padding: 48px;
+    }
+
+    .our-benefits-swiper-desktop .swiper-container-2 .column-1, .our-benefits-swiper-desktop .swiper-container-2 .column-2 {
+        height: 160px;
+    }
+
+    .our-benefits-swiper-desktop .swiper-container-2 .swiperFront-1 h2 {
+        line-height: 4rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+
+    .our-benefits-swiper-desktop .swiper-container-2 .swiperFront-1 h3 {
+        line-height: 2.5rem !important;
+        margin-bottom: 1.125rem !important;
+    }
+
     .brand-support h2 {
         margin-bottom: 1.5rem;
     }
@@ -5719,6 +5784,20 @@ footer .f-additionals a:hover {
     /* Home */
 
     /* Brand License */
+    .our-benefits-swiper-desktop .swiper-container-2 {
+        width: 48%;
+    }
+
+    .our-benefits-swiper-desktop .swiper-container-2 .swiperFront-1 h2 {
+        line-height: 4rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+
+    .our-benefits-swiper-desktop .swiper-container-2 .swiperFront-1 h3 {
+        line-height: 2.5rem !important;
+        margin-bottom: 1.125rem !important;
+    }
+
     .brand-support h2 {
         margin-bottom: 1.75rem;
     }
@@ -6168,6 +6247,20 @@ footer .f-additionals a:hover {
     /* home */
 
     /* brand license */
+    .our-benefits-swiper-desktop .swiper-container-2 {
+        width: 40%;
+    }
+
+    .our-benefits-swiper-desktop .swiper-container-2 .swiperFront-1 h2 {
+        line-height: 4rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+
+    .our-benefits-swiper-desktop .swiper-container-2 .swiperFront-1 h3 {
+        line-height: 2.5rem !important;
+        margin-bottom: 1.125rem !important;
+    }
+
     /* .our-benefits-desktop .child-container {
         width: 45%;
     } */
@@ -6463,6 +6556,20 @@ footer .f-additionals a:hover {
     /* Home */
 
     /* Brand License */
+    .our-benefits-swiper-desktop .swiper-container-2 {
+        width: 35%;
+    }
+
+    .our-benefits-swiper-desktop .swiper-container-2 .swiperFront-1 h2 {
+        line-height: 4rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+
+    .our-benefits-swiper-desktop .swiper-container-2 .swiperFront-1 h3 {
+        line-height: 2.5rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+
     .our-benefits-desktop .child-container {
         width: 40%;
     }

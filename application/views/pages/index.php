@@ -153,14 +153,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <section class="home-section-breaker--for-desktop">
             <div class="container-fluid px-0">
                 <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/templates/home-section-breaker-1.png" class="w-100">
-                    <source src="<?= base_url(); ?>" type="video/mp4" class="w-100">
+                    <source src="<?= base_url(); ?>assets/media/videos/homepage-section-breaker-horizontal.mp4" type="video/mp4" class="w-100">
                 </video>
             </div>
         </section>
         <section class="home-section-breaker--for-mobile">
             <div class="container-fluid px-0">
                 <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/templates/home-section-breaker-1.png" class="w-100">
-                    <source src="<?= base_url(); ?>" type="video/mp4" class="w-100">
+                    <source src="<?= base_url(); ?>assets/media/videos/homepage-section-breaker-vertical.mp4" type="video/mp4" class="w-100">
                 </video>
             </div>
         </section>
@@ -467,15 +467,3 @@ defined('BASEPATH') or exit('No direct script access allowed');
             paths.forEach(animateLineDrawing);
         });
     </script>
-
-    <!-- REFERENCE FOR Home Page Cover Section : https://codepen.io/ecemgo/pen/eYboyMe -->
-
-    <!-- 
-
-    ASUS ROG Strix B650E-F Gaming WiFi
-    MSI MEG X670E Godlike
-    Gigabyte X670E AORUS Master
-    ASRock X670E Taichi Carrara
-    ASUS ROG Strix X670E-I Gaming WiFi
-    
-    -->
