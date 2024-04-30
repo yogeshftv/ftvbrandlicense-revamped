@@ -49,25 +49,25 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="swiper blIntroductionSwiper">
                         <div class="swiper-wrapper d-flex align-self-center">
                             <div class="swiper-slide d-flex align-self-center">
-                                <img src="<?php echo base_url(); ?>assets/media/images/brand-license/intro-2.png" alt="" class="w-100">
+                                <img src="<?php echo base_url(); ?>assets/media/images/brand-license/intro-2.png" alt="about-brand-license-image" class="w-100">
                             </div>
                             <div class="swiper-slide d-flex align-self-center">
-                                <img src="<?php echo base_url(); ?>assets/media/images/brand-license/intro-3.png" alt="" class="w-100">
+                                <img src="<?php echo base_url(); ?>assets/media/images/brand-license/intro-3.png" alt="about-brand-license-image" class="w-100">
                             </div>
                             <div class="swiper-slide d-flex align-self-center">
-                                <img src="<?php echo base_url(); ?>assets/media/images/brand-license/intro-4.png" alt="" class="w-100">
+                                <img src="<?php echo base_url(); ?>assets/media/images/brand-license/intro-4.png" alt="about-brand-license-image" class="w-100">
                             </div>
                             <div class="swiper-slide d-flex align-self-center">
-                                <img src="<?php echo base_url(); ?>assets/media/images/brand-license/intro-5.png" alt="" class="w-100">
+                                <img src="<?php echo base_url(); ?>assets/media/images/brand-license/intro-5.png" alt="about-brand-license-image" class="w-100">
                             </div>
                             <div class="swiper-slide d-flex align-self-center">
-                                <img src="<?php echo base_url(); ?>assets/media/images/brand-license/intro-6.png" alt="" class="w-100">
+                                <img src="<?php echo base_url(); ?>assets/media/images/brand-license/intro-6.png" alt="about-brand-license-image" class="w-100">
                             </div>
                             <div class="swiper-slide d-flex align-self-center">
-                                <img src="<?php echo base_url(); ?>assets/media/images/brand-license/intro-7.png" alt="" class="w-100">
+                                <img src="<?php echo base_url(); ?>assets/media/images/brand-license/intro-7.png" alt="about-brand-license-image" class="w-100">
                             </div>
                             <div class="swiper-slide d-flex align-self-center">
-                                <img src="<?php echo base_url(); ?>assets/media/images/brand-license/intro-1.png" alt="" class="w-100">
+                                <img src="<?php echo base_url(); ?>assets/media/images/brand-license/intro-1.png" alt="about-brand-license-image" class="w-100">
                             </div>
                         </div>
                     </div>
@@ -244,19 +244,19 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="swiper swiperConstant swiperBack">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="<?= base_url(); ?>assets/media/images/img-4.jpg" alt="" class="h-100 w-100">
+                        <img src="<?= base_url(); ?>assets/media/images/img-4.jpg" alt="our-benefits-image" class="h-100 w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="<?= base_url(); ?>assets/media/images/img-3.jpg" alt="" class="h-100 w-100">
+                        <img src="<?= base_url(); ?>assets/media/images/img-3.jpg" alt="our-benefits-image" class="h-100 w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="<?= base_url(); ?>assets/media/images/img-2.jpg" alt="" class="h-100 w-100">
+                        <img src="<?= base_url(); ?>assets/media/images/img-2.jpg" alt="our-benefits-image" class="h-100 w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="<?= base_url(); ?>assets/media/images/img-1.jpg" alt="" class="h-100 w-100">
+                        <img src="<?= base_url(); ?>assets/media/images/img-1.jpg" alt="our-benefits-image" class="h-100 w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="<?= base_url(); ?>assets/media/images/img-4.jpg" alt="" class="h-100 w-100">
+                        <img src="<?= base_url(); ?>assets/media/images/img-4.jpg" alt="our-benefits-image" class="h-100 w-100">
                     </div>
                 </div>
             </div>

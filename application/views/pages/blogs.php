@@ -18,7 +18,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div> -->
                     <div class="col-md-4 px-0 px-md-2">
                         <div class="blog-card">
-                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="home-blogs" class="w-100">
                             <div class="wrapper">
                                 <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
                                 <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
@@ -35,7 +35,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                     <div class="col-md-4 px-0 px-md-2">
                         <div class="blog-card">
-                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="home-blogs" class="w-100">
                             <div class="wrapper">
                                 <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
                                 <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
@@ -51,7 +51,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                     <div class="col-md-4 px-0 px-md-2">
                         <div class="blog-card">
-                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="home-blogs" class="w-100">
                             <div class="wrapper">
                                 <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
                                 <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
@@ -78,7 +78,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div> -->
                     <div class="col-md-4 px-0 px-md-2">
                         <div class="blog-card">
-                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="home-blogs" class="w-100">
                             <div class="wrapper">
                                 <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
                                 <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
@@ -95,7 +95,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                     <div class="col-md-4 px-0 px-md-2">
                         <div class="blog-card">
-                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="home-blogs" class="w-100">
                             <div class="wrapper">
                                 <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
                                 <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
@@ -111,7 +111,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                     <div class="col-md-4 px-0 px-md-2">
                         <div class="blog-card">
-                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="home-blogs" class="w-100">
                             <div class="wrapper">
                                 <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
                                 <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
@@ -138,7 +138,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div> -->
                     <div class="col-md-4 px-0 px-md-2">
                         <div class="blog-card">
-                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="home-blogs" class="w-100">
                             <div class="wrapper">
                                 <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
                                 <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
@@ -155,7 +155,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                     <div class="col-md-4 px-0 px-md-2">
                         <div class="blog-card">
-                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="home-blogs" class="w-100">
                             <div class="wrapper">
                                 <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
                                 <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
@@ -171,7 +171,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                     <div class="col-md-4 px-0 px-md-2">
                         <div class="blog-card">
-                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="home-blogs" class="w-100">
                             <div class="wrapper">
                                 <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
                                 <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>

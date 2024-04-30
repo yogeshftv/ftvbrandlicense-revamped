@@ -8,7 +8,7 @@
                         <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body d-flex flex-column align-items-center justify-content-center">
-                        <img class="logo-dark mb-3 mb-md-5" src="<?php echo base_url(); ?>assets/media/icons/nav-logo.png" alt="">
+                        <img class="logo-dark mb-3 mb-md-5" src="<?php echo base_url(); ?>assets/media/icons/nav-logo.png" alt="ftv-license">
                         <h2 class="bl-heading--sub-font mb-3 mb-md-4">Thanks for Subscribing!!!</h2>
                         <p class="bl-paragraph">You will receive our latest updates and notification of FTV Brand License on your registered email id.</p>
                     </div>
@@ -26,7 +26,7 @@
                         <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body d-flex flex-column align-items-center justify-content-center">
-                        <img class="logo-dark mb-3 mb-md-5" src="<?php echo base_url(); ?>assets/media/icons/nav-logo.png" alt="" />
+                        <img class="logo-dark mb-3 mb-md-5" src="<?php echo base_url(); ?>assets/media/icons/nav-logo.png" alt="ftv-license" />
                         <h2 class="bl-heading--sub-font mb-3 mb-md-4" style="color: #6E3035;">WELCOME BACK TO FTV Brand License</h2>
                         <p class="bl-paragraph mb-2">A lot has changed since you last visited. Let us explore once again.</p>
                         <p class="bl-paragraph">Checkout the latest updates &amp; blogs related to FTV Brand License.</p>
@@ -45,7 +45,7 @@
                         <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body d-flex flex-column align-items-center justify-content-center">
-                        <img class="logo-dark mb-3 mb-md-5" src="<?php echo base_url(); ?>assets/media/icons/nav-logo.png" alt="">
+                        <img class="logo-dark mb-3 mb-md-5" src="<?php echo base_url(); ?>assets/media/icons/nav-logo.png" alt="ftv-license">
                         <h2 class="bl-heading--sub-font mb-3 mb-md-4" style="color: #6E3035;">Important Reminder For Existing Users!</h2>
                         <p class="bl-paragraph">Already existing subscribers should follow our website &amp; social media channels for more
                             information &amp; latest updates.</p>
@@ -64,7 +64,7 @@
                         <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body d-flex flex-column align-items-center justify-content-center">
-                        <img class="logo-dark mb-3 mb-md-5" src="<?php echo base_url(); ?>assets/media/icons/nav-logo.png" alt="" style="filter: invert(1);">
+                        <img class="logo-dark mb-3 mb-md-5" src="<?php echo base_url(); ?>assets/media/icons/nav-logo.png" alt="ftv-license" style="filter: invert(1);">
                         <h2 class="bl-heading--sub-font mb-3 mb-md-4" style="color: #6E3035;">Thank You!</h2>
                         <p class="bl-paragraph text-center">Thank you for getting in touch. <br>Our business executives will reach out to you soon</p>
                     </div>

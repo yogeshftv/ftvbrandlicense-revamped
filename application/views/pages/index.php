@@ -82,66 +82,66 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="common-deliverables-row">
                     <div class="columns">
                         <div class="h-100">
-                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
+                            <img src="<?= base_url(); ?>assets/media/images/home/Marketing_Support.jpg" alt="social-media-marketing-support">
                         </div>
-                        <div style="height: 64px;">
-                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2 text-center">Social media marketing support</h3>
-                        </div>
-                    </div>
-                    <div class="columns">
-                        <div class="h-100">
-                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        </div>
-                        <div style="height: 64px;">
-                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2 text-center">Brand logo usage</h3>
+                        <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
+                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Social media marketing support</h3>
                         </div>
                     </div>
                     <div class="columns">
                         <div class="h-100">
-                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
+                            <img src="<?= base_url(); ?>assets/media/images/home/Brand_Prestige.jpg" alt="Brand-logo-usage">
                         </div>
-                        <div style="height: 64px;">
-                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2 text-center">Market Analysis</h3>
-                        </div>
-                    </div>
-                    <div class="columns">
-                        <div class="h-100">
-                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        </div>
-                        <div style="height: 64px;">
-                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2 text-center">Launch Support</h3>
+                        <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
+                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Brand logo usage</h3>
                         </div>
                     </div>
                     <div class="columns">
                         <div class="h-100">
-                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
+                            <img src="<?= base_url(); ?>assets/media/images/home/Market_Analysis.jpg" alt="Market-Analysis">
                         </div>
-                        <div style="height: 64px;">
-                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2 text-center">Product Development Support</h3>
-                        </div>
-                    </div>
-                    <div class="columns">
-                        <div class="h-100">
-                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
-                        </div>
-                        <div style="height: 64px;">
-                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2 text-center">Product Festive Revamps</h3>
+                        <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
+                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Market Analysis</h3>
                         </div>
                     </div>
                     <div class="columns">
                         <div class="h-100">
-                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
+                            <img src="<?= base_url(); ?>assets/media/images/home/Launch_Support.jpg" alt="Launch-Support">
                         </div>
-                        <div style="height: 64px;">
-                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2 text-center">Trend Forecasting</h3>
+                        <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
+                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Launch Support</h3>
                         </div>
                     </div>
                     <div class="columns">
                         <div class="h-100">
-                            <img src="<?= base_url(); ?>assets/media/images/templates/deliverables-example-img.png" alt="">
+                            <img src="<?= base_url(); ?>assets/media/images/home/Product_Development_Support.jpg" alt="Product-Development-Support">
                         </div>
-                        <div style="height: 64px;">
-                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal mt-2 text-center">Product Packaging</h3>
+                        <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
+                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Product Development Support</h3>
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="h-100">
+                            <img src="<?= base_url(); ?>assets/media/images/home/Product_Festive_Revamps.jpg" alt="Product_Festive_Revamps">
+                        </div>
+                        <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
+                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Product Festive Revamps</h3>
+                        </div>
+                    </div>                                                                                                                                  
+                    <div class="columns">
+                        <div class="h-100">
+                            <img src="<?= base_url(); ?>assets/media/images/home/Trend_Forecasting.jpg" alt="Trend-Forecasting">
+                        </div>
+                        <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
+                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Trend Forecasting</h3>
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="h-100">
+                            <img src="<?= base_url(); ?>assets/media/images/home/Product_Packaging.jpg" alt="Product_Packaging">
+                        </div>
+                        <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
+                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Product Packaging</h3>
                         </div>
                     </div>
                 </div>
