@@ -8,13 +8,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <!-- Banner Video -->
         <section class="common-banner-video">
             <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/templates/temp-banner-cover.png" class="w-100">
-                <source src="<?= base_url(); ?>assets/media/videos/our-story-banner-horizontal.mp4" type="video/mp4" class="w-100">
+                <source src="<?= base_url(); ?>assets/media/videos/brand-license-horizontal.mp4" type="video/mp4" class="w-100">
             </video>
         </section>
 
         <section class="common-banner-video-for-mobile mt-0">
             <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>" class="w-100">
-                <source src="<?= base_url(); ?>assets/media/videos/our-story-banner-vertical.mp4" type="video/mp4" class="w-100">
+                <source src="<?= base_url(); ?>assets/media/videos/brand-license-vertical.mp4" type="video/mp4" class="w-100">
             </video>
         </section>
         <!-- Banner Video -->
@@ -491,24 +491,26 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <!-- <img src="https://uat.ftvlicenses.in/assets/media/icons/downloadables-icon.png" alt="download-icon" class="download-icon"> -->
 
                         <!-- Temp -->
-                        <div class="upload">
-                            <div class="path">
-                                <div class="arrow"></div>
-                                <svg>
-                                    <use xlink:href="#path">
-                                </use></svg>
-                            </div>
-                            <div class="circle">
-                                <div class="water">
+                        <a href="<?php echo base_url(); ?>assets/media/brand-license--Lookbook.pdf" download="" target="_blank" class="is-txt-small is-jost border-0 shadow-none aos-init aos-animate" data-aos="fade-up">
+                            <div class="upload">
+                                <div class="path">
+                                    <div class="arrow"></div>
                                     <svg>
-                                        <use xlink:href="#wave">
-                                    </use></svg>
-                                    <svg>
-                                        <use xlink:href="#wave">
+                                        <use xlink:href="#path">
                                     </use></svg>
                                 </div>
+                                <div class="circle">
+                                    <div class="water">
+                                        <svg>
+                                            <use xlink:href="#wave">
+                                        </use></svg>
+                                        <svg>
+                                            <use xlink:href="#wave">
+                                        </use></svg>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                         <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
                             <symbol viewBox="0 0 72 72" id="path">
                                 <path d="M36,25.12 L36,43.68 C36,53.3185944 31.52,56.7319277 22.56,53.92 C9.12,49.7021084 4,44.5565697 4,36 C4,18.72 18.72,4 36,4 C53.28,4 68,18.72 68,36 C68,53.28 53.28,68 36,68 C18.72,68 4,53.28 4,36 C4,18.72 18.72,4 36,4 C53.28,4 68,18.72 68,36 C68,53.28 53.28,68 36,68 C18.72,68 4,53.28 4,36 C4,18.72 18.72,4 36,4 C43.2533333,4 49.8789797,6.40627283 55.876939,11.2188185 L32.7391444,45.2477592 L23.8653488,38.1626948">
@@ -528,34 +530,36 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <!-- <img src="https://uat.ftvlicenses.in/assets/media/icons/downloadables-icon.png" alt="download-icon" class="download-icon"> -->
 
                         <!-- Temp -->
-                        <div class="upload">
-                            <div class="path">
-                                <div class="arrow"></div>
-                                <svg>
-                                    <use xlink:href="#path">
-                                </use></svg>
-                            </div>
-                            <div class="circle">
-                                <div class="water">
+                        <a href="<?php echo base_url(); ?>assets/media/brand-license--Lookbook.pdf" download="" target="_blank" class="is-txt-small is-jost border-0 shadow-none aos-init aos-animate" data-aos="fade-up">
+                            <div class="upload">
+                                <div class="path">
+                                    <div class="arrow"></div>
                                     <svg>
-                                        <use xlink:href="#wave">
-                                    </use></svg>
-                                    <svg>
-                                        <use xlink:href="#wave">
+                                        <use xlink:href="#path">
                                     </use></svg>
                                 </div>
+                                <div class="circle">
+                                    <div class="water">
+                                        <svg>
+                                            <use xlink:href="#wave">
+                                        </use></svg>
+                                        <svg>
+                                            <use xlink:href="#wave">
+                                        </use></svg>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-                            <symbol viewBox="0 0 72 72" id="path">
-                                <path d="M36,25.12 L36,43.68 C36,53.3185944 31.52,56.7319277 22.56,53.92 C9.12,49.7021084 4,44.5565697 4,36 C4,18.72 18.72,4 36,4 C53.28,4 68,18.72 68,36 C68,53.28 53.28,68 36,68 C18.72,68 4,53.28 4,36 C4,18.72 18.72,4 36,4 C53.28,4 68,18.72 68,36 C68,53.28 53.28,68 36,68 C18.72,68 4,53.28 4,36 C4,18.72 18.72,4 36,4 C43.2533333,4 49.8789797,6.40627283 55.876939,11.2188185 L32.7391444,45.2477592 L23.8653488,38.1626948">
-                                </path>
-                            </symbol>
-                            <symbol viewBox="0 0 116 6" id="wave">
-                                <path d="M58,0 C70.6086957,0 79.3822464,6 87,6 L58,6 L29,6 C36.6177536,6 45.3913043,0 58,0 Z M0,0 C12.6086957,0 21.3822464,6 29,6 L0,6 L0,0 Z M116,0 L116,6 L87,6 C94.6177536,6 103.391304,0 116,0 Z">
-                                </path>
-                            </symbol>
-                        </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                                <symbol viewBox="0 0 72 72" id="path">
+                                    <path d="M36,25.12 L36,43.68 C36,53.3185944 31.52,56.7319277 22.56,53.92 C9.12,49.7021084 4,44.5565697 4,36 C4,18.72 18.72,4 36,4 C53.28,4 68,18.72 68,36 C68,53.28 53.28,68 36,68 C18.72,68 4,53.28 4,36 C4,18.72 18.72,4 36,4 C53.28,4 68,18.72 68,36 C68,53.28 53.28,68 36,68 C18.72,68 4,53.28 4,36 C4,18.72 18.72,4 36,4 C43.2533333,4 49.8789797,6.40627283 55.876939,11.2188185 L32.7391444,45.2477592 L23.8653488,38.1626948">
+                                    </path>
+                                </symbol>
+                                <symbol viewBox="0 0 116 6" id="wave">
+                                    <path d="M58,0 C70.6086957,0 79.3822464,6 87,6 L58,6 L29,6 C36.6177536,6 45.3913043,0 58,0 Z M0,0 C12.6086957,0 21.3822464,6 29,6 L0,6 L0,0 Z M116,0 L116,6 L87,6 C94.6177536,6 103.391304,0 116,0 Z">
+                                    </path>
+                                </symbol>
+                            </svg>
+                        </a>
                     </div>
                     <h3 class="bl-heading--sub-font">Lookbook</h3>
                 </div>

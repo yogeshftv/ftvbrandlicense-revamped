@@ -168,7 +168,6 @@ html.lenis {
 body {
     position: relative;
     cursor: url('../media/icons/ftv-wings-black.png'), default;
-    /* cursor: url('../media/icons/cursor-new-6.png'), default; */
 }
 
 p {
@@ -3515,8 +3514,8 @@ footer .f-additionals a:hover {
 
     /* COMMON: Introduction 0 */
     .common-introduction-0 svg {
-        top: 6% !important;
-        right: 20% !important;
+        top: -5% !important;
+        right: 2% !important;
         width: 220px !important;
     }
     /* COMMON: Introduction 0 */
@@ -4080,9 +4079,9 @@ footer .f-additionals a:hover {
 
     /* COMMON: Introduction 0 */
     .common-introduction-0 svg {
-        top: -6%;
-        right: 4%;
-        width: 260px;
+        top: -6% !important;
+        right: 4% !important;
+        width: 260px !important;
     }
 
     .common-introduction-0 .column-2 {
@@ -4623,7 +4622,7 @@ footer .f-additionals a:hover {
         padding: 1.125rem 4.5rem;
     }
 
-    .common-cta-1 .cta-content {
+    .common-cta-1 .cta-content {    
         transform: translateY(10px);
     }
 
@@ -4635,9 +4634,9 @@ footer .f-additionals a:hover {
 
     /* COMMON: Introduction 0 */
     .common-introduction-0 svg {
-        top: -10%;
-        right: 4%;
-        width: 260px;
+        top: -10% !important;
+        right: 4% !important;
+        width: 280px !important;
     }
 
     .common-introduction-0 .column-1,
@@ -5138,8 +5137,9 @@ footer .f-additionals a:hover {
 
     /* common banner video */
     .common-introduction-0 svg {
-        top: -0%;
-        width: 260px;
+        top: -0% !important;
+        left: 0% !important;
+        width: 300px !important;
     }
 
     .common-introduction-0 .introduction-content-0 {
@@ -5663,8 +5663,9 @@ footer .f-additionals a:hover {
 
     /* COMMON: Introduction 0 */
     .common-introduction-0 svg {
-        top: -25%;
-        width: 280px;
+        top: -25% !important;
+        left: 0% !important;
+        width: 280px !important;
     }
 
     .common-introduction-0 .introduction-content-0 {
@@ -6151,8 +6152,9 @@ footer .f-additionals a:hover {
 
     /* COMMON: Introduction 0 */
     .common-introduction-0 svg {
-        top: -25%;
-        width: 280px;
+        top: -25% !important;
+        left: 0% !important;
+        width: 280px !important;
     }
 
     /* COMMON: Introduction 0 */
@@ -6505,8 +6507,9 @@ footer .f-additionals a:hover {
 
     /* COMMON: Introduction */
     .common-introduction-0 svg {
-        top: -30%;
-        width: 310px;
+        top: -30% !important;
+        left: 0% !important;
+        width: 310px !important;
     }
 
     /* COMMON: Introduction */
