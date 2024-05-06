@@ -29,7 +29,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="col-12 column-2 px-0">
                     <div class="container-fluid px-0">
                         <h2 class="bl-heading split-text spilit-word">About FashionTV</h2>
-                        <p class="bl-paragraph">Welcome to a whole different realm where fashion, glamour, and an opulent way of life embellish the world. FashionTV has nurtured fashion into a global phenomenon. A space that inspires and adorns fashion enthusiasts with the power of media. Moreover, to further the brand's purpose, FashionTV is now collaborating with aspiring entrepreneurs to launch multiple businesses in various fields by franchising, licensing, events, media, concepts and city partnership.</p>
+                        <p class="bl-paragraph">FashionTV, the world's largest fashion and lifestyle network, has been a trailblazer in the realms of fashion, glamor, and lifestyle for over 27 years. Renowned for its exquisite coverage and captivating content, FashionTV remains the top choice for fashion enthusiasts across the globe. In an era where luxury and premium experiences are paramount, FTV stands out as a symbol of innovation and sophistication, consistently meeting the evolving demands of modern living.</p>
+                        <p class="bl-paragraph">Furthermore, FTV collaborates with aspiring entrepreneurs and established businesses to initiate numerous ventures, aiming to offer outstanding products, services, or experiences to a diverse audience across various sectors, including franchising, licensing, events, media, concepts, and city partnerships.</p>
                         <img src="<?= base_url(); ?>assets/media/images/templates/about-example-1-1.png" alt="" style="filter: grayscale(0.85);" class="w-100">
                         <a href="#">
                             Learn More
@@ -60,7 +61,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="row mx-0 row-2">
                         <div class="col-4 px-0 column-1"></div>
                         <div class="col-8 px-0 column-2">
-                            <p class="bl-paragraph">Welcome to a whole different realm where fashion, glamour, and an opulent way of life embellish the world. FashionTV has nurtured fashion into a global phenomenon. A space that inspires and adorns fashion enthusiasts with the power of media. Moreover, to further the brand's purpose, FashionTV is now collaborating with aspiring entrepreneurs to launch multiple businesses in various fields by franchising, licensing, events, media, concepts and city partnership.</p>
+                        <p class="bl-paragraph mb-3">FashionTV, the world's largest fashion and lifestyle network, has been a trailblazer in the realms of fashion, glamor, and lifestyle for over 27 years. Renowned for its exquisite coverage and captivating content, FashionTV remains the top choice for fashion enthusiasts across the globe. In an era where luxury and premium experiences are paramount, FTV stands out as a symbol of innovation and sophistication, consistently meeting the evolving demands of modern living.</p>
+                        <p class="bl-paragraph">Furthermore, FTV collaborates with aspiring entrepreneurs and established businesses to initiate numerous ventures, aiming to offer outstanding products, services, or experiences to a diverse audience across various sectors, including franchising, licensing, events, media, concepts, and city partnerships.</p>
                         </div>
                     </div>
 

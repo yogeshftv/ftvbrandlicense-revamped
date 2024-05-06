@@ -56,16 +56,16 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                     <div class="range-slider d-flex flex-column align-items-center justify-content-center">
                                         <div class="row mx-0 w-100">
                                             <div class="slider-container d-flex align-items-center justify-content-center px-0">
-                                                <input class="rounded-0" type="range" id="rangeSlider" name="investment" min="25" max="200" value="100">
+                                                <input class="rounded-0" type="range" id="rangeSlider" name="investment" min="50" max="700" value="100">
                                                 <span class="bl-paragraph" id="sliderValue" style=" font-size: 1.125rem;">1 CR</span>
                                             </div>
                                         </div>
                                         <div class="row d-flex align-content-center justify-content-between mx-0 w-100">
                                             <div class="col-3 col-md-2 px-0 d-flex align-content-center justify-content-start">
-                                                <span class="bl-paragraph text-start ms-0 ms-md-3">₹ 25 LPA</span>
+                                                <span class="bl-paragraph text-start ms-0 ms-md-3">₹ 50 LPA</span>
                                             </div>
                                             <div class="col-3 col-md-2 px-0 d-flex align-content-center justify-content-end me-0 me-md-3">
-                                                <span class="bl-paragraph">₹ 2 CR</span>
+                                                <span class="bl-paragraph">₹ 7 CR</span>
                                             </div>
                                         </div>
                                     </div>

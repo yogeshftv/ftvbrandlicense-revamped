@@ -94,7 +94,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="d-flex justify-content-between mx-0  bi-column-wrapper">
                     <div class="column-1">
                         <div class="content-container">
-                            <img src="<?php echo base_url(); ?>assets/media/images/templates/ma-kk-1.png" alt="boards-introduction" class="w-100">
+                            <img src="<?php echo base_url(); ?>assets/media/images/Our-Boards/kk-future.png" alt="boards-introduction" class="w-100">
                             <h2 class="bl-heading--sub-font split-text spilit-word">Future</h2>
                             <p class="bl-paragraph">FTV launched into social media with a ton of multi-genre content. On Facebook, FashionTV has a total fan base of over 5 million users. Our Facebook page has more than four million+ likes and gets 12 million+ views per week. FashionTV's YouTube channel gets 65 million+ views. On Instagram, FashionTV has 300k+ followers and also has 125k+ organic reach per month.</p>
                             <p class="bl-paragraph">Facebook page has more than four million+ likes and gets 12 million+ views per week. FashionTV's YouTube channel gets 65 million+ views. On Instagram</p>
@@ -102,14 +102,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                     <div class="column-2">
                         <div class="content-container">
-                            <img src="<?php echo base_url(); ?>assets/media/images/templates/ma-kk-2.png" alt="boards-introduction" class="w-100">
+                            <img src="<?php echo base_url(); ?>assets/media/images/Our-Boards/kk-awards-achievements.png" alt="boards-introduction" class="w-100">
                             <h2 class="bl-heading--sub-font split-text spilit-word">Awards & Achievement</h2>
                             <p class="bl-paragraph">A precocious student initially granted a scholarship for Mathematics at Princeton University turned out to be a brilliant businessman, recognised globally for his phenomenal media creation, FashionTV. Along with this exclusive channel, he also went on to invest in successful real estate projects such as love-f-cafe in several cities of Europe along with numerous nightclubs and restaurants, making them one of the most popular spots for meetings and events in the fashion community.</p>
                         </div>
                     </div>
                     <div class="column-3">
                         <div class="content-container">
-                            <img src="<?php echo base_url(); ?>assets/media/images/templates/ma-kk-3.png" alt="boards-introduction" class="w-100">
+                            <img src="<?php echo base_url(); ?>assets/media/images/Our-Boards/kk-work-experience.png" alt="boards-introduction" class="w-100">
                             <h2 class="bl-heading--sub-font split-text spilit-word">Work Experience</h2>
                             <p class="bl-paragraph">He started a textile business in Thailand called "Eden Group". In 1997, he established FashionTV, an international fashion and lifestyle broadcasting television channel in France. Currently, he is the Chairman of FashionTV along with being a brilliant entrepreneur running and supporting several businesses in various fields across the globe.
                             </p>

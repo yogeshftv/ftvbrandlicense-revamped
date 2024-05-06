@@ -117,15 +117,6 @@ let swiper = new Swiper(".swiperConstant", {
     },
 });
 
-// let swiper8 = new Swiper(".swiperConstant", {
-//     loop: true,
-//     allowTouchMove: false,
-//     navigation: {
-//         nextEl: ".swiper-button-next",
-//         prevEl: ".swiper-button-prev",
-//     },
-// });
-
 // Brand License: Our Benefits Swiper Mobile
 let swiper9 = new Swiper(".ourBenefitsSwiper", {
     loop: true,
@@ -280,10 +271,10 @@ function commonVisibleDifferentSwipers() {
     let swiper = new Swiper(".commonSwiper", {
         slidesPerView: 3,
         spaceBetween: 30,
-        allowTouchMove: false,
+        allowTouchMove: true,
         autoplay: {
             delay: 2500,
-            disableOnInteraction: false,
+            disableOnInteraction: true,
         },
         navigation: {
             nextEl: ".swiper-button-next",

@@ -352,6 +352,7 @@
         });
     });
 
+    // For Navbar
     function visibleDifferentSwipers() {
         const navbarClickables = document.querySelectorAll(".clickables");
 

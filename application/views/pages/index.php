@@ -18,428 +18,502 @@ defined('BASEPATH') or exit('No direct script access allowed');
         </section>
         <!-- Banner Video -->
 
-        <!-- Introduction: RT-C -->
-        <section class="common-introduction-0">
-            <svg xmlns="http://www.w3.org/2000/svg" width="391" height="auto" viewBox="0 0 391 663" fill="none" id="f-intro-home">
-                <g opacity="0.7">
-                    <path class="path-for-ftv-intro-home" d="M148.849 282.798L225.615 282.489V301.603H149.201H147.701V303.103V639.926V641.426H149.201H225.615V660.59H1.5V641.426H74.1527H75.6527V639.926V303.103V301.603H74.1527H1.5V282.483H74.1527H75.6527V280.983V233.833C75.6527 151.73 92.6922 93.6401 121.046 56.1106C149.354 18.6406 189.064 1.5 234.862 1.5C253.428 1.5 273.27 5.7817 288.419 15.5774C303.501 25.33 313.962 40.5525 313.962 62.6895C313.962 71.7506 309.431 79.2873 302.85 84.6007C296.251 89.9289 287.681 92.9387 279.864 92.9387C267.234 92.9387 257.804 88.5204 251.505 81.0823C245.177 73.6092 241.869 62.919 241.869 50.1525C241.869 45.5192 243.443 42.9679 245.274 40.0011C245.348 39.8806 245.423 39.7595 245.498 39.6374C247.485 36.4076 249.571 32.755 249.571 26.106C249.571 23.9359 247.749 22.6028 246.049 21.8052C244.227 20.9507 241.815 20.3527 239.306 19.9255C234.259 19.0662 228.39 18.8295 224.966 18.8295C201.148 18.8295 181.684 33.2774 168.255 59.6184C154.846 85.922 147.343 124.248 147.343 172.575V281.298V282.804L148.849 282.798Z" stroke="url(#paint0_linear_532_1222)" stroke-width="3" style="stroke-dasharray: 2383.45px; stroke-dashoffset: 1787.6px;"></path>
-                    <path class="path-for-ftv-intro-home" d="M389.499 290.605C389.499 297.19 387.547 303.627 383.888 309.102C380.23 314.577 375.031 318.845 368.947 321.364C362.864 323.884 356.17 324.545 349.712 323.26C343.254 321.975 337.321 318.805 332.665 314.149C328.009 309.493 324.838 303.56 323.554 297.101C322.269 290.643 322.928 283.949 325.448 277.866C327.968 271.783 332.235 266.582 337.71 262.924C343.185 259.265 349.622 257.312 356.207 257.312C365.036 257.312 373.505 260.821 379.748 267.064C385.992 273.308 389.499 281.775 389.499 290.605Z" stroke="url(#paint1_linear_532_1222)" stroke-width="3" style="stroke-dasharray: 209.186px; stroke-dashoffset: 156.89px;"></path>
-                </g>
-                <defs>
-                    <linearGradient id="paint0_linear_532_1222" x1="157.934" y1="0" x2="157.934" y2="662.09" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#c4c4c4"></stop>
-                        <stop offset="1" stop-color="#c4c4c4" stop-opacity="0"></stop>
-                    </linearGradient>
-                    <linearGradient id="paint1_linear_532_1222" x1="356.251" y1="255.812" x2="356.251" y2="325.399" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#c4c4c4"></stop>
-                        <stop offset="1" stop-color="#c4c4c4" stop-opacity="0"></stop>
-                    </linearGradient>
-                </defs>
-            </svg>
-            <div class="row mx-0">
-                <div class="col-12 col-md-6 column-1 px-0">
-                    <div class="introduction-content-0">
-                        <h2 class="bl-heading split-text spilit-word">Introduction</h2>
-                        <p class="bl-paragraph">Fashion TV has had a monumental presence in fashion and broadcasting since 1997. We have widened our branches to multiple verticals where brand licensing via Fashion TV is an opportunity for aspiring companies to unlock their full potential of their intellectual property, driving growth, and fostering long-term success.</p>
-                        <p class="bl-paragraph">At Fashion TV, we understand that in an ever-changing world, it has become significant to have an influential brand image for any company. We have brought a substantial medium for burgeoning startups seeking to expand their market presence or an established brand aiming to diversify their revenue streams.</p>
+        <div class="home-background-mask-1">            
+            <!-- Introduction: RT-C -->
+            <section class="common-introduction-0 mt-0">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="391" height="auto" viewBox="0 0 391 663" fill="none" id="f-intro-home">
+                    <g opacity="0.7">
+                        <path class="path-for-ftv-intro-home" d="M148.849 282.798L225.615 282.489V301.603H149.201H147.701V303.103V639.926V641.426H149.201H225.615V660.59H1.5V641.426H74.1527H75.6527V639.926V303.103V301.603H74.1527H1.5V282.483H74.1527H75.6527V280.983V233.833C75.6527 151.73 92.6922 93.6401 121.046 56.1106C149.354 18.6406 189.064 1.5 234.862 1.5C253.428 1.5 273.27 5.7817 288.419 15.5774C303.501 25.33 313.962 40.5525 313.962 62.6895C313.962 71.7506 309.431 79.2873 302.85 84.6007C296.251 89.9289 287.681 92.9387 279.864 92.9387C267.234 92.9387 257.804 88.5204 251.505 81.0823C245.177 73.6092 241.869 62.919 241.869 50.1525C241.869 45.5192 243.443 42.9679 245.274 40.0011C245.348 39.8806 245.423 39.7595 245.498 39.6374C247.485 36.4076 249.571 32.755 249.571 26.106C249.571 23.9359 247.749 22.6028 246.049 21.8052C244.227 20.9507 241.815 20.3527 239.306 19.9255C234.259 19.0662 228.39 18.8295 224.966 18.8295C201.148 18.8295 181.684 33.2774 168.255 59.6184C154.846 85.922 147.343 124.248 147.343 172.575V281.298V282.804L148.849 282.798Z" stroke="url(#paint0_linear_532_1222)" stroke-width="3" style="stroke-dasharray: 2383.45px; stroke-dashoffset: 1787.6px;"></path>
+                        <path class="path-for-ftv-intro-home" d="M389.499 290.605C389.499 297.19 387.547 303.627 383.888 309.102C380.23 314.577 375.031 318.845 368.947 321.364C362.864 323.884 356.17 324.545 349.712 323.26C343.254 321.975 337.321 318.805 332.665 314.149C328.009 309.493 324.838 303.56 323.554 297.101C322.269 290.643 322.928 283.949 325.448 277.866C327.968 271.783 332.235 266.582 337.71 262.924C343.185 259.265 349.622 257.312 356.207 257.312C365.036 257.312 373.505 260.821 379.748 267.064C385.992 273.308 389.499 281.775 389.499 290.605Z" stroke="url(#paint1_linear_532_1222)" stroke-width="3" style="stroke-dasharray: 209.186px; stroke-dashoffset: 156.89px;"></path>
+                    </g>
+                    <defs>
+                        <linearGradient id="paint0_linear_532_1222" x1="157.934" y1="0" x2="157.934" y2="662.09" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#c4c4c4"></stop>
+                            <stop offset="1" stop-color="#c4c4c4" stop-opacity="0"></stop>
+                        </linearGradient>
+                        <linearGradient id="paint1_linear_532_1222" x1="356.251" y1="255.812" x2="356.251" y2="325.399" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#c4c4c4"></stop>
+                            <stop offset="1" stop-color="#c4c4c4" stop-opacity="0"></stop>
+                        </linearGradient>
+                    </defs>
+                </svg> -->
+                <div class="row mx-0">
+                    <div class="col-12 col-md-6 column-1 px-0">
+                        <div class="introduction-content-0">
+                            <h2 class="bl-heading split-text spilit-word">Introduction</h2>
+                            <p class="bl-paragraph">Fashion TV has had a monumental presence in fashion and broadcasting since 1997. We have widened our branches to multiple verticals where brand licensing via Fashion TV is an opportunity for aspiring companies to unlock their full potential of their intellectual property, driving growth, and fostering long-term success.</p>
+                            <p class="bl-paragraph">At Fashion TV, we understand that in an ever-changing world, it has become significant to have an influential brand image for any company. We have brought a substantial medium for burgeoning startups seeking to expand their market presence or an established brand aiming to diversify their revenue streams.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-6 column-2 px-0">
-                    <div class="swiper homeIntroductionSwiper">
-                        <div class="swiper-wrapper d-flex align-self-center">
-                            <div class="swiper-slide d-flex align-self-center res-swiper-slide">
-                                <img src="<?php echo base_url(); ?>assets/media/images/home/intro-3.png" alt="" class="w-100">
+                    <div class="col-12 col-md-6 column-2 px-0">
+                        <div class="swiper homeIntroductionSwiper">
+                            <div class="swiper-wrapper d-flex align-self-center">
+                                <div class="swiper-slide d-flex align-self-center res-swiper-slide">
+                                    <img src="<?php echo base_url(); ?>assets/media/images/home/home-introduction-2.png" alt="" class="w-100">
+                                </div>
+                                <div class="swiper-slide d-flex align-self-center res-swiper-slide">
+                                    <img src="<?php echo base_url(); ?>assets/media/images/home/home-introduction-3.png" alt="" class="w-100">
+                                </div>
+                                <div class="swiper-slide d-flex align-self-center res-swiper-slide">
+                                    <img src="<?php echo base_url(); ?>assets/media/images/home/home-introduction-4.png" alt="" class="w-100">
+                                </div>
+                                <div class="swiper-slide d-flex align-self-center res-swiper-slide">
+                                    <img src="<?php echo base_url(); ?>assets/media/images/home/home-introduction-5.png" alt="" class="w-100">
+                                </div>
+                                <div class="swiper-slide d-flex align-self-center res-swiper-slide">
+                                    <img src="<?php echo base_url(); ?>assets/media/images/home/home-introduction-6.png" alt="" class="w-100">
+                                </div>
+                                <div class="swiper-slide d-flex align-self-center res-swiper-slide">
+                                    <img src="<?php echo base_url(); ?>assets/media/images/home/home-introduction-7.png" alt="" class="w-100">
+                                </div>
+                                <div class="swiper-slide d-flex align-self-center res-swiper-slide">
+                                    <img src="<?php echo base_url(); ?>assets/media/images/home/home-introduction-1.png" alt="" class="w-100">
+                                </div>
                             </div>
-                            <div class="swiper-slide d-flex align-self-center res-swiper-slide">
-                                <img src="<?php echo base_url(); ?>assets/media/images/home/intro-4.png" alt="" class="w-100">
-                            </div>
-                            <div class="swiper-slide d-flex align-self-center res-swiper-slide">
-                                <img src="<?php echo base_url(); ?>assets/media/images/home/intro-5.png" alt="" class="w-100">
-                            </div>
-                            <div class="swiper-slide d-flex align-self-center res-swiper-slide">
-                                <img src="<?php echo base_url(); ?>assets/media/images/home/intro-6.png" alt="" class="w-100">
-                            </div>
-                            <div class="swiper-slide d-flex align-self-center res-swiper-slide">
-                                <img src="<?php echo base_url(); ?>assets/media/images/home/intro-7.png" alt="" class="w-100">
-                            </div>
-                            <div class="swiper-slide d-flex align-self-center res-swiper-slide">
-                                <img src="<?php echo base_url(); ?>assets/media/images/home/intro-1.png" alt="" class="w-100">
-                            </div>
-                            <div class="swiper-slide d-flex align-self-center res-swiper-slide">
-                                <img src="<?php echo base_url(); ?>assets/media/images/home/intro-2.png" alt="" class="w-100">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Introduction -->
-
-        <!-- Deliverables -->
-        <section class="common-deliverables">
-            <div class="container-fluid px-0">
-                <h2 class="bl-heading text-center split-text spilit-word">Deliverables</h2>
-                <div class="common-deliverables-row">
-                    <div class="columns">
-                        <div class="h-100">
-                            <img src="<?= base_url(); ?>assets/media/images/home/Marketing_Support.jpg" alt="social-media-marketing-support">
-                        </div>
-                        <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
-                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Social media marketing support</h3>
-                        </div>
-                    </div>
-                    <div class="columns">
-                        <div class="h-100">
-                            <img src="<?= base_url(); ?>assets/media/images/home/Brand_Prestige.jpg" alt="Brand-logo-usage">
-                        </div>
-                        <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
-                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Brand logo usage</h3>
-                        </div>
-                    </div>
-                    <div class="columns">
-                        <div class="h-100">
-                            <img src="<?= base_url(); ?>assets/media/images/home/Market_Analysis.jpg" alt="Market-Analysis">
-                        </div>
-                        <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
-                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Market Analysis</h3>
-                        </div>
-                    </div>
-                    <div class="columns">
-                        <div class="h-100">
-                            <img src="<?= base_url(); ?>assets/media/images/home/Launch_Support.jpg" alt="Launch-Support">
-                        </div>
-                        <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
-                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Launch Support</h3>
-                        </div>
-                    </div>
-                    <div class="columns">
-                        <div class="h-100">
-                            <img src="<?= base_url(); ?>assets/media/images/home/Product_Development_Support.jpg" alt="Product-Development-Support">
-                        </div>
-                        <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
-                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Product Development Support</h3>
-                        </div>
-                    </div>
-                    <div class="columns">
-                        <div class="h-100">
-                            <img src="<?= base_url(); ?>assets/media/images/home/Product_Festive_Revamps.jpg" alt="Product_Festive_Revamps">
-                        </div>
-                        <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
-                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Product Festive Revamps</h3>
-                        </div>
-                    </div>                                                                                                                                  
-                    <div class="columns">
-                        <div class="h-100">
-                            <img src="<?= base_url(); ?>assets/media/images/home/Trend_Forecasting.jpg" alt="Trend-Forecasting">
-                        </div>
-                        <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
-                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Trend Forecasting</h3>
-                        </div>
-                    </div>
-                    <div class="columns">
-                        <div class="h-100">
-                            <img src="<?= base_url(); ?>assets/media/images/home/Product_Packaging.jpg" alt="Product_Packaging">
-                        </div>
-                        <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
-                            <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Product Packaging</h3>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- Deliverables -->
+            </section>
+            <!-- Introduction -->
+    
+            <!-- Deliverables -->
+            <section class="common-deliverables mb-0">
+                <div class="container-fluid px-0">
+                    <h2 class="bl-heading text-center split-text spilit-word">Deliverables</h2>
+                    <div class="common-deliverables-row">
+                        <div class="columns">
+                            <div class="h-100">
+                                <img src="<?= base_url(); ?>assets/media/images/home/Marketing_Support.jpg" alt="social-media-marketing-support">
+                            </div>
+                            <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
+                                <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Social media marketing support</h3>
+                            </div>
+                        </div>
+                        <div class="columns">
+                            <div class="h-100">
+                                <img src="<?= base_url(); ?>assets/media/images/home/Brand_Prestige.jpg" alt="Brand-logo-usage">
+                            </div>
+                            <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
+                                <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Brand logo usage</h3>
+                            </div>
+                        </div>
+                        <div class="columns">
+                            <div class="h-100">
+                                <img src="<?= base_url(); ?>assets/media/images/home/Market_Analysis.jpg" alt="Market-Analysis">
+                            </div>
+                            <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
+                                <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Market Analysis</h3>
+                            </div>
+                        </div>
+                        <div class="columns">
+                            <div class="h-100">
+                                <img src="<?= base_url(); ?>assets/media/images/home/Launch_Support.jpg" alt="Launch-Support">
+                            </div>
+                            <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
+                                <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Launch Support</h3>
+                            </div>
+                        </div>
+                        <div class="columns">
+                            <div class="h-100">
+                                <img src="<?= base_url(); ?>assets/media/images/home/Product_Development_Support.jpg" alt="Product-Development-Support">
+                            </div>
+                            <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
+                                <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Product Development Support</h3>
+                            </div>
+                        </div>
+                        <div class="columns">
+                            <div class="h-100">
+                                <img src="<?= base_url(); ?>assets/media/images/home/Product_Festive_Revamps.jpg" alt="Product_Festive_Revamps">
+                            </div>
+                            <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
+                                <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Product Festive Revamps</h3>
+                            </div>
+                        </div>                                                                                                                                  
+                        <div class="columns">
+                            <div class="h-100">
+                                <img src="<?= base_url(); ?>assets/media/images/home/Trend_Forecasting.jpg" alt="Trend-Forecasting">
+                            </div>
+                            <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
+                                <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Trend Forecasting</h3>
+                            </div>
+                        </div>
+                        <div class="columns">
+                            <div class="h-100">
+                                <img src="<?= base_url(); ?>assets/media/images/home/Product_Packaging.jpg" alt="Product_Packaging">
+                            </div>
+                            <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
+                                <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Product Packaging</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Deliverables -->
+        </div>
 
         <!-- Section Breaker -->
-        <section class="home-section-breaker--for-desktop">
-            <div class="container-fluid px-0">
-                <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/templates/home-section-breaker-1.png" class="w-100">
-                    <source src="<?= base_url(); ?>assets/media/videos/homepage-section-breaker-horizontal.mp4" type="video/mp4" class="w-100">
-                </video>
-            </div>
+        <section class="home-section-breaker--for-desktop mt-0 mb-0">
+            <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/templates/home-section-breaker-1.png" class="w-100">
+                <source src="<?= base_url(); ?>assets/media/videos/homepage-section-breaker-horizontal.mp4" type="video/mp4" class="w-100">
+            </video>
         </section>
-        <section class="home-section-breaker--for-mobile">
-            <div class="container-fluid px-0">
-                <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/templates/home-section-breaker-1.png" class="w-100">
-                    <source src="<?= base_url(); ?>assets/media/videos/homepage-section-breaker-vertical.mp4" type="video/mp4" class="w-100">
-                </video>
-            </div>
+        <section class="home-section-breaker--for-mobile mt-0 mb-0">
+            <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/templates/home-section-breaker-1.png" class="w-100">
+                <source src="<?= base_url(); ?>assets/media/videos/homepage-section-breaker-vertical.mp4" type="video/mp4" class="w-100">
+            </video>
         </section>
         <!-- Section Breaker -->
 
-        <!-- Our Licensing -->
-        <section class="our-licensing tri-pg-cmn-swpr">
-            <div class="container-fluid px-0">
-                <div class="row mx-0">
-                    <div class="col-12 col-md-3 column-1 px-0 pos-rel">
-                        <h2 class="bl-heading split-text spilit-word">Our<br>Licensing</h2>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
-                    <div class="col-12 col-md-9 column-2 px-0">
-                        <div class="row row-1 mx-0 inner-row">
-                            <!-- Content Same as Our Licensing: Desktop -->
-                            <div class="col-12 column-inner-1">
-                                <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto">
-                                    <li class="nav-item">
-                                        <a class="nav-link common-clickables cmn-active-link" aria-current="page" href="javascript:void(0);" id="cmn-apparel">Apparel</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-beverages">Beverages</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-personal-care">Personal Care</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-accessories">Accessories</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-white-goods">White Goods</a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <!-- Content Same as Our Licensing: Phone -->
-                            <div class="col-12 ms-5 sm-column-inner-1-hidden px-0">
-                                <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center">
-                                    <li class="nav-item">
-                                        <a class="nav-link common-clickables cmn-active-link" aria-current="page" href="javascript:void(0);" id="cmn-apparel">Apparel</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-beverages">Beverages</a>
-                                    </li>
-
-                                </ul>
-                            </div>
-                            <div class="col-12 ms-5 sm-column-inner-2-hidden px-0">
-                                <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center">
-                                    <li class="nav-item">
-                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-personal-care">Personal Care</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-white-goods">White Goods</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-12 ms-5 sm-column-inner-3-hidden px-0">
-                                <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto">
-                                    <li class="nav-item">
-                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-accessories">Accessories</a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <!-- Content Same as Our Licensing: Tab -->
-                            <div class="col-12 ms-5 column-inner-1-hidden">
-                                <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto">
-                                    <li class="nav-item">
-                                        <a class="nav-link common-clickables cmn-active-link" aria-current="page" href="javascript:void(0);" id="cmn-apparel">Apparel</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-beverages">Beverages</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-personal-care">Personal Care</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-12 ms-5 column-inner-2-hidden">
-                                <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto mb-3 mb-md-4">
-                                    <li class="nav-item">
-                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-accessories">Accessories</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-white-goods">White Goods</a>
-                                    </li>
-                                </ul>
-                            </div>
+        <div class="home-background-mask-2">
+            <!-- Our Licensing -->
+            <section class="our-licensing tri-pg-cmn-swpr mt-0">
+                <div class="container-fluid px-0">
+                    <div class="row mx-0">
+                        <div class="col-12 col-md-3 column-1 px-0 pos-rel">
+                            <h2 class="bl-heading split-text spilit-word">Our<br>Licensing</h2>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
                         </div>
-
-                        <div class="swiper commonSwiper" id="swiper-for--cmn-apparel">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-1.png" alt="example-image-1" class="w-100">
-                                    <h3>Men's Grooming</h3>
+                        <div class="col-12 col-md-9 column-2 px-0">
+                            <div class="row row-1 mx-0 inner-row">
+                                <!-- Content Same as Our Licensing: Desktop -->
+                                <div class="col-12 column-inner-1">
+                                    <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto">
+                                        <li class="nav-item">
+                                            <a class="nav-link common-clickables cmn-active-link" aria-current="page" href="javascript:void(0);" id="cmn-apparel">Apparel</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-beverages">Beverages</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-personal-care">Personal Care</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-accessories">Accessories</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-white-goods">White Goods</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-electronics">Electronics</a>
+                                        </li>
+                                    </ul>
                                 </div>
-                                <div class="swiper-slide">
-                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-2.png" alt="example-image-2" class="w-100">
-                                    <h3>Cosmetics/Makeup</h3>
+    
+                                <!-- Content Same as Our Licensing: Phone -->
+                                <div class="col-12 ms-5 sm-column-inner-1-hidden px-0">
+                                    <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center">
+                                        <li class="nav-item">
+                                            <a class="nav-link common-clickables cmn-active-link" aria-current="page" href="javascript:void(0);" id="cmn-apparel">Apparel</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-beverages">Beverages</a>
+                                        </li>
+                                    </ul>
                                 </div>
-                                <div class="swiper-slide">
-                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-3.png" alt="example-image-3" class="w-100">
-                                    <h3>Haircare</h3>
+                                <div class="col-12 ms-5 sm-column-inner-2-hidden px-0">
+                                    <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center">
+                                        <li class="nav-item">
+                                            <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-personal-care">Personal Care</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-white-goods">White Goods</a>
+                                        </li>
+                                    </ul>
                                 </div>
-                                <div class="swiper-slide">
-                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-4.png" alt="example-image-4" class="w-100">
-                                    <h3>Nails</h3>
+                                <div class="col-12 ms-5 sm-column-inner-3-hidden px-0">
+                                    <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto">
+                                        <li class="nav-item">
+                                            <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-accessories">Accessories</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-electronics">Electronics</a>
+                                        </li>
+                                    </ul>
+                                </div>
+    
+                                <!-- Content Same as Our Licensing: Tab -->
+                                <div class="col-12 ms-5 column-inner-1-hidden">
+                                    <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto">
+                                        <li class="nav-item">
+                                            <a class="nav-link common-clickables cmn-active-link" aria-current="page" href="javascript:void(0);" id="cmn-apparel">Apparel</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-beverages">Beverages</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-personal-care">Personal Care</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 ms-5 column-inner-2-hidden">
+                                    <ul class="navbar-nav gap-3 gap-md-5 flex-row align-items-center me-auto mb-3 mb-md-4">
+                                        <li class="nav-item">
+                                            <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-accessories">Accessories</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-white-goods">White Goods</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link common-clickables" href="javascript:void(0);" id="cmn-electronics">Electronics</a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
-                        </div>
-                        <div class="swiper commonSwiper" id="swiper-for--cmn-beverages">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-4.png" alt="example-image-1" class="w-100">
-                                    <h3>Cosmetics/Makeup</h3>
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-3.png" alt="example-image-1" class="w-100">
-                                    <h3>Men's Grooming</h3>
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-2.png" alt="example-image-1" class="w-100">
-                                    <h3>Nails</h3>
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-1.png" alt="example-image-1" class="w-100">
-                                    <h3>Haircare</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper commonSwiper" id="swiper-for--cmn-personal-care">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-1.png" alt="example-image-1" class="w-100">
-                                    <h3>Men's Grooming</h3>
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-2.png" alt="example-image-2" class="w-100">
-                                    <h3>Cosmetics/Makeup</h3>
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-3.png" alt="example-image-3" class="w-100">
-                                    <h3>Haircare</h3>
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-4.png" alt="example-image-4" class="w-100">
-                                    <h3>Nails</h3>
+    
+                            <!-- Apparels -->
+                            <div class="swiper commonSwiper" id="swiper-for--cmn-apparel">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/apparels/ethnic.png" alt="example-image-1" class="w-100">
+                                        <h3>Ethnic</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/apparels/Lingerie.png" alt="example-image-2" class="w-100">
+                                        <h3>Lingerie</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/apparels/Sleepwear.png" alt="example-image-3" class="w-100">
+                                        <h3>Sleepwear</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/apparels/Athleisure.png" alt="example-image-4" class="w-100">
+                                        <h3>Athleisure</h3>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="swiper commonSwiper" id="swiper-for--cmn-accessories">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-1.png" alt="example-image-4" class="w-100">
-                                    <h3>Cosmetics/Makeup</h3>
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-1.png" alt="example-image-3" class="w-100">
-                                    <h3>Men's Grooming</h3>
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-2.png" alt="example-image-1" class="w-100">
-                                    <h3>Nails</h3>
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-1.png" alt="example-image-1" class="w-100">
-                                    <h3>Haircare</h3>
+                            <!-- Beverages -->
+                            <div class="swiper commonSwiper" id="swiper-for--cmn-beverages">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/beverages/Non-Alcoholic.png" alt="example-image-1" class="w-100">
+                                        <h3>Non-Alcoholic</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/beverages/Water.png" alt="example-image-1" class="w-100">
+                                        <h3>Water</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/beverages/Alcoholic.png" alt="example-image-1" class="w-100">
+                                        <h3>Alcoholic</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/beverages/Non-Alcoholic.png" alt="example-image-1" class="w-100">
+                                        <h3>Non-Alcoholic</h3>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="swiper commonSwiper" id="swiper-for--cmn-white-goods">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-1.png" alt="example-image-1" class="w-100">
-                                    <h3>Men's Grooming</h3>
+                            <!-- Personal Care -->
+                            <div class="swiper commonSwiper" id="swiper-for--cmn-personal-care">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/personal-care/Hair-Care.png" alt="example-image-1" class="w-100">
+                                        <h3>Hair Care</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/personal-care/Cosmetics.png" alt="example-image-2" class="w-100">
+                                        <h3>Cosmetics</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/personal-care/Mens-Grooming.png" alt="example-image-3" class="w-100">
+                                        <h3>Mens Grooming</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/personal-care/Skin-Care.png" alt="example-image-4" class="w-100">
+                                        <h3>Skin Care</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/personal-care/Fragrances.png" alt="example-image-4" class="w-100">
+                                        <h3>Fragrances</h3>
+                                    </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-2.png" alt="example-image-2" class="w-100">
-                                    <h3>Cosmetics/Makeup</h3>
+                            </div>
+                            <!-- Accessories -->
+                            <div class="swiper commonSwiper" id="swiper-for--cmn-accessories">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/accessories/Eyewear.png" alt="example-image-4" class="w-100">
+                                        <h3>Eyewear</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/accessories/Watches.png" alt="example-image-3" class="w-100">
+                                        <h3>Watches</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/accessories/Footwear.png" alt="example-image-1" class="w-100">
+                                        <h3>Footwear</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/accessories/Jewellery.png" alt="example-image-1" class="w-100">
+                                        <h3>Jewellery</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/accessories/Bags.png" alt="example-image-1" class="w-100">
+                                        <h3>Bags</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/accessories/Luggage.png" alt="example-image-1" class="w-100">
+                                        <h3>Luggage</h3>
+                                    </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-3.png" alt="example-image-3" class="w-100">
-                                    <h3>Haircare</h3>
+                            </div>
+                            <!-- White Goods -->
+                            <div class="swiper commonSwiper" id="swiper-for--cmn-white-goods">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/white-goods/Furniture.png" alt="Furniture" class="w-100">
+                                        <h3>Furniture</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/white-goods/Crockery.png" alt="Crockery" class="w-100">
+                                        <h3>Crockery</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/white-goods/Gym-Equipment.png" alt="Gym-Equipment" class="w-100">
+                                        <h3>Gym Equipment</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/white-goods/Salon-Equipment.png" alt="Salon-Equipment" class="w-100">
+                                        <h3>Salon Equipment</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/white-goods/Stationery.png" alt="Stationery" class="w-100">
+                                        <h3>Stationery</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/white-goods/Glassware.png" alt="example-image-4" class="w-100">
+                                        <h3>Glassware</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/white-goods/Cutlery.png" alt="Cutlery" class="w-100">
+                                        <h3>Cutlery</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/white-goods/Home-Decor.png" alt="Home-Decor" class="w-100">
+                                        <h3>Home Decor</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/white-goods/Lamp-Lightnings.png" alt="Lamp-&-Lightnings" class="w-100">
+                                        <h3>Lamp & Lightnings</h3>
+                                    </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <img src="<?php echo base_url(); ?>assets/media/images/navbar/example-img-4.png" alt="example-image-4" class="w-100">
-                                    <h3>Nails</h3>
+                            </div>
+                            <!-- Electronics -->
+                            <div class="swiper commonSwiper" id="swiper-for--cmn-electronics">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/electronics/Mobile.png" alt="Mobile" class="w-100">
+                                        <h3>Mobile</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/electronics/Speakers.png" alt="Speakers" class="w-100">
+                                        <h3>Speakers</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/electronics/Television.png" alt="Television" class="w-100">
+                                        <h3>Television</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/electronics/Laptop.png" alt="Laptop" class="w-100">
+                                        <h3>Laptop</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/electronics/Air-purifier.png" alt="Air-purifier" class="w-100">
+                                        <h3>Air purifier</h3>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="<?php echo base_url(); ?>assets/media/images/Our-Licensing/electronics/Headphones.png" alt="Headphones" class="w-100">
+                                        <h3>Headphones</h3>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- Our Licensing -->
-
-        <!-- Blogs -->
-        <section class="common-blogs">
-            <div class="container-fluid px-0">
-                <div class="row mx-0">
-                    <div class="col-12 px-0 d-flex align-items-center justify-content-between mb-md-0 mb-md-2 mb-lg-3 col-bm">
-                        <h2 class="bl-heading blogs-heading split-text spilit-word">Our Blogs</h2>
-                        <a href="<?= base_url(); ?>blogs" class="poppins-font text-decoration-underline view-more">View More</a>
-                    </div>
-                    <div class="col-md-4 px-0 px-md-2">
-                        <div class="blog-card">
-                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
-                            <div class="wrapper">
-                                <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
-                                <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
-
-                                <a href="#" class="poppins-font px-0">Read More
-                                    <span class="px-0 ms-3 ms-md-4">
-                                        <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035" />
-                                        </svg>
-                                    </span>
-                                </a>
+            </section>
+            <!-- Our Licensing -->
+    
+            <!-- Blogs -->
+            <section class="common-blogs">
+                <div class="container-fluid px-0">
+                    <div class="row mx-0">
+                        <div class="col-12 px-0 d-flex align-items-center justify-content-between mb-md-0 mb-md-2 mb-lg-3 col-bm">
+                            <h2 class="bl-heading blogs-heading split-text spilit-word">Our Blogs</h2>
+                            <a href="<?= base_url(); ?>blogs" class="poppins-font text-decoration-underline view-more">View More</a>
+                        </div>
+                        <div class="col-md-4 px-0 px-md-2">
+                            <div class="blog-card">
+                                <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
+                                <div class="wrapper">
+                                    <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
+                                    <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+    
+                                    <a href="#" class="poppins-font px-0">Read More
+                                        <span class="px-0 ms-3 ms-md-4">
+                                            <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035" />
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 px-0 px-md-2">
-                        <div class="blog-card">
-                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
-                            <div class="wrapper">
-                                <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
-                                <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
-                                <a href="#" class="poppins-font px-0">Read More
-                                    <span class="px-0 ms-3 ms-md-4">
-                                        <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035" />
-                                        </svg>
-                                    </span>
-                                </a>
+                        <div class="col-md-4 px-0 px-md-2">
+                            <div class="blog-card">
+                                <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
+                                <div class="wrapper">
+                                    <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
+                                    <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+                                    <a href="#" class="poppins-font px-0">Read More
+                                        <span class="px-0 ms-3 ms-md-4">
+                                            <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035" />
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 px-0 px-md-2">
-                        <div class="blog-card">
-                            <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
-                            <div class="wrapper">
-                                <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
-                                <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
-                                <a href="#" class="poppins-font px-0">Read More
-                                    <span class="px-0 ms-3 ms-md-4">
-                                        <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035" />
-                                        </svg>
-                                    </span>
-                                </a>
+                        <div class="col-md-4 px-0 px-md-2">
+                            <div class="blog-card">
+                                <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
+                                <div class="wrapper">
+                                    <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
+                                    <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+                                    <a href="#" class="poppins-font px-0">Read More
+                                        <span class="px-0 ms-3 ms-md-4">
+                                            <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035" />
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- Blogs -->
-
-        <!-- common cta 1 -->
-        <section class="common-cta-1">
-            <div class="container-fluid px-0">
-                <div class="row mx-0">
-                    <div class="col-12 col-md-6 col-lg-7 column-1">
-                        <div class="cta-content">
-                            <h3 class="split-text spilit-word">Empower Your Brand with</h3>
-                            <h2 class="bl-heading split-text spilit-word">Licensing options today </h2>
-                            <a href="<?= base_url(); ?>contact-us" class="cta-btn">Contact Us</a>
+            </section>
+            <!-- Blogs -->
+    
+            <!-- common cta 1 -->
+            <section class="common-cta-1 mb-0">
+                <div class="container-fluid px-0">
+                    <div class="row mx-0">
+                        <div class="col-12 col-md-6 col-lg-7 column-1">
+                            <div class="cta-content">
+                                <h3 class="split-text spilit-word">Empower Your Brand with</h3>
+                                <h2 class="bl-heading split-text spilit-word">Licensing options today </h2>
+                                <a href="<?= base_url(); ?>contact-us" class="cta-btn">Contact Us</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-5 column-2">
+                            <img src="<?= base_url(); ?>assets/media/images/templates/home-cta-example-img.png" alt="" class="w-100">
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-5 column-2">
-                        <img src="<?= base_url(); ?>assets/media/images/templates/home-cta-example-img.png" alt="" class="w-100">
-                    </div>
                 </div>
-            </div>
-        </section>
-        <!-- common cta 1 -->
+            </section>
+            <!-- common cta 1 -->
+        </div>
     </main>
 
     <!-- custom script -->

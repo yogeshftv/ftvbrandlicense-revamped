@@ -655,10 +655,10 @@ button .bi.bi-list {
 
 .offcanvas .swiper-slide h3 {
     width: 100%;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: 300;
     color: #ffffff;
-    margin-top: 1.5rem;
+    margin-top: 0.75rem;
     text-align: left;
     line-height: 3rem;
     font-family: 'Poppins', sans-serif;
@@ -950,15 +950,28 @@ footer .f-additionals a:hover {
 /* Common Banner Video */
 
 /* Common Introduction 0 */
+.home-background-mask-1 {
+    background-image: url('../media/images/backgrounds/intro-mask-1.png'),
+    url('../media/images/backgrounds/intro-mask-2.png');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 80%, 80%;
+    background-position: left top, right bottom;
+}
+
+.home-background-mask-2 {
+    background-image: url('../media/images/backgrounds/mask-3.png'),
+    url('../media/images/backgrounds/mask-4.png');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 90%, 90%;
+    background-position: right top, left bottom;
+}
+
 .common-introduction-0 {
     position: relative;
     max-width: 1920px;
     margin-left: auto;
     margin-right: auto;
-    /* background-size: contain;
-    background-repeat: no-repeat;
-    background-position-x: start;
-    background-image: url('../media/icons/f-intro.png'); */
+    padding-top: 8rem;
 }
 
 .common-introduction-0 svg {
@@ -999,6 +1012,10 @@ footer .f-additionals a:hover {
 /* Common Introduction 1 */
 
 /* Common Deliverables */
+.common-deliverables {
+    padding-bottom: 8rem;
+}
+
 .common-deliverables .common-deliverables-row {
     gap: 1rem;
     width: 100%;
@@ -1068,11 +1085,12 @@ footer .f-additionals a:hover {
     max-width: 1920px;
 }
 
+/* Revert This CTA: If needed */
 .common-cta-1 .column-1 {
-    background-size: contain;
+    /* background-size: contain;
     background-position: 70% center;
     background-repeat: no-repeat;
-    background-image: url('../media/icons/f-common.png');
+    background-image: url('../media/icons/f-common.png'); */
 }
 
 .common-cta-1 .column-1,
@@ -1122,13 +1140,14 @@ footer .f-additionals a:hover {
 }
 
 .common-cta-1 a {
-    color: #131313;
+    opacity: 1;
+    color: #ffffff;
     font-weight: 300;
     font-size: 1.5rem;
     border-radius: 1.25rem;
     line-height: 3.95625rem;
     padding: 1.5rem 4.6875rem;
-    border: 1px solid #000000c0;
+    background-color: #000000;
     font-family: "Poppins", sans-serif;
 }
 
@@ -1761,6 +1780,7 @@ footer .f-additionals a:hover {
 
 .tri-pg-cmn-swpr {
     position: relative;
+    padding-top: 8rem;
 }
 
 .tri-pg-cmn-swpr::before {
@@ -1771,7 +1791,7 @@ footer .f-additionals a:hover {
     bottom: -60%;
     display: block;
     position: absolute;
-    background-size: contain;
+    background-size: 14%;
     background-repeat: no-repeat;
     background-image: url('../media/icons/f-common.png');
     animation: breathingBackground 2s ease-in-out infinite alternate;
@@ -1796,7 +1816,8 @@ footer .f-additionals a:hover {
 
 .tri-pg-cmn-swpr .show-common-swiper h3 {
     font-weight: 300;
-    line-height: 1.5rem !important;
+    font-size: 1.25rem;
+    line-height: 1.75rem !important;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -3343,6 +3364,26 @@ footer .f-additionals a:hover {
         margin-bottom: 0;
     }
     /* Boards */
+
+    .home-background-mask-1 {
+        background-size: 200%, 200%;
+    }
+    
+    .home-background-mask-1 {
+        background-image: url('../media/images/backgrounds/intro-mask-1.png');
+    }
+
+    .home-background-mask-2 {
+        background-size: 200%, 200%;
+    }
+    
+    .common-introduction-0 {
+        padding-top: 5rem;
+    }
+    
+    .common-deliverables {
+        padding-bottom: 5rem;
+    }
 }
 
 @media (min-width: 300px) and (max-width: 499px) {
@@ -3947,6 +3988,22 @@ footer .f-additionals a:hover {
         margin-bottom: 0;
     }
     /* Boards */
+
+    .home-background-mask-1 {
+        background-size: 135%, 135%;
+    }
+    
+    .home-background-mask-2 {
+        background-size: 135%, 135%;
+    }
+    
+    .common-introduction-0 {
+        padding-top: 5rem;
+    }
+    
+    .common-deliverables {
+        padding-bottom: 5rem;
+    }
 }
 
 @media (min-width: 500px) and (max-width: 767px) {
@@ -4439,6 +4496,22 @@ footer .f-additionals a:hover {
         margin-bottom: 0;
     }
     /* Boards */
+
+    .home-background-mask-1 {
+        background-size: 110%, 110%;
+    }
+    
+    .home-background-mask-2 {
+        background-size: 110%, 110%;
+    }
+    
+    .common-introduction-0 {
+        padding-top: 5rem;
+    }
+    
+    .common-deliverables {
+        padding-bottom: 5rem;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 899px) {
@@ -4977,6 +5050,22 @@ footer .f-additionals a:hover {
         margin-bottom: 1.75rem;
     }
     /* boards */
+
+    .home-background-mask-1 {
+        background-size: 100%, 100%;
+    }
+    
+    .home-background-mask-2 {
+        background-size: 100%, 100%;
+    }
+    
+    .common-introduction-0 {
+        padding-top: 6rem;
+    }
+    
+    .common-deliverables {
+        padding-bottom: 6rem;
+    }
 }
 
 @media (min-width: 900px) and (max-width: 1099px) {
@@ -5499,8 +5588,23 @@ footer .f-additionals a:hover {
         margin-top: 1.75rem;
         margin-bottom: 1.5rem;
     }
-
     /* boards */
+
+    .home-background-mask-1 {
+        background-size: 100%, 100%;
+    }
+    
+    .home-background-mask-2 {
+        background-size: 100%, 100%;
+    }
+    
+    .common-introduction-0 {
+        padding-top: 6rem;
+    }
+    
+    .common-deliverables {
+        padding-bottom: 6rem;
+    }
 }
 
 @media (min-width: 1100px) and (max-width: 1299px) {
@@ -6009,8 +6113,23 @@ footer .f-additionals a:hover {
         margin-top: 1.125rem;
         margin-bottom: 1.5rem;
     }
-
     /* boards */
+
+    .home-background-mask-1 {
+        background-size: 95%, 95%;
+    }
+    
+    .home-background-mask-2 {
+        background-size: 100%, 100%;
+    }
+    
+    .common-introduction-0 {
+        padding-top: 7rem;
+    }
+    
+    .common-deliverables {
+        padding-bottom: 7rem;
+    }
 }
 
 @media (min-width: 1300px) and (max-width: 1499px) {
@@ -6151,6 +6270,14 @@ footer .f-additionals a:hover {
     /* common banner video */
 
     /* COMMON: Introduction 0 */
+    .home-background-mask-1 {
+        background-size: 90%, 90%;
+    }
+
+    .home-background-mask-2 {
+        background-size: 100%, 100%;
+    }
+
     .common-introduction-0 svg {
         top: -25% !important;
         left: 0% !important;
@@ -6229,7 +6356,7 @@ footer .f-additionals a:hover {
     }
 
     .tri-pg-cmn-swpr .nav-link {
-        font-size: 1.46rem;
+        font-size: 1.2rem;
     }
 
     .tri-pg-cmn-swpr .swiper-button-next,
@@ -6251,7 +6378,7 @@ footer .f-additionals a:hover {
     }
 
     .tri-pg-cmn-swpr .show-common-swiper h3 {
-        margin-top: 1.25rem;
+        margin-top: 0.75rem;
         font-size: 1.25rem;
     }
 
@@ -6440,8 +6567,11 @@ footer .f-additionals a:hover {
         margin-top: 1.45rem;
         margin-bottom: 1.5rem;
     }
-
     /* boards */
+
+    .our-licensing.tri-pg-cmn-swpr .column-inner-1 ul {
+        gap: 2rem !important;
+    }
 }
 
 @media (min-width: 1500px) and (max-width: 1700px) {
@@ -6506,6 +6636,14 @@ footer .f-additionals a:hover {
     /* common banner video */
 
     /* COMMON: Introduction */
+    .home-background-mask-1 {
+        background-size: 85%, 85%;
+    }
+
+    .home-background-mask-2 {
+        background-size: 95%, 95%;
+    }
+
     .common-introduction-0 svg {
         top: -30% !important;
         left: 0% !important;
