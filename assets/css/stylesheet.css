@@ -968,18 +968,20 @@ footer .f-additionals a:hover {
 }
 
 .home-background-mask-2 .ftv_svg svg {
-    width: 420px;
+    left: 73%;
+    width: 500px;
+    position: absolute;
 }
 
 .home-background-mask-2 .ftv_svg svg .cls-1 {
     fill: none;
-    stroke: #DCA964;
-    stroke-width: .5px;
+    stroke: #dddddd;
+    stroke-width: .75px;
     stroke-dasharray: 1000px;
     stroke-dashoffset: 1000px;
     stroke-linecap: round;
     stroke-linejoin: round;
-    animation: draw-stroke 4s linear forwards infinite alternate;
+    animation: draw-stroke 6s linear forwards infinite alternate;
 }
 
 @keyframes draw-stroke {
