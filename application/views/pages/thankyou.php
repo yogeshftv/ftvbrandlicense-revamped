@@ -39,8 +39,6 @@
             overflow: hidden;
             background-color: #000;
             flex-direction: column;
-            background-image: url('<?= base_url() ?>assets/media/images/dimaond-bg.png');
-            background-repeat: repeat-x;
         }
 
         main.thankyou {
