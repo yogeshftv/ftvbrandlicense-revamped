@@ -959,11 +959,47 @@ footer .f-additionals a:hover {
 }
 
 .home-background-mask-2 {
+    position: relative;
     background-image: url('../media/images/backgrounds/mask-3.png'),
     url('../media/images/backgrounds/mask-4.png');
     background-repeat: no-repeat, no-repeat;
     background-size: 90%, 90%;
     background-position: right top, left bottom;
+}
+
+.home-background-mask-2 .ftv_svg svg {
+    width: 420px;
+}
+
+.home-background-mask-2 .ftv_svg svg .cls-1 {
+    fill: none;
+    stroke: #DCA964;
+    stroke-width: .5px;
+    stroke-dasharray: 1000px;
+    stroke-dashoffset: 1000px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    animation: draw-stroke 4s linear forwards infinite alternate;
+}
+
+@keyframes draw-stroke {
+
+    0%,
+    50% {
+        stroke-dashoffset: 1000px;
+    }
+
+    50%,
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+.home-background-mask-2 svg#f-intro-bl-3 {
+    top: 45%;
+    left: 77%;
+    width: 275px;
+    position: absolute;
 }
 
 .common-introduction-0 {
@@ -975,7 +1011,11 @@ footer .f-additionals a:hover {
 }
 
 .common-introduction-0 svg {
-    display: none;
+    top: 10%;
+    left: 0%;
+    width: 320px;
+    display: block;
+    position: absolute;
 }
 
 .common-introduction-0 .column-1 {
@@ -1106,11 +1146,18 @@ footer .f-additionals a:hover {
     background-image: url('../media/images/cta-bg.png');
 }
 
-.common-cta-1 svg {
+/* .common-cta-1 svg {
     bottom: 0%;
     left: 0%;
     right: 0%;
     width: 100%;
+    position: absolute;
+} */
+
+.common-cta-1 svg {
+    top: 5%;
+    left: 30%;
+    width: 375px;
     position: absolute;
 }
 
@@ -1269,7 +1316,10 @@ footer .f-additionals a:hover {
 }
 
 .brand-support svg {
-    display: none;
+    left: 75%;
+    width: 440px;
+    display: block;
+    position: absolute;
 }
 
 .brand-support::before {
@@ -1279,7 +1329,7 @@ footer .f-additionals a:hover {
     width: 100%;
     height: 100%;
     position: absolute;
-    background-size: 90%;
+    background-size: 70%;
     background-repeat: no-repeat;
     background-position: right top;
     background-image: url('../media/images/backgrounds/mask-3.png');
@@ -1705,6 +1755,13 @@ footer .f-additionals a:hover {
     height: 100%;
 }
 
+.our-benefits-swiper-desktop .swiperFront-1 .swiper-slide {
+    background-size: 130%;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-image: url('../media/images/backgrounds/mask-3.png');
+}
+
 .our-benefits-swiper-desktop {
     position: relative;
 }
@@ -1712,7 +1769,7 @@ footer .f-additionals a:hover {
 .our-benefits-swiper-desktop .swiper-container-2 {
     left: 0%;
     bottom: 0%;
-    width: 30%;
+    width: 40%;
     z-index: 9999;
     position: absolute;
 }
@@ -2771,7 +2828,6 @@ footer .f-additionals a:hover {
     #staticBackdrop3 .modal-footer a {
         padding: 0.8rem 1.125rem !important;
     }
-
     /* utility classes */
 
     /* common navbar */
@@ -5832,7 +5888,7 @@ footer .f-additionals a:hover {
     }
     
     .brand-license .home-background-mask-2 {
-        background-size: 92%, 92%;
+        background-size: 100%, 100%;
     }
     /* brand license branding */
 
@@ -5849,6 +5905,12 @@ footer .f-additionals a:hover {
         background-size: 90%;
     }
     /* our story branding */
+
+    .common-introduction-0 svg {
+        top: 5%;
+        left: 0%;
+        width: 280px;
+    }
 }
 
 @media (min-width: 1100px) and (max-width: 1299px) {
@@ -6375,7 +6437,7 @@ footer .f-additionals a:hover {
     }
     
     .brand-license .home-background-mask-2 {
-        background-size: 85%, 85%;
+        background-size: 100%, 100%;
     }
     /* brand license branding */
 
@@ -6404,6 +6466,12 @@ footer .f-additionals a:hover {
         background-size: 84%;
     }
     /* our story brandings */
+
+    .common-introduction-0 svg {
+        top: 1%;
+        left: 0%;
+        width: 280px;
+    }
 }
 
 @media (min-width: 1300px) and (max-width: 1499px) {
@@ -6846,7 +6914,7 @@ footer .f-additionals a:hover {
     }
 
     .brand-license .home-background-mask-2 {
-        background-size: 86%, 86%;
+        background-size: 100%, 100%;
     }
     /* brand license branding */
 
@@ -6867,6 +6935,12 @@ footer .f-additionals a:hover {
         background-size: 74%;
     }
     /* our story branding */
+
+    .common-introduction-0 svg {
+        top: 5%;
+        left: 0%;
+        width: 280px;
+    }
 }
 
 @media (min-width: 1500px) and (max-width: 1700px) {
@@ -7140,6 +7214,10 @@ footer .f-additionals a:hover {
     /* boards */
 
     /* brand license branding */
+    .common-introduction-0 svg {
+        top: 1%;
+    }
+
     .brand-license .home-background-mask-1 {
         background-size: 90%, 90%;
     }
