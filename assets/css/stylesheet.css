@@ -975,9 +975,7 @@ footer .f-additionals a:hover {
 }
 
 .common-introduction-0 svg {
-    top: -20%;
-    width: 340px;
-    position: absolute;
+    display: none;
 }
 
 .common-introduction-0 .column-1 {
@@ -1267,8 +1265,41 @@ footer .f-additionals a:hover {
 
 .brand-support {
     position: relative;
+    padding: 8rem 0;
 }
 
+.brand-support svg {
+    display: none;
+}
+
+.brand-support::before {
+    content: '';
+    top: -50%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-image: url('../media/images/backgrounds/mask-3.png');
+
+}
+
+.brand-support::after {
+    content: '';
+    right: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-image: url('../media/images/backgrounds/mask-4.png');
+}
+
+/* 
 .brand-support::before {
     content: '';
     position: absolute;
@@ -1278,7 +1309,7 @@ footer .f-additionals a:hover {
     background-size: 55%;
     background-repeat: no-repeat;
     background-image: url('../media/icons/f-wings-common.png');
-}
+} */
 
 .brand-support .brand-support-content {
     display: flex;
@@ -1331,6 +1362,10 @@ footer .f-additionals a:hover {
     margin-bottom: 2.125rem;
 }
 
+
+.brand-license .home-background-mask-2 {
+    background-size: 80%, 80%;
+}
 /* brand license */
 
 /* our-story */
@@ -1717,7 +1752,7 @@ footer .f-additionals a:hover {
 .our-benefits-swiper-desktop .swiper-container-2 h3 {
     font-size: 2rem !important;
     line-height: 2.75rem !important;
-    margin-bottom: 1.75rem;
+    margin-bottom: 0.75rem;
 }
 
 .our-benefits-swiper-desktop .swiper-button-prev {
@@ -2234,11 +2269,6 @@ footer .f-additionals a:hover {
         display: block;
     }
 
-    footer .footer-logo-hidden--for-mobile img {
-        width: 80px;
-        margin-bottom: 2rem;
-    }
-
     footer .footer-info {
         flex-direction: column;
     }
@@ -2311,29 +2341,8 @@ footer .f-additionals a:hover {
     /* COMMON: Introduction */
 
     /* COMMON: Philsopohy */
-    .common-philosophy {
-        background-size: 130%;
-        background-position: center;
-        background-repeat: repeat-y;
-        background-image: url('../media/images/dimaond-bg-alt.png');
-    }
 
-    .common-philosophy {
-        background-repeat: repeat-y;   
-    }
     /* COMMON: Philsopohy */
-
-    .brand-support::before {
-        content: '';
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background-position: center 70%;
-        background-size: 90%;
-        background-repeat: no-repeat;
-        background-image: url('../media/icons/f-wings-common.png');  
-    }
-
     .statistics {
         background-repeat: repeat-y;
     }
@@ -2904,11 +2913,6 @@ footer .f-additionals a:hover {
     }
 
     /* COMMON: Introduction 0 */
-    .common-introduction-0 svg {
-        top: 10% !important;
-        right: 0% !important;
-        width: 220px !important;
-    }
 
     /* COMMON: Introduction 0 */
 
@@ -3384,6 +3388,75 @@ footer .f-additionals a:hover {
     .common-deliverables {
         padding-bottom: 5rem;
     }
+
+    /* footer logo */
+    footer .footer-logo-hidden--for-mobile img {
+        width: 140px;
+        margin-bottom: 3rem;
+    }
+    /* footer logo */
+
+    /* common f brandings */    
+    .common-introduction-0 svg {
+        top: 12%;
+        left: 3%;
+        width: 240px;
+        display: block;
+        position: absolute;
+        
+    }
+    /* common f brandings */
+
+    /* brand license brandings */
+    .common-introduction-0 {
+        padding-top: 4rem;
+    }
+
+    .home-background-mask-1 {
+        background-size: 150%, 0%;
+    }
+
+    .common-deliverables {
+        padding-bottom: 0rem;
+    }
+
+    .brand-support {
+        padding: 4rem 0;
+    }
+
+    .brand-support svg {
+        top: 10%;
+        width: 250px;
+        display: block;
+        position: absolute;
+    }
+
+    .brand-support::before {
+        top: 0%;
+        background-size: 130%;
+    }
+
+    .brand-support::after {
+        background-size: 130%;
+    }
+
+    .brand-license .home-background-mask-2 {
+        background-size: 175%, 175%;
+    }
+
+    .common-cta-1 {
+        padding-top: 4rem !important;
+    } 
+
+    .common-cta-1 img {
+        transform: translateY(0px);
+    }
+
+    .common-philosophy {
+        background-size: 335px;
+        background-repeat: repeat-y;
+    }
+    /* brand license brandings */
 }
 
 @media (min-width: 300px) and (max-width: 499px) {
@@ -3554,11 +3627,7 @@ footer .f-additionals a:hover {
     }
 
     /* COMMON: Introduction 0 */
-    .common-introduction-0 svg {
-        top: -5% !important;
-        right: 2% !important;
-        width: 220px !important;
-    }
+
     /* COMMON: Introduction 0 */
 
     /* COMMON: Deliverables */
@@ -3733,8 +3802,16 @@ footer .f-additionals a:hover {
         margin: 1rem 0;
     }
 
+    .our-benefits .ourBenefitsSwiper h2 span {
+        margin-inline-end: 0.5rem;
+    }
+
     .common-introduction-0 .introduction-content-0 {
         padding: 0 6%;
+    }
+
+    .brand-support {
+        padding: 4rem 0;
     }
 
     .brand-support h2 {
@@ -3989,24 +4066,78 @@ footer .f-additionals a:hover {
     }
     /* Boards */
 
-    .home-background-mask-1 {
-        background-size: 135%, 135%;
+    /* footer logo */
+    footer .footer-logo-hidden--for-mobile img {
+        width: 120px;
+        margin-bottom: 3rem;
     }
-    
-    .home-background-mask-2 {
-        background-size: 135%, 135%;
+    /* footer logo */
+
+    /* common f brandings */    
+    .common-introduction-0 svg {
+        top: 3%;
+        left: 4%;
+        width: 280px;
+        display: block;
+        position: absolute;
+        
     }
-    
+    /* common f brandings */
+
+    /* brand license brandings */
     .common-introduction-0 {
-        padding-top: 5rem;
+        padding-top: 4rem;
     }
-    
+
+    .home-background-mask-1 {
+        background-size: 150%, 0%;
+    }
+
     .common-deliverables {
-        padding-bottom: 5rem;
+        padding-bottom: 0rem;
     }
+
+    .brand-support svg {
+        top: 10%;
+        width: 250px;
+        display: block;
+        position: absolute;
+    }
+
+    .brand-support::before {
+        top: 0%;
+        background-size: 130%;
+    }
+
+    .brand-support::after {
+        background-size: 130%;
+    }
+
+    .brand-license .home-background-mask-2 {
+        background-size: 175%, 175%;
+    }
+
+    .common-cta-1 {
+        padding-top: 4rem !important;
+    } 
+
+    .common-cta-1 img {
+        transform: translateY(0px);
+    }
+
+    .common-philosophy {
+        background-size: 335px;
+        background-repeat: repeat-y;
+    }
+    /* brand license brandings */
 }
 
 @media (min-width: 500px) and (max-width: 767px) {
+    
+    footer .footer-logo-hidden--for-mobile img {
+        width: 140px;
+        margin-bottom: 3rem;
+    }
 
     /* terms and conditions */
     .privacy-policy h1,
@@ -4135,12 +4266,6 @@ footer .f-additionals a:hover {
     /* common banner video */
 
     /* COMMON: Introduction 0 */
-    .common-introduction-0 svg {
-        top: -6% !important;
-        right: 4% !important;
-        width: 260px !important;
-    }
-
     .common-introduction-0 .column-2 {
         margin-top: 3.5rem;
     }
@@ -4512,6 +4637,59 @@ footer .f-additionals a:hover {
     .common-deliverables {
         padding-bottom: 5rem;
     }
+
+    /* common f brandings */    
+    .common-introduction-0 svg {
+        top: 3%;
+        left: 50%;
+        width: 50%;
+        display: block;
+        position: absolute;
+        
+    }
+    /* common f brandings */
+
+    /* brand license brandings */
+    .home-background-mask-1 {
+        background-size: 120%, 0%;
+    }
+
+    .common-deliverables {
+        padding-bottom: 0rem;
+    }
+
+    .brand-support {
+        padding: 5rem 0;
+    }
+
+    .brand-support svg {
+        top: 10%;
+        width: 275px;
+        display: block;
+        position: absolute;
+    }
+
+    .brand-support::before {
+        top: 0%;
+        background-size: 110%;
+    }
+
+    .brand-support::after {
+        background-size: 110%;
+    }
+
+    .brand-license .home-background-mask-2 {
+        background-size: 120%, 120%;
+    }
+
+    .common-cta-1 {
+        padding-top: 5rem !important;
+    } 
+
+    .common-cta-1 img {
+        transform: translateY(0px);
+    }
+    /* brand license brandings */
 }
 
 @media (min-width: 768px) and (max-width: 899px) {
@@ -4706,12 +4884,6 @@ footer .f-additionals a:hover {
     /* common banner video */
 
     /* COMMON: Introduction 0 */
-    .common-introduction-0 svg {
-        top: -10% !important;
-        right: 4% !important;
-        width: 280px !important;
-    }
-
     .common-introduction-0 .column-1,
     .common-introduction-0 .column-2 {
         width: 100%;
@@ -4846,11 +5018,11 @@ footer .f-additionals a:hover {
 
     /* Brand License */
     .our-benefits-swiper-desktop .swiper-container-2 {
-        width: 60%;
+        width: 65%;
     }
 
     .our-benefits-swiper-desktop .swiperFront-1 .swiper-slide {
-        padding: 38px;
+        padding: 24px;
     }
 
     .our-benefits-swiper-desktop .swiper-container-2 .column-1, .our-benefits-swiper-desktop .swiper-container-2 .column-2 {
@@ -5066,6 +5238,37 @@ footer .f-additionals a:hover {
     .common-deliverables {
         padding-bottom: 6rem;
     }
+
+    .brand-support {
+        padding: 6rem 0;
+    }
+
+    /* brand license branding */
+    .brand-license .home-background-mask-1 {
+        background-size: 110%, 114%;
+    }
+
+    .brand-license .brand-support::before {
+        background-size: 112%;
+    }
+    
+    .brand-license .brand-support::after {
+        background-size: 112%;
+    }
+    
+    .brand-license .home-background-mask-2 {
+        padding-top: 6rem !important;
+        background-size: 100%, 100%;
+    }
+
+    .common-cta-1 .cta-content {
+        transform: translateY(0px);
+    }
+
+    .brand-support::before {
+        top: -10%;
+    }
+    /* brand license branding */
 }
 
 @media (min-width: 900px) and (max-width: 1099px) {
@@ -5225,12 +5428,6 @@ footer .f-additionals a:hover {
     /* common banner video */
 
     /* common banner video */
-    .common-introduction-0 svg {
-        top: -0% !important;
-        left: 0% !important;
-        width: 300px !important;
-    }
-
     .common-introduction-0 .introduction-content-0 {
         padding: 0px 7%;
     }
@@ -5605,6 +5802,37 @@ footer .f-additionals a:hover {
     .common-deliverables {
         padding-bottom: 6rem;
     }
+
+    .brand-support {
+        padding: 6rem 0;
+    }
+
+    /* brand license branding */
+    .brand-license .home-background-mask-1 {
+        background-size: 110%, 110%;
+    }
+
+    .brand-license .brand-support::before {
+        top: -10%;
+        background-size: 100%;
+    }
+    
+    .brand-license .brand-support::after {
+        background-size: 86%;
+    }
+    
+    .brand-license .home-background-mask-2 {
+        background-size: 92%, 92%;
+    }
+    /* brand license branding */
+
+    .common-cta-1 {
+        padding-top: 6rem;
+    }
+
+    .common-cta-1 .cta-content {
+        transform: translateY(0px);
+    }
 }
 
 @media (min-width: 1100px) and (max-width: 1299px) {
@@ -5766,12 +5994,6 @@ footer .f-additionals a:hover {
     /* common banner video */
 
     /* COMMON: Introduction 0 */
-    .common-introduction-0 svg {
-        top: -25% !important;
-        left: 0% !important;
-        width: 280px !important;
-    }
-
     .common-introduction-0 .introduction-content-0 {
         padding: 0px 8.5%;
     }
@@ -6130,6 +6352,41 @@ footer .f-additionals a:hover {
     .common-deliverables {
         padding-bottom: 7rem;
     }
+
+    /* brand license branding */
+    .brand-license .brand-support::before {
+        top: -10%;
+        background-size: 100%;
+    }
+    
+    .brand-license .brand-support::after {
+        background-size: 86%;
+    }
+    
+    .brand-license .home-background-mask-2 {
+        background-size: 85%, 85%;
+    }
+    /* brand license branding */
+
+    .common-deliverables {
+        padding-bottom: 7rem;
+    }
+
+    .brand-support {
+        padding: 7rem 0;
+    }
+
+    .common-cta-1 {
+        padding-top: 7rem;
+    }
+
+    .common-cta-1 .cta-content {
+        transform: translateY(0px);
+    }
+
+    .our-benefits-swiper-desktop .swiperFront-1 .swiper-slide {
+        padding: 42px;
+    }
 }
 
 @media (min-width: 1300px) and (max-width: 1499px) {
@@ -6277,13 +6534,6 @@ footer .f-additionals a:hover {
     .home-background-mask-2 {
         background-size: 100%, 100%;
     }
-
-    .common-introduction-0 svg {
-        top: -25% !important;
-        left: 0% !important;
-        width: 280px !important;
-    }
-
     /* COMMON: Introduction 0 */
 
     /* COMMON: Deliverables */
@@ -6572,6 +6822,28 @@ footer .f-additionals a:hover {
     .our-licensing.tri-pg-cmn-swpr .column-inner-1 ul {
         gap: 2rem !important;
     }
+
+    /* brand license branding */
+    .brand-license .home-background-mask-1 {
+        background-size: 90%, 90%;
+    }
+
+    .brand-license .home-background-mask-2 {
+        background-size: 86%, 86%;
+    }
+    /* brand license branding */
+
+    .common-cta-1 {
+        padding-top: 8rem;
+    }
+
+    .common-cta-1 .cta-content {
+        transform: translateY(0px);
+    }
+
+    .our-benefits-swiper-desktop .swiperFront-1 .swiper-slide {
+        padding: 44px;
+    }
 }
 
 @media (min-width: 1500px) and (max-width: 1700px) {
@@ -6643,13 +6915,6 @@ footer .f-additionals a:hover {
     .home-background-mask-2 {
         background-size: 95%, 95%;
     }
-
-    .common-introduction-0 svg {
-        top: -30% !important;
-        left: 0% !important;
-        width: 310px !important;
-    }
-
     /* COMMON: Introduction */
 
     /* COMMON: Deliverables */
@@ -6849,8 +7114,17 @@ footer .f-additionals a:hover {
         margin-top: 1.45rem;
         margin-bottom: 1.5rem;
     }
-
     /* boards */
+
+    /* brand license branding */
+    .brand-license .home-background-mask-1 {
+        background-size: 90%, 90%;
+    }
+
+    .brand-license .home-background-mask-2 {
+        background-size: 80%, 80%;
+    }
+    /* brand license branding */
 }
 
 /* Granular Responsiveness */

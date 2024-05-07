@@ -18,7 +18,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         </section>
         <!-- Banner Video -->
 
-        <div class="home-background-mask-1">            
+        <div class="home-background-mask-1">
             <!-- Introduction: RT-C -->
             <section class="common-introduction-0 mt-0">
                 <!-- <svg xmlns="http://www.w3.org/2000/svg" width="391" height="auto" viewBox="0 0 391 663" fill="none" id="f-intro-home">
@@ -41,8 +41,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="col-12 col-md-6 column-1 px-0">
                         <div class="introduction-content-0">
                             <h2 class="bl-heading split-text spilit-word">Introduction</h2>
-                            <p class="bl-paragraph">Fashion TV has had a monumental presence in fashion and broadcasting since 1997. We have widened our branches to multiple verticals where brand licensing via Fashion TV is an opportunity for aspiring companies to unlock their full potential of their intellectual property, driving growth, and fostering long-term success.</p>
-                            <p class="bl-paragraph">At Fashion TV, we understand that in an ever-changing world, it has become significant to have an influential brand image for any company. We have brought a substantial medium for burgeoning startups seeking to expand their market presence or an established brand aiming to diversify their revenue streams.</p>
+                            <p class="bl-paragraph" data-aos="fade-up">Fashion TV has had a monumental presence in fashion and broadcasting since 1997. We have widened our branches to multiple verticals where brand licensing via Fashion TV is an opportunity for aspiring companies to unlock their full potential of their intellectual property, driving growth, and fostering long-term success.</p>
+                            <p class="bl-paragraph" data-aos="fade-up" data-aos-delay="200">At Fashion TV, we understand that in an ever-changing world, it has become significant to have an influential brand image for any company. We have brought a substantial medium for burgeoning startups seeking to expand their market presence or an established brand aiming to diversify their revenue streams.</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 column-2 px-0">
@@ -83,66 +83,66 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="common-deliverables-row">
                         <div class="columns">
                             <div class="h-100">
-                                <img src="<?= base_url(); ?>assets/media/images/home/Marketing_Support.jpg" alt="social-media-marketing-support">
+                                <img src="<?= base_url(); ?>assets/media/images/home/Marketing_Support.jpg" alt="social-media-marketing-support" data-aos="fade-up">
                             </div>
                             <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
-                                <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Social media marketing support</h3>
+                                <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center" data-aos="fade-up">Social media marketing support</h3>
                             </div>
                         </div>
                         <div class="columns">
                             <div class="h-100">
-                                <img src="<?= base_url(); ?>assets/media/images/home/Brand_Prestige.jpg" alt="Brand-logo-usage">
+                                <img src="<?= base_url(); ?>assets/media/images/home/Brand_Prestige.jpg" alt="Brand-logo-usage" data-aos="fade-up">
                             </div>
                             <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
-                                <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Brand logo usage</h3>
+                                <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center" data-aos="fade-up">Brand logo usage</h3>
                             </div>
                         </div>
                         <div class="columns">
                             <div class="h-100">
-                                <img src="<?= base_url(); ?>assets/media/images/home/Market_Analysis.jpg" alt="Market-Analysis">
+                                <img src="<?= base_url(); ?>assets/media/images/home/Market_Analysis.jpg" alt="Market-Analysis" data-aos="fade-up">
                             </div>
                             <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
-                                <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Market Analysis</h3>
+                                <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center" data-aos="fade-up">Market Analysis</h3>
                             </div>
                         </div>
                         <div class="columns">
                             <div class="h-100">
-                                <img src="<?= base_url(); ?>assets/media/images/home/Launch_Support.jpg" alt="Launch-Support">
+                                <img src="<?= base_url(); ?>assets/media/images/home/Launch_Support.jpg" alt="Launch-Support" data-aos="fade-up">
                             </div>
                             <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
-                                <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Launch Support</h3>
+                                <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center" data-aos="fade-up">Launch Support</h3>
                             </div>
                         </div>
                         <div class="columns">
                             <div class="h-100">
-                                <img src="<?= base_url(); ?>assets/media/images/home/Product_Development_Support.jpg" alt="Product-Development-Support">
+                                <img src="<?= base_url(); ?>assets/media/images/home/Product_Development_Support.jpg" alt="Product-Development-Support" data-aos="fade-up">
                             </div>
                             <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
-                                <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Product Development Support</h3>
+                                <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center" data-aos="fade-up">Product Development Support</h3>
                             </div>
                         </div>
                         <div class="columns">
                             <div class="h-100">
-                                <img src="<?= base_url(); ?>assets/media/images/home/Product_Festive_Revamps.jpg" alt="Product_Festive_Revamps">
+                                <img src="<?= base_url(); ?>assets/media/images/home/Product_Festive_Revamps.jpg" alt="Product_Festive_Revamps" data-aos="fade-up">
                             </div>
                             <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
-                                <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Product Festive Revamps</h3>
-                            </div>
-                        </div>                                                                                                                                  
-                        <div class="columns">
-                            <div class="h-100">
-                                <img src="<?= base_url(); ?>assets/media/images/home/Trend_Forecasting.jpg" alt="Trend-Forecasting">
-                            </div>
-                            <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
-                                <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Trend Forecasting</h3>
+                                <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center" data-aos="fade-up">Product Festive Revamps</h3>
                             </div>
                         </div>
                         <div class="columns">
                             <div class="h-100">
-                                <img src="<?= base_url(); ?>assets/media/images/home/Product_Packaging.jpg" alt="Product_Packaging">
+                                <img src="<?= base_url(); ?>assets/media/images/home/Trend_Forecasting.jpg" alt="Trend-Forecasting" data-aos="fade-up">
                             </div>
                             <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
-                                <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center">Product Packaging</h3>
+                                <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center" data-aos="fade-up">Trend Forecasting</h3>
+                            </div>
+                        </div>
+                        <div class="columns">
+                            <div class="h-100">
+                                <img src="<?= base_url(); ?>assets/media/images/home/Product_Packaging.jpg" alt="Product_Packaging" data-aos="fade-up">
+                            </div>
+                            <div class="d-flex align-items-start justify-content-center text-center icon-wrapper">
+                                <h3 class="bl-paragraph bl--font-typ-1 fw-normal text-center" data-aos="fade-up">Product Packaging</h3>
                             </div>
                         </div>
                     </div>
@@ -152,12 +152,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
         </div>
 
         <!-- Section Breaker -->
-        <section class="home-section-breaker--for-desktop mt-0 mb-0">
+        <section class="home-section-breaker--for-desktop mt-0 mb-0" data-aos="zoom-out">
             <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/templates/home-section-breaker-1.png" class="w-100">
                 <source src="<?= base_url(); ?>assets/media/videos/homepage-section-breaker-horizontal.mp4" type="video/mp4" class="w-100">
             </video>
         </section>
-        <section class="home-section-breaker--for-mobile mt-0 mb-0">
+        <section class="home-section-breaker--for-mobile mt-0 mb-0" data-aos="zoom-out">
             <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/templates/home-section-breaker-1.png" class="w-100">
                 <source src="<?= base_url(); ?>assets/media/videos/homepage-section-breaker-vertical.mp4" type="video/mp4" class="w-100">
             </video>
@@ -438,17 +438,17 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="container-fluid px-0">
                     <div class="row mx-0">
                         <div class="col-12 px-0 d-flex align-items-center justify-content-between mb-md-0 mb-md-2 mb-lg-3 col-bm">
-                            <h2 class="bl-heading blogs-heading split-text spilit-word">Our Blogs</h2>
-                            <a href="<?= base_url(); ?>blogs" class="poppins-font text-decoration-underline view-more">View More</a>
+                            <h2 class="bl-heading blogs-heading split-text spilit-word" data-aos="fade-up">Our Blogs</h2>
+                            <a href="<?= base_url(); ?>blogs" class="poppins-font text-decoration-underline view-more" data-aos="fade-up">View More</a>
                         </div>
                         <div class="col-md-4 px-0 px-md-2">
                             <div class="blog-card">
-                                <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
+                                <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100" data-aos="fade-up">
                                 <div class="wrapper">
-                                    <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
-                                    <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+                                    <p class="poppins-font" data-aos="fade-up">MAY 31th, 2023 by Name Surname</p>
+                                    <h3 class="poppins-font" data-aos="fade-up">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
     
-                                    <a href="#" class="poppins-font px-0">Read More
+                                    <a href="#" class="poppins-font px-0" data-aos="fade-up">Read More
                                         <span class="px-0 ms-3 ms-md-4">
                                             <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035" />
@@ -460,11 +460,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         </div>
                         <div class="col-md-4 px-0 px-md-2">
                             <div class="blog-card">
-                                <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
+                                <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100" data-aos="fade-up">
                                 <div class="wrapper">
-                                    <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
-                                    <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
-                                    <a href="#" class="poppins-font px-0">Read More
+                                    <p class="poppins-font" data-aos="fade-up">MAY 31th, 2023 by Name Surname</p>
+                                    <h3 class="poppins-font" data-aos="fade-up">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+                                    <a href="#" class="poppins-font px-0" data-aos="fade-up">Read More
                                         <span class="px-0 ms-3 ms-md-4">
                                             <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035" />
@@ -476,11 +476,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         </div>
                         <div class="col-md-4 px-0 px-md-2">
                             <div class="blog-card">
-                                <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100">
+                                <img src="<?= base_url(); ?>assets/media/images/templates/home-blogs-example-img.png" alt="" class="w-100" data-aos="fade-up">
                                 <div class="wrapper">
-                                    <p class="poppins-font">MAY 31th, 2023 by Name Surname</p>
-                                    <h3 class="poppins-font">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
-                                    <a href="#" class="poppins-font px-0">Read More
+                                    <p class="poppins-font" data-aos="fade-up">MAY 31th, 2023 by Name Surname</p>
+                                    <h3 class="poppins-font" data-aos="fade-up">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+                                    <a href="#" class="poppins-font px-0" data-aos="fade-up">Read More
                                         <span class="px-0 ms-3 ms-md-4">
                                             <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035" />
@@ -503,7 +503,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             <div class="cta-content">
                                 <h3 class="split-text spilit-word">Empower Your Brand with</h3>
                                 <h2 class="bl-heading split-text spilit-word">Licensing options today </h2>
-                                <a href="<?= base_url(); ?>contact-us" class="cta-btn">Contact Us</a>
+                                <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                                    <a href="<?= base_url(); ?>contact-us" class="cta-btn">Contact Us</a>
+                                </div>
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-5 column-2">

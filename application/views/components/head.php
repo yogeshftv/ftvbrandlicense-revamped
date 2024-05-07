@@ -15,6 +15,9 @@
     <link rel="icon" type="image/png" sizes="16x16" href="<?php echo base_url(); ?>assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
+    <!-- Google search console -->
+    <meta name="google-site-verification" content="wgx0DgZTr4PM4syZE2mIjpqx2Y7RTyw2qIykFA3xV8s" />
+
     <!-- Google Fonts: Poppins -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

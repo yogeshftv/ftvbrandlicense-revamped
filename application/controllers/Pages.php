@@ -196,7 +196,7 @@ class Pages extends CI_Controller
                        $response = $this->db->insert('enquiries', $data)
                                 ? ['success' => true, 'message' => 'Your Enquiry has been placed']
                                 : ['success' => false, 'message' => 'Failed to insert data.'];
-                        // redirect('thankyou');
+                        redirect('thankyou');
                 }
                 header('Content-Type: application/json');
                 echo json_encode($response);
