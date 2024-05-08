@@ -233,25 +233,74 @@ defined('BASEPATH') or exit('No direct script access allowed');
         </section>
         <!-- Our Boards -->
 
-        <!-- CTA -->
-        <section class="our-story-cta">
-            <div class="row mx-0">
-                <div class="col-12 col-md-4 column-1">
-                    <img src="<?= base_url(); ?>assets/media/images/our-story/cta.png" alt="" class="w-100 h-100">
+        <div class="home-background-mask-1 for-our-story-cta">
+            <!-- CTA -->
+            <section class="our-story-cta">
+                <div class="potenf">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 604.53 1006.07">
+                        <defs>
+                            <style>
+                                .cls-1 {
+                                    opacity: 0.15;
+                                }
+
+                                .cls-2 {
+                                    fill: none;
+                                    stroke: #c4c4c4;
+                                    stroke-miterlimit: 10;
+                                    stroke-width: 2.56px;
+                                }
+
+                                .cls-3 {
+                                    opacity: 0.35;
+                                }
+
+                                .cls-4 {
+                                    opacity: 0.75;
+                                }
+                            </style>
+                        </defs>
+                        <title>fsteps</title>
+                        <g id="Layer_2" data-name="Layer 2">
+                            <g id="Layer_1-2" data-name="Layer 1">
+                                <g class="cls-1">
+                                    <path class="cls-2"
+                                        d="M344.12,434.41H229.32v-69c0-98.26-11.13-286,92.38-313.07,15.63-4,38-4,53.67,4-6.25,34.46-23.58,78.3,21.06,98,70.86,30.77,111.4-59,38-113-31.25-23.5-92.39-24-130.43-15.5a233.62,233.62,0,0,0-67.93,28.51C116,130.11,119.1,313.8,119.1,436.77h-109l-.16.14.68,30.51H117.91V820l2,143-109.37.5-.68,32H344.12V976l.05-12.91H229.32V467.42H344Zm190.66-34.1a48.95,48.95,0,1,1-48.95,48.95A49,49,0,0,1,534.78,400.31Z" />
+                                </g>
+                                <g class="cls-1">
+                                    <path class="cls-2"
+                                        d="M335.53,443.67H220.73v-69c0-98.26-11.13-286,92.38-313.07,15.63-4,38-4,53.67,4-6.25,34.46-23.58,78.3,21.06,98,70.86,30.77,111.4-59,38-113-31.25-23.5-92.39-24-130.43-15.5A233.9,233.9,0,0,0,227.52,63.6c-120.12,75.77-117,259.46-117,382.43H1.47l-.16.14L2,476.68H109.32V829.25l2,143L2,972.78l-.68,32H335.53v-19.5l.05-12.92H220.73V476.68h114.7Zm190.66-34.1a48.95,48.95,0,1,1-49,48.95A49,49,0,0,1,526.19,409.57Z" />
+                                </g>
+                                <g class="cls-3">
+                                    <path class="cls-2"
+                                        d="M353.85,424.68H239.05v-69c0-98.25-11.13-286,92.39-313.06,15.62-4,38-4,53.66,4-6.25,34.47-23.58,78.31,21.06,98,70.86,30.77,111.4-59,38-113C413,8.09,351.81,7.59,313.77,16.1a233.6,233.6,0,0,0-67.93,28.5c-120.11,75.78-117,259.47-117,382.44h-109l-.16.14.68,30.51H127.64V810.26l2,143-109.37.49-.68,32H353.85v-19.5l.06-12.91H239.05V457.69h114.7Zm190.66-34.1a48.95,48.95,0,1,1-48.95,48.94A48.94,48.94,0,0,1,544.51,390.58Z" />
+                                </g>
+                                <g class="cls-4">
+                                    <path class="cls-2 cls-5"
+                                        d="M363.64,414.89H248.84v-69c0-98.26-11.13-286,92.38-313.06,15.63-4,38-4,53.67,4-6.25,34.47-23.58,78.3,21.06,98,70.86,30.77,111.4-59,38-113-31.25-23.5-92.39-24-130.43-15.5a233.78,233.78,0,0,0-67.93,28.51c-120.12,75.77-117,259.46-117,382.43h-109l-.17.14.69,30.51H137.43V800.47l2,143L30.1,944l-.69,32H363.64v-19.5l.05-12.92H248.84V447.9h114.7Zm190.66-34.1a48.95,48.95,0,1,1-48.95,48.95A49,49,0,0,1,554.3,380.79Z" />
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
                 </div>
-                <div class="col-12 col-md-8 column-2">
-                    <div class="cta-content">
-                        <h3 class="split-text spilit-word">Empower Your Brand with</h3>
-                        <h2 class="bl-heading split-text spilit-word">Licensing options today </h2>
-                        <a href="<?= base_url(); ?>contact-us" class="cta-btn">Contact Us</a>
+                <div class="row mx-0">
+                    <div class="col-12 col-md-4 column-1">
+                        <img src="<?= base_url(); ?>assets/media/images/our-story/cta.png" alt="" class="w-100 h-100">
+                    </div>
+                    <div class="col-12 col-md-8 column-2">
+                        <div class="cta-content">
+                            <h3 class="split-text spilit-word">Empower Your Brand with</h3>
+                            <h2 class="bl-heading split-text spilit-word">Licensing options today </h2>
+                            <a href="<?= base_url(); ?>contact-us" class="cta-btn">Contact Us</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <svg width="1920" height="228" viewBox="0 0 1920 228" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M-276.284 101.459C-601.165 217.851 -767.462 149.956 -810 101.459V228L1920 228V101.459C1834.92 35.0608 1590.47 -66.099 1293.26 60.4483C996.046 186.996 620.398 163.952 469.725 136.611C326.606 110.641 48.5963 -14.9332 -276.284 101.459Z" fill="#131313"/>
-            </svg>
-        </section>
-        <!-- CTA -->
+                <svg class="texture" width="1920" height="228" viewBox="0 0 1920 228" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M-276.284 101.459C-601.165 217.851 -767.462 149.956 -810 101.459V228L1920 228V101.459C1834.92 35.0608 1590.47 -66.099 1293.26 60.4483C996.046 186.996 620.398 163.952 469.725 136.611C326.606 110.641 48.5963 -14.9332 -276.284 101.459Z" fill="#131313"/>
+                </svg>
+            </section>
+            <!-- CTA -->
+        </div>
     </main>
     
     <!-- custom script -->

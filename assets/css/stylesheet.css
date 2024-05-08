@@ -967,43 +967,6 @@ footer .f-additionals a:hover {
     background-position: right top, left bottom;
 }
 
-.home-background-mask-2 .ftv_svg svg {
-    left: 73%;
-    width: 500px;
-    position: absolute;
-}
-
-.home-background-mask-2 .ftv_svg svg .cls-1 {
-    fill: none;
-    stroke: #dddddd;
-    stroke-width: .75px;
-    stroke-dasharray: 1000px;
-    stroke-dashoffset: 1000px;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    animation: draw-stroke 2s linear forwards infinite alternate;
-}
-
-@keyframes draw-stroke {
-
-    0%,
-    50% {
-        stroke-dashoffset: 1000px;
-    }
-
-    50%,
-    100% {
-        stroke-dashoffset: 0;
-    }
-}
-
-.home-background-mask-2 svg#f-intro-bl-3 {
-    top: 45%;
-    left: 77%;
-    width: 275px;
-    position: absolute;
-}
-
 .common-introduction-0 {
     position: relative;
     max-width: 1920px;
@@ -1053,6 +1016,7 @@ footer .f-additionals a:hover {
 
 /* Common Deliverables */
 .common-deliverables {
+    position: relative;
     padding-bottom: 8rem;
 }
 
@@ -1077,8 +1041,23 @@ footer .f-additionals a:hover {
     margin-bottom: 5rem;
 }
 
+.common-deliverables .columns > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
 .common-deliverables .columns img {
-    width: 100%;
+    width: 78%;
+}
+
+.our-services .home-background-mask-2 {
+    position: relative;
+    background-image: url('../media/images/backgrounds/mask-3.png'), url('../media/images/backgrounds/mask-4.png');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 90%, 0%;
+    background-position: right top, left bottom;
 }
 /* Common Deliverables */
 
@@ -1125,14 +1104,6 @@ footer .f-additionals a:hover {
     max-width: 1920px;
 }
 
-/* Revert This CTA: If needed */
-.common-cta-1 .column-1 {
-    /* background-size: contain;
-    background-position: 70% center;
-    background-repeat: no-repeat;
-    background-image: url('../media/icons/f-common.png'); */
-}
-
 .common-cta-1 .column-1,
 .common-cta-1 .column-2 {
     padding-left: 0rem;
@@ -1146,21 +1117,6 @@ footer .f-additionals a:hover {
     background-repeat: no-repeat;
     background-position: center bottom;
     background-image: url('../media/images/cta-bg.png');
-}
-
-/* .common-cta-1 svg {
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
-    width: 100%;
-    position: absolute;
-} */
-
-.common-cta-1 svg {
-    top: 5%;
-    left: 30%;
-    width: 375px;
-    position: absolute;
 }
 
 .common-cta-1 .cta-content {
@@ -1229,6 +1185,7 @@ footer .f-additionals a:hover {
 
 .common-blogs .blog-card .wrapper {
     padding: 2rem;
+    height: 224px;
 }
 
 .common-blogs .blog-card .wrapper p {
@@ -1263,29 +1220,6 @@ footer .f-additionals a:hover {
 /* home */
 
 /* brand license */
-/* .our-benefits-swiper .swiper-button-next {
-    top: 50%;
-    transform: translateY(-50%);
-    right: 5%;
-    position: absolute;
-    background-color: transparent;
-    background-image: url('../media/icons/navbarSwiper-next.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 30px;
-    width: 30px;
-}
-
-.our-benefits-swiper .swiper-button-prev {
-    position: absolute;
-    background-image: url('../media/icons/navbarSwiper-prev.png');
-    background-repeat: no-repeat;
-    background-color: transparent;
-    background-size: contain;
-    height: 30px;
-    width: 30px;
-} */
-
 .our-benefits .swiper-button-next {
     right: 4%;
     width: 50px;
@@ -1317,13 +1251,6 @@ footer .f-additionals a:hover {
     padding: 8rem 0;
 }
 
-.brand-support svg {
-    left: 75%;
-    width: 440px;
-    display: block;
-    position: absolute;
-}
-
 .brand-support::before {
     content: '';
     top: -50%;
@@ -1350,18 +1277,6 @@ footer .f-additionals a:hover {
     background-position: left bottom;
     background-image: url('../media/images/backgrounds/mask-4.png');
 }
-
-/* 
-.brand-support::before {
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-position: center 70%;
-    background-size: 55%;
-    background-repeat: no-repeat;
-    background-image: url('../media/icons/f-wings-common.png');
-} */
 
 .brand-support .brand-support-content {
     display: flex;
@@ -1412,70 +1327,6 @@ footer .f-additionals a:hover {
 
 .downloadables .download-icon {
     margin-bottom: 2.125rem;
-}
-
-
-.brand-license .home-background-mask-2 {
-    background-size: 80%, 80%;
-}
-
-.brand-license .home-background-mask-2 .potenf {
-    top: 5%;
-    width: 375px;
-    position: absolute;
-}
-
-.intro-f svg .cls-5,
-.potenf svg .cls-5 {
-    stroke-dasharray: 860;
-    stroke-dashoffset: 860;
-    -webkit-animation: stroke1 4s 1s infinite linear alternate-reverse;
-    animation: stroke1 4s 1s infinite linear alternate-reverse;
-    stroke: #ffd428;
-    stroke-width: 2px;
-}
-
-
-@keyframes draw {
-    to {
-        stroke-dashoffset: 0;
-    }
-}
-
-@-webkit-keyframes draw {
-    to {
-        stroke-dashoffset: 0;
-    }
-}
-
-@keyframes stroke1 {
-    0% {
-        fill: transparent;
-        stroke: #131313;
-        stroke-dashoffset: 25%;
-        stroke-dasharray: 0 50%;
-        stroke-width: 1;
-    }
-
-    70% {
-        fill: transparent;
-
-        stroke: #ffdb4d;
-    }
-
-    80% {
-        fill: transparent;
-        stroke: #DCA964;
-        stroke-width: 2;
-    }
-
-    100% {
-        fill: transparent;
-        stroke: #c4c4c4;
-        stroke-dashoffset: -25%;
-        stroke-dasharray: 50% 0;
-        stroke-width: 0;
-    }
 }
 /* brand license */
 
@@ -1665,7 +1516,7 @@ footer .f-additionals a:hover {
     padding-right: 0;
 }
 
-.our-story-cta svg {
+.our-story-cta svg.texture {
     position: absolute;
     bottom: 0%;
 }
@@ -1675,11 +1526,11 @@ footer .f-additionals a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('../media/icons/f-brand-icon-cta-our-story.png');
+    /* background-image: url('../media/icons/f-brand-icon-cta-our-story.png');
     background-position-x: 75%;
     background-position-y: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain; */
 }
 
 .our-story-cta .column-2 .cta-content {
@@ -1707,109 +1558,7 @@ footer .f-additionals a:hover {
     border: 1px solid #000000c0;
     font-family: "Poppins", sans-serif;
 }
-
 /* our-story */
-
-/* brand-license */
-/* .our-benefits-desktop .parent-container {
-    position: relative;
-}
-
-.our-benefits-desktop .parent-container .swiperBack {
-    height: 100%;
-    width: 100%;
-}
-
-.our-benefits-desktop .parent-container .swiperBack .swiper-slide {
-    height: auto;
-}
-
-.our-benefits-desktop .child-container {
-    left: 0%;
-    width: 35%;
-    bottom: 0%;
-    position: absolute;
-}
-
-.our-benefits-desktop .child-container h3 {
-    margin-bottom: 2rem;
-    line-height: 3.5rem !important;
-}
-
-.our-benefits-desktop .child-container .swiperFront-1 {
-    background-color: #ffffff;
-    border: 1px solid #131313;
-}
-
-.our-benefits-desktop .child-container .swiperFront-1 .swiper-slide {
-    padding: 60px;
-}
-
-.our-benefits-desktop .child-container .wrapper-1 {
-    width: 80%;
-}
-
-.our-benefits-desktop .child-container .wrapper-2 {
-    width: 20%; 
-}
-
-.our-benefits-desktop .child-container .wrapper-2 .column-1,
-.our-benefits-desktop .child-container .wrapper-2 .column-2 {
-    height: 50%;
-    position: relative;
-}
-
-.our-benefits-desktop .swiper-button-next {
-    top: 75%;
-    right: 5%;
-    position: absolute;
-    background-color: transparent;
-    background-image: url('../media/icons/navbarSwiper-next.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 30px;
-    width: 30px;
-}
-
-.our-benefits-desktop .swiper-button-prev {
-    top: 13%;
-    left: 5%;
-    position: absolute;
-    background-image: url('../media/icons/navbarSwiper-prev.png');
-    background-repeat: no-repeat;
-    background-color: transparent;
-    background-size: contain;
-    height: 30px;
-    width: 30px;
-}
-
-.our-benefits-desktop .child-container .wrapper-2 .column-1 .swiper,
-.our-benefits-desktop .child-container .wrapper-2 .column-2 .swiper {
-    color: #fff;
-    background-color: #363636;
-    height: 100%;
-}
-
-.our-benefits-desktop .child-container .wrapper-2 .column-1,
-.our-benefits-desktop .child-container .wrapper-2 .column-2 {
-    font-size: 2rem;
-} */
-
-/* .our-benefits-desktop .child-container .wrapper-2 {
-    position: relative;
-}
-
-.our-benefits-desktop .child-container .wrapper-2::before {
-    position: absolute;
-    content: '';
-    width: 100%;
-    z-index: 999;
-    height: 100%;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url('../media/icons/f-common.png');
-} */
 
 .our-benefits-swiper-desktop .swiper {
     width: 100%;
@@ -2268,17 +2017,29 @@ footer .f-additionals a:hover {
 
 /* boards */
 .boards-common-introduction {
-    position: relative;
     max-width: 1920px;
     margin-left: auto;
+    padding-top: 8rem;
     margin-right: auto;
+    position: relative;
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-image: url('../media/images/backgrounds/mask-3.png');
 }
 
-.boards-common-introduction svg {
-    top: -15%;
-    width: 340px;
+.boards-common-introduction .potenf {
+    top: 2%;
+    left: 0%;
+    width: 400px;
     position: absolute;
 }
+
+.boards-common-introduction .ftv_svg.bb-mm {
+    top: 85%;
+    left: 30%;
+    position: absolute;
+} 
 
 .boards-common-introduction .column-1 {
     display: flex;
@@ -2315,6 +2076,183 @@ footer .f-additionals a:hover {
 
 /* boards */
 /*? pages */
+
+/* background branding for ftv brand license */
+    /* common introduction branding */
+    .home-background-mask-2 {
+        background-size: 80%, 80%;
+    }
+
+    .home .home-background-mask-2 .common-introduction-0 .potenf,
+    .home .home-background-mask-2 .common-deliverables .potenf,
+    .home .home-background-mask-2 .common-cta-1 .potenf {
+        top: 3%;
+        width: 375px;
+        position: absolute;
+    }
+
+    .brand-license .home-background-mask-2 .potenf {
+        top: 5%;
+        width: 375px;
+        position: absolute;
+    }
+
+    .our-services .home-background-mask-2 .potenf {
+        top: 2%;
+        width: 375px;
+        position: absolute;
+    }
+
+    .intro-f svg .cls-5,
+    .potenf svg .cls-5 {
+        stroke-dasharray: 860;
+        stroke-dashoffset: 860;
+        -webkit-animation: stroke1 4s 1s infinite linear alternate-reverse;
+        animation: stroke1 4s 1s infinite linear alternate-reverse;
+        stroke: #ffd428;
+        stroke-width: 2px;
+    }
+
+    @keyframes draw {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+
+    @-webkit-keyframes draw {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+
+    @keyframes stroke1 {
+        0% {
+            fill: transparent;
+            stroke: #131313;
+            stroke-dashoffset: 25%;
+            stroke-dasharray: 0 50%;
+            stroke-width: 1;
+        }
+
+        70% {
+            fill: transparent;
+
+            stroke: #ffdb4d;
+        }
+
+        80% {
+            fill: transparent;
+            stroke: #DCA964;
+            stroke-width: 2;
+        }
+
+        100% {
+            fill: transparent;
+            stroke: #c4c4c4;
+            stroke-dashoffset: -25%;
+            stroke-dasharray: 50% 0;
+            stroke-width: 0;
+        }
+    }
+
+    .home .common-introduction-0 .ftv_svg {
+        top: 97%;
+        left: 24%;
+        width: 475px;
+        z-index: 9999;
+        position: absolute;
+    }
+
+    .ftv_svg svg .cls-ftv-branding {
+        fill: none;
+        stroke: #aaaaaa;
+        stroke-width: .75px;
+        stroke-dasharray: 1000px;
+        stroke-dashoffset: 1000px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        animation: draw-stroke 4s 1s infinite linear alternate-reverse;
+        -webkit-animation: draw-stroke 4s 1s infinite linear alternate-reverse;
+    }
+
+    @keyframes draw-stroke {
+        0% {
+            fill: transparent;
+            stroke: #606060;
+            stroke-dashoffset: 25%;
+            stroke-dasharray: 0 50%;
+            stroke-width: 1;
+        }
+
+        70% {
+            fill: transparent;
+            stroke: #808080;
+        }
+
+        80% {
+            fill: transparent;
+            stroke: #b4b4b4;
+            stroke-width: 2;
+        }
+
+        100% {
+            fill: transparent;
+            stroke: #c9c9c9;
+            stroke-dashoffset: 2%;
+            stroke-dasharray: 50% 0;
+            stroke-width: 1;
+        }
+    }
+    /* common introduction branding */
+
+    /* common deliverables */
+    .home .home-background-mask-2 .common-deliverables .potenf {
+        top: 0%;
+        left: 67%;
+        position: absolute;
+    }
+
+    .brand-license .home-background-mask-2 .common-deliverables .potenf {
+        top: 10%;
+        left: 75%;
+    }
+    /* common deliverables */
+
+    /* brand support */
+    .brand-license .brand-support .potenf {
+        left: 75%;
+        width: 440px;
+        display: block;
+        position: absolute;
+    }
+    /* brand support */
+
+    /* common cta */
+    .home-background-mask-2 .common-cta-1 > .potenf {
+        top: 7%;
+        left: 30%;
+    }
+
+    .our-services .home-background-mask-2.our-services-cta {
+        position: relative;
+        background-image: url('../media/images/backgrounds/mask-3.png'), url('../media/images/backgrounds/mask-4.png');
+        background-repeat: no-repeat, no-repeat;
+        background-size: 0%, 70%;
+        background-position: right top, left bottom;
+    }
+
+    .our-story .our-story-cta .potenf {
+        top: 13%;
+        left: 60%;
+        width: 450px;
+        position: absolute;
+    }
+
+    .our-story .home-background-mask-1.for-our-story-cta {
+        background-size: 0%, 80%;
+    }
+    /* common cta */
+/* background branding for ftv brand license */
 
 /* Responsiveness */
 @media (max-width: 767px) {
@@ -2868,11 +2806,6 @@ footer .f-additionals a:hover {
     #staticBackdrop3 .modal-body h2 {
         line-height: 2rem;
     }
-
-    #staticBackdrop .modal-body p,
-    #staticBackdrop4 .modal-body p,
-    #staticBackdrop2 .modal-body p,
-    #staticBackdrop3 .modal-body p {}
 
     #staticBackdrop .modal-footer,
     #staticBackdrop4 .modal-footer,
@@ -3455,12 +3388,6 @@ footer .f-additionals a:hover {
         background-image: url('../media/images/dimaond-bg-alt.png');
     }
 
-    
-    .boards-common-introduction svg {
-        top: 10%;
-        width: 260px;
-    }
-
     .boards-common-introduction .boards-introduction-content h2 {
         margin-top: -3rem;
     }
@@ -3545,13 +3472,6 @@ footer .f-additionals a:hover {
         padding: 4rem 0;
     }
 
-    .brand-support svg {
-        top: 10%;
-        width: 250px;
-        display: block;
-        position: absolute;
-    }
-
     .brand-support::before {
         top: 0%;
         background-size: 130%;
@@ -3578,6 +3498,41 @@ footer .f-additionals a:hover {
         background-repeat: repeat-y;
     }
     /* brand license brandings */
+
+    /* background branding for ftv brand license */
+    .common-introduction-0 svg {
+        width: 260px;
+    }
+
+    .home .home-background-mask-2 .common-introduction-0 .potenf {
+        top: 18%;
+    }
+
+    .home .common-introduction-0 .ftv_svg {
+        top: 102%;
+        left: 0%;
+    }
+
+    .home .home-background-mask-2 .common-deliverables .potenf {
+        top: 28%;
+        left: 0%;
+        width: 270px;
+    }
+
+    .tri-pg-cmn-swpr {
+        padding-top: 4rem;
+    }
+
+    .common-blogs .blog-card .wrapper {
+        height: auto;
+    }
+
+    .home .home-background-mask-2 .common-cta-1 .potenf {
+        top: 0%;
+        left: 0%;
+        width: 275px;
+    }
+    /* background branding for ftv brand license */
 }
 
 @media (min-width: 300px) and (max-width: 499px) {
@@ -3617,11 +3572,6 @@ footer .f-additionals a:hover {
     #staticBackdrop3 .modal-body h2 {
         line-height: 2rem;
     }
-
-    #staticBackdrop .modal-body p,
-    #staticBackdrop2 .modal-body p,
-    #staticBackdrop4 .modal-body p,
-    #staticBackdrop3 .modal-body p {}
 
     #staticBackdrop .modal-footer,
     #staticBackdrop2 .modal-footer,
@@ -4153,11 +4103,6 @@ footer .f-additionals a:hover {
         background-image: url('../media/images/dimaond-bg-alt.png');
     }
 
-    .boards-common-introduction svg {
-        top: 10%;
-        width: 260px;
-    }
-
     .boards-common-introduction .boards-introduction-content h2 {
         margin-top: -3rem;
     }
@@ -4218,13 +4163,6 @@ footer .f-additionals a:hover {
         padding-bottom: 0rem;
     }
 
-    .brand-support svg {
-        top: 10%;
-        width: 250px;
-        display: block;
-        position: absolute;
-    }
-
     .brand-support::before {
         top: 0%;
         background-size: 130%;
@@ -4251,6 +4189,59 @@ footer .f-additionals a:hover {
         background-repeat: repeat-y;
     }
     /* brand license brandings */
+
+    /* background branding for ftv brand license */
+    .common-introduction-0 svg {
+        top: 0%;
+        left: 1%;
+        width: 288px;
+    }
+
+    .home .home-background-mask-2 .common-introduction-0 .potenf {
+        top: 15%;
+    }
+
+    .home .common-introduction-0 .ftv_svg {
+        top: 100%;
+        left: 1%;
+    }
+
+    .home .home-background-mask-2 .common-deliverables .potenf {
+        top: 26%;
+        left: 0%;
+        width: 295px;
+    }
+
+    .tri-pg-cmn-swpr {
+        padding-top: 4rem;
+    }
+
+    .tri-pg-cmn-swpr h2 {
+        line-height: 1.35;
+    }
+
+    .common-blogs .blog-card .wrapper {
+        height: auto;
+    }
+
+    .home .home-background-mask-2 .common-cta-1 .potenf {
+        top: 3%;
+        width: 253px;
+        left: 6%;
+    }
+
+    .common-deliverables .columns img {
+        margin-top: 1rem;
+    }
+
+    .home-section-breaker--for-mobile {
+        padding-top: 4rem;
+    }
+
+    .tri-pg-cmn-swpr .show-common-swiper h3 {
+        margin-top: 0.5rem;
+    }
+    /* background branding for ftv brand license */
 }
 
 @media (min-width: 500px) and (max-width: 767px) {
@@ -4709,11 +4700,6 @@ footer .f-additionals a:hover {
     /* blogs details */
 
     /* Boards */
-    .boards-common-introduction svg {
-        top: -8%;
-        width: 250px;
-    }
-
     .boards-common-introduction .boards-introduction-content h2 {
         margin-top: -4rem;
     }
@@ -4783,13 +4769,6 @@ footer .f-additionals a:hover {
         padding: 5rem 0;
     }
 
-    .brand-support svg {
-        top: 10%;
-        width: 275px;
-        display: block;
-        position: absolute;
-    }
-
     .brand-support::before {
         top: 0%;
         background-size: 110%;
@@ -4811,6 +4790,40 @@ footer .f-additionals a:hover {
         transform: translateY(0px);
     }
     /* brand license brandings */
+
+    /* background branding for ftv brand license */
+    .home .home-background-mask-2 .common-introduction-0 .potenf {
+        top: 5%;
+        left: 2%;
+        width: 650px;
+    }
+
+    .home .common-introduction-0 .ftv_svg {
+        top: 102%;
+        left: 5%;
+        width: 500px;
+    }
+
+    .common-introduction-0 svg {
+        left: 0%;
+        width: 58%;
+    }
+
+    .home .home-background-mask-2 .common-deliverables .potenf {
+        top: 42%;
+        left: 25%;
+    }
+
+    .home .home-background-mask-2 .common-cta-1 .potenf {
+        top: -6%;
+        left: 0%;
+        width: 375px;
+    }
+
+    .common-blogs .blog-card .wrapper {
+        height: 210px;
+    }
+    /* background branding for ftv brand license */
 }
 
 @media (min-width: 768px) and (max-width: 899px) {
@@ -5326,11 +5339,6 @@ footer .f-additionals a:hover {
     /* blogs details */
 
     /* boards */
-    .boards-common-introduction svg {
-        top: -18%;
-        width: 300px;
-    }
-
     .boards-common-introduction .boards-introduction-content p {
         width: auto;
         padding-right: 10%;
@@ -5396,6 +5404,37 @@ footer .f-additionals a:hover {
         background-size: 100%;
     }
     /* our story branding */
+
+    /* background branding for ftv brand license */
+    .home .home-background-mask-2 .common-introduction-0 .potenf {
+        width: 450px;
+    }
+
+    .home .home-background-mask-2 .common-deliverables .potenf {
+        top: 18%;
+        left: 63%;
+        width: 280px;
+    }
+
+    .home .common-introduction-0 .ftv_svg {
+        top: 102%;
+        left: 0%;
+        width: 350px;
+    }
+
+    .common-blogs .blog-card .wrapper {
+        height: 290px;
+    }
+
+    .home .home-background-mask-2 .common-cta-1 .potenf {
+        top: -15%;
+        width: 232px;
+    }
+
+    .tri-pg-cmn-swpr {
+        padding-top: 6rem;
+    }
+    /* background branding for ftv brand license */
 }
 
 @media (min-width: 900px) and (max-width: 1099px) {
@@ -5691,7 +5730,10 @@ footer .f-additionals a:hover {
         left: 0%;
         right: auto;
     }
-
+    
+    .tri-pg-cmn-swpr {
+        padding-top: 6rem;
+    }
     /* Home */
 
     /* Brand License */
@@ -5896,11 +5938,6 @@ footer .f-additionals a:hover {
     /* blogs details */
 
     /* boards */
-    .boards-common-introduction svg {
-        top: -21%;
-        width: 300px;
-    }
-
     .boards-common-introduction .boards-introduction-content p {
         width: auto;
         padding-right: 10%;
@@ -5972,6 +6009,30 @@ footer .f-additionals a:hover {
         left: 0%;
         width: 280px;
     }
+
+    /* background branding for ftv brand license */
+    .common-introduction-0 svg {
+        width: 370px;
+    }
+
+    .home .home-background-mask-2 .common-deliverables .potenf {
+        top: 8%;
+        left: 55%;
+    }
+
+    .home .common-introduction-0 .ftv_svg {
+        display: none;
+    }
+
+    .common-blogs .blog-card .wrapper {
+        height: 268px;
+    }
+
+    .home .home-background-mask-2 .common-cta-1 .potenf {
+        top: 3%;
+        width: 285px; 
+    }
+    /* background branding for ftv brand license */
 }
 
 @media (min-width: 1100px) and (max-width: 1299px) {
@@ -6453,11 +6514,6 @@ footer .f-additionals a:hover {
     /* blogs details */
 
     /* boards */
-    .boards-common-introduction svg {
-        top: -21%;
-        width: 280px;
-    }
-
     .boards-common-introduction .boards-introduction-content p {
         width: auto;
         padding-right: 10%;
@@ -6533,6 +6589,30 @@ footer .f-additionals a:hover {
         left: 0%;
         width: 280px;
     }
+
+    /* background branding for ftv brand license */
+    .home .home-background-mask-2 .common-introduction-0 .potenf {
+        top: 2%;
+    }
+
+    .home .home-background-mask-2 .common-deliverables .potenf {
+        top: -6%;
+    }
+
+    .home .common-introduction-0 .ftv_svg {
+        top: 104%;
+    }
+
+    .common-introduction-0 svg {
+        width: 335px;
+    }
+
+    .home .home-background-mask-2 .common-cta-1 .potenf {
+        top: 1%;
+        width: 295px;
+        left: 33%;
+    }
+    /* background branding for ftv brand license */
 }
 
 @media (min-width: 1300px) and (max-width: 1499px) {
@@ -6943,11 +7023,6 @@ footer .f-additionals a:hover {
     /* blogs details */
 
     /* boards */
-    .boards-common-introduction svg {
-        top: -8%;
-        width: 304px;
-    }
-
     .boards-info {
         padding-bottom: 16rem;
     }
@@ -6997,11 +7072,27 @@ footer .f-additionals a:hover {
     }
     /* our story branding */
 
-    .common-introduction-0 svg {
-        top: 5%;
-        left: 0%;
-        width: 280px;
+
+    /* background branding for ftv brand license */
+    .home .home-background-mask-2 .common-introduction-0 .potenf,
+    .home .home-background-mask-2 .common-cta-1 .potenf {
+        top: 2%;
+        width: 308px;
     }
+
+    .home .home-background-mask-2 .common-deliverables .potenf {
+        top: -9%;
+        left: 66%;
+        width: 430px;
+    }
+
+    .home .common-introduction-0 .ftv_svg {
+        top: 105%;
+        left: 26%;
+        width: 350px;
+    }
+    /* background branding for ftv brand license */
+
 }
 
 @media (min-width: 1500px) and (max-width: 1700px) {
@@ -7252,11 +7343,6 @@ footer .f-additionals a:hover {
     /* blogs details */
 
     /* boards */
-    .boards-common-introduction svg {
-        top: -3%;
-        width: 320px;
-    }
-
     .boards-info {
         padding-bottom: 15rem;
     }
@@ -7287,6 +7373,19 @@ footer .f-additionals a:hover {
         background-size: 80%, 80%;
     }
     /* brand license branding */
+
+    /* background branding for ftv brand license */
+    .home .home-background-mask-2 .common-introduction-0 .potenf, .home .home-background-mask-2 .common-deliverables .potenf, .home .home-background-mask-2 .common-cta-1 .potenf {
+        top: 3%;
+        width: 308px;
+    }
+
+    .home .common-introduction-0 .ftv_svg {
+        top: 103%;
+        left: 26%;
+        width: 375px;
+    }
+    /* background branding for ftv brand license */
 }
 
 /* Granular Responsiveness */

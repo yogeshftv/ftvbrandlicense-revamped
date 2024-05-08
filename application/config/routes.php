@@ -62,6 +62,8 @@ $route['faqs'] = 'pages/faq';
 $route['contact-us'] = 'pages/contact_us';
 $route['blogs'] = 'pages/blogs';
 
+$route['blog-details'] = 'pages/blogs_details';
+
 $route['terms-conditions'] = 'pages/termsandconditions';
 $route['privacy-policy'] = 'pages/privacypolicy';
 
