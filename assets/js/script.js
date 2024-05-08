@@ -272,6 +272,7 @@ function commonVisibleDifferentSwipers() {
         slidesPerView: 3,
         spaceBetween: 30,
         allowTouchMove: true,
+        loop: true,
         autoplay: {
             delay: 2500,
             disableOnInteraction: true,

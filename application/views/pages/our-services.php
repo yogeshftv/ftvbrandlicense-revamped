@@ -7,7 +7,7 @@
             </video>
         </section>
 
-        <section class="common-banner-video-for-mobile mt-0">
+        <section class="common-banner-video-for-mobile mt-0 mb-0">
             <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>" class="w-100">
                 <source src="<?= base_url(); ?>assets/media/videos/our-services-desktop.mp4" type="video/mp4" class="w-100">
             </video>
@@ -422,7 +422,7 @@
 
         <div class="home-background-mask-2 our-services-cta">
             <!-- common cta 1 -->
-            <section class="common-cta-1 mt-0">
+            <section class="common-cta-1 mb-0">
                 <div class="potenf">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 604.53 1006.07">
                         <defs>
@@ -476,7 +476,7 @@
                             <div class="cta-content">
                                 <h3 class="split-text spilit-word">Empower Your Brand with</h3>
                                 <h2 class="bl-heading split-text spilit-word">Licensing options today </h2>
-                                <div data-aos="fade-up">
+                                <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                                     <a href="<?= base_url(); ?>contact-us" class="cta-btn">Contact Us</a>
                                 </div>
                             </div>
