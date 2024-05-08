@@ -1882,6 +1882,7 @@ footer .f-additionals a:hover {
     border: 0;
     border-bottom: 1px solid var(--df-black);
     padding: 30px;
+    padding-bottom: 18px;
 }
 
 .form-control::placeholder {

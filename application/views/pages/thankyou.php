@@ -51,7 +51,7 @@
         }
 
         main.thankyou img {
-            width: 100px;
+            width: 180px;
         }
 
         main.thankyou h1 {
