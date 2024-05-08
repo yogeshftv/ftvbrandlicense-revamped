@@ -3574,6 +3574,35 @@ footer .f-additionals a:hover {
     .boards-common-introduction {
         background-size: 170%;
     }
+
+    .brand-license .home-background-mask-2 .potenf {
+        top: 14%;
+        left: 0%;
+        width: 385px;
+    }
+
+    .brand-license .common-introduction-0 .ftv_svg {
+        display: none;
+    }
+
+    .brand-license .home-background-mask-2 .common-deliverables .potenf {
+        top: 6%;
+        left: 0%;
+        width: 275px;
+    }
+
+    .brand-license .home-background-mask-2 {
+        background-size: 175%, 0%;
+    }
+
+    .brand-license .brand-support .potenf {
+        left: 0%;
+        width: 277px;
+    }
+
+    .brand-license .home-background-mask-2 .common-cta-1 .potenf {
+        width: 308px;
+    }
     /* background branding for ftv brand license */
 }
 
@@ -4329,6 +4358,45 @@ footer .f-additionals a:hover {
     .boards-common-introduction {
         background-size: 170%;
     }
+
+    .brand-license .home-background-mask-2 .potenf {
+        top: 10%;
+        width: 375px;
+    }
+
+    .brand-license .common-introduction-0 .ftv_svg {
+        display: none;
+    }
+
+    .brand-license .home-background-mask-2 .common-deliverables .potenf {
+        top: 10%;
+        left: 50%;
+        width: 310px;
+        transform: translateX(-50%);
+    }
+
+    .brand-license .home-background-mask-2 {
+        background-size: 175%, 0%;
+    }
+
+    .brand-license .brand-support .potenf {
+        transform: translateX(-50%);
+        left: 50%;
+        width: 350px;
+    }
+
+    .brand-support::before {
+        background-size: 198%;
+    }
+
+    .brand-support::after {
+        background-size: 198%;
+    }
+
+    .brand-license .home-background-mask-2 .common-cta-1 .potenf {
+        top: 5%;
+        width: 325px;
+    }
     /* background branding for ftv brand license */
 }
 
@@ -4933,6 +5001,42 @@ footer .f-additionals a:hover {
     .boards-common-introduction video {
         position: relative;
         z-index: 9999;
+    }
+
+    .brand-license .home-background-mask-2 .potenf {
+        width: 700px;
+    }
+
+    .brand-license .common-introduction-0 .ftv_svg {
+        display: none;
+    }
+
+    .brand-license .home-background-mask-2 .common-deliverables .potenf {
+        width: 400px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .brand-license .home-background-mask-2 {
+        background-size: 0%;
+    }
+
+    .brand-license .brand-support .potenf {
+        left: 0%;
+        width: 350px;
+    }
+
+    .brand-support::before {
+        background-size: 100%;
+    }
+
+    .brand-support::after {
+        background-size: 100%;
+    }
+
+    .brand-license .home-background-mask-2 .common-cta-1 .potenf {
+        top: 5%;
+        width: 386px;
     }
     /* background branding for ftv brand license */
 }
