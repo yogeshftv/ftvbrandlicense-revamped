@@ -5575,6 +5575,26 @@ footer .f-additionals a:hover {
     .boards-info {
         padding-bottom: 10rem;
     }
+
+    .brand-license .common-introduction-0 .ftv_svg {
+        display: none;
+    }
+
+    .brand-license .home-background-mask-2 .common-deliverables .potenf {
+        top: -6%;
+        left: 35%;
+    }
+
+    .brand-license .brand-support .potenf {
+        left: 50%;
+        width: 365px;
+    }
+
+    .home-background-mask-2 .common-cta-1 > .potenf {
+        top: -24%;
+        left: 30%;
+        width: 252px;
+    }
     /* background branding for ftv brand license */
 }
 
@@ -6211,6 +6231,30 @@ footer .f-additionals a:hover {
     .boards-info {
         padding-bottom: 10rem;
     }
+
+    .common-introduction-0 svg {
+        width: 419px;
+    }
+
+    .brand-license .home-background-mask-2 .common-deliverables .potenf {
+        top: 2%;
+        left: 35%;
+    }
+
+    .brand-license .brand-support .potenf {
+        left: 50%;
+        width: 375px;
+    }
+
+    .brand-license .home-background-mask-2 .potenf {
+        top: 3%;
+        width: 280px;
+    }
+
+    .brand-license .home-background-mask-2 .common-deliverables .potenf {
+        top: 3%;
+        width: 376px;
+    }
     /* background branding for ftv brand license */
 }
 
@@ -6830,6 +6874,34 @@ footer .f-additionals a:hover {
     .boards-common-introduction .potenf {
         width: 335px;
     }
+
+    .brand-license .home-background-mask-2 .common-deliverables .potenf {
+        top: -7%;
+        left: 65%;
+    }
+
+    .brand-license .brand-support .potenf {
+        left: 63%;
+        width: 390px;
+    }
+
+    .brand-license .home-background-mask-2 .common-cta-1 > .potenf {
+        top: 5%;
+        width: 275px;   
+    }
+
+    .brand-license .home-background-mask-2 {
+        background-size: 85%, 85%;
+    }
+
+    .brand-license .brand-support::before {
+        top: -10%;
+        background-size: 85%;
+    }
+
+    .brand-license .brand-support::after {
+        background-size: 85%;
+      }
     /* background branding for ftv brand license */
 }
 
@@ -7340,6 +7412,23 @@ footer .f-additionals a:hover {
         left: 22%;
         width: 420px;
     }
+
+    .brand-license .home-background-mask-2 .common-deliverables .potenf {
+        top: 10%;
+        left: 70%;
+    }
+
+    .brand-license .brand-support .potenf {
+        left: 64%;
+    }
+
+    .brand-license .home-background-mask-2 .common-cta-1 .potenf {
+        width: 327px;
+    }
+
+    .brand-license .home-background-mask-2 {
+        background-size: 85%, 85%;
+    }
     /* background branding for ftv brand license */
 
 }
@@ -7661,6 +7750,11 @@ footer .f-additionals a:hover {
         top: 90%;
         left: 25%;
         width: 420px;
+    }
+
+    .brand-license .home-background-mask-2 .common-cta-1 .potenf {
+        top: 5%;
+        width: 290px;
     }
     /* background branding for ftv brand license */
 }
