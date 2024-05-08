@@ -3570,6 +3570,10 @@ footer .f-additionals a:hover {
         left: 0%;
         width: 277px;
     }
+
+    .boards-common-introduction {
+        background-size: 170%;
+    }
     /* background branding for ftv brand license */
 }
 
@@ -4030,7 +4034,8 @@ footer .f-additionals a:hover {
     }
 
     .our-story-cta .column-2 {
-        padding: 4rem 0;
+        padding-top: 0;
+        padding-bottom: 4rem;
     }
 
     .our-story-cta .column-1 {
@@ -4319,6 +4324,10 @@ footer .f-additionals a:hover {
     .boards-common-introduction video {
         position: relative;
         z-index: 9999;
+    }
+
+    .boards-common-introduction {
+        background-size: 170%;
     }
     /* background branding for ftv brand license */
 }
