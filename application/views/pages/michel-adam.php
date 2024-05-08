@@ -12,7 +12,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </video>
         </section>
 
-        <section class="common-banner-video-for-mobile mt-0">
+        <section class="common-banner-video-for-mobile mt-0 mb-0">
             <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>" class="w-100">
                 <source src="<?= base_url(); ?>assets/media/videos/michel-adam-vertical.mp4" type="video/mp4" class="w-100">
             </video>

@@ -2036,8 +2036,9 @@ footer .f-additionals a:hover {
 }
 
 .boards-common-introduction .ftv_svg.bb-mm {
-    top: 85%;
-    left: 30%;
+    top: 82%;
+    left: 25%;
+    width: 510px;
     position: absolute;
 } 
 
@@ -3559,6 +3560,16 @@ footer .f-additionals a:hover {
         left: 0%;
         width: 282px;
     }
+
+    .boards-common-introduction {
+        padding-top: 4rem;
+    }
+
+    .boards-common-introduction .potenf {
+        top: 16%;
+        left: 0%;
+        width: 277px;
+    }
     /* background branding for ftv brand license */
 }
 
@@ -4295,6 +4306,20 @@ footer .f-additionals a:hover {
     .our-services .home-background-mask-2 .potenf {
         width: 296px;
     }
+
+    .boards-common-introduction .potenf {
+        top: 14%;
+        width: 300px;
+    }
+
+    .boards-common-introduction {
+        padding-top: 4rem;
+    }
+
+    .boards-common-introduction video {
+        position: relative;
+        z-index: 9999;
+    }
     /* background branding for ftv brand license */
 }
 
@@ -4894,6 +4919,11 @@ footer .f-additionals a:hover {
     .home-background-mask-2 .common-cta-1 > .potenf {
         top: -8%;
         left: 9%;
+    }
+
+    .boards-common-introduction video {
+        position: relative;
+        z-index: 9999;
     }
     /* background branding for ftv brand license */
 }
@@ -5524,6 +5554,18 @@ footer .f-additionals a:hover {
         top: -6%;
         width: 214px;
     }
+
+    .boards-common-introduction .ftv_svg.bb-mm {
+        display: none;
+    }
+
+    .boards-common-introduction .potenf {
+        width: 365px;
+    }
+
+    .boards-info {
+        padding-bottom: 10rem;
+    }
     /* background branding for ftv brand license */
 }
 
@@ -6148,6 +6190,18 @@ footer .f-additionals a:hover {
     .our-services .home-background-mask-2.our-services-cta {
         background-size: 0%, 112%;
     }
+
+    .boards-common-introduction .ftv_svg.bb-mm {
+        display: none;
+    }
+
+    .boards-common-introduction .potenf {
+        width: 365px;
+    }
+
+    .boards-info {
+        padding-bottom: 10rem;
+    }
     /* background branding for ftv brand license */
 }
 
@@ -6757,6 +6811,16 @@ footer .f-additionals a:hover {
     footer .row-1 img {
         width: 110%;
     }
+
+    .boards-common-introduction .ftv_svg.bb-mm {
+        top: 98%;
+        left: 24%;
+        width: 360px;
+    }
+
+    .boards-common-introduction .potenf {
+        width: 335px;
+    }
     /* background branding for ftv brand license */
 }
 
@@ -7261,6 +7325,12 @@ footer .f-additionals a:hover {
     .our-services .tri-pg-cmn-swpr {
         padding-top: 0;
     }
+
+    .boards-common-introduction .ftv_svg.bb-mm {
+        top: 94%;
+        left: 22%;
+        width: 420px;
+    }
     /* background branding for ftv brand license */
 
 }
@@ -7576,6 +7646,12 @@ footer .f-additionals a:hover {
 
     .our-services .tri-pg-cmn-swpr {
         padding-top: 0;
+    }
+
+    .boards-common-introduction .ftv_svg.bb-mm {
+        top: 90%;
+        left: 25%;
+        width: 420px;
     }
     /* background branding for ftv brand license */
 }
