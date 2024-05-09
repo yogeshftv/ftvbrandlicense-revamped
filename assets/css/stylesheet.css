@@ -824,10 +824,11 @@ nav #pos-here .swiper-button-next::after {
 
 /* common footer */
 footer {
-    background-color: var(--absolute-black);
     margin: 0 auto;
     max-width: 1920px;
+    position: relative;
     cursor: default !important;
+    background-color: var(--absolute-black);
 }
 
 footer .wrapper {
@@ -1559,11 +1560,14 @@ footer .f-additionals a:hover {
 }
 
 .our-story-cta a {
+    opacity: 1;
+    color: #ffffff;
     font-weight: 300;
     font-size: 1.5rem;
     border-radius: 1.25rem;
     line-height: 3.95625rem;
     padding: 1rem 4.6875rem;
+    background-color: #131313;
     border: 1px solid #000000c0;
     font-family: "Poppins", sans-serif;
 }
@@ -7926,6 +7930,10 @@ footer .f-additionals a:hover {
     .brand-license .home-background-mask-2 .common-cta-1 .potenf {
         top: 5%;
         width: 290px;
+    }
+
+    .brand-license .brand-support .potenf {
+        left: 66%;
     }
     /* background branding for ftv brand license */
 }
