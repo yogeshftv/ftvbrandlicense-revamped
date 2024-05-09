@@ -223,6 +223,10 @@ p {
 /* colors */
 
 /* Utility Class */
+.container-cust-bg-page {
+
+}
+
 .split-parent {
     overflow: hidden;
 }
@@ -2779,6 +2783,15 @@ footer .f-additionals a:hover {
 
 /* Granular Responsiveness */
 @media (min-width: 200px) and (max-width: 299px) {
+    /* blogs details */
+    .main-heading {
+        line-height: 2.75rem !important;
+    }
+
+    .for--blogs-details .blog-details h3 {
+        line-height: 2rem !important;
+    }
+    /* blogs details */
 
     /* terms and conditions */
     .privacy-policy h1,
@@ -2851,7 +2864,7 @@ footer .f-additionals a:hover {
     }
 
     .offcanvas-header img {
-        width: 50px;
+        width: 100px;
     }
 
     .offcanvas-header button {
@@ -3613,6 +3626,15 @@ footer .f-additionals a:hover {
 }
 
 @media (min-width: 300px) and (max-width: 499px) {
+    /* blogs details */
+    .main-heading {
+        line-height: 2.75rem !important;
+    }
+
+    .for--blogs-details .blog-details h3 {
+        line-height: 2rem !important;
+    }
+    /* blogs details */
 
     /* terms and conditions */
     .privacy-policy h1,
@@ -3679,7 +3701,7 @@ footer .f-additionals a:hover {
     }
 
     .offcanvas-header img {
-        width: 50px;
+        width: 100px;
     }
 
     .offcanvas-header button {
@@ -4407,7 +4429,20 @@ footer .f-additionals a:hover {
 }
 
 @media (min-width: 500px) and (max-width: 767px) {
-    
+    .offcanvas-header img {
+        width: 100px;
+    }
+
+    /* blogs details */
+    .main-heading {
+        line-height: 3rem !important;
+    }
+
+    .for--blogs-details .blog-details h3 {
+        line-height: 2.5rem !important;
+    }
+    /* blogs details */
+
     footer .footer-logo-hidden--for-mobile img {
         width: 140px;
         margin-bottom: 3rem;
@@ -5048,6 +5083,15 @@ footer .f-additionals a:hover {
 }
 
 @media (min-width: 768px) and (max-width: 899px) {
+    .offcanvas-header img {
+        width: 120px;
+    }
+
+    /* blogs details */
+    .main-heading {
+        line-height: 3.5rem !important;
+    }
+    /* blogs details */
 
     /* terms and conditions */
     .privacy-policy h1,
@@ -5709,6 +5753,11 @@ footer .f-additionals a:hover {
 }
 
 @media (min-width: 900px) and (max-width: 1099px) {
+    /* blogs details */
+    .main-heading {
+        line-height: 3.75rem !important;
+    }
+    /* blogs details */
 
     /* terms and conditions */
     .privacy-policy h1,
@@ -6370,6 +6419,12 @@ footer .f-additionals a:hover {
 
 @media (min-width: 1100px) and (max-width: 1299px) {
 
+    /* blogs details */
+    .main-heading {
+        line-height: 4rem !important;
+    }
+    /* blogs details */
+
     /* terms and conditions */
     .privacy-policy h1,
     .t-and-c h1 {
@@ -7016,6 +7071,12 @@ footer .f-additionals a:hover {
 }
 
 @media (min-width: 1300px) and (max-width: 1499px) {
+
+    /* blogs details */
+    .main-heading {
+        line-height: 4rem !important;
+    }
+    /* blogs details */
 
     /* utility classes */
     #staticBackdrop .modal-body img,

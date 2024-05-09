@@ -120,7 +120,7 @@ class Pages extends CI_Controller
                 $this->load->view("components/footer");
         }
 
-        public function blogs_details()
+        public function blog_details_1()
         {
                 $data['meta_description'] = '';
                 $data['meta_keywords'] = '';
@@ -128,7 +128,62 @@ class Pages extends CI_Controller
 
                 $this->load->view("components/head", $data);
                 $this->load->view("components/nav");
-                $this->load->view("pages/blogs-details");
+                $this->load->view("pages/blog-details-1");
+                $this->load->view("components/footer");
+        }
+        public function blog_details_2()
+        {
+                $data['meta_description'] = '';
+                $data['meta_keywords'] = '';
+                $data['meta_title'] = 'FTV Brand License | About ';
+
+                $this->load->view("components/head", $data);
+                $this->load->view("components/nav");
+                $this->load->view("pages/blog-details-2");
+                $this->load->view("components/footer");
+        }
+        public function blog_details_3()
+        {
+                $data['meta_description'] = '';
+                $data['meta_keywords'] = '';
+                $data['meta_title'] = 'FTV Brand License | About ';
+
+                $this->load->view("components/head", $data);
+                $this->load->view("components/nav");
+                $this->load->view("pages/blog-details-3");
+                $this->load->view("components/footer");
+        }
+        public function blog_details_4()
+        {
+                $data['meta_description'] = '';
+                $data['meta_keywords'] = '';
+                $data['meta_title'] = 'FTV Brand License | About ';
+
+                $this->load->view("components/head", $data);
+                $this->load->view("components/nav");
+                $this->load->view("pages/blog-details-4");
+                $this->load->view("components/footer");
+        }
+        public function blog_details_5()
+        {
+                $data['meta_description'] = '';
+                $data['meta_keywords'] = '';
+                $data['meta_title'] = 'FTV Brand License | About ';
+
+                $this->load->view("components/head", $data);
+                $this->load->view("components/nav");
+                $this->load->view("pages/blog-details-5");
+                $this->load->view("components/footer");
+        }
+        public function blog_details_6()
+        {
+                $data['meta_description'] = '';
+                $data['meta_keywords'] = '';
+                $data['meta_title'] = 'FTV Brand License | About ';
+
+                $this->load->view("components/head", $data);
+                $this->load->view("components/nav");
+                $this->load->view("pages/blog-details-6");
                 $this->load->view("components/footer");
         }
 

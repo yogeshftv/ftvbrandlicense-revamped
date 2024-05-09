@@ -62,7 +62,12 @@ $route['faqs'] = 'pages/faq';
 $route['contact-us'] = 'pages/contact_us';
 $route['blogs'] = 'pages/blogs';
 
-$route['blog-details'] = 'pages/blogs_details';
+$route['the-future-of-brand-licensing'] = 'pages/blog_details_1';
+$route['what-makes-ftv-brand-licensing-a-significant-investment-opportunity'] = 'pages/blog_details_2';
+$route['guidelines-to-obtain-an-ftv-brand-license'] = 'pages/blog_details_3';
+$route['blog-details-4'] = 'pages/blog_details_4';
+$route['blog-details-5'] = 'pages/blog_details_5';
+$route['blog-details-6'] = 'pages/blog_details_6';
 
 $route['terms-conditions'] = 'pages/termsandconditions';
 $route['privacy-policy'] = 'pages/privacypolicy';

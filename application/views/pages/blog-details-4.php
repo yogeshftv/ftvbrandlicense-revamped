@@ -6,7 +6,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
     <main class="blogs blog-details">
         <section class="blog-cover my-0">
-            <img src="<?= base_url(); ?>assets/media/images/templates/temp-banner-cover.png" alt="">
+            <img src="<?= base_url(); ?>assets/media/images/blogs/home-blogs-img-4.png" alt="">
         </section>
 
         <div class="container container-cust">

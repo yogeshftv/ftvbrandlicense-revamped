@@ -281,6 +281,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <source src="<?= base_url(); ?>assets/media/videos/homepage-section-breaker-horizontal.mp4" type="video/mp4" class="w-100">
             </video>
         </section>
+        
         <section class="home-section-breaker--for-mobile mt-0 mb-0" data-aos="zoom-out">
             <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/templates/home-section-breaker-1.png" class="w-100">
                 <source src="<?= base_url(); ?>assets/media/videos/homepage-section-breaker-vertical.mp4" type="video/mp4" class="w-100">
@@ -572,7 +573,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                     <p class="poppins-font" data-aos="fade-up">MAY 31th, 2023 by Name Surname</p>
                                     <h3 class="poppins-font" data-aos="fade-up">FTV brand licensing guide: Everything you need to know.</h3>
     
-                                    <a href="#" class="poppins-font px-0" data-aos="fade-up">Read More
+                                    <a href="<?= base_url(); ?>the-future-of-brand-licensing" class="poppins-font px-0" data-aos="fade-up">Read More
                                         <span class="px-0 ms-3 ms-md-4">
                                             <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035" />
@@ -588,7 +589,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 <div class="wrapper">
                                     <p class="poppins-font" data-aos="fade-up">MAY 31th, 2023 by Name Surname</p>
                                     <h3 class="poppins-font" data-aos="fade-up">The Strategic Value of FTV Brand Licensing: Why Your Business Should Consider It.</h3>
-                                    <a href="#" class="poppins-font px-0" data-aos="fade-up">Read More
+                                    <a href="<?= base_url(); ?>what-makes-ftv-brand-licensing-a-significant-investment-opportunity" class="poppins-font px-0" data-aos="fade-up">Read More
                                         <span class="px-0 ms-3 ms-md-4">
                                             <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035" />
@@ -604,7 +605,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 <div class="wrapper">
                                     <p class="poppins-font" data-aos="fade-up">MAY 31th, 2023 by Name Surname</p>
                                     <h3 class="poppins-font" data-aos="fade-up">Maximizing ROI with FTV Licensing: Tips and Tricks for Optimal Results.</h3>
-                                    <a href="#" class="poppins-font px-0" data-aos="fade-up">Read More
+                                    <a href="<?= base_url(); ?>guidelines-to-obtain-an-ftv-brand-license" class="poppins-font px-0" data-aos="fade-up">Read More
                                         <span class="px-0 ms-3 ms-md-4">
                                             <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035" />
