@@ -7,13 +7,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <main class="brand-license">
         <!-- Banner Video -->
         <section class="common-banner-video">
-            <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/templates/temp-banner-cover.png" class="w-100">
+            <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/video-thumbail/brandlicense-desktop.jpg" class="w-100">
                 <source src="<?= base_url(); ?>assets/media/videos/brand-license-horizontal.mp4" type="video/mp4" class="w-100">
             </video>
         </section>
 
         <section class="common-banner-video-for-mobile mt-0 mb-0">
-            <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>" class="w-100">
+            <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/video-thumbail/brandlicense-vertical.jpg" class="w-100">
                 <source src="<?= base_url(); ?>assets/media/videos/brand-license-vertical.mp4" type="video/mp4" class="w-100">
             </video>
         </section>
@@ -107,7 +107,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                 </div>
 
-                <div class="ftv_svg">
+                <!-- <div class="ftv_svg">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 972.45 209.06">
                         <defs>
                             <style>
@@ -152,7 +152,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             </g>
                         </g>
                     </svg>
-                </div>
+                </div> -->
             </section>
             <!-- Introduction -->
 
@@ -566,7 +566,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <!-- <img src="https://uat.ftvlicenses.in/assets/media/icons/downloadables-icon.png" alt="download-icon" class="download-icon"> -->
 
                         <!-- Temp -->
-                        <a href="<?php echo base_url(); ?>assets/media/brand-license--Lookbook.pdf" download="" target="_blank" class="is-txt-small is-jost border-0 shadow-none aos-init aos-animate" data-aos="fade-up">
+                        <a href="#" download="" target="_blank" class="is-txt-small is-jost border-0 shadow-none aos-init aos-animate" data-aos="fade-up">
                             <div class="upload">
                                 <div class="path">
                                     <div class="arrow"></div>

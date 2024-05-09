@@ -70,7 +70,7 @@
             display: flex;
             color: #ffffff;
             z-index: 99999;
-            font-size: 20px;
+            font-size: 18px;
             position: relative;
             line-height: 26.4px;
             font-weight: medium;
@@ -81,7 +81,7 @@
         }
 
         main.thankyou a span {
-            font-size: 42px;
+            font-size: 24px;
             letter-spacing: -0.9em;
         }
         /* default styles */
@@ -93,18 +93,18 @@
             }
 
             main.thankyou a span {
-                font-size: 42px;
+                font-size: 18px;
             }
         }
 
         @media screen and (max-width: 767px) {
             main.thankyou a {
-                gap: 2em;
+                gap: 1.5rem;
                 font-size: 16px;
             }
 
             main.thankyou a span {
-                font-size: 36px;
+                font-size: 24px;
             }
         }
 
@@ -115,7 +115,7 @@
             }
 
             main.thankyou a span {
-                font-size: 36px;
+                font-size: 24px;
             }
         }
 
@@ -126,7 +126,7 @@
             }
 
             main.thankyou a span {
-                font-size: 36px;
+                font-size: 24px;
             }
         }
         /* responsive styles */

@@ -2,13 +2,13 @@
     <main class="our-services">
         <!-- Banner Video -->
         <section class="common-banner-video">
-            <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/templates/temp-banner-cover.png" class="w-100">
+            <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/video-thumbail/our-services-desktop.jpg" class="w-100">
                 <source src="<?= base_url(); ?>assets/media/videos/our-services-mobile.mp4" type="video/mp4" class="w-100">
             </video>
         </section>
 
         <section class="common-banner-video-for-mobile mt-0 mb-0">
-            <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>" class="w-100">
+            <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/video-thumbail/our-services-vertical.jpg" class="w-100">
                 <source src="<?= base_url(); ?>assets/media/videos/our-services-desktop.mp4" type="video/mp4" class="w-100">
             </video>
         </section>
@@ -102,7 +102,7 @@
                     </div>
                 </div>
 
-                <div class="ftv_svg">
+                <!-- <div class="ftv_svg">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 972.45 209.06">
                         <defs>
                             <style>
@@ -147,7 +147,7 @@
                             </g>
                         </g>
                     </svg>
-                </div>
+                </div> -->
             </section>
             <!-- Introduction -->
 

@@ -1,7 +1,0 @@
-1. Responsiveness (Completed)
-
-a>. Introduction Section - Mobile, Tablet, Laptop & Desktop.
-b>. Deliverables Section - Mobile, Tablet, Laptop & Desktop.
-c>. Call To Action Section - Mobile, Tablet, Laptop & Desktop.
-d>. Footer Section - Mobile, Tablet, Laptop & Desktop.
-e>. Philosophy Section - Mobile, Tablet, Laptop & Desktop.

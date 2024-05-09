@@ -127,27 +127,27 @@
                         <p class="copyright">Copyright ©2023 - 2024 FTV License. All Rights Reserved.</p>
                         <ul class="social-links-group">
                             <li class="social-link">
-                                <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
+                                <a class="d-flex align-items-center justify-content-center" href="https://www.facebook.com/ftvlicense.in" target="_blank">
                                     <i class="fa-brands fa-facebook-f social-icon facebook"></i>
                                 </a>
                             </li>
                             <li class="social-link">
-                                <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
+                                <a class="d-flex align-items-center justify-content-center" href="https://www.instagram.com/ftvlicense.in/?hl=en" target="_blank">
                                     <i class="fa-brands fa-instagram social-icon instagram"></i>
                                 </a>
                             </li>
                             <li class="social-link">
-                                <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
+                                <a class="d-flex align-items-center justify-content-center" href="https://www.linkedin.com/company/ftvlicense" target="_blank">
                                     <i class="fa-brands fa-linkedin-in social-icon linkedin"></i>
                                 </a>
                             </li>
                             <li class="social-link">
-                                <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
+                                <a class="d-flex align-items-center justify-content-center" href="https://www.youtube.com/@ftvlicense5581" target="_blank">
                                     <i class="fa-brands fa-youtube social-icon youtube"></i>
                                 </a>
                             </li>
                             <li class="social-link">
-                                <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
+                                <a class="d-flex align-items-center justify-content-center" href="https://twitter.com/FtvLicense" target="_blank">
                                     <i class="fa-brands fa-x-twitter social-icon twitter"></i>
                                 </a>
                             </li>
@@ -155,12 +155,12 @@
 
                         <ul class="f-additionals unstyled-list d-flex">
                             <li class="ms-3 ms-md-4">
-                                <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
+                                <a class="d-flex align-items-center justify-content-center" href="<?= base_url(); ?>terms-conditions" target="_blank">
                                     Terms & Conditions
                                 </a>
                             </li>
                             <li class="ms-3 ms-md-4">
-                                <a class="d-flex align-items-center justify-content-center" href="#" target="_blank">
+                                <a class="d-flex align-items-center justify-content-center" href="<?= base_url(); ?>privacy-policy" target="_blank">
                                     Privacy Policy
                                 </a>
                             </li>

@@ -8,13 +8,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <main class="our-story">
         <!-- Banner Video -->
         <section class="common-banner-video" style="background-color: #F0F0F0;">
-            <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/templates/temp-banner-cover.png" class="w-100">
+            <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/video-thumbail/our-story-desktop.jpg" class="w-100">
                 <source src="<?= base_url(); ?>assets/media/videos/our-story-banner-horizontal.mp4" type="video/mp4" class="w-100">
             </video>
         </section>
 
         <section class="common-banner-video-for-mobile mt-0 mb-0">
-            <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>" class="w-100">
+            <video playsinline defaultmuted preload="auto" muted loop autoplay poster="<?= base_url(); ?>assets/media/images/video-thumbail/our-story-vertical.jpg" class="w-100">
                 <source src="<?= base_url(); ?>assets/media/videos/our-story-banner-vertical.mp4" type="video/mp4" class="w-100">
             </video>
         </section>
@@ -32,7 +32,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <p class="bl-paragraph">FashionTV, the world's largest fashion and lifestyle network, has been a trailblazer in the realms of fashion, glamor, and lifestyle for over 27 years. Renowned for its exquisite coverage and captivating content, FashionTV remains the top choice for fashion enthusiasts across the globe. In an era where luxury and premium experiences are paramount, FTV stands out as a symbol of innovation and sophistication, consistently meeting the evolving demands of modern living.</p>
                         <p class="bl-paragraph">Furthermore, FTV collaborates with aspiring entrepreneurs and established businesses to initiate numerous ventures, aiming to offer outstanding products, services, or experiences to a diverse audience across various sectors, including franchising, licensing, events, media, concepts, and city partnerships.</p>
                         <img src="<?= base_url(); ?>assets/media/images/templates/about-example-1-1.png" alt="" style="filter: grayscale(0.85);" class="w-100">
-                        <a href="#">
+                        <a href="https://fashiontv.in/fashiontv">
                             Learn More
                             <span class="ms-3">
                                 <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -73,7 +73,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         </div>
                         <div class="col-3 px-0 column-1"></div>
                         <div class="col-9 px-0 column-2">
-                            <a href="#" class="poppins-font px-0">Read More 
+                            <a href="https://fashiontv.in/fashiontv" class="poppins-font px-0">Read More 
                                 <span class="px-0 ms-3 ms-md-4">
                                     <svg width="351" height="6" viewBox="0 0 351 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M350.875 2.75L346.5 0.224092V5.27591L350.875 2.75ZM0.875 3.1875H346.938V2.3125H0.875V3.1875Z" fill="#6E3035"/>
